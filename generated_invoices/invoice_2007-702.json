@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-702",
+    "factuurdatum": "22-12-2022",
+    "vervaldatum": "20-02-2023",
+    "ordernummer": "2007-702",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 836",
+      "postcode": "5587 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "11976898"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 295.0,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 295.0,
+        "btw_bedrag": 17.7,
+        "subtotal_incl_btw": 312.7
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 159.71,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 159.71,
+        "btw_bedrag": 9.58,
+        "subtotal_incl_btw": 169.29
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 152.53,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 305.06,
+        "btw_bedrag": 64.06,
+        "subtotal_incl_btw": 369.12
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 326.28,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 652.56,
+        "btw_bedrag": 39.15,
+        "subtotal_incl_btw": 691.71
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 353.77,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1415.08,
+        "btw_bedrag": 84.9,
+        "subtotal_incl_btw": 1499.98
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2827.41,
+      "totaal_btw": 215.39,
+      "totaal_incl_btw": 3042.8
+    }
+  }
+}

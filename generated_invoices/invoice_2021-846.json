@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-846",
+    "factuurdatum": "17-11-2023",
+    "vervaldatum": "17-12-2023",
+    "ordernummer": "2021-846",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 725",
+      "postcode": "2714 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "29744242"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 412.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 825.66,
+        "btw_bedrag": 173.39,
+        "subtotal_incl_btw": 999.05
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 460.87,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1843.48,
+        "btw_bedrag": 110.61,
+        "subtotal_incl_btw": 1954.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2669.14,
+      "totaal_btw": 284.0,
+      "totaal_incl_btw": 2953.14
+    }
+  }
+}

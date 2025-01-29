@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-045",
+    "factuurdatum": "23-01-2021",
+    "vervaldatum": "23-04-2021",
+    "ordernummer": "2023-045",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 123",
+      "postcode": "9927 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "86856181"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 182.59,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 730.36,
+        "btw_bedrag": 43.82,
+        "subtotal_incl_btw": 774.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 730.36,
+      "totaal_btw": 43.82,
+      "totaal_incl_btw": 774.18
+    }
+  }
+}

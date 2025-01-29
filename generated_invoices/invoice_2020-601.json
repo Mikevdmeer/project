@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-601",
+    "factuurdatum": "07-02-2020",
+    "vervaldatum": "08-03-2020",
+    "ordernummer": "2020-601",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 525",
+      "postcode": "2946 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "80828690"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 472.62,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 472.62,
+        "btw_bedrag": 28.36,
+        "subtotal_incl_btw": 500.98
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 223.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 223.33,
+        "btw_bedrag": 46.9,
+        "subtotal_incl_btw": 270.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 695.95,
+      "totaal_btw": 75.26,
+      "totaal_incl_btw": 771.21
+    }
+  }
+}

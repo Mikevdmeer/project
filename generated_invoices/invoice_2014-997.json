@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-997",
+    "factuurdatum": "04-05-2021",
+    "vervaldatum": "03-06-2021",
+    "ordernummer": "2014-997",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 365",
+      "postcode": "4494 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "52634604"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 73.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 292.76,
+        "btw_bedrag": 61.48,
+        "subtotal_incl_btw": 354.24
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 270.56,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1352.8,
+        "btw_bedrag": 81.17,
+        "subtotal_incl_btw": 1433.97
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1645.56,
+      "totaal_btw": 142.65,
+      "totaal_incl_btw": 1788.21
+    }
+  }
+}

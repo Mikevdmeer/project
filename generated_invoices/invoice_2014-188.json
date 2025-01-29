@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-188",
+    "factuurdatum": "09-07-2022",
+    "vervaldatum": "07-10-2022",
+    "ordernummer": "2014-188",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 7",
+      "postcode": "6793 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "30150893"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 89.25,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 178.5,
+        "btw_bedrag": 16.07,
+        "subtotal_incl_btw": 194.57
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 212.8,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 212.8,
+        "btw_bedrag": 19.15,
+        "subtotal_incl_btw": 231.95
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 185.98,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 743.92,
+        "btw_bedrag": 44.64,
+        "subtotal_incl_btw": 788.56
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 499.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 499.34,
+        "btw_bedrag": 104.86,
+        "subtotal_incl_btw": 604.2
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 82.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 248.31,
+        "btw_bedrag": 52.15,
+        "subtotal_incl_btw": 300.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1882.87,
+      "totaal_btw": 236.87,
+      "totaal_incl_btw": 2119.74
+    }
+  }
+}

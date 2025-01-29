@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-044",
+    "factuurdatum": "06-02-2022",
+    "vervaldatum": "07-04-2022",
+    "ordernummer": "2014-044",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 234",
+      "postcode": "4822 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "19223122"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 322.36,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 322.36,
+        "btw_bedrag": 19.34,
+        "subtotal_incl_btw": 341.7
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 114.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 114.47,
+        "btw_bedrag": 10.3,
+        "subtotal_incl_btw": 124.77
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 496.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2483.75,
+        "btw_bedrag": 223.54,
+        "subtotal_incl_btw": 2707.29
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 347.01,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1041.03,
+        "btw_bedrag": 93.69,
+        "subtotal_incl_btw": 1134.72
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 328.38,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 328.38,
+        "btw_bedrag": 19.7,
+        "subtotal_incl_btw": 348.08
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4289.99,
+      "totaal_btw": 366.57,
+      "totaal_incl_btw": 4656.56
+    }
+  }
+}

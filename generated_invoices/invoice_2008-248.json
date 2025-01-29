@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-248",
+    "factuurdatum": "24-03-2023",
+    "vervaldatum": "22-06-2023",
+    "ordernummer": "2008-248",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 19",
+      "postcode": "4469 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "46368023"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 480.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 961.56,
+        "btw_bedrag": 201.93,
+        "subtotal_incl_btw": 1163.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 961.56,
+      "totaal_btw": 201.93,
+      "totaal_incl_btw": 1163.49
+    }
+  }
+}

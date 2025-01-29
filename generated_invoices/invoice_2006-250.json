@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-250",
+    "factuurdatum": "01-09-2021",
+    "vervaldatum": "30-11-2021",
+    "ordernummer": "2006-250",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 613",
+      "postcode": "8046 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "55966025"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 30.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 122.68,
+        "btw_bedrag": 25.76,
+        "subtotal_incl_btw": 148.44
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 42.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 212.35,
+        "btw_bedrag": 44.59,
+        "subtotal_incl_btw": 256.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 335.03,
+      "totaal_btw": 70.35,
+      "totaal_incl_btw": 405.38
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-408",
+    "factuurdatum": "02-02-2021",
+    "vervaldatum": "04-03-2021",
+    "ordernummer": "2014-408",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 990",
+      "postcode": "9543 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37825060"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 195.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 781.16,
+        "btw_bedrag": 164.04,
+        "subtotal_incl_btw": 945.2
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 43.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 86.4,
+        "btw_bedrag": 18.14,
+        "subtotal_incl_btw": 104.54
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 52.15,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 156.45,
+        "btw_bedrag": 14.08,
+        "subtotal_incl_btw": 170.53
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 111.86,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 111.86,
+        "btw_bedrag": 23.49,
+        "subtotal_incl_btw": 135.35
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 95.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 191.6,
+        "btw_bedrag": 40.24,
+        "subtotal_incl_btw": 231.84
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1327.47,
+      "totaal_btw": 259.99,
+      "totaal_incl_btw": 1587.46
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-306",
+    "factuurdatum": "28-09-2022",
+    "vervaldatum": "28-10-2022",
+    "ordernummer": "2017-306",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 593",
+      "postcode": "8823 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "91606595"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 226.45,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 679.35,
+        "btw_bedrag": 40.76,
+        "subtotal_incl_btw": 720.11
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 679.35,
+      "totaal_btw": 40.76,
+      "totaal_incl_btw": 720.11
+    }
+  }
+}

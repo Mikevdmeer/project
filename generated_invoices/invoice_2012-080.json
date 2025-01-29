@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-080",
+    "factuurdatum": "09-10-2023",
+    "vervaldatum": "07-01-2024",
+    "ordernummer": "2012-080",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 287",
+      "postcode": "2309 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "42654601"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 163.37,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 816.85,
+        "btw_bedrag": 49.01,
+        "subtotal_incl_btw": 865.86
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 447.01,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1788.04,
+        "btw_bedrag": 160.92,
+        "subtotal_incl_btw": 1948.96
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 260.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1304.7,
+        "btw_bedrag": 78.28,
+        "subtotal_incl_btw": 1382.98
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 204.67,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 204.67,
+        "btw_bedrag": 18.42,
+        "subtotal_incl_btw": 223.09
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 29.3,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 58.6,
+        "btw_bedrag": 3.52,
+        "subtotal_incl_btw": 62.12
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4172.86,
+      "totaal_btw": 310.15,
+      "totaal_incl_btw": 4483.01
+    }
+  }
+}

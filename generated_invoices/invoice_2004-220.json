@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-220",
+    "factuurdatum": "12-06-2024",
+    "vervaldatum": "12-07-2024",
+    "ordernummer": "2004-220",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 688",
+      "postcode": "5538 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "45650837"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 361.75,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1085.25,
+        "btw_bedrag": 65.12,
+        "subtotal_incl_btw": 1150.37
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1085.25,
+      "totaal_btw": 65.12,
+      "totaal_incl_btw": 1150.37
+    }
+  }
+}

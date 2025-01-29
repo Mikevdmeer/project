@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-864",
+    "factuurdatum": "03-05-2021",
+    "vervaldatum": "01-08-2021",
+    "ordernummer": "2012-864",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 890",
+      "postcode": "7156 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "26133566"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 329.28,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 658.56,
+        "btw_bedrag": 39.51,
+        "subtotal_incl_btw": 698.07
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 60.53,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 121.06,
+        "btw_bedrag": 10.9,
+        "subtotal_incl_btw": 131.96
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 479.57,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2397.85,
+        "btw_bedrag": 215.81,
+        "subtotal_incl_btw": 2613.66
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 286.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 286.95,
+        "btw_bedrag": 60.26,
+        "subtotal_incl_btw": 347.21
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 499.87,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1999.48,
+        "btw_bedrag": 179.95,
+        "subtotal_incl_btw": 2179.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5463.9,
+      "totaal_btw": 506.43,
+      "totaal_incl_btw": 5970.33
+    }
+  }
+}

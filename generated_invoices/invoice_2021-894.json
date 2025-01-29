@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-894",
+    "factuurdatum": "07-08-2020",
+    "vervaldatum": "06-09-2020",
+    "ordernummer": "2021-894",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 5",
+      "postcode": "9899 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "43718774"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 169.67,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 509.01,
+        "btw_bedrag": 30.54,
+        "subtotal_incl_btw": 539.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 509.01,
+      "totaal_btw": 30.54,
+      "totaal_incl_btw": 539.55
+    }
+  }
+}

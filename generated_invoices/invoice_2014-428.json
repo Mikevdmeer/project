@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-428",
+    "factuurdatum": "03-03-2024",
+    "vervaldatum": "01-06-2024",
+    "ordernummer": "2014-428",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 887",
+      "postcode": "9686 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95997819"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 237.4,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 712.2,
+        "btw_bedrag": 42.73,
+        "subtotal_incl_btw": 754.93
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 229.78,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1148.9,
+        "btw_bedrag": 103.4,
+        "subtotal_incl_btw": 1252.3
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 458.07,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 458.07,
+        "btw_bedrag": 96.19,
+        "subtotal_incl_btw": 554.26
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 406.87,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2034.35,
+        "btw_bedrag": 183.09,
+        "subtotal_incl_btw": 2217.44
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 201.25,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1006.25,
+        "btw_bedrag": 90.56,
+        "subtotal_incl_btw": 1096.81
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5359.77,
+      "totaal_btw": 515.97,
+      "totaal_incl_btw": 5875.74
+    }
+  }
+}

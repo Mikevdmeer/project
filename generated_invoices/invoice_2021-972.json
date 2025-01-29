@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-972",
+    "factuurdatum": "21-05-2024",
+    "vervaldatum": "20-07-2024",
+    "ordernummer": "2021-972",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 569",
+      "postcode": "8425 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "89027834"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 117.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 234.66,
+        "btw_bedrag": 49.28,
+        "subtotal_incl_btw": 283.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 234.66,
+      "totaal_btw": 49.28,
+      "totaal_incl_btw": 283.94
+    }
+  }
+}

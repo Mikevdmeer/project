@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-729",
+    "factuurdatum": "18-01-2020",
+    "vervaldatum": "17-04-2020",
+    "ordernummer": "2019-729",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 958",
+      "postcode": "5279 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "82760199"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 84.14,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 336.56,
+        "btw_bedrag": 20.19,
+        "subtotal_incl_btw": 356.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 336.56,
+      "totaal_btw": 20.19,
+      "totaal_incl_btw": 356.75
+    }
+  }
+}

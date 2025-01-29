@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-405",
+    "factuurdatum": "27-04-2020",
+    "vervaldatum": "26-06-2020",
+    "ordernummer": "2013-405",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 701",
+      "postcode": "9238 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "52367925"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 353.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1412.24,
+        "btw_bedrag": 296.57,
+        "subtotal_incl_btw": 1708.81
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 232.92,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 931.68,
+        "btw_bedrag": 195.65,
+        "subtotal_incl_btw": 1127.33
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 232.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1164.7,
+        "btw_bedrag": 69.88,
+        "subtotal_incl_btw": 1234.58
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3508.62,
+      "totaal_btw": 562.1,
+      "totaal_incl_btw": 4070.72
+    }
+  }
+}

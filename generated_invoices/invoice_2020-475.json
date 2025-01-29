@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-475",
+    "factuurdatum": "05-02-2020",
+    "vervaldatum": "05-04-2020",
+    "ordernummer": "2020-475",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 748",
+      "postcode": "9341 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "61668476"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 393.05,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 393.05,
+        "btw_bedrag": 82.54,
+        "subtotal_incl_btw": 475.59
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 439.54,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2197.7,
+        "btw_bedrag": 197.79,
+        "subtotal_incl_btw": 2395.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2590.75,
+      "totaal_btw": 280.33,
+      "totaal_incl_btw": 2871.08
+    }
+  }
+}

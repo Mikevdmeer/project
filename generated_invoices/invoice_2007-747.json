@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-747",
+    "factuurdatum": "19-08-2021",
+    "vervaldatum": "18-10-2021",
+    "ordernummer": "2007-747",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 778",
+      "postcode": "3203 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "86681696"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 496.52,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1489.56,
+        "btw_bedrag": 134.06,
+        "subtotal_incl_btw": 1623.62
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 323.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1292.28,
+        "btw_bedrag": 77.54,
+        "subtotal_incl_btw": 1369.82
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 488.96,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 977.92,
+        "btw_bedrag": 58.68,
+        "subtotal_incl_btw": 1036.6
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 489.76,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 979.52,
+        "btw_bedrag": 205.7,
+        "subtotal_incl_btw": 1185.22
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4739.28,
+      "totaal_btw": 475.98,
+      "totaal_incl_btw": 5215.26
+    }
+  }
+}

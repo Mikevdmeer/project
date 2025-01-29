@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-057",
+    "factuurdatum": "06-06-2023",
+    "vervaldatum": "05-08-2023",
+    "ordernummer": "2018-057",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 258",
+      "postcode": "3868 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "57875387"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 281.84,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 845.52,
+        "btw_bedrag": 50.73,
+        "subtotal_incl_btw": 896.25
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 16.02,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 80.1,
+        "btw_bedrag": 4.81,
+        "subtotal_incl_btw": 84.91
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 45.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 228.95,
+        "btw_bedrag": 48.08,
+        "subtotal_incl_btw": 277.03
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1154.57,
+      "totaal_btw": 103.62,
+      "totaal_incl_btw": 1258.19
+    }
+  }
+}

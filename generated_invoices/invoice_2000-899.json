@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-899",
+    "factuurdatum": "13-12-2022",
+    "vervaldatum": "11-02-2023",
+    "ordernummer": "2000-899",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 249",
+      "postcode": "9937 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "21334439"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 358.86,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1435.44,
+        "btw_bedrag": 301.44,
+        "subtotal_incl_btw": 1736.88
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 118.96,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 237.92,
+        "btw_bedrag": 14.28,
+        "subtotal_incl_btw": 252.2
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 112.4,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 112.4,
+        "btw_bedrag": 6.74,
+        "subtotal_incl_btw": 119.14
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1785.76,
+      "totaal_btw": 322.46,
+      "totaal_incl_btw": 2108.22
+    }
+  }
+}

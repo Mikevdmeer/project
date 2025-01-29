@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-056",
+    "factuurdatum": "05-03-2023",
+    "vervaldatum": "03-06-2023",
+    "ordernummer": "2007-056",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 352",
+      "postcode": "6602 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "58150934"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 297.21,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1486.05,
+        "btw_bedrag": 89.16,
+        "subtotal_incl_btw": 1575.21
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 112.35,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 337.05,
+        "btw_bedrag": 30.33,
+        "subtotal_incl_btw": 367.38
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 154.83,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 154.83,
+        "btw_bedrag": 9.29,
+        "subtotal_incl_btw": 164.12
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1977.93,
+      "totaal_btw": 128.78,
+      "totaal_incl_btw": 2106.71
+    }
+  }
+}

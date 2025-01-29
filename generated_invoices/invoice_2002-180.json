@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-180",
+    "factuurdatum": "21-11-2022",
+    "vervaldatum": "20-01-2023",
+    "ordernummer": "2002-180",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 777",
+      "postcode": "5194 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "43043008"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 351.65,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1406.6,
+        "btw_bedrag": 84.4,
+        "subtotal_incl_btw": 1491.0
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 154.01,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 154.01,
+        "btw_bedrag": 32.34,
+        "subtotal_incl_btw": 186.35
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1560.61,
+      "totaal_btw": 116.74,
+      "totaal_incl_btw": 1677.35
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-279",
+    "factuurdatum": "24-03-2020",
+    "vervaldatum": "23-05-2020",
+    "ordernummer": "2002-279",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 914",
+      "postcode": "3130 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "27737926"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 40.71,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 122.13,
+        "btw_bedrag": 10.99,
+        "subtotal_incl_btw": 133.12
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 200.98,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 602.94,
+        "btw_bedrag": 54.26,
+        "subtotal_incl_btw": 657.2
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 257.58,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 772.74,
+        "btw_bedrag": 69.55,
+        "subtotal_incl_btw": 842.29
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 52.76,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 263.8,
+        "btw_bedrag": 23.74,
+        "subtotal_incl_btw": 287.54
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 218.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1091.35,
+        "btw_bedrag": 229.18,
+        "subtotal_incl_btw": 1320.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2852.96,
+      "totaal_btw": 387.72,
+      "totaal_incl_btw": 3240.68
+    }
+  }
+}

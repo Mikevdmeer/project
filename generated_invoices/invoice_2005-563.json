@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-563",
+    "factuurdatum": "24-03-2020",
+    "vervaldatum": "23-04-2020",
+    "ordernummer": "2005-563",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 624",
+      "postcode": "3881 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "55796631"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 371.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1857.5,
+        "btw_bedrag": 390.08,
+        "subtotal_incl_btw": 2247.58
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 496.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1987.68,
+        "btw_bedrag": 119.26,
+        "subtotal_incl_btw": 2106.94
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 237.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1187.25,
+        "btw_bedrag": 249.32,
+        "subtotal_incl_btw": 1436.57
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5032.43,
+      "totaal_btw": 758.66,
+      "totaal_incl_btw": 5791.09
+    }
+  }
+}

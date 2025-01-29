@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-315",
+    "factuurdatum": "24-09-2023",
+    "vervaldatum": "23-12-2023",
+    "ordernummer": "2024-315",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 37",
+      "postcode": "7591 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "89188677"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 229.81,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 459.62,
+        "btw_bedrag": 41.37,
+        "subtotal_incl_btw": 500.99
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 459.62,
+      "totaal_btw": 41.37,
+      "totaal_incl_btw": 500.99
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-102",
+    "factuurdatum": "22-02-2022",
+    "vervaldatum": "23-05-2022",
+    "ordernummer": "2002-102",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 769",
+      "postcode": "9122 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "51475606"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 377.96,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 377.96,
+        "btw_bedrag": 34.02,
+        "subtotal_incl_btw": 411.98
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 446.31,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1338.93,
+        "btw_bedrag": 120.5,
+        "subtotal_incl_btw": 1459.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1716.89,
+      "totaal_btw": 154.52,
+      "totaal_incl_btw": 1871.41
+    }
+  }
+}

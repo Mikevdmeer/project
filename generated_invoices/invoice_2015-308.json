@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-308",
+    "factuurdatum": "03-05-2020",
+    "vervaldatum": "02-06-2020",
+    "ordernummer": "2015-308",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 199",
+      "postcode": "5718 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "79264809"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 212.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 425.92,
+        "btw_bedrag": 89.44,
+        "subtotal_incl_btw": 515.36
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 427.62,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2138.1,
+        "btw_bedrag": 128.29,
+        "subtotal_incl_btw": 2266.39
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2564.02,
+      "totaal_btw": 217.73,
+      "totaal_incl_btw": 2781.75
+    }
+  }
+}

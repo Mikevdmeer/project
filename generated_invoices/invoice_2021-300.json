@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-300",
+    "factuurdatum": "14-07-2021",
+    "vervaldatum": "13-08-2021",
+    "ordernummer": "2021-300",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 85",
+      "postcode": "1868 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "28678533"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 92.38,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 277.14,
+        "btw_bedrag": 24.94,
+        "subtotal_incl_btw": 302.08
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 169.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 338.68,
+        "btw_bedrag": 71.12,
+        "subtotal_incl_btw": 409.8
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 232.05,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 696.15,
+        "btw_bedrag": 62.65,
+        "subtotal_incl_btw": 758.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1311.97,
+      "totaal_btw": 158.71,
+      "totaal_incl_btw": 1470.68
+    }
+  }
+}

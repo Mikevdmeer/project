@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-391",
+    "factuurdatum": "10-11-2024",
+    "vervaldatum": "10-12-2024",
+    "ordernummer": "2006-391",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 411",
+      "postcode": "9974 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "95736321"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 301.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 301.98,
+        "btw_bedrag": 63.42,
+        "subtotal_incl_btw": 365.4
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 34.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 171.25,
+        "btw_bedrag": 35.96,
+        "subtotal_incl_btw": 207.21
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 11.14,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 33.42,
+        "btw_bedrag": 7.02,
+        "subtotal_incl_btw": 40.44
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 28.35,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 141.75,
+        "btw_bedrag": 12.76,
+        "subtotal_incl_btw": 154.51
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 648.4,
+      "totaal_btw": 119.16,
+      "totaal_incl_btw": 767.56
+    }
+  }
+}

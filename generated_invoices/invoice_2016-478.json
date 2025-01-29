@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-478",
+    "factuurdatum": "23-10-2021",
+    "vervaldatum": "22-11-2021",
+    "ordernummer": "2016-478",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 124",
+      "postcode": "3412 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "56989427"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 476.81,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 476.81,
+        "btw_bedrag": 100.13,
+        "subtotal_incl_btw": 576.94
+      },
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 238.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1190.65,
+        "btw_bedrag": 250.04,
+        "subtotal_incl_btw": 1440.69
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1667.46,
+      "totaal_btw": 350.17,
+      "totaal_incl_btw": 2017.63
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-106",
+    "factuurdatum": "11-10-2020",
+    "vervaldatum": "10-11-2020",
+    "ordernummer": "2001-106",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 503",
+      "postcode": "7947 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "73949605"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 496.06,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2480.3,
+        "btw_bedrag": 148.82,
+        "subtotal_incl_btw": 2629.12
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 112.49,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 562.45,
+        "btw_bedrag": 33.75,
+        "subtotal_incl_btw": 596.2
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 157.56,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 630.24,
+        "btw_bedrag": 37.81,
+        "subtotal_incl_btw": 668.05
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 390.76,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 390.76,
+        "btw_bedrag": 23.45,
+        "subtotal_incl_btw": 414.21
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 198.6,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 198.6,
+        "btw_bedrag": 11.92,
+        "subtotal_incl_btw": 210.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4262.35,
+      "totaal_btw": 255.75,
+      "totaal_incl_btw": 4518.1
+    }
+  }
+}

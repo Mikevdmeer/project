@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-005",
+    "factuurdatum": "06-12-2021",
+    "vervaldatum": "04-02-2022",
+    "ordernummer": "2015-005",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 833",
+      "postcode": "8514 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "38094258"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 462.84,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 925.68,
+        "btw_bedrag": 55.54,
+        "subtotal_incl_btw": 981.22
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 345.89,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1383.56,
+        "btw_bedrag": 124.52,
+        "subtotal_incl_btw": 1508.08
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 328.37,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 985.11,
+        "btw_bedrag": 59.11,
+        "subtotal_incl_btw": 1044.22
+      },
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 286.46,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 572.92,
+        "btw_bedrag": 34.38,
+        "subtotal_incl_btw": 607.3
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3867.27,
+      "totaal_btw": 273.55,
+      "totaal_incl_btw": 4140.82
+    }
+  }
+}

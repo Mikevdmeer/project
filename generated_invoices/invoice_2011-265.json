@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-265",
+    "factuurdatum": "26-12-2020",
+    "vervaldatum": "26-03-2021",
+    "ordernummer": "2011-265",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 594",
+      "postcode": "7524 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "32946510"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 395.35,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1976.75,
+        "btw_bedrag": 177.91,
+        "subtotal_incl_btw": 2154.66
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 209.51,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 838.04,
+        "btw_bedrag": 50.28,
+        "subtotal_incl_btw": 888.32
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 123.33,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 493.32,
+        "btw_bedrag": 44.4,
+        "subtotal_incl_btw": 537.72
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 230.3,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 690.9,
+        "btw_bedrag": 41.45,
+        "subtotal_incl_btw": 732.35
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 447.24,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1788.96,
+        "btw_bedrag": 161.01,
+        "subtotal_incl_btw": 1949.97
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5787.97,
+      "totaal_btw": 475.05,
+      "totaal_incl_btw": 6263.02
+    }
+  }
+}

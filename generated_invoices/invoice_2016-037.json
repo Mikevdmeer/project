@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-037",
+    "factuurdatum": "15-12-2021",
+    "vervaldatum": "13-02-2022",
+    "ordernummer": "2016-037",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 572",
+      "postcode": "7299 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "15730370"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 11.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 11.17,
+        "btw_bedrag": 2.35,
+        "subtotal_incl_btw": 13.52
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 89.13,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 178.26,
+        "btw_bedrag": 16.04,
+        "subtotal_incl_btw": 194.3
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 269.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1076.44,
+        "btw_bedrag": 226.05,
+        "subtotal_incl_btw": 1302.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1265.87,
+      "totaal_btw": 244.44,
+      "totaal_incl_btw": 1510.31
+    }
+  }
+}

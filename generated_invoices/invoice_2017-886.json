@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-886",
+    "factuurdatum": "22-04-2023",
+    "vervaldatum": "21-06-2023",
+    "ordernummer": "2017-886",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 394",
+      "postcode": "9384 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "18364435"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 115.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 115.82,
+        "btw_bedrag": 6.95,
+        "subtotal_incl_btw": 122.77
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 476.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 476.63,
+        "btw_bedrag": 100.09,
+        "subtotal_incl_btw": 576.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 592.45,
+      "totaal_btw": 107.04,
+      "totaal_incl_btw": 699.49
+    }
+  }
+}

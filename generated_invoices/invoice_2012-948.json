@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-948",
+    "factuurdatum": "25-02-2022",
+    "vervaldatum": "26-05-2022",
+    "ordernummer": "2012-948",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 541",
+      "postcode": "6383 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "83146842"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 404.71,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2023.55,
+        "btw_bedrag": 121.41,
+        "subtotal_incl_btw": 2144.96
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 288.09,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 864.27,
+        "btw_bedrag": 77.78,
+        "subtotal_incl_btw": 942.05
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 46.64,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 93.28,
+        "btw_bedrag": 19.59,
+        "subtotal_incl_btw": 112.87
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 120.12,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 240.24,
+        "btw_bedrag": 14.41,
+        "subtotal_incl_btw": 254.65
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3221.34,
+      "totaal_btw": 233.19,
+      "totaal_incl_btw": 3454.53
+    }
+  }
+}

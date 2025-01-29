@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-147",
+    "factuurdatum": "18-02-2023",
+    "vervaldatum": "19-04-2023",
+    "ordernummer": "2006-147",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 823",
+      "postcode": "7979 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "67579045"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 160.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 320.22,
+        "btw_bedrag": 67.25,
+        "subtotal_incl_btw": 387.47
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 239.5,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1197.5,
+        "btw_bedrag": 71.85,
+        "subtotal_incl_btw": 1269.35
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1517.72,
+      "totaal_btw": 139.1,
+      "totaal_incl_btw": 1656.82
+    }
+  }
+}

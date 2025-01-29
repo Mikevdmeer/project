@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-855",
+    "factuurdatum": "15-08-2021",
+    "vervaldatum": "14-09-2021",
+    "ordernummer": "2001-855",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 455",
+      "postcode": "6395 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "64490582"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 140.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 704.2,
+        "btw_bedrag": 147.88,
+        "subtotal_incl_btw": 852.08
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 109.16,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 327.48,
+        "btw_bedrag": 19.65,
+        "subtotal_incl_btw": 347.13
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 25.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 25.66,
+        "btw_bedrag": 5.39,
+        "subtotal_incl_btw": 31.05
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1057.34,
+      "totaal_btw": 172.92,
+      "totaal_incl_btw": 1230.26
+    }
+  }
+}

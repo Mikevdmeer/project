@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-214",
+    "factuurdatum": "14-03-2023",
+    "vervaldatum": "12-06-2023",
+    "ordernummer": "2013-214",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 55",
+      "postcode": "5368 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "39215352"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 204.34,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 613.02,
+        "btw_bedrag": 36.78,
+        "subtotal_incl_btw": 649.8
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 291.15,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 291.15,
+        "btw_bedrag": 61.14,
+        "subtotal_incl_btw": 352.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 904.17,
+      "totaal_btw": 97.92,
+      "totaal_incl_btw": 1002.09
+    }
+  }
+}

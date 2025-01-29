@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-824",
+    "factuurdatum": "20-04-2023",
+    "vervaldatum": "20-05-2023",
+    "ordernummer": "2012-824",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 591",
+      "postcode": "6302 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "47946077"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 366.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1100.46,
+        "btw_bedrag": 66.03,
+        "subtotal_incl_btw": 1166.49
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 94.68,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 378.72,
+        "btw_bedrag": 22.72,
+        "subtotal_incl_btw": 401.44
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 85.98,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 85.98,
+        "btw_bedrag": 7.74,
+        "subtotal_incl_btw": 93.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1565.16,
+      "totaal_btw": 96.49,
+      "totaal_incl_btw": 1661.65
+    }
+  }
+}

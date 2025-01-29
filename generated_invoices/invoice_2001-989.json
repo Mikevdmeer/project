@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-989",
+    "factuurdatum": "18-03-2020",
+    "vervaldatum": "17-04-2020",
+    "ordernummer": "2001-989",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 655",
+      "postcode": "3053 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "99574113"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 79.17,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 395.85,
+        "btw_bedrag": 23.75,
+        "subtotal_incl_btw": 419.6
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 101.15,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 303.45,
+        "btw_bedrag": 27.31,
+        "subtotal_incl_btw": 330.76
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 699.3,
+      "totaal_btw": 51.06,
+      "totaal_incl_btw": 750.36
+    }
+  }
+}

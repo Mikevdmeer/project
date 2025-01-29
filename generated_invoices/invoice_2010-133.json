@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-133",
+    "factuurdatum": "21-07-2021",
+    "vervaldatum": "19-09-2021",
+    "ordernummer": "2010-133",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 26",
+      "postcode": "7840 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "39723488"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 199.18,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 995.9,
+        "btw_bedrag": 59.75,
+        "subtotal_incl_btw": 1055.65
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 347.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 694.2,
+        "btw_bedrag": 145.78,
+        "subtotal_incl_btw": 839.98
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 180.74,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 903.7,
+        "btw_bedrag": 81.33,
+        "subtotal_incl_btw": 985.03
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 197.24,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 394.48,
+        "btw_bedrag": 23.67,
+        "subtotal_incl_btw": 418.15
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2988.28,
+      "totaal_btw": 310.53,
+      "totaal_incl_btw": 3298.81
+    }
+  }
+}

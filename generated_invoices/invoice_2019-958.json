@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-958",
+    "factuurdatum": "11-06-2024",
+    "vervaldatum": "10-08-2024",
+    "ordernummer": "2019-958",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 137",
+      "postcode": "5304 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "46707784"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 91.92,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 459.6,
+        "btw_bedrag": 41.36,
+        "subtotal_incl_btw": 500.96
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 459.6,
+      "totaal_btw": 41.36,
+      "totaal_incl_btw": 500.96
+    }
+  }
+}

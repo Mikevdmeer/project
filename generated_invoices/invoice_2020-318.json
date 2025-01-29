@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-318",
+    "factuurdatum": "09-09-2024",
+    "vervaldatum": "09-10-2024",
+    "ordernummer": "2020-318",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 421",
+      "postcode": "2146 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "20028065"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 124.4,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 248.8,
+        "btw_bedrag": 22.39,
+        "subtotal_incl_btw": 271.19
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 122.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 122.73,
+        "btw_bedrag": 25.77,
+        "subtotal_incl_btw": 148.5
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 64.15,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 64.15,
+        "btw_bedrag": 3.85,
+        "subtotal_incl_btw": 68.0
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 257.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 771.12,
+        "btw_bedrag": 161.94,
+        "subtotal_incl_btw": 933.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1206.8,
+      "totaal_btw": 213.95,
+      "totaal_incl_btw": 1420.75
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-002",
+    "factuurdatum": "02-05-2023",
+    "vervaldatum": "01-06-2023",
+    "ordernummer": "2018-002",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 845",
+      "postcode": "6321 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "86729026"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 434.44,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 868.88,
+        "btw_bedrag": 78.2,
+        "subtotal_incl_btw": 947.08
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 75.14,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 150.28,
+        "btw_bedrag": 31.56,
+        "subtotal_incl_btw": 181.84
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 238.23,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1191.15,
+        "btw_bedrag": 71.47,
+        "subtotal_incl_btw": 1262.62
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 39.51,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 197.55,
+        "btw_bedrag": 41.49,
+        "subtotal_incl_btw": 239.04
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 42.1,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 42.1,
+        "btw_bedrag": 3.79,
+        "subtotal_incl_btw": 45.89
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2449.96,
+      "totaal_btw": 226.51,
+      "totaal_incl_btw": 2676.47
+    }
+  }
+}

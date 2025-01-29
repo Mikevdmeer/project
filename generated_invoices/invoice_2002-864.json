@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-864",
+    "factuurdatum": "20-12-2022",
+    "vervaldatum": "19-01-2023",
+    "ordernummer": "2002-864",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 286",
+      "postcode": "6073 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "33587651"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 73.33,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 146.66,
+        "btw_bedrag": 13.2,
+        "subtotal_incl_btw": 159.86
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 266.76,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 266.76,
+        "btw_bedrag": 24.01,
+        "subtotal_incl_btw": 290.77
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 407.01,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1221.03,
+        "btw_bedrag": 73.26,
+        "subtotal_incl_btw": 1294.29
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 77.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 232.41,
+        "btw_bedrag": 20.92,
+        "subtotal_incl_btw": 253.33
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 348.68,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1394.72,
+        "btw_bedrag": 83.68,
+        "subtotal_incl_btw": 1478.4
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3261.58,
+      "totaal_btw": 215.07,
+      "totaal_incl_btw": 3476.65
+    }
+  }
+}

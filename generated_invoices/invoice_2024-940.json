@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-940",
+    "factuurdatum": "08-11-2022",
+    "vervaldatum": "08-12-2022",
+    "ordernummer": "2024-940",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 336",
+      "postcode": "8228 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "27883632"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 159.89,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 479.67,
+        "btw_bedrag": 28.78,
+        "subtotal_incl_btw": 508.45
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 479.67,
+      "totaal_btw": 28.78,
+      "totaal_incl_btw": 508.45
+    }
+  }
+}

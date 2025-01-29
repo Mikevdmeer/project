@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-303",
+    "factuurdatum": "03-11-2024",
+    "vervaldatum": "02-01-2025",
+    "ordernummer": "2023-303",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 807",
+      "postcode": "9997 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "25099795"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 173.39,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 866.95,
+        "btw_bedrag": 52.02,
+        "subtotal_incl_btw": 918.97
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 866.95,
+      "totaal_btw": 52.02,
+      "totaal_incl_btw": 918.97
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-739",
+    "factuurdatum": "01-10-2022",
+    "vervaldatum": "30-12-2022",
+    "ordernummer": "2002-739",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 418",
+      "postcode": "9627 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "49878664"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 499.27,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1997.08,
+        "btw_bedrag": 119.82,
+        "subtotal_incl_btw": 2116.9
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 374.27,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1871.35,
+        "btw_bedrag": 112.28,
+        "subtotal_incl_btw": 1983.63
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 284.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 284.32,
+        "btw_bedrag": 59.71,
+        "subtotal_incl_btw": 344.03
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4152.75,
+      "totaal_btw": 291.81,
+      "totaal_incl_btw": 4444.56
+    }
+  }
+}

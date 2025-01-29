@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-426",
+    "factuurdatum": "25-07-2022",
+    "vervaldatum": "24-08-2022",
+    "ordernummer": "2006-426",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 905",
+      "postcode": "2178 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "96375339"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 107.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 431.88,
+        "btw_bedrag": 25.91,
+        "subtotal_incl_btw": 457.79
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 315.89,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 947.67,
+        "btw_bedrag": 85.29,
+        "subtotal_incl_btw": 1032.96
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 313.66,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 313.66,
+        "btw_bedrag": 28.23,
+        "subtotal_incl_btw": 341.89
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 403.33,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 403.33,
+        "btw_bedrag": 24.2,
+        "subtotal_incl_btw": 427.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2096.54,
+      "totaal_btw": 163.63,
+      "totaal_incl_btw": 2260.17
+    }
+  }
+}

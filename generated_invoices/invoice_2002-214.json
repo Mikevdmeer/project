@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-214",
+    "factuurdatum": "28-08-2021",
+    "vervaldatum": "26-11-2021",
+    "ordernummer": "2002-214",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 804",
+      "postcode": "9439 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "96071084"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 194.57,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 194.57,
+        "btw_bedrag": 11.67,
+        "subtotal_incl_btw": 206.24
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 153.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 306.82,
+        "btw_bedrag": 64.43,
+        "subtotal_incl_btw": 371.25
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 135.17,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 135.17,
+        "btw_bedrag": 8.11,
+        "subtotal_incl_btw": 143.28
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 636.56,
+      "totaal_btw": 84.21,
+      "totaal_incl_btw": 720.77
+    }
+  }
+}

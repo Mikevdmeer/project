@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-851",
+    "factuurdatum": "10-11-2023",
+    "vervaldatum": "08-02-2024",
+    "ordernummer": "2003-851",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 182",
+      "postcode": "5893 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "41960634"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 345.3,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1381.2,
+        "btw_bedrag": 124.31,
+        "subtotal_incl_btw": 1505.51
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 121.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 487.88,
+        "btw_bedrag": 29.27,
+        "subtotal_incl_btw": 517.15
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 16.71,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 33.42,
+        "btw_bedrag": 2.01,
+        "subtotal_incl_btw": 35.43
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 491.37,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2456.85,
+        "btw_bedrag": 147.41,
+        "subtotal_incl_btw": 2604.26
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 180.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 900.95,
+        "btw_bedrag": 189.2,
+        "subtotal_incl_btw": 1090.15
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5260.3,
+      "totaal_btw": 492.2,
+      "totaal_incl_btw": 5752.5
+    }
+  }
+}

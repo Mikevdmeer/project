@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-625",
+    "factuurdatum": "16-12-2021",
+    "vervaldatum": "14-02-2022",
+    "ordernummer": "2014-625",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 328",
+      "postcode": "3885 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "29156129"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 420.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1261.35,
+        "btw_bedrag": 264.88,
+        "subtotal_incl_btw": 1526.23
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 257.0,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1285.0,
+        "btw_bedrag": 115.65,
+        "subtotal_incl_btw": 1400.65
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2546.35,
+      "totaal_btw": 380.53,
+      "totaal_incl_btw": 2926.88
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-617",
+    "factuurdatum": "15-02-2021",
+    "vervaldatum": "16-04-2021",
+    "ordernummer": "2009-617",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 657",
+      "postcode": "8199 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "50521592"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 22.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 91.2,
+        "btw_bedrag": 19.15,
+        "subtotal_incl_btw": 110.35
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 18.1,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 72.4,
+        "btw_bedrag": 4.34,
+        "subtotal_incl_btw": 76.74
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 495.27,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1981.08,
+        "btw_bedrag": 118.86,
+        "subtotal_incl_btw": 2099.94
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 417.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1668.28,
+        "btw_bedrag": 100.1,
+        "subtotal_incl_btw": 1768.38
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 75.97,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 75.97,
+        "btw_bedrag": 6.84,
+        "subtotal_incl_btw": 82.81
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3888.93,
+      "totaal_btw": 249.29,
+      "totaal_incl_btw": 4138.22
+    }
+  }
+}

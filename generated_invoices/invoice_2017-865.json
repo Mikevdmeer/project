@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-865",
+    "factuurdatum": "01-02-2022",
+    "vervaldatum": "03-03-2022",
+    "ordernummer": "2017-865",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 221",
+      "postcode": "7077 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37179348"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 141.84,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 141.84,
+        "btw_bedrag": 8.51,
+        "subtotal_incl_btw": 150.35
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 243.32,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 973.28,
+        "btw_bedrag": 58.4,
+        "subtotal_incl_btw": 1031.68
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 198.61,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 993.05,
+        "btw_bedrag": 59.58,
+        "subtotal_incl_btw": 1052.63
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2108.17,
+      "totaal_btw": 126.49,
+      "totaal_incl_btw": 2234.66
+    }
+  }
+}

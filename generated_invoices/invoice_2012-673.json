@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-673",
+    "factuurdatum": "14-06-2021",
+    "vervaldatum": "13-08-2021",
+    "ordernummer": "2012-673",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 303",
+      "postcode": "7590 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "34128239"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 328.23,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1641.15,
+        "btw_bedrag": 98.47,
+        "subtotal_incl_btw": 1739.62
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 13.27,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 66.35,
+        "btw_bedrag": 5.97,
+        "subtotal_incl_btw": 72.32
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 250.18,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 500.36,
+        "btw_bedrag": 45.03,
+        "subtotal_incl_btw": 545.39
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2207.86,
+      "totaal_btw": 149.47,
+      "totaal_incl_btw": 2357.33
+    }
+  }
+}

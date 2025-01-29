@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-872",
+    "factuurdatum": "27-09-2020",
+    "vervaldatum": "27-10-2020",
+    "ordernummer": "2008-872",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 601",
+      "postcode": "2494 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "64090901"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 245.83,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 983.32,
+        "btw_bedrag": 88.5,
+        "subtotal_incl_btw": 1071.82
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 232.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 232.66,
+        "btw_bedrag": 48.86,
+        "subtotal_incl_btw": 281.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1215.98,
+      "totaal_btw": 137.36,
+      "totaal_incl_btw": 1353.34
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-904",
+    "factuurdatum": "28-07-2022",
+    "vervaldatum": "26-10-2022",
+    "ordernummer": "2009-904",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 999",
+      "postcode": "1897 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "18418773"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 399.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 799.66,
+        "btw_bedrag": 167.93,
+        "subtotal_incl_btw": 967.59
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 302.22,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 906.66,
+        "btw_bedrag": 81.6,
+        "subtotal_incl_btw": 988.26
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1706.32,
+      "totaal_btw": 249.53,
+      "totaal_incl_btw": 1955.85
+    }
+  }
+}

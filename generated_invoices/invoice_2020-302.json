@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-302",
+    "factuurdatum": "09-03-2021",
+    "vervaldatum": "08-05-2021",
+    "ordernummer": "2020-302",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 763",
+      "postcode": "4946 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "45251468"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 460.46,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 460.46,
+        "btw_bedrag": 41.44,
+        "subtotal_incl_btw": 501.9
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 112.51,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 112.51,
+        "btw_bedrag": 10.13,
+        "subtotal_incl_btw": 122.64
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 91.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 91.12,
+        "btw_bedrag": 19.14,
+        "subtotal_incl_btw": 110.26
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 121.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 121.44,
+        "btw_bedrag": 25.5,
+        "subtotal_incl_btw": 146.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 785.53,
+      "totaal_btw": 96.21,
+      "totaal_incl_btw": 881.74
+    }
+  }
+}

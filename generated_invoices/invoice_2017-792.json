@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-792",
+    "factuurdatum": "02-03-2023",
+    "vervaldatum": "01-04-2023",
+    "ordernummer": "2017-792",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 961",
+      "postcode": "9969 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "74256481"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 195.71,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 195.71,
+        "btw_bedrag": 17.61,
+        "subtotal_incl_btw": 213.32
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 351.04,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 351.04,
+        "btw_bedrag": 21.06,
+        "subtotal_incl_btw": 372.1
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 376.94,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 376.94,
+        "btw_bedrag": 33.92,
+        "subtotal_incl_btw": 410.86
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 394.96,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1184.88,
+        "btw_bedrag": 106.64,
+        "subtotal_incl_btw": 1291.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2108.57,
+      "totaal_btw": 179.23,
+      "totaal_incl_btw": 2287.8
+    }
+  }
+}

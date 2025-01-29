@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-792",
+    "factuurdatum": "15-11-2023",
+    "vervaldatum": "13-02-2024",
+    "ordernummer": "2007-792",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 447",
+      "postcode": "9706 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "19703589"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 363.12,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1815.6,
+        "btw_bedrag": 163.4,
+        "subtotal_incl_btw": 1979.0
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 49.62,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 99.24,
+        "btw_bedrag": 8.93,
+        "subtotal_incl_btw": 108.17
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1914.84,
+      "totaal_btw": 172.33,
+      "totaal_incl_btw": 2087.17
+    }
+  }
+}

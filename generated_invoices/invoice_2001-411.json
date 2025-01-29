@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-411",
+    "factuurdatum": "03-12-2020",
+    "vervaldatum": "01-02-2021",
+    "ordernummer": "2001-411",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 391",
+      "postcode": "1047 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "71540862"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 54.96,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 109.92,
+        "btw_bedrag": 9.89,
+        "subtotal_incl_btw": 119.81
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 10.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 21.94,
+        "btw_bedrag": 1.32,
+        "subtotal_incl_btw": 23.26
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 70.0,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 140.0,
+        "btw_bedrag": 12.6,
+        "subtotal_incl_btw": 152.6
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 168.22,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 504.66,
+        "btw_bedrag": 45.42,
+        "subtotal_incl_btw": 550.08
+      },
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 488.55,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2442.75,
+        "btw_bedrag": 512.98,
+        "subtotal_incl_btw": 2955.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3219.27,
+      "totaal_btw": 582.21,
+      "totaal_incl_btw": 3801.48
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-185",
+    "factuurdatum": "10-11-2022",
+    "vervaldatum": "08-02-2023",
+    "ordernummer": "2000-185",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 628",
+      "postcode": "8478 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "40786166"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 360.53,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 360.53,
+        "btw_bedrag": 32.45,
+        "subtotal_incl_btw": 392.98
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 78.63,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 78.63,
+        "btw_bedrag": 7.08,
+        "subtotal_incl_btw": 85.71
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 186.77,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 560.31,
+        "btw_bedrag": 50.43,
+        "subtotal_incl_btw": 610.74
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 294.55,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 294.55,
+        "btw_bedrag": 17.67,
+        "subtotal_incl_btw": 312.22
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1294.02,
+      "totaal_btw": 107.63,
+      "totaal_incl_btw": 1401.65
+    }
+  }
+}

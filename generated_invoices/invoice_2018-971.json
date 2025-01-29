@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-971",
+    "factuurdatum": "02-09-2022",
+    "vervaldatum": "02-10-2022",
+    "ordernummer": "2018-971",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 276",
+      "postcode": "3602 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "99075631"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 359.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1798.65,
+        "btw_bedrag": 377.72,
+        "subtotal_incl_btw": 2176.37
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 417.68,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 417.68,
+        "btw_bedrag": 25.06,
+        "subtotal_incl_btw": 442.74
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2216.33,
+      "totaal_btw": 402.78,
+      "totaal_incl_btw": 2619.11
+    }
+  }
+}

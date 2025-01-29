@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-247",
+    "factuurdatum": "05-11-2020",
+    "vervaldatum": "04-01-2021",
+    "ordernummer": "2008-247",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 21",
+      "postcode": "3383 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "22911461"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 438.58,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 438.58,
+        "btw_bedrag": 39.47,
+        "subtotal_incl_btw": 478.05
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 269.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 809.52,
+        "btw_bedrag": 170.0,
+        "subtotal_incl_btw": 979.52
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 207.83,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1039.15,
+        "btw_bedrag": 62.35,
+        "subtotal_incl_btw": 1101.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2287.25,
+      "totaal_btw": 271.82,
+      "totaal_incl_btw": 2559.07
+    }
+  }
+}

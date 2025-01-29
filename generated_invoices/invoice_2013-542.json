@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-542",
+    "factuurdatum": "15-01-2022",
+    "vervaldatum": "15-04-2022",
+    "ordernummer": "2013-542",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 910",
+      "postcode": "5286 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "12711414"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 342.91,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1028.73,
+        "btw_bedrag": 92.59,
+        "subtotal_incl_btw": 1121.32
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 419.61,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1678.44,
+        "btw_bedrag": 151.06,
+        "subtotal_incl_btw": 1829.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2707.17,
+      "totaal_btw": 243.65,
+      "totaal_incl_btw": 2950.82
+    }
+  }
+}

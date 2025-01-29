@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-682",
+    "factuurdatum": "10-07-2024",
+    "vervaldatum": "08-10-2024",
+    "ordernummer": "2001-682",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 441",
+      "postcode": "3514 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "65849215"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 483.38,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1450.14,
+        "btw_bedrag": 130.51,
+        "subtotal_incl_btw": 1580.65
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 160.32,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 641.28,
+        "btw_bedrag": 57.72,
+        "subtotal_incl_btw": 699.0
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 52.18,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 208.72,
+        "btw_bedrag": 18.78,
+        "subtotal_incl_btw": 227.5
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 89.13,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 178.26,
+        "btw_bedrag": 16.04,
+        "subtotal_incl_btw": 194.3
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 459.22,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 918.44,
+        "btw_bedrag": 55.11,
+        "subtotal_incl_btw": 973.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3396.84,
+      "totaal_btw": 278.16,
+      "totaal_incl_btw": 3675.0
+    }
+  }
+}

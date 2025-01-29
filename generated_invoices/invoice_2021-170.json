@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-170",
+    "factuurdatum": "16-05-2020",
+    "vervaldatum": "15-07-2020",
+    "ordernummer": "2021-170",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 470",
+      "postcode": "1780 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "43826350"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 242.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 242.03,
+        "btw_bedrag": 50.83,
+        "subtotal_incl_btw": 292.86
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 435.59,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1742.36,
+        "btw_bedrag": 156.81,
+        "subtotal_incl_btw": 1899.17
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 184.86,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 184.86,
+        "btw_bedrag": 11.09,
+        "subtotal_incl_btw": 195.95
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2169.25,
+      "totaal_btw": 218.73,
+      "totaal_incl_btw": 2387.98
+    }
+  }
+}

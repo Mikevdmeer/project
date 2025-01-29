@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-154",
+    "factuurdatum": "11-10-2020",
+    "vervaldatum": "09-01-2021",
+    "ordernummer": "2005-154",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 704",
+      "postcode": "9679 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "75897809"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 284.97,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 284.97,
+        "btw_bedrag": 25.65,
+        "subtotal_incl_btw": 310.62
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 474.61,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 474.61,
+        "btw_bedrag": 42.71,
+        "subtotal_incl_btw": 517.32
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 300.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 600.82,
+        "btw_bedrag": 126.17,
+        "subtotal_incl_btw": 726.99
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 79.87,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 79.87,
+        "btw_bedrag": 4.79,
+        "subtotal_incl_btw": 84.66
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 382.73,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1530.92,
+        "btw_bedrag": 137.78,
+        "subtotal_incl_btw": 1668.7
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2971.19,
+      "totaal_btw": 337.1,
+      "totaal_incl_btw": 3308.29
+    }
+  }
+}

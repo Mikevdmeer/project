@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-030",
+    "factuurdatum": "18-11-2021",
+    "vervaldatum": "18-12-2021",
+    "ordernummer": "2024-030",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 491",
+      "postcode": "5131 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "60037695"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 132.55,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 662.75,
+        "btw_bedrag": 39.77,
+        "subtotal_incl_btw": 702.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 662.75,
+      "totaal_btw": 39.77,
+      "totaal_incl_btw": 702.52
+    }
+  }
+}

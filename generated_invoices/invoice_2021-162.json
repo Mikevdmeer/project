@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-162",
+    "factuurdatum": "10-10-2022",
+    "vervaldatum": "09-11-2022",
+    "ordernummer": "2021-162",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 828",
+      "postcode": "6663 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "30056994"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 212.13,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 424.26,
+        "btw_bedrag": 25.46,
+        "subtotal_incl_btw": 449.72
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 331.66,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1326.64,
+        "btw_bedrag": 119.4,
+        "subtotal_incl_btw": 1446.04
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 482.48,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1447.44,
+        "btw_bedrag": 86.85,
+        "subtotal_incl_btw": 1534.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3198.34,
+      "totaal_btw": 231.71,
+      "totaal_incl_btw": 3430.05
+    }
+  }
+}

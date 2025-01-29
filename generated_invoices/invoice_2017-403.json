@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-403",
+    "factuurdatum": "06-04-2023",
+    "vervaldatum": "05-07-2023",
+    "ordernummer": "2017-403",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 235",
+      "postcode": "6355 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "49762199"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 26.34,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 26.34,
+        "btw_bedrag": 2.37,
+        "subtotal_incl_btw": 28.71
+      },
+      {
+        "aantal": 1,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 446.08,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 446.08,
+        "btw_bedrag": 40.15,
+        "subtotal_incl_btw": 486.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 472.42,
+      "totaal_btw": 42.52,
+      "totaal_incl_btw": 514.94
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-516",
+    "factuurdatum": "03-01-2023",
+    "vervaldatum": "03-04-2023",
+    "ordernummer": "2018-516",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 827",
+      "postcode": "1988 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "59111309"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 424.08,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1272.24,
+        "btw_bedrag": 114.5,
+        "subtotal_incl_btw": 1386.74
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 438.8,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1316.4,
+        "btw_bedrag": 78.98,
+        "subtotal_incl_btw": 1395.38
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 372.53,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1490.12,
+        "btw_bedrag": 312.93,
+        "subtotal_incl_btw": 1803.05
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4078.76,
+      "totaal_btw": 506.41,
+      "totaal_incl_btw": 4585.17
+    }
+  }
+}

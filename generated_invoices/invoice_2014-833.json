@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-833",
+    "factuurdatum": "16-09-2023",
+    "vervaldatum": "15-12-2023",
+    "ordernummer": "2014-833",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 681",
+      "postcode": "1136 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "53300483"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 226.3,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 905.2,
+        "btw_bedrag": 54.31,
+        "subtotal_incl_btw": 959.51
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 253.9,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 507.8,
+        "btw_bedrag": 45.7,
+        "subtotal_incl_btw": 553.5
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 262.8,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 525.6,
+        "btw_bedrag": 47.3,
+        "subtotal_incl_btw": 572.9
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 493.52,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 493.52,
+        "btw_bedrag": 29.61,
+        "subtotal_incl_btw": 523.13
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 59.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 179.88,
+        "btw_bedrag": 37.77,
+        "subtotal_incl_btw": 217.65
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2612.0,
+      "totaal_btw": 214.69,
+      "totaal_incl_btw": 2826.69
+    }
+  }
+}

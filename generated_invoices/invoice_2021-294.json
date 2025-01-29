@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-294",
+    "factuurdatum": "15-07-2021",
+    "vervaldatum": "13-10-2021",
+    "ordernummer": "2021-294",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 393",
+      "postcode": "7780 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "60324083"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 81.9,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 163.8,
+        "btw_bedrag": 34.4,
+        "subtotal_incl_btw": 198.2
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 52.74,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 263.7,
+        "btw_bedrag": 23.73,
+        "subtotal_incl_btw": 287.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 427.5,
+      "totaal_btw": 58.13,
+      "totaal_incl_btw": 485.63
+    }
+  }
+}

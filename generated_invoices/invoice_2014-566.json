@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-566",
+    "factuurdatum": "22-03-2022",
+    "vervaldatum": "21-04-2022",
+    "ordernummer": "2014-566",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 886",
+      "postcode": "6139 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "32410322"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 300.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1203.88,
+        "btw_bedrag": 72.23,
+        "subtotal_incl_btw": 1276.11
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 48.1,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 192.4,
+        "btw_bedrag": 17.32,
+        "subtotal_incl_btw": 209.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1396.28,
+      "totaal_btw": 89.55,
+      "totaal_incl_btw": 1485.83
+    }
+  }
+}

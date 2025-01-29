@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-315",
+    "factuurdatum": "08-06-2022",
+    "vervaldatum": "06-09-2022",
+    "ordernummer": "2002-315",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 554",
+      "postcode": "6515 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "97072054"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 361.55,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1807.75,
+        "btw_bedrag": 379.63,
+        "subtotal_incl_btw": 2187.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1807.75,
+      "totaal_btw": 379.63,
+      "totaal_incl_btw": 2187.38
+    }
+  }
+}

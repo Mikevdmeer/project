@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-075",
+    "factuurdatum": "28-07-2023",
+    "vervaldatum": "26-09-2023",
+    "ordernummer": "2004-075",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 491",
+      "postcode": "9936 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "75356859"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 453.0,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 906.0,
+        "btw_bedrag": 81.54,
+        "subtotal_incl_btw": 987.54
+      },
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 480.95,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 961.9,
+        "btw_bedrag": 57.71,
+        "subtotal_incl_btw": 1019.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 411.22,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 411.22,
+        "btw_bedrag": 37.01,
+        "subtotal_incl_btw": 448.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2279.12,
+      "totaal_btw": 176.26,
+      "totaal_incl_btw": 2455.38
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-821",
+    "factuurdatum": "04-02-2023",
+    "vervaldatum": "05-04-2023",
+    "ordernummer": "2007-821",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 905",
+      "postcode": "8788 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "39861772"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 41.78,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 83.56,
+        "btw_bedrag": 7.52,
+        "subtotal_incl_btw": 91.08
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 140.03,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 140.03,
+        "btw_bedrag": 8.4,
+        "subtotal_incl_btw": 148.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 223.59,
+      "totaal_btw": 15.92,
+      "totaal_incl_btw": 239.51
+    }
+  }
+}

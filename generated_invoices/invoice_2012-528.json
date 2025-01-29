@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-528",
+    "factuurdatum": "09-11-2024",
+    "vervaldatum": "09-12-2024",
+    "ordernummer": "2012-528",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 203",
+      "postcode": "6335 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "55229950"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 287.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1437.05,
+        "btw_bedrag": 301.78,
+        "subtotal_incl_btw": 1738.83
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 59.23,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 118.46,
+        "btw_bedrag": 10.66,
+        "subtotal_incl_btw": 129.12
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 231.38,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 462.76,
+        "btw_bedrag": 41.65,
+        "subtotal_incl_btw": 504.41
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2018.27,
+      "totaal_btw": 354.09,
+      "totaal_incl_btw": 2372.36
+    }
+  }
+}

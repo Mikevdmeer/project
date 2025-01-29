@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-435",
+    "factuurdatum": "22-09-2023",
+    "vervaldatum": "21-12-2023",
+    "ordernummer": "2024-435",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 731",
+      "postcode": "3336 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "34953309"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 496.89,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1987.56,
+        "btw_bedrag": 178.88,
+        "subtotal_incl_btw": 2166.44
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 35.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 143.0,
+        "btw_bedrag": 12.87,
+        "subtotal_incl_btw": 155.87
+      },
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 322.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1288.28,
+        "btw_bedrag": 77.3,
+        "subtotal_incl_btw": 1365.58
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 92.55,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 92.55,
+        "btw_bedrag": 8.33,
+        "subtotal_incl_btw": 100.88
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3511.39,
+      "totaal_btw": 277.38,
+      "totaal_incl_btw": 3788.77
+    }
+  }
+}

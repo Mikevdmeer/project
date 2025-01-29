@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-217",
+    "factuurdatum": "21-01-2022",
+    "vervaldatum": "20-02-2022",
+    "ordernummer": "2012-217",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 33",
+      "postcode": "1265 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63397437"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 17.57,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 52.71,
+        "btw_bedrag": 3.16,
+        "subtotal_incl_btw": 55.87
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 328.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 984.75,
+        "btw_bedrag": 206.8,
+        "subtotal_incl_btw": 1191.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1037.46,
+      "totaal_btw": 209.96,
+      "totaal_incl_btw": 1247.42
+    }
+  }
+}

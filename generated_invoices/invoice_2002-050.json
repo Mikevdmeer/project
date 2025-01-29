@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-050",
+    "factuurdatum": "02-12-2024",
+    "vervaldatum": "02-03-2025",
+    "ordernummer": "2002-050",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 23",
+      "postcode": "9808 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "29264951"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 47.08,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 94.16,
+        "btw_bedrag": 5.65,
+        "subtotal_incl_btw": 99.81
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 294.17,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1176.68,
+        "btw_bedrag": 105.9,
+        "subtotal_incl_btw": 1282.58
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 131.53,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 263.06,
+        "btw_bedrag": 15.78,
+        "subtotal_incl_btw": 278.84
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1533.9,
+      "totaal_btw": 127.33,
+      "totaal_incl_btw": 1661.23
+    }
+  }
+}

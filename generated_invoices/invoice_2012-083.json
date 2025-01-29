@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-083",
+    "factuurdatum": "02-03-2024",
+    "vervaldatum": "01-04-2024",
+    "ordernummer": "2012-083",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 816",
+      "postcode": "9056 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "66499421"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 115.68,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 462.72,
+        "btw_bedrag": 27.76,
+        "subtotal_incl_btw": 490.48
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 119.43,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 119.43,
+        "btw_bedrag": 10.75,
+        "subtotal_incl_btw": 130.18
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 158.72,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 476.16,
+        "btw_bedrag": 42.85,
+        "subtotal_incl_btw": 519.01
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 18.98,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 56.94,
+        "btw_bedrag": 5.12,
+        "subtotal_incl_btw": 62.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1115.25,
+      "totaal_btw": 86.48,
+      "totaal_incl_btw": 1201.73
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-321",
+    "factuurdatum": "15-06-2021",
+    "vervaldatum": "14-08-2021",
+    "ordernummer": "2012-321",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 85",
+      "postcode": "5276 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "70271413"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 61.54,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 307.7,
+        "btw_bedrag": 27.69,
+        "subtotal_incl_btw": 335.39
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 380.84,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 761.68,
+        "btw_bedrag": 68.55,
+        "subtotal_incl_btw": 830.23
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 249.17,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 996.68,
+        "btw_bedrag": 59.8,
+        "subtotal_incl_btw": 1056.48
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 419.93,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 839.86,
+        "btw_bedrag": 75.59,
+        "subtotal_incl_btw": 915.45
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 99.91,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 99.91,
+        "btw_bedrag": 20.98,
+        "subtotal_incl_btw": 120.89
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3005.83,
+      "totaal_btw": 252.61,
+      "totaal_incl_btw": 3258.44
+    }
+  }
+}

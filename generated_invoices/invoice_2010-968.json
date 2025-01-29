@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-968",
+    "factuurdatum": "08-05-2023",
+    "vervaldatum": "06-08-2023",
+    "ordernummer": "2010-968",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 160",
+      "postcode": "8360 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95556388"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 133.98,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 133.98,
+        "btw_bedrag": 8.04,
+        "subtotal_incl_btw": 142.02
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 34.22,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 102.66,
+        "btw_bedrag": 6.16,
+        "subtotal_incl_btw": 108.82
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 167.48,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 167.48,
+        "btw_bedrag": 15.07,
+        "subtotal_incl_btw": 182.55
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 394.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1577.4,
+        "btw_bedrag": 331.25,
+        "subtotal_incl_btw": 1908.65
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 242.6,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 727.8,
+        "btw_bedrag": 152.84,
+        "subtotal_incl_btw": 880.64
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2709.32,
+      "totaal_btw": 513.36,
+      "totaal_incl_btw": 3222.68
+    }
+  }
+}

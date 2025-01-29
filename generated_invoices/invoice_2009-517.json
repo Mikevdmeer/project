@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-517",
+    "factuurdatum": "24-10-2024",
+    "vervaldatum": "22-01-2025",
+    "ordernummer": "2009-517",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 954",
+      "postcode": "3367 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "92116981"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 33.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 134.6,
+        "btw_bedrag": 28.27,
+        "subtotal_incl_btw": 162.87
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 301.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1206.92,
+        "btw_bedrag": 253.45,
+        "subtotal_incl_btw": 1460.37
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1341.52,
+      "totaal_btw": 281.72,
+      "totaal_incl_btw": 1623.24
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-468",
+    "factuurdatum": "24-06-2023",
+    "vervaldatum": "22-09-2023",
+    "ordernummer": "2012-468",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 436",
+      "postcode": "8832 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "47873088"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 99.35,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 298.05,
+        "btw_bedrag": 17.88,
+        "subtotal_incl_btw": 315.93
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 224.65,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 898.6,
+        "btw_bedrag": 80.87,
+        "subtotal_incl_btw": 979.47
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 480.27,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2401.35,
+        "btw_bedrag": 216.12,
+        "subtotal_incl_btw": 2617.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3598.0,
+      "totaal_btw": 314.87,
+      "totaal_incl_btw": 3912.87
+    }
+  }
+}

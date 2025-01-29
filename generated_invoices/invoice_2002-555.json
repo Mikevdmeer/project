@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-555",
+    "factuurdatum": "04-10-2022",
+    "vervaldatum": "03-11-2022",
+    "ordernummer": "2002-555",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 792",
+      "postcode": "1845 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "36457879"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 319.02,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 319.02,
+        "btw_bedrag": 28.71,
+        "subtotal_incl_btw": 347.73
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 220.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 440.94,
+        "btw_bedrag": 39.68,
+        "subtotal_incl_btw": 480.62
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 258.37,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1291.85,
+        "btw_bedrag": 77.51,
+        "subtotal_incl_btw": 1369.36
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2051.81,
+      "totaal_btw": 145.9,
+      "totaal_incl_btw": 2197.71
+    }
+  }
+}

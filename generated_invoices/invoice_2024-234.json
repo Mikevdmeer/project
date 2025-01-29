@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-234",
+    "factuurdatum": "21-06-2022",
+    "vervaldatum": "20-08-2022",
+    "ordernummer": "2024-234",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 244",
+      "postcode": "5197 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "89843084"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 86.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 431.4,
+        "btw_bedrag": 90.59,
+        "subtotal_incl_btw": 521.99
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 202.74,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1013.7,
+        "btw_bedrag": 60.82,
+        "subtotal_incl_btw": 1074.52
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 406.09,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1624.36,
+        "btw_bedrag": 146.19,
+        "subtotal_incl_btw": 1770.55
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 444.98,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2224.9,
+        "btw_bedrag": 200.24,
+        "subtotal_incl_btw": 2425.14
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 318.81,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 318.81,
+        "btw_bedrag": 19.13,
+        "subtotal_incl_btw": 337.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5613.17,
+      "totaal_btw": 516.97,
+      "totaal_incl_btw": 6130.14
+    }
+  }
+}

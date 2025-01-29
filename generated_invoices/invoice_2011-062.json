@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-062",
+    "factuurdatum": "03-05-2021",
+    "vervaldatum": "01-08-2021",
+    "ordernummer": "2011-062",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 188",
+      "postcode": "9952 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "18973185"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 170.64,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 682.56,
+        "btw_bedrag": 40.95,
+        "subtotal_incl_btw": 723.51
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 136.92,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 136.92,
+        "btw_bedrag": 12.32,
+        "subtotal_incl_btw": 149.24
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 373.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1865.6,
+        "btw_bedrag": 391.78,
+        "subtotal_incl_btw": 2257.38
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 315.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1261.08,
+        "btw_bedrag": 264.83,
+        "subtotal_incl_btw": 1525.91
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3946.16,
+      "totaal_btw": 709.88,
+      "totaal_incl_btw": 4656.04
+    }
+  }
+}

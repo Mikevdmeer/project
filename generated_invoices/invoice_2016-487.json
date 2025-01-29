@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-487",
+    "factuurdatum": "01-03-2021",
+    "vervaldatum": "31-03-2021",
+    "ordernummer": "2016-487",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 263",
+      "postcode": "5400 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "16743329"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 181.49,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 907.45,
+        "btw_bedrag": 54.45,
+        "subtotal_incl_btw": 961.9
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 380.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1142.52,
+        "btw_bedrag": 239.93,
+        "subtotal_incl_btw": 1382.45
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 318.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 637.84,
+        "btw_bedrag": 38.27,
+        "subtotal_incl_btw": 676.11
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 77.77,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 311.08,
+        "btw_bedrag": 18.66,
+        "subtotal_incl_btw": 329.74
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2998.89,
+      "totaal_btw": 351.31,
+      "totaal_incl_btw": 3350.2
+    }
+  }
+}

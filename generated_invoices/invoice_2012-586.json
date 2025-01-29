@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-586",
+    "factuurdatum": "05-05-2020",
+    "vervaldatum": "04-06-2020",
+    "ordernummer": "2012-586",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 857",
+      "postcode": "5678 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "98408917"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 81.53,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 407.65,
+        "btw_bedrag": 36.69,
+        "subtotal_incl_btw": 444.34
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 371.07,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1484.28,
+        "btw_bedrag": 133.59,
+        "subtotal_incl_btw": 1617.87
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 111.82,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 559.1,
+        "btw_bedrag": 50.32,
+        "subtotal_incl_btw": 609.42
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 142.45,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 569.8,
+        "btw_bedrag": 51.28,
+        "subtotal_incl_btw": 621.08
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3020.83,
+      "totaal_btw": 271.88,
+      "totaal_incl_btw": 3292.71
+    }
+  }
+}

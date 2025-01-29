@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-814",
+    "factuurdatum": "10-08-2021",
+    "vervaldatum": "09-09-2021",
+    "ordernummer": "2005-814",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 397",
+      "postcode": "1065 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "97274282"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 130.95,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 392.85,
+        "btw_bedrag": 23.57,
+        "subtotal_incl_btw": 416.42
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 442.57,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1327.71,
+        "btw_bedrag": 119.49,
+        "subtotal_incl_btw": 1447.2
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1720.56,
+      "totaal_btw": 143.06,
+      "totaal_incl_btw": 1863.62
+    }
+  }
+}

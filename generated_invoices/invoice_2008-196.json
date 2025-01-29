@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-196",
+    "factuurdatum": "17-01-2021",
+    "vervaldatum": "16-02-2021",
+    "ordernummer": "2008-196",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 177",
+      "postcode": "1941 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "64790113"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 364.14,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 364.14,
+        "btw_bedrag": 76.47,
+        "subtotal_incl_btw": 440.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 97.26,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 97.26,
+        "btw_bedrag": 5.84,
+        "subtotal_incl_btw": 103.1
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 236.17,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 236.17,
+        "btw_bedrag": 21.26,
+        "subtotal_incl_btw": 257.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 697.57,
+      "totaal_btw": 103.57,
+      "totaal_incl_btw": 801.14
+    }
+  }
+}

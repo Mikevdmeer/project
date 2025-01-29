@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-269",
+    "factuurdatum": "05-08-2020",
+    "vervaldatum": "04-10-2020",
+    "ordernummer": "2017-269",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 630",
+      "postcode": "8027 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "93130973"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 116.8,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 350.4,
+        "btw_bedrag": 31.54,
+        "subtotal_incl_btw": 381.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 350.4,
+      "totaal_btw": 31.54,
+      "totaal_incl_btw": 381.94
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-418",
+    "factuurdatum": "13-06-2023",
+    "vervaldatum": "13-07-2023",
+    "ordernummer": "2016-418",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 923",
+      "postcode": "5401 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "20058091"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 95.14,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 475.7,
+        "btw_bedrag": 99.9,
+        "subtotal_incl_btw": 575.6
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 475.7,
+      "totaal_btw": 99.9,
+      "totaal_incl_btw": 575.6
+    }
+  }
+}

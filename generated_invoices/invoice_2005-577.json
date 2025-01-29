@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-577",
+    "factuurdatum": "16-05-2020",
+    "vervaldatum": "15-06-2020",
+    "ordernummer": "2005-577",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 166",
+      "postcode": "4294 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "69507971"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 416.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 416.33,
+        "btw_bedrag": 87.43,
+        "subtotal_incl_btw": 503.76
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 138.06,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 690.3,
+        "btw_bedrag": 41.42,
+        "subtotal_incl_btw": 731.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1106.63,
+      "totaal_btw": 128.85,
+      "totaal_incl_btw": 1235.48
+    }
+  }
+}

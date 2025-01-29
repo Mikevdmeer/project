@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-929",
+    "factuurdatum": "16-04-2022",
+    "vervaldatum": "15-07-2022",
+    "ordernummer": "2017-929",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 594",
+      "postcode": "5824 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "26171577"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 235.14,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1175.7,
+        "btw_bedrag": 105.81,
+        "subtotal_incl_btw": 1281.51
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 444.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1333.14,
+        "btw_bedrag": 279.96,
+        "subtotal_incl_btw": 1613.1
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 121.9,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 487.6,
+        "btw_bedrag": 43.88,
+        "subtotal_incl_btw": 531.48
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2996.44,
+      "totaal_btw": 429.65,
+      "totaal_incl_btw": 3426.09
+    }
+  }
+}

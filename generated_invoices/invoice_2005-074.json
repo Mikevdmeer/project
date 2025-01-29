@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-074",
+    "factuurdatum": "25-05-2021",
+    "vervaldatum": "23-08-2021",
+    "ordernummer": "2005-074",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 850",
+      "postcode": "5325 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82534655"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 346.34,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1039.02,
+        "btw_bedrag": 93.51,
+        "subtotal_incl_btw": 1132.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1039.02,
+      "totaal_btw": 93.51,
+      "totaal_incl_btw": 1132.53
+    }
+  }
+}

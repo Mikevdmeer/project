@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-072",
+    "factuurdatum": "07-02-2024",
+    "vervaldatum": "08-03-2024",
+    "ordernummer": "2006-072",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 455",
+      "postcode": "8625 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "87114469"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 456.02,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2280.1,
+        "btw_bedrag": 205.21,
+        "subtotal_incl_btw": 2485.31
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 418.69,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1256.07,
+        "btw_bedrag": 75.36,
+        "subtotal_incl_btw": 1331.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3536.17,
+      "totaal_btw": 280.57,
+      "totaal_incl_btw": 3816.74
+    }
+  }
+}

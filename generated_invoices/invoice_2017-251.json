@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-251",
+    "factuurdatum": "03-11-2024",
+    "vervaldatum": "03-12-2024",
+    "ordernummer": "2017-251",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 436",
+      "postcode": "4841 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "62679340"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 213.3,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 853.2,
+        "btw_bedrag": 179.17,
+        "subtotal_incl_btw": 1032.37
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 61.96,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 185.88,
+        "btw_bedrag": 11.15,
+        "subtotal_incl_btw": 197.03
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 181.02,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 724.08,
+        "btw_bedrag": 43.44,
+        "subtotal_incl_btw": 767.52
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 69.93,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 279.72,
+        "btw_bedrag": 16.78,
+        "subtotal_incl_btw": 296.5
+      },
+      {
+        "aantal": 3,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 338.1,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1014.3,
+        "btw_bedrag": 60.86,
+        "subtotal_incl_btw": 1075.16
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3057.18,
+      "totaal_btw": 311.4,
+      "totaal_incl_btw": 3368.58
+    }
+  }
+}

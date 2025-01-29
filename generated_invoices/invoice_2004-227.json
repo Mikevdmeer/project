@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-227",
+    "factuurdatum": "04-08-2020",
+    "vervaldatum": "03-09-2020",
+    "ordernummer": "2004-227",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 817",
+      "postcode": "7125 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95637162"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 202.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1013.4,
+        "btw_bedrag": 91.21,
+        "subtotal_incl_btw": 1104.61
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 347.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1041.69,
+        "btw_bedrag": 218.75,
+        "subtotal_incl_btw": 1260.44
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 230.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1152.15,
+        "btw_bedrag": 241.95,
+        "subtotal_incl_btw": 1394.1
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3207.24,
+      "totaal_btw": 551.91,
+      "totaal_incl_btw": 3759.15
+    }
+  }
+}

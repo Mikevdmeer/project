@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-066",
+    "factuurdatum": "20-12-2021",
+    "vervaldatum": "19-01-2022",
+    "ordernummer": "2019-066",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 377",
+      "postcode": "7808 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82737031"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 494.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 988.38,
+        "btw_bedrag": 207.56,
+        "subtotal_incl_btw": 1195.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 988.38,
+      "totaal_btw": 207.56,
+      "totaal_incl_btw": 1195.94
+    }
+  }
+}

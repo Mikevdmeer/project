@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-391",
+    "factuurdatum": "14-03-2020",
+    "vervaldatum": "12-06-2020",
+    "ordernummer": "2024-391",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 100",
+      "postcode": "9997 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "76115831"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 97.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 488.45,
+        "btw_bedrag": 102.57,
+        "subtotal_incl_btw": 591.02
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 162.4,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 649.6,
+        "btw_bedrag": 38.98,
+        "subtotal_incl_btw": 688.58
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 438.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1314.06,
+        "btw_bedrag": 275.95,
+        "subtotal_incl_btw": 1590.01
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 492.27,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1969.08,
+        "btw_bedrag": 118.14,
+        "subtotal_incl_btw": 2087.22
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4421.19,
+      "totaal_btw": 535.64,
+      "totaal_incl_btw": 4956.83
+    }
+  }
+}

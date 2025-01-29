@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-842",
+    "factuurdatum": "15-06-2024",
+    "vervaldatum": "13-09-2024",
+    "ordernummer": "2015-842",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 381",
+      "postcode": "9286 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "98898629"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 57.89,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 289.45,
+        "btw_bedrag": 17.37,
+        "subtotal_incl_btw": 306.82
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 354.53,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1418.12,
+        "btw_bedrag": 85.09,
+        "subtotal_incl_btw": 1503.21
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1707.57,
+      "totaal_btw": 102.46,
+      "totaal_incl_btw": 1810.03
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-904",
+    "factuurdatum": "03-06-2022",
+    "vervaldatum": "03-07-2022",
+    "ordernummer": "2016-904",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 872",
+      "postcode": "9367 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "96698074"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 211.03,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 844.12,
+        "btw_bedrag": 75.97,
+        "subtotal_incl_btw": 920.09
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 403.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 403.21,
+        "btw_bedrag": 84.67,
+        "subtotal_incl_btw": 487.88
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 489.67,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 979.34,
+        "btw_bedrag": 58.76,
+        "subtotal_incl_btw": 1038.1
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 389.49,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1557.96,
+        "btw_bedrag": 140.22,
+        "subtotal_incl_btw": 1698.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3784.63,
+      "totaal_btw": 359.62,
+      "totaal_incl_btw": 4144.25
+    }
+  }
+}

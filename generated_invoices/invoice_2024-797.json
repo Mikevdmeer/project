@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-797",
+    "factuurdatum": "02-11-2024",
+    "vervaldatum": "31-01-2025",
+    "ordernummer": "2024-797",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 647",
+      "postcode": "4910 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "13039635"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 381.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 381.68,
+        "btw_bedrag": 34.35,
+        "subtotal_incl_btw": 416.03
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 24.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 72.57,
+        "btw_bedrag": 15.24,
+        "subtotal_incl_btw": 87.81
+      },
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 414.35,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1657.4,
+        "btw_bedrag": 99.44,
+        "subtotal_incl_btw": 1756.84
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2111.65,
+      "totaal_btw": 149.03,
+      "totaal_incl_btw": 2260.68
+    }
+  }
+}

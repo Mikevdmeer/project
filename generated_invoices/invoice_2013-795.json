@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-795",
+    "factuurdatum": "06-03-2023",
+    "vervaldatum": "05-04-2023",
+    "ordernummer": "2013-795",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 936",
+      "postcode": "3937 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "96954477"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 410.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2053.75,
+        "btw_bedrag": 184.84,
+        "subtotal_incl_btw": 2238.59
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 78.35,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 391.75,
+        "btw_bedrag": 23.51,
+        "subtotal_incl_btw": 415.26
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 339.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 678.58,
+        "btw_bedrag": 142.5,
+        "subtotal_incl_btw": 821.08
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 394.43,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 394.43,
+        "btw_bedrag": 35.5,
+        "subtotal_incl_btw": 429.93
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 65.3,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 195.9,
+        "btw_bedrag": 17.63,
+        "subtotal_incl_btw": 213.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3714.41,
+      "totaal_btw": 403.98,
+      "totaal_incl_btw": 4118.39
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-230",
+    "factuurdatum": "10-12-2024",
+    "vervaldatum": "10-03-2025",
+    "ordernummer": "2002-230",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 454",
+      "postcode": "9934 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "63176843"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 345.48,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1381.92,
+        "btw_bedrag": 82.92,
+        "subtotal_incl_btw": 1464.84
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 488.28,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1953.12,
+        "btw_bedrag": 117.19,
+        "subtotal_incl_btw": 2070.31
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 17.09,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 34.18,
+        "btw_bedrag": 7.18,
+        "subtotal_incl_btw": 41.36
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 368.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 368.45,
+        "btw_bedrag": 77.37,
+        "subtotal_incl_btw": 445.82
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 16.5,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 33.0,
+        "btw_bedrag": 2.97,
+        "subtotal_incl_btw": 35.97
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3770.67,
+      "totaal_btw": 287.63,
+      "totaal_incl_btw": 4058.3
+    }
+  }
+}

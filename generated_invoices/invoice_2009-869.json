@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-869",
+    "factuurdatum": "04-06-2021",
+    "vervaldatum": "04-07-2021",
+    "ordernummer": "2009-869",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 249",
+      "postcode": "4630 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "55314033"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 498.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2493.4,
+        "btw_bedrag": 224.41,
+        "subtotal_incl_btw": 2717.81
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 178.64,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 178.64,
+        "btw_bedrag": 16.08,
+        "subtotal_incl_btw": 194.72
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 140.23,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 420.69,
+        "btw_bedrag": 37.86,
+        "subtotal_incl_btw": 458.55
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 324.64,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 973.92,
+        "btw_bedrag": 204.52,
+        "subtotal_incl_btw": 1178.44
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 177.23,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 531.69,
+        "btw_bedrag": 31.9,
+        "subtotal_incl_btw": 563.59
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4598.34,
+      "totaal_btw": 514.77,
+      "totaal_incl_btw": 5113.11
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-001",
+    "factuurdatum": "20-12-2023",
+    "vervaldatum": "18-02-2024",
+    "ordernummer": "2013-001",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 497",
+      "postcode": "9084 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94252250"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 48.6,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 48.6,
+        "btw_bedrag": 2.92,
+        "subtotal_incl_btw": 51.52
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 449.26,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 449.26,
+        "btw_bedrag": 26.96,
+        "subtotal_incl_btw": 476.22
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 304.04,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1216.16,
+        "btw_bedrag": 109.45,
+        "subtotal_incl_btw": 1325.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 462.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 462.12,
+        "btw_bedrag": 97.05,
+        "subtotal_incl_btw": 559.17
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2176.14,
+      "totaal_btw": 236.38,
+      "totaal_incl_btw": 2412.52
+    }
+  }
+}

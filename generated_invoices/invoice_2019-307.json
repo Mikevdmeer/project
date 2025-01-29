@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-307",
+    "factuurdatum": "10-10-2022",
+    "vervaldatum": "09-12-2022",
+    "ordernummer": "2019-307",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 128",
+      "postcode": "1548 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "82163232"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 272.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 545.94,
+        "btw_bedrag": 32.76,
+        "subtotal_incl_btw": 578.7
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 386.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1160.49,
+        "btw_bedrag": 243.7,
+        "subtotal_incl_btw": 1404.19
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1706.43,
+      "totaal_btw": 276.46,
+      "totaal_incl_btw": 1982.89
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-893",
+    "factuurdatum": "13-05-2024",
+    "vervaldatum": "12-07-2024",
+    "ordernummer": "2022-893",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 465",
+      "postcode": "4332 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "22854688"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 249.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 748.23,
+        "btw_bedrag": 157.13,
+        "subtotal_incl_btw": 905.36
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 169.24,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 676.96,
+        "btw_bedrag": 40.62,
+        "subtotal_incl_btw": 717.58
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 315.45,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1261.8,
+        "btw_bedrag": 113.56,
+        "subtotal_incl_btw": 1375.36
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 249.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 998.72,
+        "btw_bedrag": 89.88,
+        "subtotal_incl_btw": 1088.6
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3685.71,
+      "totaal_btw": 401.19,
+      "totaal_incl_btw": 4086.9
+    }
+  }
+}

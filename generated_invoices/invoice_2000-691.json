@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-691",
+    "factuurdatum": "11-06-2021",
+    "vervaldatum": "09-09-2021",
+    "ordernummer": "2000-691",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 905",
+      "postcode": "5998 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "37908107"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 231.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 231.41,
+        "btw_bedrag": 48.6,
+        "subtotal_incl_btw": 280.01
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 81.8,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 163.6,
+        "btw_bedrag": 9.82,
+        "subtotal_incl_btw": 173.42
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 378.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1515.32,
+        "btw_bedrag": 318.22,
+        "subtotal_incl_btw": 1833.54
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 471.63,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1414.89,
+        "btw_bedrag": 84.89,
+        "subtotal_incl_btw": 1499.78
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3325.22,
+      "totaal_btw": 461.53,
+      "totaal_incl_btw": 3786.75
+    }
+  }
+}

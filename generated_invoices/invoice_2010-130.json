@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-130",
+    "factuurdatum": "01-03-2023",
+    "vervaldatum": "30-04-2023",
+    "ordernummer": "2010-130",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 780",
+      "postcode": "5418 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "20784091"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 147.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 589.28,
+        "btw_bedrag": 123.75,
+        "subtotal_incl_btw": 713.03
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 41.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 82.74,
+        "btw_bedrag": 17.38,
+        "subtotal_incl_btw": 100.12
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 179.45,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 717.8,
+        "btw_bedrag": 64.6,
+        "subtotal_incl_btw": 782.4
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1389.82,
+      "totaal_btw": 205.73,
+      "totaal_incl_btw": 1595.55
+    }
+  }
+}

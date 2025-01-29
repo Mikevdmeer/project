@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-766",
+    "factuurdatum": "07-05-2023",
+    "vervaldatum": "06-07-2023",
+    "ordernummer": "2024-766",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 473",
+      "postcode": "3720 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63725305"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 273.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 821.34,
+        "btw_bedrag": 172.48,
+        "subtotal_incl_btw": 993.82
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 124.46,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 124.46,
+        "btw_bedrag": 26.14,
+        "subtotal_incl_btw": 150.6
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 403.39,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 403.39,
+        "btw_bedrag": 24.2,
+        "subtotal_incl_btw": 427.59
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 460.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 920.82,
+        "btw_bedrag": 193.37,
+        "subtotal_incl_btw": 1114.19
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 445.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2228.85,
+        "btw_bedrag": 468.06,
+        "subtotal_incl_btw": 2696.91
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4498.86,
+      "totaal_btw": 884.25,
+      "totaal_incl_btw": 5383.11
+    }
+  }
+}

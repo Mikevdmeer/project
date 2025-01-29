@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-589",
+    "factuurdatum": "13-10-2021",
+    "vervaldatum": "11-01-2022",
+    "ordernummer": "2017-589",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 355",
+      "postcode": "6122 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37787688"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 58.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 176.4,
+        "btw_bedrag": 37.04,
+        "subtotal_incl_btw": 213.44
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 179.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 358.84,
+        "btw_bedrag": 75.36,
+        "subtotal_incl_btw": 434.2
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 463.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1854.96,
+        "btw_bedrag": 389.54,
+        "subtotal_incl_btw": 2244.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2390.2,
+      "totaal_btw": 501.94,
+      "totaal_incl_btw": 2892.14
+    }
+  }
+}

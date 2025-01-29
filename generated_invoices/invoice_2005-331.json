@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-331",
+    "factuurdatum": "17-04-2020",
+    "vervaldatum": "17-05-2020",
+    "ordernummer": "2005-331",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 207",
+      "postcode": "6018 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "57931811"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 454.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1817.28,
+        "btw_bedrag": 381.63,
+        "subtotal_incl_btw": 2198.91
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1817.28,
+      "totaal_btw": 381.63,
+      "totaal_incl_btw": 2198.91
+    }
+  }
+}

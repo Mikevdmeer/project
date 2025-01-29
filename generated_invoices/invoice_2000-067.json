@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-067",
+    "factuurdatum": "12-09-2020",
+    "vervaldatum": "11-11-2020",
+    "ordernummer": "2000-067",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 205",
+      "postcode": "2523 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "98024571"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 372.81,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 372.81,
+        "btw_bedrag": 78.29,
+        "subtotal_incl_btw": 451.1
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 173.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 866.15,
+        "btw_bedrag": 181.89,
+        "subtotal_incl_btw": 1048.04
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 426.32,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 852.64,
+        "btw_bedrag": 76.74,
+        "subtotal_incl_btw": 929.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2091.6,
+      "totaal_btw": 336.92,
+      "totaal_incl_btw": 2428.52
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-669",
+    "factuurdatum": "08-08-2021",
+    "vervaldatum": "06-11-2021",
+    "ordernummer": "2016-669",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 184",
+      "postcode": "5785 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "61377993"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 165.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 661.88,
+        "btw_bedrag": 138.99,
+        "subtotal_incl_btw": 800.87
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 53.42,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 267.1,
+        "btw_bedrag": 24.04,
+        "subtotal_incl_btw": 291.14
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 928.98,
+      "totaal_btw": 163.03,
+      "totaal_incl_btw": 1092.01
+    }
+  }
+}

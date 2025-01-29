@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-636",
+    "factuurdatum": "03-06-2024",
+    "vervaldatum": "01-09-2024",
+    "ordernummer": "2011-636",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 199",
+      "postcode": "2305 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "27217396"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 73.49,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 73.49,
+        "btw_bedrag": 4.41,
+        "subtotal_incl_btw": 77.9
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 73.49,
+      "totaal_btw": 4.41,
+      "totaal_incl_btw": 77.9
+    }
+  }
+}

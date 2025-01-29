@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-253",
+    "factuurdatum": "22-09-2023",
+    "vervaldatum": "21-12-2023",
+    "ordernummer": "2020-253",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 73",
+      "postcode": "5621 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "15457100"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 204.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 409.5,
+        "btw_bedrag": 36.86,
+        "subtotal_incl_btw": 446.36
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 436.77,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 436.77,
+        "btw_bedrag": 26.21,
+        "subtotal_incl_btw": 462.98
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 373.39,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 373.39,
+        "btw_bedrag": 78.41,
+        "subtotal_incl_btw": 451.8
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 283.12,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 566.24,
+        "btw_bedrag": 50.96,
+        "subtotal_incl_btw": 617.2
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 179.46,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 358.92,
+        "btw_bedrag": 75.37,
+        "subtotal_incl_btw": 434.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2144.82,
+      "totaal_btw": 267.81,
+      "totaal_incl_btw": 2412.63
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-087",
+    "factuurdatum": "18-10-2024",
+    "vervaldatum": "17-11-2024",
+    "ordernummer": "2002-087",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 185",
+      "postcode": "1581 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "61533869"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 407.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 407.86,
+        "btw_bedrag": 36.71,
+        "subtotal_incl_btw": 444.57
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 12.08,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 48.32,
+        "btw_bedrag": 4.35,
+        "subtotal_incl_btw": 52.67
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 84.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 421.65,
+        "btw_bedrag": 88.55,
+        "subtotal_incl_btw": 510.2
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 16.09,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 48.27,
+        "btw_bedrag": 2.9,
+        "subtotal_incl_btw": 51.17
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 926.1,
+      "totaal_btw": 132.51,
+      "totaal_incl_btw": 1058.61
+    }
+  }
+}

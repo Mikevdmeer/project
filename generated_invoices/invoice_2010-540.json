@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-540",
+    "factuurdatum": "11-08-2020",
+    "vervaldatum": "10-09-2020",
+    "ordernummer": "2010-540",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 740",
+      "postcode": "5521 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63153026"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 387.1,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1161.3,
+        "btw_bedrag": 69.68,
+        "subtotal_incl_btw": 1230.98
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 125.85,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 377.55,
+        "btw_bedrag": 22.65,
+        "subtotal_incl_btw": 400.2
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 312.97,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 938.91,
+        "btw_bedrag": 84.5,
+        "subtotal_incl_btw": 1023.41
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2477.76,
+      "totaal_btw": 176.83,
+      "totaal_incl_btw": 2654.59
+    }
+  }
+}

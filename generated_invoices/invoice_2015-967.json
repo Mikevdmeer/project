@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-967",
+    "factuurdatum": "13-12-2020",
+    "vervaldatum": "12-01-2021",
+    "ordernummer": "2015-967",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 342",
+      "postcode": "2586 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "45727652"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 403.12,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1209.36,
+        "btw_bedrag": 72.56,
+        "subtotal_incl_btw": 1281.92
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1209.36,
+      "totaal_btw": 72.56,
+      "totaal_incl_btw": 1281.92
+    }
+  }
+}

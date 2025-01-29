@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-446",
+    "factuurdatum": "10-04-2020",
+    "vervaldatum": "10-05-2020",
+    "ordernummer": "2024-446",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 1",
+      "postcode": "2357 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "84655851"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 32.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 162.35,
+        "btw_bedrag": 14.61,
+        "subtotal_incl_btw": 176.96
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 486.07,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 486.07,
+        "btw_bedrag": 102.07,
+        "subtotal_incl_btw": 588.14
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 204.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 204.04,
+        "btw_bedrag": 42.85,
+        "subtotal_incl_btw": 246.89
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 852.46,
+      "totaal_btw": 159.53,
+      "totaal_incl_btw": 1011.99
+    }
+  }
+}

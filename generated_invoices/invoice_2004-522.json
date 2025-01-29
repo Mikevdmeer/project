@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-522",
+    "factuurdatum": "04-04-2020",
+    "vervaldatum": "03-06-2020",
+    "ordernummer": "2004-522",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 710",
+      "postcode": "3844 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "24530588"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 303.13,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1212.52,
+        "btw_bedrag": 72.75,
+        "subtotal_incl_btw": 1285.27
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 229.95,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 919.8,
+        "btw_bedrag": 82.78,
+        "subtotal_incl_btw": 1002.58
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 321.17,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 963.51,
+        "btw_bedrag": 57.81,
+        "subtotal_incl_btw": 1021.32
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 200.77,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1003.85,
+        "btw_bedrag": 90.35,
+        "subtotal_incl_btw": 1094.2
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 143.14,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 572.56,
+        "btw_bedrag": 51.53,
+        "subtotal_incl_btw": 624.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4672.24,
+      "totaal_btw": 355.22,
+      "totaal_incl_btw": 5027.46
+    }
+  }
+}

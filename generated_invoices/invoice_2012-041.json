@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-041",
+    "factuurdatum": "25-08-2020",
+    "vervaldatum": "24-09-2020",
+    "ordernummer": "2012-041",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 552",
+      "postcode": "4062 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "46479909"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 219.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 219.35,
+        "btw_bedrag": 46.06,
+        "subtotal_incl_btw": 265.41
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 75.4,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 75.4,
+        "btw_bedrag": 15.83,
+        "subtotal_incl_btw": 91.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 294.75,
+      "totaal_btw": 61.89,
+      "totaal_incl_btw": 356.64
+    }
+  }
+}

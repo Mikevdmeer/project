@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-495",
+    "factuurdatum": "19-03-2021",
+    "vervaldatum": "18-05-2021",
+    "ordernummer": "2015-495",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 40",
+      "postcode": "7105 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "68884558"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 139.27,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 278.54,
+        "btw_bedrag": 25.07,
+        "subtotal_incl_btw": 303.61
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 210.28,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 420.56,
+        "btw_bedrag": 25.23,
+        "subtotal_incl_btw": 445.79
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 699.1,
+      "totaal_btw": 50.3,
+      "totaal_incl_btw": 749.4
+    }
+  }
+}

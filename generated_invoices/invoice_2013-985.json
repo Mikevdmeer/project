@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-985",
+    "factuurdatum": "17-09-2023",
+    "vervaldatum": "16-11-2023",
+    "ordernummer": "2013-985",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 432",
+      "postcode": "1434 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "92317909"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 350.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1052.82,
+        "btw_bedrag": 63.17,
+        "subtotal_incl_btw": 1115.99
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 356.64,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1069.92,
+        "btw_bedrag": 64.2,
+        "subtotal_incl_btw": 1134.12
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 177.69,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 710.76,
+        "btw_bedrag": 42.65,
+        "subtotal_incl_btw": 753.41
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 131.24,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 393.72,
+        "btw_bedrag": 23.62,
+        "subtotal_incl_btw": 417.34
+      },
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 470.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1883.76,
+        "btw_bedrag": 395.59,
+        "subtotal_incl_btw": 2279.35
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5110.98,
+      "totaal_btw": 589.23,
+      "totaal_incl_btw": 5700.21
+    }
+  }
+}

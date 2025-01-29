@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-115",
+    "factuurdatum": "28-11-2021",
+    "vervaldatum": "28-12-2021",
+    "ordernummer": "2024-115",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 160",
+      "postcode": "1609 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "48315283"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 390.59,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 781.18,
+        "btw_bedrag": 46.87,
+        "subtotal_incl_btw": 828.05
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 265.3,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1061.2,
+        "btw_bedrag": 95.51,
+        "subtotal_incl_btw": 1156.71
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 80.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 403.35,
+        "btw_bedrag": 84.7,
+        "subtotal_incl_btw": 488.05
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 89.26,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 267.78,
+        "btw_bedrag": 16.07,
+        "subtotal_incl_btw": 283.85
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 329.16,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 987.48,
+        "btw_bedrag": 59.25,
+        "subtotal_incl_btw": 1046.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3500.99,
+      "totaal_btw": 302.4,
+      "totaal_incl_btw": 3803.39
+    }
+  }
+}

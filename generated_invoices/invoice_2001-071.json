@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-071",
+    "factuurdatum": "27-11-2023",
+    "vervaldatum": "27-12-2023",
+    "ordernummer": "2001-071",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 371",
+      "postcode": "1223 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94006781"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 304.87,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1219.48,
+        "btw_bedrag": 256.09,
+        "subtotal_incl_btw": 1475.57
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 301.31,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 301.31,
+        "btw_bedrag": 27.12,
+        "subtotal_incl_btw": 328.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1520.79,
+      "totaal_btw": 283.21,
+      "totaal_incl_btw": 1804.0
+    }
+  }
+}

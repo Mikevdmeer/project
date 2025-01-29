@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-386",
+    "factuurdatum": "09-07-2021",
+    "vervaldatum": "08-08-2021",
+    "ordernummer": "2018-386",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 172",
+      "postcode": "6369 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "97512190"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 423.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 423.97,
+        "btw_bedrag": 25.44,
+        "subtotal_incl_btw": 449.41
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 173.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 695.28,
+        "btw_bedrag": 41.72,
+        "subtotal_incl_btw": 737.0
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1119.25,
+      "totaal_btw": 67.16,
+      "totaal_incl_btw": 1186.41
+    }
+  }
+}

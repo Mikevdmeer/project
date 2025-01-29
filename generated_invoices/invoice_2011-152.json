@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-152",
+    "factuurdatum": "03-09-2021",
+    "vervaldatum": "03-10-2021",
+    "ordernummer": "2011-152",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 330",
+      "postcode": "5229 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "85187090"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 205.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 615.78,
+        "btw_bedrag": 129.31,
+        "subtotal_incl_btw": 745.09
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 392.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1569.88,
+        "btw_bedrag": 329.67,
+        "subtotal_incl_btw": 1899.55
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 321.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1606.7,
+        "btw_bedrag": 337.41,
+        "subtotal_incl_btw": 1944.11
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 33.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 67.66,
+        "btw_bedrag": 14.21,
+        "subtotal_incl_btw": 81.87
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3860.02,
+      "totaal_btw": 810.6,
+      "totaal_incl_btw": 4670.62
+    }
+  }
+}

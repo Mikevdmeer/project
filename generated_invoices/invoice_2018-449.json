@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-449",
+    "factuurdatum": "04-10-2022",
+    "vervaldatum": "02-01-2023",
+    "ordernummer": "2018-449",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 390",
+      "postcode": "8196 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "50733588"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 192.65,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 577.95,
+        "btw_bedrag": 34.68,
+        "subtotal_incl_btw": 612.63
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 320.13,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1600.65,
+        "btw_bedrag": 144.06,
+        "subtotal_incl_btw": 1744.71
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 333.95,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 667.9,
+        "btw_bedrag": 60.11,
+        "subtotal_incl_btw": 728.01
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2846.5,
+      "totaal_btw": 238.85,
+      "totaal_incl_btw": 3085.35
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-705",
+    "factuurdatum": "28-01-2024",
+    "vervaldatum": "27-02-2024",
+    "ordernummer": "2014-705",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 838",
+      "postcode": "7835 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "93040112"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 250.27,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 750.81,
+        "btw_bedrag": 45.05,
+        "subtotal_incl_btw": 795.86
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 49.92,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 249.6,
+        "btw_bedrag": 22.46,
+        "subtotal_incl_btw": 272.06
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 490.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1470.3,
+        "btw_bedrag": 308.76,
+        "subtotal_incl_btw": 1779.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2470.71,
+      "totaal_btw": 376.27,
+      "totaal_incl_btw": 2846.98
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-767",
+    "factuurdatum": "05-06-2023",
+    "vervaldatum": "03-09-2023",
+    "ordernummer": "2014-767",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 829",
+      "postcode": "3052 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "47323664"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 251.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1007.96,
+        "btw_bedrag": 211.67,
+        "subtotal_incl_btw": 1219.63
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 351.92,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1407.68,
+        "btw_bedrag": 295.61,
+        "subtotal_incl_btw": 1703.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2415.64,
+      "totaal_btw": 507.28,
+      "totaal_incl_btw": 2922.92
+    }
+  }
+}

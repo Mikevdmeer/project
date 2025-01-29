@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-494",
+    "factuurdatum": "25-04-2022",
+    "vervaldatum": "24-07-2022",
+    "ordernummer": "2019-494",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 732",
+      "postcode": "5608 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "79395273"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 212.1,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 636.3,
+        "btw_bedrag": 38.18,
+        "subtotal_incl_btw": 674.48
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 100.84,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 100.84,
+        "btw_bedrag": 6.05,
+        "subtotal_incl_btw": 106.89
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 196.72,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 196.72,
+        "btw_bedrag": 11.8,
+        "subtotal_incl_btw": 208.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 933.86,
+      "totaal_btw": 56.03,
+      "totaal_incl_btw": 989.89
+    }
+  }
+}

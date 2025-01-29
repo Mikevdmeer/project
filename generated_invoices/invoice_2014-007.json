@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-007",
+    "factuurdatum": "18-09-2024",
+    "vervaldatum": "17-11-2024",
+    "ordernummer": "2014-007",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 459",
+      "postcode": "9398 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "92548536"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 440.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 881.38,
+        "btw_bedrag": 185.09,
+        "subtotal_incl_btw": 1066.47
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 26.4,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 105.6,
+        "btw_bedrag": 22.18,
+        "subtotal_incl_btw": 127.78
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 161.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 806.65,
+        "btw_bedrag": 169.4,
+        "subtotal_incl_btw": 976.05
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 131.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 263.64,
+        "btw_bedrag": 15.82,
+        "subtotal_incl_btw": 279.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2057.27,
+      "totaal_btw": 392.49,
+      "totaal_incl_btw": 2449.76
+    }
+  }
+}

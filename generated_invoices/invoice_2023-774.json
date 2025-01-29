@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-774",
+    "factuurdatum": "16-02-2023",
+    "vervaldatum": "18-03-2023",
+    "ordernummer": "2023-774",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 38",
+      "postcode": "8765 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "99397824"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 188.57,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 942.85,
+        "btw_bedrag": 56.57,
+        "subtotal_incl_btw": 999.42
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 122.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 366.96,
+        "btw_bedrag": 77.06,
+        "subtotal_incl_btw": 444.02
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 448.68,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1794.72,
+        "btw_bedrag": 107.68,
+        "subtotal_incl_btw": 1902.4
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 74.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 297.08,
+        "btw_bedrag": 62.39,
+        "subtotal_incl_btw": 359.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3401.61,
+      "totaal_btw": 303.7,
+      "totaal_incl_btw": 3705.31
+    }
+  }
+}

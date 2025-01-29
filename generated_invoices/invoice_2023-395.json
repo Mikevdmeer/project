@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-395",
+    "factuurdatum": "11-01-2021",
+    "vervaldatum": "11-04-2021",
+    "ordernummer": "2023-395",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 972",
+      "postcode": "7042 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "59991124"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 309.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 309.68,
+        "btw_bedrag": 27.87,
+        "subtotal_incl_btw": 337.55
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 479.33,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 958.66,
+        "btw_bedrag": 86.28,
+        "subtotal_incl_btw": 1044.94
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 91.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 183.64,
+        "btw_bedrag": 38.56,
+        "subtotal_incl_btw": 222.2
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 141.24,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 141.24,
+        "btw_bedrag": 12.71,
+        "subtotal_incl_btw": 153.95
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 437.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2189.1,
+        "btw_bedrag": 131.35,
+        "subtotal_incl_btw": 2320.45
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3782.32,
+      "totaal_btw": 296.77,
+      "totaal_incl_btw": 4079.09
+    }
+  }
+}

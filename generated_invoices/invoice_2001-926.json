@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-926",
+    "factuurdatum": "22-02-2023",
+    "vervaldatum": "24-03-2023",
+    "ordernummer": "2001-926",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 720",
+      "postcode": "3404 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "10951352"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 233.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 466.26,
+        "btw_bedrag": 97.91,
+        "subtotal_incl_btw": 564.17
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 402.79,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 402.79,
+        "btw_bedrag": 36.25,
+        "subtotal_incl_btw": 439.04
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 294.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1177.32,
+        "btw_bedrag": 247.24,
+        "subtotal_incl_btw": 1424.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2046.37,
+      "totaal_btw": 381.4,
+      "totaal_incl_btw": 2427.77
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-425",
+    "factuurdatum": "18-01-2021",
+    "vervaldatum": "17-02-2021",
+    "ordernummer": "2004-425",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 680",
+      "postcode": "1287 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "30699929"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 60.51,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 242.04,
+        "btw_bedrag": 21.78,
+        "subtotal_incl_btw": 263.82
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 242.04,
+      "totaal_btw": 21.78,
+      "totaal_incl_btw": 263.82
+    }
+  }
+}

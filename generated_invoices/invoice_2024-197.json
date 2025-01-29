@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-197",
+    "factuurdatum": "09-02-2020",
+    "vervaldatum": "09-04-2020",
+    "ordernummer": "2024-197",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 218",
+      "postcode": "6485 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "12432645"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 90.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 454.3,
+        "btw_bedrag": 40.89,
+        "subtotal_incl_btw": 495.19
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 231.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 695.91,
+        "btw_bedrag": 41.75,
+        "subtotal_incl_btw": 737.66
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 352.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 352.45,
+        "btw_bedrag": 74.01,
+        "subtotal_incl_btw": 426.46
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 241.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 967.2,
+        "btw_bedrag": 203.11,
+        "subtotal_incl_btw": 1170.31
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2469.86,
+      "totaal_btw": 359.76,
+      "totaal_incl_btw": 2829.62
+    }
+  }
+}

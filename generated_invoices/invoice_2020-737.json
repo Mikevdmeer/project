@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-737",
+    "factuurdatum": "13-02-2023",
+    "vervaldatum": "14-04-2023",
+    "ordernummer": "2020-737",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 30",
+      "postcode": "4843 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "95503986"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 321.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1285.68,
+        "btw_bedrag": 269.99,
+        "subtotal_incl_btw": 1555.67
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1285.68,
+      "totaal_btw": 269.99,
+      "totaal_incl_btw": 1555.67
+    }
+  }
+}

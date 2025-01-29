@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-674",
+    "factuurdatum": "07-04-2024",
+    "vervaldatum": "07-05-2024",
+    "ordernummer": "2014-674",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 652",
+      "postcode": "7540 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "86765177"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 319.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 959.07,
+        "btw_bedrag": 201.4,
+        "subtotal_incl_btw": 1160.47
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 364.3,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1821.5,
+        "btw_bedrag": 109.29,
+        "subtotal_incl_btw": 1930.79
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2780.57,
+      "totaal_btw": 310.69,
+      "totaal_incl_btw": 3091.26
+    }
+  }
+}

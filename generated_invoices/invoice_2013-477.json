@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-477",
+    "factuurdatum": "20-06-2020",
+    "vervaldatum": "20-07-2020",
+    "ordernummer": "2013-477",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 859",
+      "postcode": "5536 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "16496095"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 68.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 68.35,
+        "btw_bedrag": 14.35,
+        "subtotal_incl_btw": 82.7
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 241.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 725.82,
+        "btw_bedrag": 43.55,
+        "subtotal_incl_btw": 769.37
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 27.96,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 55.92,
+        "btw_bedrag": 3.36,
+        "subtotal_incl_btw": 59.28
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 850.09,
+      "totaal_btw": 61.26,
+      "totaal_incl_btw": 911.35
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-124",
+    "factuurdatum": "07-02-2022",
+    "vervaldatum": "08-04-2022",
+    "ordernummer": "2009-124",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 470",
+      "postcode": "4157 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63878943"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 79.26,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 158.52,
+        "btw_bedrag": 9.51,
+        "subtotal_incl_btw": 168.03
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 379.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 759.18,
+        "btw_bedrag": 159.43,
+        "subtotal_incl_btw": 918.61
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 917.7,
+      "totaal_btw": 168.94,
+      "totaal_incl_btw": 1086.64
+    }
+  }
+}

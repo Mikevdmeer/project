@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-371",
+    "factuurdatum": "10-06-2020",
+    "vervaldatum": "09-08-2020",
+    "ordernummer": "2014-371",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 567",
+      "postcode": "3496 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "51101239"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 381.45,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1144.35,
+        "btw_bedrag": 68.66,
+        "subtotal_incl_btw": 1213.01
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 271.39,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 271.39,
+        "btw_bedrag": 16.28,
+        "subtotal_incl_btw": 287.67
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 215.13,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 860.52,
+        "btw_bedrag": 51.63,
+        "subtotal_incl_btw": 912.15
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 411.56,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 823.12,
+        "btw_bedrag": 74.08,
+        "subtotal_incl_btw": 897.2
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 488.52,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1954.08,
+        "btw_bedrag": 175.87,
+        "subtotal_incl_btw": 2129.95
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5053.46,
+      "totaal_btw": 386.52,
+      "totaal_incl_btw": 5439.98
+    }
+  }
+}

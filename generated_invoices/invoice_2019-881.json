@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-881",
+    "factuurdatum": "12-05-2020",
+    "vervaldatum": "10-08-2020",
+    "ordernummer": "2019-881",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 416",
+      "postcode": "1878 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "21496280"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 109.26,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 109.26,
+        "btw_bedrag": 9.83,
+        "subtotal_incl_btw": 119.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 109.26,
+      "totaal_btw": 9.83,
+      "totaal_incl_btw": 119.09
+    }
+  }
+}

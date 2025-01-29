@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-425",
+    "factuurdatum": "13-06-2021",
+    "vervaldatum": "12-08-2021",
+    "ordernummer": "2015-425",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 510",
+      "postcode": "3970 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "52988451"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 312.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 625.5,
+        "btw_bedrag": 131.36,
+        "subtotal_incl_btw": 756.86
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 484.14,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1936.56,
+        "btw_bedrag": 116.19,
+        "subtotal_incl_btw": 2052.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2562.06,
+      "totaal_btw": 247.55,
+      "totaal_incl_btw": 2809.61
+    }
+  }
+}

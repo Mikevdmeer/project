@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-165",
+    "factuurdatum": "16-11-2021",
+    "vervaldatum": "14-02-2022",
+    "ordernummer": "2002-165",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 107",
+      "postcode": "1032 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "68450877"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 411.86,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1235.58,
+        "btw_bedrag": 259.47,
+        "subtotal_incl_btw": 1495.05
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 206.34,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 825.36,
+        "btw_bedrag": 49.52,
+        "subtotal_incl_btw": 874.88
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 408.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1225.41,
+        "btw_bedrag": 110.29,
+        "subtotal_incl_btw": 1335.7
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 465.98,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1863.92,
+        "btw_bedrag": 111.84,
+        "subtotal_incl_btw": 1975.76
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 120.83,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 362.49,
+        "btw_bedrag": 32.62,
+        "subtotal_incl_btw": 395.11
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5512.76,
+      "totaal_btw": 563.74,
+      "totaal_incl_btw": 6076.5
+    }
+  }
+}

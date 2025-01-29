@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-056",
+    "factuurdatum": "27-06-2023",
+    "vervaldatum": "26-08-2023",
+    "ordernummer": "2005-056",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 632",
+      "postcode": "3228 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "14108138"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 234.31,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1171.55,
+        "btw_bedrag": 105.44,
+        "subtotal_incl_btw": 1276.99
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 14.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 28.76,
+        "btw_bedrag": 6.04,
+        "subtotal_incl_btw": 34.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1200.31,
+      "totaal_btw": 111.48,
+      "totaal_incl_btw": 1311.79
+    }
+  }
+}

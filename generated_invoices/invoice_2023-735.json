@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-735",
+    "factuurdatum": "10-01-2024",
+    "vervaldatum": "09-02-2024",
+    "ordernummer": "2023-735",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 125",
+      "postcode": "1416 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "16589861"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 100.16,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 200.32,
+        "btw_bedrag": 18.03,
+        "subtotal_incl_btw": 218.35
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 473.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1892.12,
+        "btw_bedrag": 397.35,
+        "subtotal_incl_btw": 2289.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2092.44,
+      "totaal_btw": 415.38,
+      "totaal_incl_btw": 2507.82
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-636",
+    "factuurdatum": "14-09-2021",
+    "vervaldatum": "13-11-2021",
+    "ordernummer": "2016-636",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 476",
+      "postcode": "8036 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "11919980"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 32.65,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 65.3,
+        "btw_bedrag": 3.92,
+        "subtotal_incl_btw": 69.22
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 301.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 603.9,
+        "btw_bedrag": 126.82,
+        "subtotal_incl_btw": 730.72
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 431.57,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2157.85,
+        "btw_bedrag": 194.21,
+        "subtotal_incl_btw": 2352.06
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 289.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 578.42,
+        "btw_bedrag": 121.47,
+        "subtotal_incl_btw": 699.89
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3405.47,
+      "totaal_btw": 446.42,
+      "totaal_incl_btw": 3851.89
+    }
+  }
+}

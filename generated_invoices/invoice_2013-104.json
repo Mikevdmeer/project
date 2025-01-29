@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-104",
+    "factuurdatum": "02-05-2023",
+    "vervaldatum": "31-07-2023",
+    "ordernummer": "2013-104",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 59",
+      "postcode": "4624 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "35280207"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 290.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1452.4,
+        "btw_bedrag": 305.0,
+        "subtotal_incl_btw": 1757.4
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 88.09,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 176.18,
+        "btw_bedrag": 15.86,
+        "subtotal_incl_btw": 192.04
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 264.16,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1056.64,
+        "btw_bedrag": 95.1,
+        "subtotal_incl_btw": 1151.74
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2685.22,
+      "totaal_btw": 415.96,
+      "totaal_incl_btw": 3101.18
+    }
+  }
+}

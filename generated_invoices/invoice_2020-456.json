@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-456",
+    "factuurdatum": "05-04-2022",
+    "vervaldatum": "04-07-2022",
+    "ordernummer": "2020-456",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 230",
+      "postcode": "1089 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "17357534"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 170.59,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 170.59,
+        "btw_bedrag": 10.24,
+        "subtotal_incl_btw": 180.83
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 342.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 684.22,
+        "btw_bedrag": 143.69,
+        "subtotal_incl_btw": 827.91
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 854.81,
+      "totaal_btw": 153.93,
+      "totaal_incl_btw": 1008.74
+    }
+  }
+}

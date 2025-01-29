@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-174",
+    "factuurdatum": "10-09-2022",
+    "vervaldatum": "09-11-2022",
+    "ordernummer": "2022-174",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 428",
+      "postcode": "1007 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "30616776"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 182.55,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 182.55,
+        "btw_bedrag": 38.34,
+        "subtotal_incl_btw": 220.89
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 248.74,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 746.22,
+        "btw_bedrag": 67.16,
+        "subtotal_incl_btw": 813.38
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 207.37,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 829.48,
+        "btw_bedrag": 74.65,
+        "subtotal_incl_btw": 904.13
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 395.5,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 395.5,
+        "btw_bedrag": 23.73,
+        "subtotal_incl_btw": 419.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2153.75,
+      "totaal_btw": 203.88,
+      "totaal_incl_btw": 2357.63
+    }
+  }
+}

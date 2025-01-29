@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-204",
+    "factuurdatum": "09-09-2020",
+    "vervaldatum": "09-10-2020",
+    "ordernummer": "2003-204",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 586",
+      "postcode": "5398 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "91925903"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 239.29,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1196.45,
+        "btw_bedrag": 71.79,
+        "subtotal_incl_btw": 1268.24
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 214.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 644.82,
+        "btw_bedrag": 135.41,
+        "subtotal_incl_btw": 780.23
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 201.55,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1007.75,
+        "btw_bedrag": 90.7,
+        "subtotal_incl_btw": 1098.45
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 18.49,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 36.98,
+        "btw_bedrag": 3.33,
+        "subtotal_incl_btw": 40.31
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 222.02,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 666.06,
+        "btw_bedrag": 39.96,
+        "subtotal_incl_btw": 706.02
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3552.06,
+      "totaal_btw": 341.19,
+      "totaal_incl_btw": 3893.25
+    }
+  }
+}

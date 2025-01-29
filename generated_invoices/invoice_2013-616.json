@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-616",
+    "factuurdatum": "10-06-2022",
+    "vervaldatum": "08-09-2022",
+    "ordernummer": "2013-616",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 762",
+      "postcode": "8366 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "28976307"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 290.38,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 580.76,
+        "btw_bedrag": 34.85,
+        "subtotal_incl_btw": 615.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 218.28,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 218.28,
+        "btw_bedrag": 19.65,
+        "subtotal_incl_btw": 237.93
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 379.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1896.4,
+        "btw_bedrag": 398.24,
+        "subtotal_incl_btw": 2294.64
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 268.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1072.52,
+        "btw_bedrag": 225.23,
+        "subtotal_incl_btw": 1297.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3767.96,
+      "totaal_btw": 677.97,
+      "totaal_incl_btw": 4445.93
+    }
+  }
+}

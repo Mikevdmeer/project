@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-126",
+    "factuurdatum": "03-08-2021",
+    "vervaldatum": "02-10-2021",
+    "ordernummer": "2006-126",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 776",
+      "postcode": "2770 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "30043002"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 370.72,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1853.6,
+        "btw_bedrag": 166.82,
+        "subtotal_incl_btw": 2020.42
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1853.6,
+      "totaal_btw": 166.82,
+      "totaal_incl_btw": 2020.42
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-436",
+    "factuurdatum": "25-11-2020",
+    "vervaldatum": "23-02-2021",
+    "ordernummer": "2020-436",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 543",
+      "postcode": "4285 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "93910794"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 76.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 305.28,
+        "btw_bedrag": 64.11,
+        "subtotal_incl_btw": 369.39
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 305.28,
+      "totaal_btw": 64.11,
+      "totaal_incl_btw": 369.39
+    }
+  }
+}

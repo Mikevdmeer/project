@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-980",
+    "factuurdatum": "18-05-2020",
+    "vervaldatum": "17-06-2020",
+    "ordernummer": "2001-980",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 676",
+      "postcode": "2272 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82551216"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 233.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 467.46,
+        "btw_bedrag": 98.17,
+        "subtotal_incl_btw": 565.63
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 378.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1894.3,
+        "btw_bedrag": 170.49,
+        "subtotal_incl_btw": 2064.79
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2361.76,
+      "totaal_btw": 268.66,
+      "totaal_incl_btw": 2630.42
+    }
+  }
+}

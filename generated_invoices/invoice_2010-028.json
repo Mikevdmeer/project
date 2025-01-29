@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-028",
+    "factuurdatum": "27-12-2023",
+    "vervaldatum": "25-02-2024",
+    "ordernummer": "2010-028",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 668",
+      "postcode": "3183 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "45817551"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 225.46,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 225.46,
+        "btw_bedrag": 13.53,
+        "subtotal_incl_btw": 238.99
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 240.46,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 480.92,
+        "btw_bedrag": 28.86,
+        "subtotal_incl_btw": 509.78
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 338.9,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1355.6,
+        "btw_bedrag": 81.34,
+        "subtotal_incl_btw": 1436.94
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 24.74,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 24.74,
+        "btw_bedrag": 2.23,
+        "subtotal_incl_btw": 26.97
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2086.72,
+      "totaal_btw": 125.96,
+      "totaal_incl_btw": 2212.68
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-018",
+    "factuurdatum": "01-04-2021",
+    "vervaldatum": "01-05-2021",
+    "ordernummer": "2000-018",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 383",
+      "postcode": "7398 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "86358703"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 459.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 919.34,
+        "btw_bedrag": 193.06,
+        "subtotal_incl_btw": 1112.4
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 919.34,
+      "totaal_btw": 193.06,
+      "totaal_incl_btw": 1112.4
+    }
+  }
+}

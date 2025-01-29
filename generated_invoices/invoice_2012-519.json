@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-519",
+    "factuurdatum": "17-04-2021",
+    "vervaldatum": "17-05-2021",
+    "ordernummer": "2012-519",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 772",
+      "postcode": "2040 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "65381485"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 32.48,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 162.4,
+        "btw_bedrag": 9.74,
+        "subtotal_incl_btw": 172.14
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 301.08,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 602.16,
+        "btw_bedrag": 54.19,
+        "subtotal_incl_btw": 656.35
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 223.13,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 669.39,
+        "btw_bedrag": 40.16,
+        "subtotal_incl_btw": 709.55
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 24.15,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 72.45,
+        "btw_bedrag": 4.35,
+        "subtotal_incl_btw": 76.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1506.4,
+      "totaal_btw": 108.44,
+      "totaal_incl_btw": 1614.84
+    }
+  }
+}

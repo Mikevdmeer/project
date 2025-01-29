@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-863",
+    "factuurdatum": "24-02-2023",
+    "vervaldatum": "26-03-2023",
+    "ordernummer": "2011-863",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 751",
+      "postcode": "6400 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "65693359"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 225.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 677.88,
+        "btw_bedrag": 142.35,
+        "subtotal_incl_btw": 820.23
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 298.26,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1193.04,
+        "btw_bedrag": 71.58,
+        "subtotal_incl_btw": 1264.62
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 290.42,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 290.42,
+        "btw_bedrag": 26.14,
+        "subtotal_incl_btw": 316.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2161.34,
+      "totaal_btw": 240.07,
+      "totaal_incl_btw": 2401.41
+    }
+  }
+}

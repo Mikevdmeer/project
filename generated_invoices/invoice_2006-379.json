@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-379",
+    "factuurdatum": "02-09-2021",
+    "vervaldatum": "01-12-2021",
+    "ordernummer": "2006-379",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 691",
+      "postcode": "2031 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "50122745"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 422.8,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1691.2,
+        "btw_bedrag": 152.21,
+        "subtotal_incl_btw": 1843.41
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 80.69,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 161.38,
+        "btw_bedrag": 9.68,
+        "subtotal_incl_btw": 171.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1852.58,
+      "totaal_btw": 161.89,
+      "totaal_incl_btw": 2014.47
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-692",
+    "factuurdatum": "01-04-2023",
+    "vervaldatum": "01-05-2023",
+    "ordernummer": "2011-692",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 384",
+      "postcode": "3414 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "44083347"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 436.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1746.48,
+        "btw_bedrag": 366.76,
+        "subtotal_incl_btw": 2113.24
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 437.49,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 437.49,
+        "btw_bedrag": 26.25,
+        "subtotal_incl_btw": 463.74
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 393.89,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 787.78,
+        "btw_bedrag": 70.9,
+        "subtotal_incl_btw": 858.68
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 130.69,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 653.45,
+        "btw_bedrag": 39.21,
+        "subtotal_incl_btw": 692.66
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 350.57,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1402.28,
+        "btw_bedrag": 294.48,
+        "subtotal_incl_btw": 1696.76
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5027.48,
+      "totaal_btw": 797.6,
+      "totaal_incl_btw": 5825.08
+    }
+  }
+}

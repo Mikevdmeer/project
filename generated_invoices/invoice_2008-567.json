@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-567",
+    "factuurdatum": "05-08-2020",
+    "vervaldatum": "04-10-2020",
+    "ordernummer": "2008-567",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 606",
+      "postcode": "2268 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "55909510"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 418.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 837.88,
+        "btw_bedrag": 175.95,
+        "subtotal_incl_btw": 1013.83
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 272.77,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 545.54,
+        "btw_bedrag": 49.1,
+        "subtotal_incl_btw": 594.64
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 128.31,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 641.55,
+        "btw_bedrag": 57.74,
+        "subtotal_incl_btw": 699.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2024.97,
+      "totaal_btw": 282.79,
+      "totaal_incl_btw": 2307.76
+    }
+  }
+}

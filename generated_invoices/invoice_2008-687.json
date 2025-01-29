@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-687",
+    "factuurdatum": "11-08-2024",
+    "vervaldatum": "09-11-2024",
+    "ordernummer": "2008-687",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 314",
+      "postcode": "3338 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "68152634"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 13.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 27.72,
+        "btw_bedrag": 2.49,
+        "subtotal_incl_btw": 30.21
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 349.02,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 698.04,
+        "btw_bedrag": 41.88,
+        "subtotal_incl_btw": 739.92
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 462.6,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 925.2,
+        "btw_bedrag": 55.51,
+        "subtotal_incl_btw": 980.71
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1650.96,
+      "totaal_btw": 99.88,
+      "totaal_incl_btw": 1750.84
+    }
+  }
+}

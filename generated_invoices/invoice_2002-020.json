@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-020",
+    "factuurdatum": "15-04-2023",
+    "vervaldatum": "15-05-2023",
+    "ordernummer": "2002-020",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 818",
+      "postcode": "1140 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95341091"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 350.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1050.33,
+        "btw_bedrag": 220.57,
+        "subtotal_incl_btw": 1270.9
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 64.97,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 64.97,
+        "btw_bedrag": 5.85,
+        "subtotal_incl_btw": 70.82
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 207.15,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 207.15,
+        "btw_bedrag": 18.64,
+        "subtotal_incl_btw": 225.79
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 142.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 427.86,
+        "btw_bedrag": 89.85,
+        "subtotal_incl_btw": 517.71
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 212.61,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 850.44,
+        "btw_bedrag": 51.03,
+        "subtotal_incl_btw": 901.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2600.75,
+      "totaal_btw": 385.94,
+      "totaal_incl_btw": 2986.69
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-580",
+    "factuurdatum": "14-07-2021",
+    "vervaldatum": "13-08-2021",
+    "ordernummer": "2019-580",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 865",
+      "postcode": "6622 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "68532343"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 52.71,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 105.42,
+        "btw_bedrag": 6.33,
+        "subtotal_incl_btw": 111.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 105.42,
+      "totaal_btw": 6.33,
+      "totaal_incl_btw": 111.75
+    }
+  }
+}

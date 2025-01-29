@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-409",
+    "factuurdatum": "11-03-2024",
+    "vervaldatum": "09-06-2024",
+    "ordernummer": "2019-409",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 220",
+      "postcode": "9584 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "73070220"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 51.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 51.68,
+        "btw_bedrag": 4.65,
+        "subtotal_incl_btw": 56.33
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 253.04,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1012.16,
+        "btw_bedrag": 60.73,
+        "subtotal_incl_btw": 1072.89
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 448.21,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 896.42,
+        "btw_bedrag": 53.79,
+        "subtotal_incl_btw": 950.21
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1960.26,
+      "totaal_btw": 119.17,
+      "totaal_incl_btw": 2079.43
+    }
+  }
+}

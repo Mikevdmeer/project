@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-964",
+    "factuurdatum": "19-07-2020",
+    "vervaldatum": "17-10-2020",
+    "ordernummer": "2007-964",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 327",
+      "postcode": "9734 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "87742531"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 325.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 325.5,
+        "btw_bedrag": 68.36,
+        "subtotal_incl_btw": 393.86
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 53.79,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 53.79,
+        "btw_bedrag": 4.84,
+        "subtotal_incl_btw": 58.63
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 379.29,
+      "totaal_btw": 73.2,
+      "totaal_incl_btw": 452.49
+    }
+  }
+}

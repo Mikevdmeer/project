@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-749",
+    "factuurdatum": "20-08-2023",
+    "vervaldatum": "19-09-2023",
+    "ordernummer": "2008-749",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 952",
+      "postcode": "3841 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "75725908"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 272.46,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1089.84,
+        "btw_bedrag": 65.39,
+        "subtotal_incl_btw": 1155.23
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 225.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 225.66,
+        "btw_bedrag": 47.39,
+        "subtotal_incl_btw": 273.05
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 476.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1429.98,
+        "btw_bedrag": 300.3,
+        "subtotal_incl_btw": 1730.28
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 335.71,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1342.84,
+        "btw_bedrag": 80.57,
+        "subtotal_incl_btw": 1423.41
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 347.23,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1388.92,
+        "btw_bedrag": 83.34,
+        "subtotal_incl_btw": 1472.26
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5477.24,
+      "totaal_btw": 576.99,
+      "totaal_incl_btw": 6054.23
+    }
+  }
+}

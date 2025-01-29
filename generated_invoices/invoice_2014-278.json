@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-278",
+    "factuurdatum": "09-10-2024",
+    "vervaldatum": "08-12-2024",
+    "ordernummer": "2014-278",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 116",
+      "postcode": "5021 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "36087458"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 411.87,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 411.87,
+        "btw_bedrag": 37.07,
+        "subtotal_incl_btw": 448.94
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 172.09,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 860.45,
+        "btw_bedrag": 77.44,
+        "subtotal_incl_btw": 937.89
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 56.75,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 56.75,
+        "btw_bedrag": 3.41,
+        "subtotal_incl_btw": 60.16
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 69.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 138.74,
+        "btw_bedrag": 29.14,
+        "subtotal_incl_btw": 167.88
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 242.37,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1211.85,
+        "btw_bedrag": 109.07,
+        "subtotal_incl_btw": 1320.92
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2679.66,
+      "totaal_btw": 256.13,
+      "totaal_incl_btw": 2935.79
+    }
+  }
+}

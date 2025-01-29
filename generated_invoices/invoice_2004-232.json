@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-232",
+    "factuurdatum": "04-08-2023",
+    "vervaldatum": "03-09-2023",
+    "ordernummer": "2004-232",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 59",
+      "postcode": "3760 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "79761025"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 81.42,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 407.1,
+        "btw_bedrag": 24.43,
+        "subtotal_incl_btw": 431.53
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 128.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 384.81,
+        "btw_bedrag": 80.81,
+        "subtotal_incl_btw": 465.62
+      },
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 148.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 595.0,
+        "btw_bedrag": 53.55,
+        "subtotal_incl_btw": 648.55
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 25.01,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 25.01,
+        "btw_bedrag": 1.5,
+        "subtotal_incl_btw": 26.51
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1411.92,
+      "totaal_btw": 160.29,
+      "totaal_incl_btw": 1572.21
+    }
+  }
+}

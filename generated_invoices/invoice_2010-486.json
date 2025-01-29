@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-486",
+    "factuurdatum": "01-11-2022",
+    "vervaldatum": "01-12-2022",
+    "ordernummer": "2010-486",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 871",
+      "postcode": "5736 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "18551235"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 195.57,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 391.14,
+        "btw_bedrag": 82.14,
+        "subtotal_incl_btw": 473.28
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 368.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 368.19,
+        "btw_bedrag": 77.32,
+        "subtotal_incl_btw": 445.51
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 445.91,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2229.55,
+        "btw_bedrag": 133.77,
+        "subtotal_incl_btw": 2363.32
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 301.37,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 602.74,
+        "btw_bedrag": 54.25,
+        "subtotal_incl_btw": 656.99
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 51.8,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 207.2,
+        "btw_bedrag": 18.65,
+        "subtotal_incl_btw": 225.85
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3798.82,
+      "totaal_btw": 366.13,
+      "totaal_incl_btw": 4164.95
+    }
+  }
+}

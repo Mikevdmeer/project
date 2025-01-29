@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-346",
+    "factuurdatum": "24-02-2023",
+    "vervaldatum": "26-03-2023",
+    "ordernummer": "2022-346",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 811",
+      "postcode": "5615 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "95612740"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 192.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 771.0,
+        "btw_bedrag": 69.39,
+        "subtotal_incl_btw": 840.39
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 121.66,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 486.64,
+        "btw_bedrag": 43.8,
+        "subtotal_incl_btw": 530.44
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 499.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 499.07,
+        "btw_bedrag": 29.94,
+        "subtotal_incl_btw": 529.01
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 58.42,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 292.1,
+        "btw_bedrag": 26.29,
+        "subtotal_incl_btw": 318.39
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 309.16,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1236.64,
+        "btw_bedrag": 74.2,
+        "subtotal_incl_btw": 1310.84
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3285.45,
+      "totaal_btw": 243.62,
+      "totaal_incl_btw": 3529.07
+    }
+  }
+}

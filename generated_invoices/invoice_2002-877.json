@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-877",
+    "factuurdatum": "18-08-2024",
+    "vervaldatum": "17-10-2024",
+    "ordernummer": "2002-877",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 581",
+      "postcode": "4627 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "12644011"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 189.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 567.18,
+        "btw_bedrag": 119.11,
+        "subtotal_incl_btw": 686.29
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 423.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2117.35,
+        "btw_bedrag": 190.56,
+        "subtotal_incl_btw": 2307.91
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2684.53,
+      "totaal_btw": 309.67,
+      "totaal_incl_btw": 2994.2
+    }
+  }
+}

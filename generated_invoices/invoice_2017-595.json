@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-595",
+    "factuurdatum": "01-12-2021",
+    "vervaldatum": "30-01-2022",
+    "ordernummer": "2017-595",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 767",
+      "postcode": "2334 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "20552614"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 38.17,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 152.68,
+        "btw_bedrag": 13.74,
+        "subtotal_incl_btw": 166.42
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 407.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 814.2,
+        "btw_bedrag": 170.98,
+        "subtotal_incl_btw": 985.18
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 390.09,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1170.27,
+        "btw_bedrag": 70.22,
+        "subtotal_incl_btw": 1240.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2137.15,
+      "totaal_btw": 254.94,
+      "totaal_incl_btw": 2392.09
+    }
+  }
+}

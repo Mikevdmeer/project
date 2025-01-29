@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-590",
+    "factuurdatum": "14-01-2020",
+    "vervaldatum": "13-02-2020",
+    "ordernummer": "2005-590",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 693",
+      "postcode": "4011 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "17581410"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 92.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 184.54,
+        "btw_bedrag": 38.75,
+        "subtotal_incl_btw": 223.29
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 409.09,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1227.27,
+        "btw_bedrag": 110.45,
+        "subtotal_incl_btw": 1337.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1411.81,
+      "totaal_btw": 149.2,
+      "totaal_incl_btw": 1561.01
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-246",
+    "factuurdatum": "19-10-2024",
+    "vervaldatum": "17-01-2025",
+    "ordernummer": "2005-246",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 280",
+      "postcode": "2600 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "12135110"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 288.99,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 288.99,
+        "btw_bedrag": 26.01,
+        "subtotal_incl_btw": 315.0
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 159.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 159.38,
+        "btw_bedrag": 33.47,
+        "subtotal_incl_btw": 192.85
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 448.37,
+      "totaal_btw": 59.48,
+      "totaal_incl_btw": 507.85
+    }
+  }
+}

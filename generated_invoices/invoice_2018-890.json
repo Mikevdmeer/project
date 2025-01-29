@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-890",
+    "factuurdatum": "17-05-2020",
+    "vervaldatum": "16-06-2020",
+    "ordernummer": "2018-890",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 753",
+      "postcode": "3738 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "28292039"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 346.39,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1039.17,
+        "btw_bedrag": 93.53,
+        "subtotal_incl_btw": 1132.7
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 245.99,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 491.98,
+        "btw_bedrag": 44.28,
+        "subtotal_incl_btw": 536.26
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 366.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1100.46,
+        "btw_bedrag": 66.03,
+        "subtotal_incl_btw": 1166.49
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 138.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 138.92,
+        "btw_bedrag": 8.34,
+        "subtotal_incl_btw": 147.26
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2770.53,
+      "totaal_btw": 212.18,
+      "totaal_incl_btw": 2982.71
+    }
+  }
+}

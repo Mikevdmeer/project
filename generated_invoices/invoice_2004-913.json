@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-913",
+    "factuurdatum": "14-06-2023",
+    "vervaldatum": "14-07-2023",
+    "ordernummer": "2004-913",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 322",
+      "postcode": "7204 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "76036911"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 313.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1253.68,
+        "btw_bedrag": 263.27,
+        "subtotal_incl_btw": 1516.95
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 308.57,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 925.71,
+        "btw_bedrag": 55.54,
+        "subtotal_incl_btw": 981.25
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 170.89,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 170.89,
+        "btw_bedrag": 35.89,
+        "subtotal_incl_btw": 206.78
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2350.28,
+      "totaal_btw": 354.7,
+      "totaal_incl_btw": 2704.98
+    }
+  }
+}

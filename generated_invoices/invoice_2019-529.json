@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-529",
+    "factuurdatum": "28-04-2020",
+    "vervaldatum": "28-05-2020",
+    "ordernummer": "2019-529",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 511",
+      "postcode": "6900 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "62924420"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 440.73,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 440.73,
+        "btw_bedrag": 26.44,
+        "subtotal_incl_btw": 467.17
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 305.72,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 611.44,
+        "btw_bedrag": 36.69,
+        "subtotal_incl_btw": 648.13
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 82.56,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 412.8,
+        "btw_bedrag": 37.15,
+        "subtotal_incl_btw": 449.95
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 185.34,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 370.68,
+        "btw_bedrag": 33.36,
+        "subtotal_incl_btw": 404.04
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 56.08,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 168.24,
+        "btw_bedrag": 10.09,
+        "subtotal_incl_btw": 178.33
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2003.89,
+      "totaal_btw": 143.73,
+      "totaal_incl_btw": 2147.62
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-665",
+    "factuurdatum": "18-12-2023",
+    "vervaldatum": "17-01-2024",
+    "ordernummer": "2006-665",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 732",
+      "postcode": "4337 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "83893532"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 85.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 171.96,
+        "btw_bedrag": 36.11,
+        "subtotal_incl_btw": 208.07
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 188.72,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 754.88,
+        "btw_bedrag": 45.29,
+        "subtotal_incl_btw": 800.17
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 434.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 434.32,
+        "btw_bedrag": 91.21,
+        "subtotal_incl_btw": 525.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1361.16,
+      "totaal_btw": 172.61,
+      "totaal_incl_btw": 1533.77
+    }
+  }
+}

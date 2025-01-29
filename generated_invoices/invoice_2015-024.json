@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-024",
+    "factuurdatum": "25-09-2021",
+    "vervaldatum": "24-12-2021",
+    "ordernummer": "2015-024",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 134",
+      "postcode": "8961 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "24480129"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 334.72,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1338.88,
+        "btw_bedrag": 120.5,
+        "subtotal_incl_btw": 1459.38
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 336.32,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1681.6,
+        "btw_bedrag": 100.9,
+        "subtotal_incl_btw": 1782.5
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 55.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 223.32,
+        "btw_bedrag": 46.9,
+        "subtotal_incl_btw": 270.22
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3243.8,
+      "totaal_btw": 268.3,
+      "totaal_incl_btw": 3512.1
+    }
+  }
+}

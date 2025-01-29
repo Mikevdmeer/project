@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-760",
+    "factuurdatum": "19-06-2021",
+    "vervaldatum": "18-08-2021",
+    "ordernummer": "2022-760",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 83",
+      "postcode": "6747 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "92144036"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 197.72,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 790.88,
+        "btw_bedrag": 166.08,
+        "subtotal_incl_btw": 956.96
+      },
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 244.48,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 488.96,
+        "btw_bedrag": 44.01,
+        "subtotal_incl_btw": 532.97
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 115.67,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 578.35,
+        "btw_bedrag": 52.05,
+        "subtotal_incl_btw": 630.4
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 154.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 771.75,
+        "btw_bedrag": 162.07,
+        "subtotal_incl_btw": 933.82
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2629.94,
+      "totaal_btw": 424.21,
+      "totaal_incl_btw": 3054.15
+    }
+  }
+}

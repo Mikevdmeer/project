@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-876",
+    "factuurdatum": "15-10-2020",
+    "vervaldatum": "14-12-2020",
+    "ordernummer": "2011-876",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 102",
+      "postcode": "2461 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "20173782"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 443.25,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1329.75,
+        "btw_bedrag": 79.79,
+        "subtotal_incl_btw": 1409.54
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 236.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 945.08,
+        "btw_bedrag": 198.47,
+        "subtotal_incl_btw": 1143.55
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 178.6,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 357.2,
+        "btw_bedrag": 75.01,
+        "subtotal_incl_btw": 432.21
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 456.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 456.94,
+        "btw_bedrag": 95.96,
+        "subtotal_incl_btw": 552.9
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3088.97,
+      "totaal_btw": 449.23,
+      "totaal_incl_btw": 3538.2
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-895",
+    "factuurdatum": "03-07-2023",
+    "vervaldatum": "01-10-2023",
+    "ordernummer": "2019-895",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 603",
+      "postcode": "1933 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "65736258"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 304.22,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1521.1,
+        "btw_bedrag": 136.9,
+        "subtotal_incl_btw": 1658.0
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 155.12,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 620.48,
+        "btw_bedrag": 37.23,
+        "subtotal_incl_btw": 657.71
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 389.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 389.68,
+        "btw_bedrag": 35.07,
+        "subtotal_incl_btw": 424.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2531.26,
+      "totaal_btw": 209.2,
+      "totaal_incl_btw": 2740.46
+    }
+  }
+}

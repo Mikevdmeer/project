@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-655",
+    "factuurdatum": "05-10-2020",
+    "vervaldatum": "04-11-2020",
+    "ordernummer": "2020-655",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 449",
+      "postcode": "5959 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "76482014"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 497.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1491.36,
+        "btw_bedrag": 313.19,
+        "subtotal_incl_btw": 1804.55
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 48.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 97.7,
+        "btw_bedrag": 20.52,
+        "subtotal_incl_btw": 118.22
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 95.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 287.91,
+        "btw_bedrag": 17.27,
+        "subtotal_incl_btw": 305.18
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 424.95,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1274.85,
+        "btw_bedrag": 76.49,
+        "subtotal_incl_btw": 1351.34
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 314.99,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1574.95,
+        "btw_bedrag": 94.5,
+        "subtotal_incl_btw": 1669.45
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4726.77,
+      "totaal_btw": 521.97,
+      "totaal_incl_btw": 5248.74
+    }
+  }
+}

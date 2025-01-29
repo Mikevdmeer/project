@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-381",
+    "factuurdatum": "18-07-2024",
+    "vervaldatum": "16-10-2024",
+    "ordernummer": "2002-381",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 381",
+      "postcode": "8281 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "26804255"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 153.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 769.7,
+        "btw_bedrag": 161.64,
+        "subtotal_incl_btw": 931.34
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 100.81,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 100.81,
+        "btw_bedrag": 9.07,
+        "subtotal_incl_btw": 109.88
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 156.12,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 780.6,
+        "btw_bedrag": 70.25,
+        "subtotal_incl_btw": 850.85
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1651.11,
+      "totaal_btw": 240.96,
+      "totaal_incl_btw": 1892.07
+    }
+  }
+}

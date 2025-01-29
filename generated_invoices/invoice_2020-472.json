@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-472",
+    "factuurdatum": "08-05-2023",
+    "vervaldatum": "07-07-2023",
+    "ordernummer": "2020-472",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 193",
+      "postcode": "4187 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "28083599"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 51.97,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 51.97,
+        "btw_bedrag": 10.91,
+        "subtotal_incl_btw": 62.88
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 89.4,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 357.6,
+        "btw_bedrag": 21.46,
+        "subtotal_incl_btw": 379.06
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 337.56,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1687.8,
+        "btw_bedrag": 151.9,
+        "subtotal_incl_btw": 1839.7
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2097.37,
+      "totaal_btw": 184.27,
+      "totaal_incl_btw": 2281.64
+    }
+  }
+}

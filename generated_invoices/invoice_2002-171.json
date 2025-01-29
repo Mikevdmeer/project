@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-171",
+    "factuurdatum": "07-05-2023",
+    "vervaldatum": "05-08-2023",
+    "ordernummer": "2002-171",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 679",
+      "postcode": "5028 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "47820385"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 486.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1945.72,
+        "btw_bedrag": 408.6,
+        "subtotal_incl_btw": 2354.32
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1945.72,
+      "totaal_btw": 408.6,
+      "totaal_incl_btw": 2354.32
+    }
+  }
+}

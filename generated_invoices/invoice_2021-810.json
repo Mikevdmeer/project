@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-810",
+    "factuurdatum": "27-03-2024",
+    "vervaldatum": "25-06-2024",
+    "ordernummer": "2021-810",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 594",
+      "postcode": "7663 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "82147770"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 254.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 254.41,
+        "btw_bedrag": 53.43,
+        "subtotal_incl_btw": 307.84
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 289.18,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 289.18,
+        "btw_bedrag": 17.35,
+        "subtotal_incl_btw": 306.53
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 439.38,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 439.38,
+        "btw_bedrag": 26.36,
+        "subtotal_incl_btw": 465.74
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 429.23,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1716.92,
+        "btw_bedrag": 103.02,
+        "subtotal_incl_btw": 1819.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2699.89,
+      "totaal_btw": 200.16,
+      "totaal_incl_btw": 2900.05
+    }
+  }
+}

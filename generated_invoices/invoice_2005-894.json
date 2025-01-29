@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-894",
+    "factuurdatum": "25-06-2021",
+    "vervaldatum": "23-09-2021",
+    "ordernummer": "2005-894",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 305",
+      "postcode": "2214 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "29063261"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 483.6,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 483.6,
+        "btw_bedrag": 29.02,
+        "subtotal_incl_btw": 512.62
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 242.15,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 484.3,
+        "btw_bedrag": 29.06,
+        "subtotal_incl_btw": 513.36
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 222.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 668.91,
+        "btw_bedrag": 40.13,
+        "subtotal_incl_btw": 709.04
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 366.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1465.88,
+        "btw_bedrag": 131.93,
+        "subtotal_incl_btw": 1597.81
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 69.77,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 209.31,
+        "btw_bedrag": 12.56,
+        "subtotal_incl_btw": 221.87
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3312.0,
+      "totaal_btw": 242.7,
+      "totaal_incl_btw": 3554.7
+    }
+  }
+}

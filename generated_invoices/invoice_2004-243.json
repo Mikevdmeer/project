@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-243",
+    "factuurdatum": "08-09-2022",
+    "vervaldatum": "07-12-2022",
+    "ordernummer": "2004-243",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 486",
+      "postcode": "7631 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "29274363"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 368.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 737.4,
+        "btw_bedrag": 154.85,
+        "subtotal_incl_btw": 892.25
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 478.84,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 478.84,
+        "btw_bedrag": 43.1,
+        "subtotal_incl_btw": 521.94
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 140.66,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 281.32,
+        "btw_bedrag": 25.32,
+        "subtotal_incl_btw": 306.64
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1497.56,
+      "totaal_btw": 223.27,
+      "totaal_incl_btw": 1720.83
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-298",
+    "factuurdatum": "12-03-2022",
+    "vervaldatum": "11-04-2022",
+    "ordernummer": "2024-298",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 551",
+      "postcode": "5005 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "53534336"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 73.89,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 147.78,
+        "btw_bedrag": 8.87,
+        "subtotal_incl_btw": 156.65
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 47.05,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 188.2,
+        "btw_bedrag": 16.94,
+        "subtotal_incl_btw": 205.14
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 335.98,
+      "totaal_btw": 25.81,
+      "totaal_incl_btw": 361.79
+    }
+  }
+}

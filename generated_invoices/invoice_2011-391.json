@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-391",
+    "factuurdatum": "16-10-2020",
+    "vervaldatum": "15-12-2020",
+    "ordernummer": "2011-391",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 683",
+      "postcode": "1190 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "27158677"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 383.42,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1150.26,
+        "btw_bedrag": 69.02,
+        "subtotal_incl_btw": 1219.28
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 44.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 44.11,
+        "btw_bedrag": 9.26,
+        "subtotal_incl_btw": 53.37
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1194.37,
+      "totaal_btw": 78.28,
+      "totaal_incl_btw": 1272.65
+    }
+  }
+}

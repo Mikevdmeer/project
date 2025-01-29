@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-521",
+    "factuurdatum": "18-02-2023",
+    "vervaldatum": "19-05-2023",
+    "ordernummer": "2005-521",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 577",
+      "postcode": "6677 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "32776593"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 178.56,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 178.56,
+        "btw_bedrag": 10.71,
+        "subtotal_incl_btw": 189.27
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 384.43,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1537.72,
+        "btw_bedrag": 92.26,
+        "subtotal_incl_btw": 1629.98
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1716.28,
+      "totaal_btw": 102.97,
+      "totaal_incl_btw": 1819.25
+    }
+  }
+}

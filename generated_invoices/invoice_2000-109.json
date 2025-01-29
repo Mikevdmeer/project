@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-109",
+    "factuurdatum": "26-02-2021",
+    "vervaldatum": "27-04-2021",
+    "ordernummer": "2000-109",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 700",
+      "postcode": "4255 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "88573165"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 395.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1187.64,
+        "btw_bedrag": 249.4,
+        "subtotal_incl_btw": 1437.04
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 410.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1232.55,
+        "btw_bedrag": 258.84,
+        "subtotal_incl_btw": 1491.39
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2420.19,
+      "totaal_btw": 508.24,
+      "totaal_incl_btw": 2928.43
+    }
+  }
+}

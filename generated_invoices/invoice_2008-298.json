@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-298",
+    "factuurdatum": "11-03-2021",
+    "vervaldatum": "10-04-2021",
+    "ordernummer": "2008-298",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 205",
+      "postcode": "4210 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "67453871"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 442.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1328.52,
+        "btw_bedrag": 278.99,
+        "subtotal_incl_btw": 1607.51
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 163.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 489.69,
+        "btw_bedrag": 102.83,
+        "subtotal_incl_btw": 592.52
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 131.89,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 263.78,
+        "btw_bedrag": 15.83,
+        "subtotal_incl_btw": 279.61
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 58.54,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 175.62,
+        "btw_bedrag": 15.81,
+        "subtotal_incl_btw": 191.43
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2257.61,
+      "totaal_btw": 413.46,
+      "totaal_incl_btw": 2671.07
+    }
+  }
+}

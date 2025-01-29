@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-550",
+    "factuurdatum": "12-02-2024",
+    "vervaldatum": "12-04-2024",
+    "ordernummer": "2017-550",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 588",
+      "postcode": "9889 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94568647"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 166.52,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 166.52,
+        "btw_bedrag": 14.99,
+        "subtotal_incl_btw": 181.51
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 458.45,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1375.35,
+        "btw_bedrag": 123.78,
+        "subtotal_incl_btw": 1499.13
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 104.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 524.2,
+        "btw_bedrag": 110.08,
+        "subtotal_incl_btw": 634.28
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 258.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 258.65,
+        "btw_bedrag": 54.32,
+        "subtotal_incl_btw": 312.97
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 460.55,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 921.1,
+        "btw_bedrag": 55.27,
+        "subtotal_incl_btw": 976.37
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3245.82,
+      "totaal_btw": 358.44,
+      "totaal_incl_btw": 3604.26
+    }
+  }
+}

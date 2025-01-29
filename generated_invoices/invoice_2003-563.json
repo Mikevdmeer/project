@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-563",
+    "factuurdatum": "09-01-2022",
+    "vervaldatum": "09-04-2022",
+    "ordernummer": "2003-563",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 395",
+      "postcode": "2521 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "93250137"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 27.69,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 27.69,
+        "btw_bedrag": 2.49,
+        "subtotal_incl_btw": 30.18
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 476.87,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1430.61,
+        "btw_bedrag": 128.75,
+        "subtotal_incl_btw": 1559.36
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1458.3,
+      "totaal_btw": 131.24,
+      "totaal_incl_btw": 1589.54
+    }
+  }
+}

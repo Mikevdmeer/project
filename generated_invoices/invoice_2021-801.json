@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-801",
+    "factuurdatum": "14-09-2023",
+    "vervaldatum": "13-12-2023",
+    "ordernummer": "2021-801",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 198",
+      "postcode": "9035 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "32186258"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 243.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 243.98,
+        "btw_bedrag": 51.24,
+        "subtotal_incl_btw": 295.22
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 472.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 472.82,
+        "btw_bedrag": 99.29,
+        "subtotal_incl_btw": 572.11
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 432.39,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 432.39,
+        "btw_bedrag": 38.92,
+        "subtotal_incl_btw": 471.31
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 241.6,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 483.2,
+        "btw_bedrag": 43.49,
+        "subtotal_incl_btw": 526.69
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 345.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 345.26,
+        "btw_bedrag": 72.5,
+        "subtotal_incl_btw": 417.76
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1977.65,
+      "totaal_btw": 305.44,
+      "totaal_incl_btw": 2283.09
+    }
+  }
+}

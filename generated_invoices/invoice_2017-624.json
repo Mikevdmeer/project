@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-624",
+    "factuurdatum": "10-08-2021",
+    "vervaldatum": "09-10-2021",
+    "ordernummer": "2017-624",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 107",
+      "postcode": "3143 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "25789291"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 167.05,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 668.2,
+        "btw_bedrag": 40.09,
+        "subtotal_incl_btw": 708.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 668.2,
+      "totaal_btw": 40.09,
+      "totaal_incl_btw": 708.29
+    }
+  }
+}

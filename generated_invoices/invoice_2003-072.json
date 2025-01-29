@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-072",
+    "factuurdatum": "24-10-2022",
+    "vervaldatum": "23-11-2022",
+    "ordernummer": "2003-072",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 48",
+      "postcode": "3337 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "79745723"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 469.74,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1409.22,
+        "btw_bedrag": 84.55,
+        "subtotal_incl_btw": 1493.77
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 92.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 368.24,
+        "btw_bedrag": 77.33,
+        "subtotal_incl_btw": 445.57
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 286.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1434.6,
+        "btw_bedrag": 86.08,
+        "subtotal_incl_btw": 1520.68
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3212.06,
+      "totaal_btw": 247.96,
+      "totaal_incl_btw": 3460.02
+    }
+  }
+}

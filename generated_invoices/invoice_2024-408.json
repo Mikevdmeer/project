@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-408",
+    "factuurdatum": "17-10-2024",
+    "vervaldatum": "15-01-2025",
+    "ordernummer": "2024-408",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 707",
+      "postcode": "6892 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "40644081"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 412.24,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2061.2,
+        "btw_bedrag": 123.67,
+        "subtotal_incl_btw": 2184.87
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 378.0,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1512.0,
+        "btw_bedrag": 136.08,
+        "subtotal_incl_btw": 1648.08
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 120.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 120.0,
+        "btw_bedrag": 25.2,
+        "subtotal_incl_btw": 145.2
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 213.69,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1068.45,
+        "btw_bedrag": 96.16,
+        "subtotal_incl_btw": 1164.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 228.88,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 228.88,
+        "btw_bedrag": 13.73,
+        "subtotal_incl_btw": 242.61
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4990.53,
+      "totaal_btw": 394.84,
+      "totaal_incl_btw": 5385.37
+    }
+  }
+}

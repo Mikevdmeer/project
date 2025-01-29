@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-427",
+    "factuurdatum": "12-06-2023",
+    "vervaldatum": "11-08-2023",
+    "ordernummer": "2012-427",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 327",
+      "postcode": "3923 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "24942631"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 65.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 328.1,
+        "btw_bedrag": 68.9,
+        "subtotal_incl_btw": 397.0
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 230.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 461.94,
+        "btw_bedrag": 27.72,
+        "subtotal_incl_btw": 489.66
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 790.04,
+      "totaal_btw": 96.62,
+      "totaal_incl_btw": 886.66
+    }
+  }
+}

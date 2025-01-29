@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-587",
+    "factuurdatum": "04-01-2020",
+    "vervaldatum": "03-04-2020",
+    "ordernummer": "2021-587",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 490",
+      "postcode": "8578 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "97708621"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 108.27,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 541.35,
+        "btw_bedrag": 48.72,
+        "subtotal_incl_btw": 590.07
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 36.83,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 73.66,
+        "btw_bedrag": 6.63,
+        "subtotal_incl_btw": 80.29
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 69.22,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 276.88,
+        "btw_bedrag": 16.61,
+        "subtotal_incl_btw": 293.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 891.89,
+      "totaal_btw": 71.96,
+      "totaal_incl_btw": 963.85
+    }
+  }
+}

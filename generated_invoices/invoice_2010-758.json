@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-758",
+    "factuurdatum": "18-01-2024",
+    "vervaldatum": "18-03-2024",
+    "ordernummer": "2010-758",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 641",
+      "postcode": "4451 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "80621613"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 361.05,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 361.05,
+        "btw_bedrag": 21.66,
+        "subtotal_incl_btw": 382.71
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 163.54,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 817.7,
+        "btw_bedrag": 49.06,
+        "subtotal_incl_btw": 866.76
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 494.89,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 494.89,
+        "btw_bedrag": 103.93,
+        "subtotal_incl_btw": 598.82
+      },
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 342.18,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 684.36,
+        "btw_bedrag": 143.72,
+        "subtotal_incl_btw": 828.08
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 263.66,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 527.32,
+        "btw_bedrag": 31.64,
+        "subtotal_incl_btw": 558.96
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2885.32,
+      "totaal_btw": 350.01,
+      "totaal_incl_btw": 3235.33
+    }
+  }
+}

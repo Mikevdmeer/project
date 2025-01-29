@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-840",
+    "factuurdatum": "20-09-2022",
+    "vervaldatum": "20-10-2022",
+    "ordernummer": "2004-840",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 97",
+      "postcode": "1618 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "78697676"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 386.34,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1545.36,
+        "btw_bedrag": 92.72,
+        "subtotal_incl_btw": 1638.08
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 184.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 922.45,
+        "btw_bedrag": 193.71,
+        "subtotal_incl_btw": 1116.16
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 161.91,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 161.91,
+        "btw_bedrag": 9.71,
+        "subtotal_incl_btw": 171.62
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 97.22,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 291.66,
+        "btw_bedrag": 17.5,
+        "subtotal_incl_btw": 309.16
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 99.25,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 496.25,
+        "btw_bedrag": 29.78,
+        "subtotal_incl_btw": 526.03
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3417.63,
+      "totaal_btw": 343.42,
+      "totaal_incl_btw": 3761.05
+    }
+  }
+}

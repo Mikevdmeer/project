@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-671",
+    "factuurdatum": "14-08-2022",
+    "vervaldatum": "12-11-2022",
+    "ordernummer": "2022-671",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 713",
+      "postcode": "2895 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "35967618"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 211.35,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 211.35,
+        "btw_bedrag": 12.68,
+        "subtotal_incl_btw": 224.03
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 211.35,
+      "totaal_btw": 12.68,
+      "totaal_incl_btw": 224.03
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-225",
+    "factuurdatum": "18-08-2020",
+    "vervaldatum": "17-09-2020",
+    "ordernummer": "2015-225",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 793",
+      "postcode": "6372 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "20769650"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 224.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 448.84,
+        "btw_bedrag": 94.26,
+        "subtotal_incl_btw": 543.1
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 391.66,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 391.66,
+        "btw_bedrag": 23.5,
+        "subtotal_incl_btw": 415.16
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 24.37,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 73.11,
+        "btw_bedrag": 4.39,
+        "subtotal_incl_btw": 77.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 913.61,
+      "totaal_btw": 122.15,
+      "totaal_incl_btw": 1035.76
+    }
+  }
+}

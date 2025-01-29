@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-760",
+    "factuurdatum": "28-01-2020",
+    "vervaldatum": "28-03-2020",
+    "ordernummer": "2010-760",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 495",
+      "postcode": "4508 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "79816736"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 282.46,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 282.46,
+        "btw_bedrag": 59.32,
+        "subtotal_incl_btw": 341.78
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 331.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 662.68,
+        "btw_bedrag": 139.16,
+        "subtotal_incl_btw": 801.84
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 945.14,
+      "totaal_btw": 198.48,
+      "totaal_incl_btw": 1143.62
+    }
+  }
+}

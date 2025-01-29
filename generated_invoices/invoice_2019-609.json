@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-609",
+    "factuurdatum": "17-06-2023",
+    "vervaldatum": "15-09-2023",
+    "ordernummer": "2019-609",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 3",
+      "postcode": "2690 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "53881121"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 187.01,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 748.04,
+        "btw_bedrag": 44.88,
+        "subtotal_incl_btw": 792.92
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 471.26,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1885.04,
+        "btw_bedrag": 169.65,
+        "subtotal_incl_btw": 2054.69
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2633.08,
+      "totaal_btw": 214.53,
+      "totaal_incl_btw": 2847.61
+    }
+  }
+}

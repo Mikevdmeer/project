@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-168",
+    "factuurdatum": "13-07-2024",
+    "vervaldatum": "11-09-2024",
+    "ordernummer": "2013-168",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 193",
+      "postcode": "2015 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "34765072"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 160.82,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 160.82,
+        "btw_bedrag": 9.65,
+        "subtotal_incl_btw": 170.47
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 364.76,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 729.52,
+        "btw_bedrag": 153.2,
+        "subtotal_incl_btw": 882.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 890.34,
+      "totaal_btw": 162.85,
+      "totaal_incl_btw": 1053.19
+    }
+  }
+}

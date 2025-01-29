@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-390",
+    "factuurdatum": "09-09-2020",
+    "vervaldatum": "08-11-2020",
+    "ordernummer": "2016-390",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 97",
+      "postcode": "3336 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "98816634"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 58.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 174.21,
+        "btw_bedrag": 10.45,
+        "subtotal_incl_btw": 184.66
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 480.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1440.69,
+        "btw_bedrag": 302.54,
+        "subtotal_incl_btw": 1743.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1614.9,
+      "totaal_btw": 312.99,
+      "totaal_incl_btw": 1927.89
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-439",
+    "factuurdatum": "19-12-2022",
+    "vervaldatum": "19-03-2023",
+    "ordernummer": "2003-439",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 955",
+      "postcode": "2806 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "70910033"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 447.78,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 895.56,
+        "btw_bedrag": 80.6,
+        "subtotal_incl_btw": 976.16
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 278.34,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 556.68,
+        "btw_bedrag": 50.1,
+        "subtotal_incl_btw": 606.78
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1452.24,
+      "totaal_btw": 130.7,
+      "totaal_incl_btw": 1582.94
+    }
+  }
+}

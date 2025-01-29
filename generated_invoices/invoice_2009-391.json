@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-391",
+    "factuurdatum": "20-03-2024",
+    "vervaldatum": "19-04-2024",
+    "ordernummer": "2009-391",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 471",
+      "postcode": "4699 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "27109064"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 309.48,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 928.44,
+        "btw_bedrag": 55.71,
+        "subtotal_incl_btw": 984.15
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 374.67,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1498.68,
+        "btw_bedrag": 134.88,
+        "subtotal_incl_btw": 1633.56
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 292.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1168.96,
+        "btw_bedrag": 245.48,
+        "subtotal_incl_btw": 1414.44
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3596.08,
+      "totaal_btw": 436.07,
+      "totaal_incl_btw": 4032.15
+    }
+  }
+}

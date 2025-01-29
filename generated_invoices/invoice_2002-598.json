@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-598",
+    "factuurdatum": "27-02-2020",
+    "vervaldatum": "28-03-2020",
+    "ordernummer": "2002-598",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 594",
+      "postcode": "3523 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "60392165"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 168.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 674.96,
+        "btw_bedrag": 141.74,
+        "subtotal_incl_btw": 816.7
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 66.29,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 331.45,
+        "btw_bedrag": 29.83,
+        "subtotal_incl_btw": 361.28
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 22.16,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 44.32,
+        "btw_bedrag": 2.66,
+        "subtotal_incl_btw": 46.98
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 55.71,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 222.84,
+        "btw_bedrag": 20.06,
+        "subtotal_incl_btw": 242.9
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 53.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 159.09,
+        "btw_bedrag": 33.41,
+        "subtotal_incl_btw": 192.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1432.66,
+      "totaal_btw": 227.7,
+      "totaal_incl_btw": 1660.36
+    }
+  }
+}

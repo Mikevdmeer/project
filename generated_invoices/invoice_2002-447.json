@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-447",
+    "factuurdatum": "25-11-2022",
+    "vervaldatum": "25-12-2022",
+    "ordernummer": "2002-447",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 395",
+      "postcode": "1613 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "94902821"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 364.95,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1459.8,
+        "btw_bedrag": 131.38,
+        "subtotal_incl_btw": 1591.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1459.8,
+      "totaal_btw": 131.38,
+      "totaal_incl_btw": 1591.18
+    }
+  }
+}

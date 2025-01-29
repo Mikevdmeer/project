@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-559",
+    "factuurdatum": "12-12-2021",
+    "vervaldatum": "10-02-2022",
+    "ordernummer": "2004-559",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 920",
+      "postcode": "1444 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "83601689"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 491.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 983.88,
+        "btw_bedrag": 206.61,
+        "subtotal_incl_btw": 1190.49
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 301.03,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 903.09,
+        "btw_bedrag": 54.19,
+        "subtotal_incl_btw": 957.28
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1886.97,
+      "totaal_btw": 260.8,
+      "totaal_incl_btw": 2147.77
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-388",
+    "factuurdatum": "25-07-2024",
+    "vervaldatum": "24-08-2024",
+    "ordernummer": "2007-388",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 372",
+      "postcode": "4011 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "19324594"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 490.71,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1962.84,
+        "btw_bedrag": 176.66,
+        "subtotal_incl_btw": 2139.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1962.84,
+      "totaal_btw": 176.66,
+      "totaal_incl_btw": 2139.5
+    }
+  }
+}

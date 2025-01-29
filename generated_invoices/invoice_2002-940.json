@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-940",
+    "factuurdatum": "28-02-2022",
+    "vervaldatum": "29-04-2022",
+    "ordernummer": "2002-940",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 18",
+      "postcode": "4453 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94632285"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 274.14,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1370.7,
+        "btw_bedrag": 123.36,
+        "subtotal_incl_btw": 1494.06
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 285.55,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 856.65,
+        "btw_bedrag": 179.9,
+        "subtotal_incl_btw": 1036.55
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 115.82,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 579.1,
+        "btw_bedrag": 52.12,
+        "subtotal_incl_btw": 631.22
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 225.77,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 451.54,
+        "btw_bedrag": 40.64,
+        "subtotal_incl_btw": 492.18
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 78.48,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 392.4,
+        "btw_bedrag": 35.32,
+        "subtotal_incl_btw": 427.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3650.39,
+      "totaal_btw": 431.34,
+      "totaal_incl_btw": 4081.73
+    }
+  }
+}

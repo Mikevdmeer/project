@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-081",
+    "factuurdatum": "22-02-2020",
+    "vervaldatum": "23-03-2020",
+    "ordernummer": "2021-081",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 341",
+      "postcode": "1782 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "99335468"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 135.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 271.88,
+        "btw_bedrag": 16.31,
+        "subtotal_incl_btw": 288.19
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 271.88,
+      "totaal_btw": 16.31,
+      "totaal_incl_btw": 288.19
+    }
+  }
+}

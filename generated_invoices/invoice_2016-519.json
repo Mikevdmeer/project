@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-519",
+    "factuurdatum": "06-02-2021",
+    "vervaldatum": "07-04-2021",
+    "ordernummer": "2016-519",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 687",
+      "postcode": "3891 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "49468379"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 75.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 225.21,
+        "btw_bedrag": 13.51,
+        "subtotal_incl_btw": 238.72
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 282.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 564.74,
+        "btw_bedrag": 118.6,
+        "subtotal_incl_btw": 683.34
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 428.07,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 428.07,
+        "btw_bedrag": 25.68,
+        "subtotal_incl_btw": 453.75
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 113.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 454.72,
+        "btw_bedrag": 40.92,
+        "subtotal_incl_btw": 495.64
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 168.4,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 842.0,
+        "btw_bedrag": 75.78,
+        "subtotal_incl_btw": 917.78
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2514.74,
+      "totaal_btw": 274.49,
+      "totaal_incl_btw": 2789.23
+    }
+  }
+}

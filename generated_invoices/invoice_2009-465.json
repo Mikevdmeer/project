@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-465",
+    "factuurdatum": "06-06-2023",
+    "vervaldatum": "05-08-2023",
+    "ordernummer": "2009-465",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 163",
+      "postcode": "1439 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "17111914"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 30.24,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 120.96,
+        "btw_bedrag": 10.89,
+        "subtotal_incl_btw": 131.85
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 38.85,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 116.55,
+        "btw_bedrag": 10.49,
+        "subtotal_incl_btw": 127.04
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 374.34,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 374.34,
+        "btw_bedrag": 22.46,
+        "subtotal_incl_btw": 396.8
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 88.95,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 266.85,
+        "btw_bedrag": 24.02,
+        "subtotal_incl_btw": 290.87
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 278.68,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 278.68,
+        "btw_bedrag": 25.08,
+        "subtotal_incl_btw": 303.76
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1157.38,
+      "totaal_btw": 92.94,
+      "totaal_incl_btw": 1250.32
+    }
+  }
+}

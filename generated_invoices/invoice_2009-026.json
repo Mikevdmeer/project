@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-026",
+    "factuurdatum": "26-06-2021",
+    "vervaldatum": "24-09-2021",
+    "ordernummer": "2009-026",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 664",
+      "postcode": "6828 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63179235"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 454.61,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 909.22,
+        "btw_bedrag": 81.83,
+        "subtotal_incl_btw": 991.05
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 395.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 790.48,
+        "btw_bedrag": 166.0,
+        "subtotal_incl_btw": 956.48
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 67.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 338.45,
+        "btw_bedrag": 71.07,
+        "subtotal_incl_btw": 409.52
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 280.18,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 280.18,
+        "btw_bedrag": 25.22,
+        "subtotal_incl_btw": 305.4
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 427.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2136.85,
+        "btw_bedrag": 448.74,
+        "subtotal_incl_btw": 2585.59
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4455.18,
+      "totaal_btw": 792.86,
+      "totaal_incl_btw": 5248.04
+    }
+  }
+}

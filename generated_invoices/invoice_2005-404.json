@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-404",
+    "factuurdatum": "28-01-2020",
+    "vervaldatum": "27-04-2020",
+    "ordernummer": "2005-404",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 395",
+      "postcode": "5024 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "53978993"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 264.04,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1320.2,
+        "btw_bedrag": 118.82,
+        "subtotal_incl_btw": 1439.02
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 126.15,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 630.75,
+        "btw_bedrag": 56.77,
+        "subtotal_incl_btw": 687.52
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 243.85,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 243.85,
+        "btw_bedrag": 21.95,
+        "subtotal_incl_btw": 265.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2194.8,
+      "totaal_btw": 197.54,
+      "totaal_incl_btw": 2392.34
+    }
+  }
+}

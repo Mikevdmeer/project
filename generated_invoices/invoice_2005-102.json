@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-102",
+    "factuurdatum": "14-08-2020",
+    "vervaldatum": "13-10-2020",
+    "ordernummer": "2005-102",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 598",
+      "postcode": "1868 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "35854700"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 493.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 493.86,
+        "btw_bedrag": 44.45,
+        "subtotal_incl_btw": 538.31
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 194.88,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 779.52,
+        "btw_bedrag": 70.16,
+        "subtotal_incl_btw": 849.68
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 298.5,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1194.0,
+        "btw_bedrag": 107.46,
+        "subtotal_incl_btw": 1301.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2467.38,
+      "totaal_btw": 222.07,
+      "totaal_incl_btw": 2689.45
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-340",
+    "factuurdatum": "02-11-2022",
+    "vervaldatum": "31-01-2023",
+    "ordernummer": "2021-340",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 739",
+      "postcode": "5562 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "97230413"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 125.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 377.82,
+        "btw_bedrag": 22.67,
+        "subtotal_incl_btw": 400.49
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 290.29,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 580.58,
+        "btw_bedrag": 52.25,
+        "subtotal_incl_btw": 632.83
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 958.4,
+      "totaal_btw": 74.92,
+      "totaal_incl_btw": 1033.32
+    }
+  }
+}

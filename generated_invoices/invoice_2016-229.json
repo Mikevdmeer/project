@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-229",
+    "factuurdatum": "18-04-2023",
+    "vervaldatum": "17-06-2023",
+    "ordernummer": "2016-229",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 484",
+      "postcode": "1942 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "43565577"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 69.23,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 207.69,
+        "btw_bedrag": 18.69,
+        "subtotal_incl_btw": 226.38
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 442.11,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1326.33,
+        "btw_bedrag": 79.58,
+        "subtotal_incl_btw": 1405.91
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 434.02,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 868.04,
+        "btw_bedrag": 52.08,
+        "subtotal_incl_btw": 920.12
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2402.06,
+      "totaal_btw": 150.35,
+      "totaal_incl_btw": 2552.41
+    }
+  }
+}

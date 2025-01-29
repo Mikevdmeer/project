@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-615",
+    "factuurdatum": "13-11-2022",
+    "vervaldatum": "11-02-2023",
+    "ordernummer": "2015-615",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 351",
+      "postcode": "3797 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "75505933"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 61.32,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 61.32,
+        "btw_bedrag": 5.52,
+        "subtotal_incl_btw": 66.84
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 258.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 517.4,
+        "btw_bedrag": 108.65,
+        "subtotal_incl_btw": 626.05
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 578.72,
+      "totaal_btw": 114.17,
+      "totaal_incl_btw": 692.89
+    }
+  }
+}

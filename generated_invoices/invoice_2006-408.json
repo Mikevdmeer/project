@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-408",
+    "factuurdatum": "25-01-2021",
+    "vervaldatum": "25-04-2021",
+    "ordernummer": "2006-408",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 451",
+      "postcode": "9018 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "14127877"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 185.27,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 185.27,
+        "btw_bedrag": 11.12,
+        "subtotal_incl_btw": 196.39
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 208.3,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 624.9,
+        "btw_bedrag": 37.49,
+        "subtotal_incl_btw": 662.39
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 810.17,
+      "totaal_btw": 48.61,
+      "totaal_incl_btw": 858.78
+    }
+  }
+}

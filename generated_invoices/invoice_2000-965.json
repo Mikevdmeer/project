@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-965",
+    "factuurdatum": "12-07-2022",
+    "vervaldatum": "10-09-2022",
+    "ordernummer": "2000-965",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 950",
+      "postcode": "5252 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "41726783"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 333.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1335.52,
+        "btw_bedrag": 280.46,
+        "subtotal_incl_btw": 1615.98
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 214.75,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1073.75,
+        "btw_bedrag": 64.43,
+        "subtotal_incl_btw": 1138.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2409.27,
+      "totaal_btw": 344.89,
+      "totaal_incl_btw": 2754.16
+    }
+  }
+}

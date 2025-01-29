@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-594",
+    "factuurdatum": "11-05-2020",
+    "vervaldatum": "09-08-2020",
+    "ordernummer": "2012-594",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 975",
+      "postcode": "8916 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "22108518"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 144.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 721.15,
+        "btw_bedrag": 151.44,
+        "subtotal_incl_btw": 872.59
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 20.54,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 20.54,
+        "btw_bedrag": 1.85,
+        "subtotal_incl_btw": 22.39
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 374.33,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1122.99,
+        "btw_bedrag": 101.07,
+        "subtotal_incl_btw": 1224.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1864.68,
+      "totaal_btw": 254.36,
+      "totaal_incl_btw": 2119.04
+    }
+  }
+}

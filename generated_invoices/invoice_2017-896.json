@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-896",
+    "factuurdatum": "25-02-2021",
+    "vervaldatum": "27-03-2021",
+    "ordernummer": "2017-896",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 577",
+      "postcode": "2818 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "10497611"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 34.99,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 34.99,
+        "btw_bedrag": 2.1,
+        "subtotal_incl_btw": 37.09
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 39.16,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 156.64,
+        "btw_bedrag": 9.4,
+        "subtotal_incl_btw": 166.04
+      },
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 493.53,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2467.65,
+        "btw_bedrag": 148.06,
+        "subtotal_incl_btw": 2615.71
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2659.28,
+      "totaal_btw": 159.56,
+      "totaal_incl_btw": 2818.84
+    }
+  }
+}

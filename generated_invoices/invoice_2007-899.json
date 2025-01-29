@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-899",
+    "factuurdatum": "01-09-2022",
+    "vervaldatum": "31-10-2022",
+    "ordernummer": "2007-899",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 423",
+      "postcode": "6676 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "35037934"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 62.22,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 311.1,
+        "btw_bedrag": 18.67,
+        "subtotal_incl_btw": 329.77
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 323.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 323.42,
+        "btw_bedrag": 67.92,
+        "subtotal_incl_btw": 391.34
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 274.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1371.4,
+        "btw_bedrag": 287.99,
+        "subtotal_incl_btw": 1659.39
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 229.12,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 458.24,
+        "btw_bedrag": 27.49,
+        "subtotal_incl_btw": 485.73
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 275.12,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 825.36,
+        "btw_bedrag": 49.52,
+        "subtotal_incl_btw": 874.88
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3289.52,
+      "totaal_btw": 451.59,
+      "totaal_incl_btw": 3741.11
+    }
+  }
+}

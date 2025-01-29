@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-808",
+    "factuurdatum": "06-01-2022",
+    "vervaldatum": "06-04-2022",
+    "ordernummer": "2013-808",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 46",
+      "postcode": "8608 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "51962678"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 343.55,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1717.75,
+        "btw_bedrag": 103.07,
+        "subtotal_incl_btw": 1820.82
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 409.29,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2046.45,
+        "btw_bedrag": 184.18,
+        "subtotal_incl_btw": 2230.63
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 497.69,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2488.45,
+        "btw_bedrag": 223.96,
+        "subtotal_incl_btw": 2712.41
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 442.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2214.85,
+        "btw_bedrag": 132.89,
+        "subtotal_incl_btw": 2347.74
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 167.39,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 167.39,
+        "btw_bedrag": 15.07,
+        "subtotal_incl_btw": 182.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 8634.89,
+      "totaal_btw": 659.17,
+      "totaal_incl_btw": 9294.06
+    }
+  }
+}

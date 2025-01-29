@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-583",
+    "factuurdatum": "10-11-2021",
+    "vervaldatum": "08-02-2022",
+    "ordernummer": "2000-583",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 653",
+      "postcode": "6502 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "89962739"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 406.41,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1219.23,
+        "btw_bedrag": 109.73,
+        "subtotal_incl_btw": 1328.96
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1219.23,
+      "totaal_btw": 109.73,
+      "totaal_incl_btw": 1328.96
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-742",
+    "factuurdatum": "02-10-2023",
+    "vervaldatum": "01-12-2023",
+    "ordernummer": "2016-742",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 671",
+      "postcode": "3472 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "39952466"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 209.89,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 419.78,
+        "btw_bedrag": 37.78,
+        "subtotal_incl_btw": 457.56
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 449.51,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1798.04,
+        "btw_bedrag": 107.88,
+        "subtotal_incl_btw": 1905.92
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 159.77,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 159.77,
+        "btw_bedrag": 14.38,
+        "subtotal_incl_btw": 174.15
+      },
+      {
+        "aantal": 1,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 349.84,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 349.84,
+        "btw_bedrag": 31.49,
+        "subtotal_incl_btw": 381.33
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2727.43,
+      "totaal_btw": 191.53,
+      "totaal_incl_btw": 2918.96
+    }
+  }
+}

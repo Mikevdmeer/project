@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-503",
+    "factuurdatum": "21-02-2021",
+    "vervaldatum": "22-04-2021",
+    "ordernummer": "2017-503",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 814",
+      "postcode": "6958 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82863373"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 217.65,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1088.25,
+        "btw_bedrag": 65.3,
+        "subtotal_incl_btw": 1153.55
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 70.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 70.98,
+        "btw_bedrag": 14.91,
+        "subtotal_incl_btw": 85.89
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 395.93,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1979.65,
+        "btw_bedrag": 118.78,
+        "subtotal_incl_btw": 2098.43
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 71.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 214.5,
+        "btw_bedrag": 45.05,
+        "subtotal_incl_btw": 259.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3353.38,
+      "totaal_btw": 244.04,
+      "totaal_incl_btw": 3597.42
+    }
+  }
+}

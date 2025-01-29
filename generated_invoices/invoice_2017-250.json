@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-250",
+    "factuurdatum": "15-03-2022",
+    "vervaldatum": "14-04-2022",
+    "ordernummer": "2017-250",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 219",
+      "postcode": "3278 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "98266149"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 81.07,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 243.21,
+        "btw_bedrag": 21.89,
+        "subtotal_incl_btw": 265.1
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 422.71,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 422.71,
+        "btw_bedrag": 88.77,
+        "subtotal_incl_btw": 511.48
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 155.74,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 778.7,
+        "btw_bedrag": 70.08,
+        "subtotal_incl_btw": 848.78
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 206.3,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 825.2,
+        "btw_bedrag": 173.29,
+        "subtotal_incl_btw": 998.49
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 291.28,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1165.12,
+        "btw_bedrag": 104.86,
+        "subtotal_incl_btw": 1269.98
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3434.94,
+      "totaal_btw": 458.89,
+      "totaal_incl_btw": 3893.83
+    }
+  }
+}

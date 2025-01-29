@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-348",
+    "factuurdatum": "22-06-2023",
+    "vervaldatum": "22-07-2023",
+    "ordernummer": "2008-348",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 772",
+      "postcode": "9999 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "31563377"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 289.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 867.33,
+        "btw_bedrag": 182.14,
+        "subtotal_incl_btw": 1049.47
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 440.86,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1322.58,
+        "btw_bedrag": 79.35,
+        "subtotal_incl_btw": 1401.93
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 437.34,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 437.34,
+        "btw_bedrag": 26.24,
+        "subtotal_incl_btw": 463.58
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2627.25,
+      "totaal_btw": 287.73,
+      "totaal_incl_btw": 2914.98
+    }
+  }
+}

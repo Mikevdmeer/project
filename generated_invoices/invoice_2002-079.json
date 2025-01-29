@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-079",
+    "factuurdatum": "24-11-2020",
+    "vervaldatum": "24-12-2020",
+    "ordernummer": "2002-079",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 585",
+      "postcode": "1240 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "17727171"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 172.95,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 172.95,
+        "btw_bedrag": 10.38,
+        "subtotal_incl_btw": 183.33
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 120.39,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 361.17,
+        "btw_bedrag": 75.85,
+        "subtotal_incl_btw": 437.02
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 182.94,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 182.94,
+        "btw_bedrag": 10.98,
+        "subtotal_incl_btw": 193.92
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 717.06,
+      "totaal_btw": 97.21,
+      "totaal_incl_btw": 814.27
+    }
+  }
+}

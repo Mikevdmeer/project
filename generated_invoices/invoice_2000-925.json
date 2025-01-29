@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-925",
+    "factuurdatum": "02-02-2021",
+    "vervaldatum": "03-04-2021",
+    "ordernummer": "2000-925",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 163",
+      "postcode": "9951 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "12629856"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 412.83,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1651.32,
+        "btw_bedrag": 148.62,
+        "subtotal_incl_btw": 1799.94
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 346.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1385.96,
+        "btw_bedrag": 291.05,
+        "subtotal_incl_btw": 1677.01
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 368.14,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1472.56,
+        "btw_bedrag": 132.53,
+        "subtotal_incl_btw": 1605.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4509.84,
+      "totaal_btw": 572.2,
+      "totaal_incl_btw": 5082.04
+    }
+  }
+}

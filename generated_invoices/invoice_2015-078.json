@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-078",
+    "factuurdatum": "23-05-2020",
+    "vervaldatum": "22-06-2020",
+    "ordernummer": "2015-078",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 388",
+      "postcode": "6871 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "53540300"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 118.45,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 473.8,
+        "btw_bedrag": 28.43,
+        "subtotal_incl_btw": 502.23
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 306.33,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 612.66,
+        "btw_bedrag": 36.76,
+        "subtotal_incl_btw": 649.42
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 132.28,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 529.12,
+        "btw_bedrag": 47.62,
+        "subtotal_incl_btw": 576.74
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1615.58,
+      "totaal_btw": 112.81,
+      "totaal_incl_btw": 1728.39
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-096",
+    "factuurdatum": "14-05-2020",
+    "vervaldatum": "13-06-2020",
+    "ordernummer": "2000-096",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 169",
+      "postcode": "1128 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "64293189"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 494.88,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1484.64,
+        "btw_bedrag": 89.08,
+        "subtotal_incl_btw": 1573.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1484.64,
+      "totaal_btw": 89.08,
+      "totaal_incl_btw": 1573.72
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-474",
+    "factuurdatum": "09-11-2023",
+    "vervaldatum": "08-01-2024",
+    "ordernummer": "2000-474",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 624",
+      "postcode": "7886 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "28659628"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 454.18,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1816.72,
+        "btw_bedrag": 163.5,
+        "subtotal_incl_btw": 1980.22
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 477.43,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2387.15,
+        "btw_bedrag": 143.23,
+        "subtotal_incl_btw": 2530.38
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 488.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1465.89,
+        "btw_bedrag": 307.84,
+        "subtotal_incl_btw": 1773.73
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 154.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 154.03,
+        "btw_bedrag": 32.35,
+        "subtotal_incl_btw": 186.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5823.79,
+      "totaal_btw": 646.92,
+      "totaal_incl_btw": 6470.71
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-355",
+    "factuurdatum": "04-05-2021",
+    "vervaldatum": "02-08-2021",
+    "ordernummer": "2007-355",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 378",
+      "postcode": "3325 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "82430800"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 338.85,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1355.4,
+        "btw_bedrag": 81.32,
+        "subtotal_incl_btw": 1436.72
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 372.65,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 372.65,
+        "btw_bedrag": 33.54,
+        "subtotal_incl_btw": 406.19
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1728.05,
+      "totaal_btw": 114.86,
+      "totaal_incl_btw": 1842.91
+    }
+  }
+}

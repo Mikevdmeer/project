@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-378",
+    "factuurdatum": "13-03-2020",
+    "vervaldatum": "12-05-2020",
+    "ordernummer": "2015-378",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 342",
+      "postcode": "2437 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "97901799"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 409.58,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2047.9,
+        "btw_bedrag": 184.31,
+        "subtotal_incl_btw": 2232.21
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 333.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1335.92,
+        "btw_bedrag": 280.54,
+        "subtotal_incl_btw": 1616.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3383.82,
+      "totaal_btw": 464.85,
+      "totaal_incl_btw": 3848.67
+    }
+  }
+}

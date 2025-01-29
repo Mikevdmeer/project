@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-580",
+    "factuurdatum": "15-10-2023",
+    "vervaldatum": "14-11-2023",
+    "ordernummer": "2013-580",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 377",
+      "postcode": "8986 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "63827149"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 451.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2256.35,
+        "btw_bedrag": 473.83,
+        "subtotal_incl_btw": 2730.18
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 340.18,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 340.18,
+        "btw_bedrag": 30.62,
+        "subtotal_incl_btw": 370.8
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 117.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 587.05,
+        "btw_bedrag": 123.28,
+        "subtotal_incl_btw": 710.33
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 383.43,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1917.15,
+        "btw_bedrag": 172.54,
+        "subtotal_incl_btw": 2089.69
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5100.73,
+      "totaal_btw": 800.27,
+      "totaal_incl_btw": 5901.0
+    }
+  }
+}

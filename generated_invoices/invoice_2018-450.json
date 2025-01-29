@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-450",
+    "factuurdatum": "10-12-2024",
+    "vervaldatum": "10-03-2025",
+    "ordernummer": "2018-450",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 984",
+      "postcode": "6878 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "66897984"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 396.68,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1190.04,
+        "btw_bedrag": 249.91,
+        "subtotal_incl_btw": 1439.95
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 123.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 246.4,
+        "btw_bedrag": 51.74,
+        "subtotal_incl_btw": 298.14
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 33.95,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 135.8,
+        "btw_bedrag": 12.22,
+        "subtotal_incl_btw": 148.02
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1572.24,
+      "totaal_btw": 313.87,
+      "totaal_incl_btw": 1886.11
+    }
+  }
+}

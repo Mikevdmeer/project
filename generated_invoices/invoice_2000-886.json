@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-886",
+    "factuurdatum": "07-11-2020",
+    "vervaldatum": "06-01-2021",
+    "ordernummer": "2000-886",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 516",
+      "postcode": "6573 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "47351969"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 156.85,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 784.25,
+        "btw_bedrag": 70.58,
+        "subtotal_incl_btw": 854.83
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 384.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 384.03,
+        "btw_bedrag": 80.65,
+        "subtotal_incl_btw": 464.68
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 310.16,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1240.64,
+        "btw_bedrag": 260.53,
+        "subtotal_incl_btw": 1501.17
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 221.24,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 442.48,
+        "btw_bedrag": 39.82,
+        "subtotal_incl_btw": 482.3
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2851.4,
+      "totaal_btw": 451.58,
+      "totaal_incl_btw": 3302.98
+    }
+  }
+}

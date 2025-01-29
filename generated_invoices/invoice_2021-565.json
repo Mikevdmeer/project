@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-565",
+    "factuurdatum": "18-01-2021",
+    "vervaldatum": "18-04-2021",
+    "ordernummer": "2021-565",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 883",
+      "postcode": "4099 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "25611095"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 62.63,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 125.26,
+        "btw_bedrag": 11.27,
+        "subtotal_incl_btw": 136.53
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 359.02,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1795.1,
+        "btw_bedrag": 161.56,
+        "subtotal_incl_btw": 1956.66
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 111.23,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 333.69,
+        "btw_bedrag": 30.03,
+        "subtotal_incl_btw": 363.72
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 366.39,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1099.17,
+        "btw_bedrag": 65.95,
+        "subtotal_incl_btw": 1165.12
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3353.22,
+      "totaal_btw": 268.81,
+      "totaal_incl_btw": 3622.03
+    }
+  }
+}

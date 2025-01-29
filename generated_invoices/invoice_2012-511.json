@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-511",
+    "factuurdatum": "16-07-2022",
+    "vervaldatum": "14-10-2022",
+    "ordernummer": "2012-511",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 952",
+      "postcode": "4445 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "23599476"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 338.74,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1354.96,
+        "btw_bedrag": 121.95,
+        "subtotal_incl_btw": 1476.91
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 439.45,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 439.45,
+        "btw_bedrag": 26.37,
+        "subtotal_incl_btw": 465.82
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 176.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 528.78,
+        "btw_bedrag": 111.04,
+        "subtotal_incl_btw": 639.82
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2323.19,
+      "totaal_btw": 259.36,
+      "totaal_incl_btw": 2582.55
+    }
+  }
+}

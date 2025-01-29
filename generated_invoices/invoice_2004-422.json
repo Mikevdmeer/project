@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-422",
+    "factuurdatum": "28-04-2021",
+    "vervaldatum": "28-05-2021",
+    "ordernummer": "2004-422",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 74",
+      "postcode": "4312 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "27999369"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 360.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 720.26,
+        "btw_bedrag": 151.25,
+        "subtotal_incl_btw": 871.51
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 37.62,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 188.1,
+        "btw_bedrag": 11.29,
+        "subtotal_incl_btw": 199.39
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 239.43,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1197.15,
+        "btw_bedrag": 71.83,
+        "subtotal_incl_btw": 1268.98
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 190.14,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 190.14,
+        "btw_bedrag": 17.11,
+        "subtotal_incl_btw": 207.25
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2295.65,
+      "totaal_btw": 251.48,
+      "totaal_incl_btw": 2547.13
+    }
+  }
+}

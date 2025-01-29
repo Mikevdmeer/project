@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-035",
+    "factuurdatum": "17-05-2022",
+    "vervaldatum": "15-08-2022",
+    "ordernummer": "2021-035",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 437",
+      "postcode": "8550 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "37940336"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 33.44,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 33.44,
+        "btw_bedrag": 3.01,
+        "subtotal_incl_btw": 36.45
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 18.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 73.72,
+        "btw_bedrag": 15.48,
+        "subtotal_incl_btw": 89.2
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 101.13,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 505.65,
+        "btw_bedrag": 45.51,
+        "subtotal_incl_btw": 551.16
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 612.81,
+      "totaal_btw": 64.0,
+      "totaal_incl_btw": 676.81
+    }
+  }
+}

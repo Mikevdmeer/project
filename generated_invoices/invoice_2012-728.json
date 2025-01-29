@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-728",
+    "factuurdatum": "22-07-2020",
+    "vervaldatum": "21-08-2020",
+    "ordernummer": "2012-728",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 15",
+      "postcode": "4417 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "87760209"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 428.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2143.9,
+        "btw_bedrag": 450.22,
+        "subtotal_incl_btw": 2594.12
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2143.9,
+      "totaal_btw": 450.22,
+      "totaal_incl_btw": 2594.12
+    }
+  }
+}

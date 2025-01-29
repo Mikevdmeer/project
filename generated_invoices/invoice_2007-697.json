@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-697",
+    "factuurdatum": "26-11-2023",
+    "vervaldatum": "25-01-2024",
+    "ordernummer": "2007-697",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 797",
+      "postcode": "7562 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "33147248"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 144.26,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 144.26,
+        "btw_bedrag": 12.98,
+        "subtotal_incl_btw": 157.24
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 144.26,
+      "totaal_btw": 12.98,
+      "totaal_incl_btw": 157.24
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-340",
+    "factuurdatum": "27-05-2022",
+    "vervaldatum": "25-08-2022",
+    "ordernummer": "2014-340",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 270",
+      "postcode": "4877 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "50589622"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 269.49,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 269.49,
+        "btw_bedrag": 24.25,
+        "subtotal_incl_btw": 293.74
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 127.0,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 381.0,
+        "btw_bedrag": 34.29,
+        "subtotal_incl_btw": 415.29
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 177.1,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 354.2,
+        "btw_bedrag": 31.88,
+        "subtotal_incl_btw": 386.08
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 179.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 717.72,
+        "btw_bedrag": 150.72,
+        "subtotal_incl_btw": 868.44
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1722.41,
+      "totaal_btw": 241.14,
+      "totaal_incl_btw": 1963.55
+    }
+  }
+}

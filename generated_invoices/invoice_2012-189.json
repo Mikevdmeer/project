@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-189",
+    "factuurdatum": "20-02-2021",
+    "vervaldatum": "21-05-2021",
+    "ordernummer": "2012-189",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 467",
+      "postcode": "3179 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "49918721"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 310.74,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1553.7,
+        "btw_bedrag": 93.22,
+        "subtotal_incl_btw": 1646.92
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 356.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1427.12,
+        "btw_bedrag": 299.7,
+        "subtotal_incl_btw": 1726.82
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 203.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 609.06,
+        "btw_bedrag": 127.9,
+        "subtotal_incl_btw": 736.96
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 300.81,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 300.81,
+        "btw_bedrag": 18.05,
+        "subtotal_incl_btw": 318.86
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3890.69,
+      "totaal_btw": 538.87,
+      "totaal_incl_btw": 4429.56
+    }
+  }
+}

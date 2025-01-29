@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-020",
+    "factuurdatum": "06-07-2021",
+    "vervaldatum": "04-09-2021",
+    "ordernummer": "2017-020",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 903",
+      "postcode": "8083 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "97289487"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 251.05,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 251.05,
+        "btw_bedrag": 52.72,
+        "subtotal_incl_btw": 303.77
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 251.05,
+      "totaal_btw": 52.72,
+      "totaal_incl_btw": 303.77
+    }
+  }
+}

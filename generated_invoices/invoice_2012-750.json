@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-750",
+    "factuurdatum": "05-07-2024",
+    "vervaldatum": "03-09-2024",
+    "ordernummer": "2012-750",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 405",
+      "postcode": "8901 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "77291124"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 20.4,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 102.0,
+        "btw_bedrag": 6.12,
+        "subtotal_incl_btw": 108.12
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 462.06,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1848.24,
+        "btw_bedrag": 166.34,
+        "subtotal_incl_btw": 2014.58
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 339.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1357.0,
+        "btw_bedrag": 284.97,
+        "subtotal_incl_btw": 1641.97
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 44.06,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 88.12,
+        "btw_bedrag": 7.93,
+        "subtotal_incl_btw": 96.05
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 88.7,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 354.8,
+        "btw_bedrag": 31.93,
+        "subtotal_incl_btw": 386.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3750.16,
+      "totaal_btw": 497.29,
+      "totaal_incl_btw": 4247.45
+    }
+  }
+}

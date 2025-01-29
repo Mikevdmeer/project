@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-466",
+    "factuurdatum": "26-09-2022",
+    "vervaldatum": "25-12-2022",
+    "ordernummer": "2007-466",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 85",
+      "postcode": "1066 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "88154686"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 47.81,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 47.81,
+        "btw_bedrag": 4.3,
+        "subtotal_incl_btw": 52.11
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 47.81,
+      "totaal_btw": 4.3,
+      "totaal_incl_btw": 52.11
+    }
+  }
+}

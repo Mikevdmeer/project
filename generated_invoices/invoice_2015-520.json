@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-520",
+    "factuurdatum": "02-11-2024",
+    "vervaldatum": "31-01-2025",
+    "ordernummer": "2015-520",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 847",
+      "postcode": "7715 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "89679630"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 57.35,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 286.75,
+        "btw_bedrag": 17.21,
+        "subtotal_incl_btw": 303.96
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 430.8,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 861.6,
+        "btw_bedrag": 77.54,
+        "subtotal_incl_btw": 939.14
+      },
+      {
+        "aantal": 4,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 482.89,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1931.56,
+        "btw_bedrag": 405.63,
+        "subtotal_incl_btw": 2337.19
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 381.57,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1907.85,
+        "btw_bedrag": 171.71,
+        "subtotal_incl_btw": 2079.56
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 207.51,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 830.04,
+        "btw_bedrag": 49.8,
+        "subtotal_incl_btw": 879.84
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5817.8,
+      "totaal_btw": 721.89,
+      "totaal_incl_btw": 6539.69
+    }
+  }
+}

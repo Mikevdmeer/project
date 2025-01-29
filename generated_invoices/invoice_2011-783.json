@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-783",
+    "factuurdatum": "09-06-2020",
+    "vervaldatum": "07-09-2020",
+    "ordernummer": "2011-783",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 870",
+      "postcode": "6790 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "93087935"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 392.3,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1569.2,
+        "btw_bedrag": 141.23,
+        "subtotal_incl_btw": 1710.43
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 442.41,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1327.23,
+        "btw_bedrag": 119.45,
+        "subtotal_incl_btw": 1446.68
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 433.34,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1733.36,
+        "btw_bedrag": 104.0,
+        "subtotal_incl_btw": 1837.36
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 178.52,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 892.6,
+        "btw_bedrag": 80.33,
+        "subtotal_incl_btw": 972.93
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 456.9,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 913.8,
+        "btw_bedrag": 82.24,
+        "subtotal_incl_btw": 996.04
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 6436.19,
+      "totaal_btw": 527.25,
+      "totaal_incl_btw": 6963.44
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-387",
+    "factuurdatum": "28-04-2020",
+    "vervaldatum": "28-05-2020",
+    "ordernummer": "2024-387",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 100",
+      "postcode": "1210 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "16584560"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 88.31,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 441.55,
+        "btw_bedrag": 92.73,
+        "subtotal_incl_btw": 534.28
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 16.16,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 32.32,
+        "btw_bedrag": 6.79,
+        "subtotal_incl_btw": 39.11
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 497.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 497.34,
+        "btw_bedrag": 104.44,
+        "subtotal_incl_btw": 601.78
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 290.98,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 581.96,
+        "btw_bedrag": 52.38,
+        "subtotal_incl_btw": 634.34
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1553.17,
+      "totaal_btw": 256.34,
+      "totaal_incl_btw": 1809.51
+    }
+  }
+}

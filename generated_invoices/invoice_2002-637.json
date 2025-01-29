@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-637",
+    "factuurdatum": "15-08-2024",
+    "vervaldatum": "13-11-2024",
+    "ordernummer": "2002-637",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 243",
+      "postcode": "9391 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "83595069"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 369.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1849.6,
+        "btw_bedrag": 110.98,
+        "subtotal_incl_btw": 1960.58
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 453.2,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2266.0,
+        "btw_bedrag": 203.94,
+        "subtotal_incl_btw": 2469.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4115.6,
+      "totaal_btw": 314.92,
+      "totaal_incl_btw": 4430.52
+    }
+  }
+}

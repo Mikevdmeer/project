@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-773",
+    "factuurdatum": "07-07-2023",
+    "vervaldatum": "05-09-2023",
+    "ordernummer": "2023-773",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 131",
+      "postcode": "4889 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "36948175"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 212.27,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 636.81,
+        "btw_bedrag": 57.31,
+        "subtotal_incl_btw": 694.12
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 458.93,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1835.72,
+        "btw_bedrag": 165.21,
+        "subtotal_incl_btw": 2000.93
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 160.33,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 801.65,
+        "btw_bedrag": 72.15,
+        "subtotal_incl_btw": 873.8
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 483.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1451.91,
+        "btw_bedrag": 87.11,
+        "subtotal_incl_btw": 1539.02
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4726.09,
+      "totaal_btw": 381.78,
+      "totaal_incl_btw": 5107.87
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-363",
+    "factuurdatum": "04-07-2022",
+    "vervaldatum": "02-10-2022",
+    "ordernummer": "2015-363",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 350",
+      "postcode": "8496 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "16663598"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 44.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 89.66,
+        "btw_bedrag": 18.83,
+        "subtotal_incl_btw": 108.49
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 81.93,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 327.72,
+        "btw_bedrag": 68.82,
+        "subtotal_incl_btw": 396.54
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 417.38,
+      "totaal_btw": 87.65,
+      "totaal_incl_btw": 505.03
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-575",
+    "factuurdatum": "13-07-2020",
+    "vervaldatum": "11-09-2020",
+    "ordernummer": "2005-575",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 139",
+      "postcode": "2793 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "28779324"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 300.16,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1200.64,
+        "btw_bedrag": 72.04,
+        "subtotal_incl_btw": 1272.68
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 402.01,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2010.05,
+        "btw_bedrag": 120.6,
+        "subtotal_incl_btw": 2130.65
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 379.18,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1516.72,
+        "btw_bedrag": 136.5,
+        "subtotal_incl_btw": 1653.22
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 105.07,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 105.07,
+        "btw_bedrag": 9.46,
+        "subtotal_incl_btw": 114.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4832.48,
+      "totaal_btw": 338.6,
+      "totaal_incl_btw": 5171.08
+    }
+  }
+}

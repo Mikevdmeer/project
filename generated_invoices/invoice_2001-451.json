@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-451",
+    "factuurdatum": "27-06-2023",
+    "vervaldatum": "27-07-2023",
+    "ordernummer": "2001-451",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 480",
+      "postcode": "6100 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "78672709"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 356.12,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1424.48,
+        "btw_bedrag": 128.2,
+        "subtotal_incl_btw": 1552.68
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 230.13,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 230.13,
+        "btw_bedrag": 20.71,
+        "subtotal_incl_btw": 250.84
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 223.19,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 669.57,
+        "btw_bedrag": 60.26,
+        "subtotal_incl_btw": 729.83
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 31.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 31.95,
+        "btw_bedrag": 6.71,
+        "subtotal_incl_btw": 38.66
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2356.13,
+      "totaal_btw": 215.88,
+      "totaal_incl_btw": 2572.01
+    }
+  }
+}

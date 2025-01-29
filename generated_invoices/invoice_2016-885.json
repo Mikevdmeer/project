@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-885",
+    "factuurdatum": "12-04-2023",
+    "vervaldatum": "11-07-2023",
+    "ordernummer": "2016-885",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 29",
+      "postcode": "7664 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "18060100"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Ads",
+        "prijs_per_stuk_excl_btw": 464.74,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 929.48,
+        "btw_bedrag": 55.77,
+        "subtotal_incl_btw": 985.25
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 929.48,
+      "totaal_btw": 55.77,
+      "totaal_incl_btw": 985.25
+    }
+  }
+}

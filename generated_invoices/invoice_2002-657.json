@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-657",
+    "factuurdatum": "14-10-2021",
+    "vervaldatum": "13-11-2021",
+    "ordernummer": "2002-657",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 653",
+      "postcode": "6262 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "42768253"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 251.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 502.48,
+        "btw_bedrag": 105.52,
+        "subtotal_incl_btw": 608.0
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 110.27,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 330.81,
+        "btw_bedrag": 29.77,
+        "subtotal_incl_btw": 360.58
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 833.29,
+      "totaal_btw": 135.29,
+      "totaal_incl_btw": 968.58
+    }
+  }
+}

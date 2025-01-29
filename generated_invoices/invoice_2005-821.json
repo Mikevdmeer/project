@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-821",
+    "factuurdatum": "26-11-2022",
+    "vervaldatum": "26-12-2022",
+    "ordernummer": "2005-821",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 589",
+      "postcode": "7596 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "50305932"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 321.57,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1607.85,
+        "btw_bedrag": 337.65,
+        "subtotal_incl_btw": 1945.5
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 391.25,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1565.0,
+        "btw_bedrag": 140.85,
+        "subtotal_incl_btw": 1705.85
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 285.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1427.05,
+        "btw_bedrag": 299.68,
+        "subtotal_incl_btw": 1726.73
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 131.87,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 527.48,
+        "btw_bedrag": 110.77,
+        "subtotal_incl_btw": 638.25
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5127.38,
+      "totaal_btw": 888.95,
+      "totaal_incl_btw": 6016.33
+    }
+  }
+}

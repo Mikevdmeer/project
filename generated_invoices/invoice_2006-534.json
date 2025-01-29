@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-534",
+    "factuurdatum": "01-01-2022",
+    "vervaldatum": "01-04-2022",
+    "ordernummer": "2006-534",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 319",
+      "postcode": "3509 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "80332714"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 135.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 270.64,
+        "btw_bedrag": 56.83,
+        "subtotal_incl_btw": 327.47
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 36.93,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 147.72,
+        "btw_bedrag": 31.02,
+        "subtotal_incl_btw": 178.74
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 446.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 446.35,
+        "btw_bedrag": 93.73,
+        "subtotal_incl_btw": 540.08
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 191.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 766.68,
+        "btw_bedrag": 161.0,
+        "subtotal_incl_btw": 927.68
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1631.39,
+      "totaal_btw": 342.58,
+      "totaal_incl_btw": 1973.97
+    }
+  }
+}

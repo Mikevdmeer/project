@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-980",
+    "factuurdatum": "12-09-2024",
+    "vervaldatum": "12-10-2024",
+    "ordernummer": "2019-980",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 669",
+      "postcode": "3198 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "54103319"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 404.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 809.5,
+        "btw_bedrag": 170.0,
+        "subtotal_incl_btw": 979.5
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 358.08,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1074.24,
+        "btw_bedrag": 96.68,
+        "subtotal_incl_btw": 1170.92
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 330.77,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1323.08,
+        "btw_bedrag": 79.38,
+        "subtotal_incl_btw": 1402.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3206.82,
+      "totaal_btw": 346.06,
+      "totaal_incl_btw": 3552.88
+    }
+  }
+}

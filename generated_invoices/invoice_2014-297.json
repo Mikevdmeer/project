@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-297",
+    "factuurdatum": "13-07-2020",
+    "vervaldatum": "11-10-2020",
+    "ordernummer": "2014-297",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 403",
+      "postcode": "7931 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82949745"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 441.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1767.88,
+        "btw_bedrag": 106.07,
+        "subtotal_incl_btw": 1873.95
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 311.22,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 311.22,
+        "btw_bedrag": 18.67,
+        "subtotal_incl_btw": 329.89
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 233.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 467.92,
+        "btw_bedrag": 98.26,
+        "subtotal_incl_btw": 566.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2547.02,
+      "totaal_btw": 223.0,
+      "totaal_incl_btw": 2770.02
+    }
+  }
+}

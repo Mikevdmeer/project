@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-885",
+    "factuurdatum": "07-01-2020",
+    "vervaldatum": "06-02-2020",
+    "ordernummer": "2017-885",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 217",
+      "postcode": "5383 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "29974674"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 105.58,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 105.58,
+        "btw_bedrag": 9.5,
+        "subtotal_incl_btw": 115.08
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 176.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 176.0,
+        "btw_bedrag": 36.96,
+        "subtotal_incl_btw": 212.96
+      },
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 216.79,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 433.58,
+        "btw_bedrag": 26.01,
+        "subtotal_incl_btw": 459.59
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 715.16,
+      "totaal_btw": 72.47,
+      "totaal_incl_btw": 787.63
+    }
+  }
+}

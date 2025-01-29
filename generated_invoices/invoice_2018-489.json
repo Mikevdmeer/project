@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-489",
+    "factuurdatum": "08-08-2022",
+    "vervaldatum": "07-09-2022",
+    "ordernummer": "2018-489",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 615",
+      "postcode": "1113 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "56472064"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 234.67,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 704.01,
+        "btw_bedrag": 63.36,
+        "subtotal_incl_btw": 767.37
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 704.01,
+      "totaal_btw": 63.36,
+      "totaal_incl_btw": 767.37
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-351",
+    "factuurdatum": "22-08-2020",
+    "vervaldatum": "20-11-2020",
+    "ordernummer": "2012-351",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 850",
+      "postcode": "8848 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "19808312"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 277.63,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1110.52,
+        "btw_bedrag": 66.63,
+        "subtotal_incl_btw": 1177.15
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 364.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1823.85,
+        "btw_bedrag": 383.01,
+        "subtotal_incl_btw": 2206.86
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 79.31,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 317.24,
+        "btw_bedrag": 28.55,
+        "subtotal_incl_btw": 345.79
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 404.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1214.58,
+        "btw_bedrag": 109.31,
+        "subtotal_incl_btw": 1323.89
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4466.19,
+      "totaal_btw": 587.5,
+      "totaal_incl_btw": 5053.69
+    }
+  }
+}

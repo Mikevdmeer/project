@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-695",
+    "factuurdatum": "13-12-2020",
+    "vervaldatum": "12-01-2021",
+    "ordernummer": "2022-695",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 561",
+      "postcode": "5721 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "92300019"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 170.06,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 510.18,
+        "btw_bedrag": 30.61,
+        "subtotal_incl_btw": 540.79
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 202.01,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 404.02,
+        "btw_bedrag": 24.24,
+        "subtotal_incl_btw": 428.26
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 63.8,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 191.4,
+        "btw_bedrag": 11.48,
+        "subtotal_incl_btw": 202.88
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1105.6,
+      "totaal_btw": 66.33,
+      "totaal_incl_btw": 1171.93
+    }
+  }
+}

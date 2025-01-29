@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-583",
+    "factuurdatum": "03-02-2023",
+    "vervaldatum": "05-03-2023",
+    "ordernummer": "2015-583",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 922",
+      "postcode": "6749 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "15503683"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 317.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1269.48,
+        "btw_bedrag": 266.59,
+        "subtotal_incl_btw": 1536.07
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 312.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1561.75,
+        "btw_bedrag": 327.97,
+        "subtotal_incl_btw": 1889.72
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2831.23,
+      "totaal_btw": 594.56,
+      "totaal_incl_btw": 3425.79
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-347",
+    "factuurdatum": "08-08-2020",
+    "vervaldatum": "07-09-2020",
+    "ordernummer": "2023-347",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 840",
+      "postcode": "8012 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "29397492"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 218.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 436.06,
+        "btw_bedrag": 91.57,
+        "subtotal_incl_btw": 527.63
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 70.63,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 70.63,
+        "btw_bedrag": 6.36,
+        "subtotal_incl_btw": 76.99
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 209.99,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1049.95,
+        "btw_bedrag": 94.5,
+        "subtotal_incl_btw": 1144.45
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 171.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 515.46,
+        "btw_bedrag": 108.25,
+        "subtotal_incl_btw": 623.71
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 409.97,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 819.94,
+        "btw_bedrag": 73.79,
+        "subtotal_incl_btw": 893.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2892.04,
+      "totaal_btw": 374.47,
+      "totaal_incl_btw": 3266.51
+    }
+  }
+}

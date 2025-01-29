@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-128",
+    "factuurdatum": "20-08-2022",
+    "vervaldatum": "18-11-2022",
+    "ordernummer": "2008-128",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 497",
+      "postcode": "4445 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "54482941"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 420.34,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 840.68,
+        "btw_bedrag": 75.66,
+        "subtotal_incl_btw": 916.34
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 192.75,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 771.0,
+        "btw_bedrag": 69.39,
+        "subtotal_incl_btw": 840.39
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 156.99,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 156.99,
+        "btw_bedrag": 14.13,
+        "subtotal_incl_btw": 171.12
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 306.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 613.84,
+        "btw_bedrag": 36.83,
+        "subtotal_incl_btw": 650.67
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2382.51,
+      "totaal_btw": 196.01,
+      "totaal_incl_btw": 2578.52
+    }
+  }
+}

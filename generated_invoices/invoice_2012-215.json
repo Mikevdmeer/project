@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-215",
+    "factuurdatum": "14-12-2021",
+    "vervaldatum": "12-02-2022",
+    "ordernummer": "2012-215",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 596",
+      "postcode": "1818 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "19860522"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Power BI",
+        "prijs_per_stuk_excl_btw": 237.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 713.1,
+        "btw_bedrag": 149.75,
+        "subtotal_incl_btw": 862.85
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 313.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 313.0,
+        "btw_bedrag": 65.73,
+        "subtotal_incl_btw": 378.73
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 178.51,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 357.02,
+        "btw_bedrag": 21.42,
+        "subtotal_incl_btw": 378.44
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 395.71,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 395.71,
+        "btw_bedrag": 83.1,
+        "subtotal_incl_btw": 478.81
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1778.83,
+      "totaal_btw": 320.0,
+      "totaal_incl_btw": 2098.83
+    }
+  }
+}

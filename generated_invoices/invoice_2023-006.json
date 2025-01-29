@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-006",
+    "factuurdatum": "21-02-2020",
+    "vervaldatum": "22-03-2020",
+    "ordernummer": "2023-006",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 803",
+      "postcode": "7895 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "49382511"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 401.14,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1203.42,
+        "btw_bedrag": 108.31,
+        "subtotal_incl_btw": 1311.73
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Premiere Pro",
+        "prijs_per_stuk_excl_btw": 201.17,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 804.68,
+        "btw_bedrag": 72.42,
+        "subtotal_incl_btw": 877.1
+      },
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 184.47,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 922.35,
+        "btw_bedrag": 55.34,
+        "subtotal_incl_btw": 977.69
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 154.76,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 619.04,
+        "btw_bedrag": 55.71,
+        "subtotal_incl_btw": 674.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3549.49,
+      "totaal_btw": 291.78,
+      "totaal_incl_btw": 3841.27
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-895",
+    "factuurdatum": "28-07-2022",
+    "vervaldatum": "26-09-2022",
+    "ordernummer": "2021-895",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 824",
+      "postcode": "2614 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "16018066"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 146.85,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 146.85,
+        "btw_bedrag": 13.22,
+        "subtotal_incl_btw": 160.07
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 29.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 118.44,
+        "btw_bedrag": 24.87,
+        "subtotal_incl_btw": 143.31
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 368.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1841.65,
+        "btw_bedrag": 386.75,
+        "subtotal_incl_btw": 2228.4
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2106.94,
+      "totaal_btw": 424.84,
+      "totaal_incl_btw": 2531.78
+    }
+  }
+}

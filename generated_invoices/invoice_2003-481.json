@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-481",
+    "factuurdatum": "08-06-2021",
+    "vervaldatum": "07-08-2021",
+    "ordernummer": "2003-481",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 132",
+      "postcode": "1071 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "25344007"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 497.96,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1493.88,
+        "btw_bedrag": 134.45,
+        "subtotal_incl_btw": 1628.33
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 193.37,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 773.48,
+        "btw_bedrag": 46.41,
+        "subtotal_incl_btw": 819.89
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 281.54,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1407.7,
+        "btw_bedrag": 84.46,
+        "subtotal_incl_btw": 1492.16
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 263.58,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 527.16,
+        "btw_bedrag": 110.7,
+        "subtotal_incl_btw": 637.86
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4202.22,
+      "totaal_btw": 376.02,
+      "totaal_incl_btw": 4578.24
+    }
+  }
+}

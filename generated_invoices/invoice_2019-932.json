@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-932",
+    "factuurdatum": "25-11-2022",
+    "vervaldatum": "24-01-2023",
+    "ordernummer": "2019-932",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 580",
+      "postcode": "7029 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "60429927"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 496.55,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2482.75,
+        "btw_bedrag": 148.97,
+        "subtotal_incl_btw": 2631.72
+      },
+      {
+        "aantal": 3,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 327.61,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 982.83,
+        "btw_bedrag": 58.97,
+        "subtotal_incl_btw": 1041.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3465.58,
+      "totaal_btw": 207.94,
+      "totaal_incl_btw": 3673.52
+    }
+  }
+}

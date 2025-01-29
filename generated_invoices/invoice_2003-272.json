@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-272",
+    "factuurdatum": "24-02-2020",
+    "vervaldatum": "24-04-2020",
+    "ordernummer": "2003-272",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 437",
+      "postcode": "1260 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "73848264"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "GitHub",
+        "prijs_per_stuk_excl_btw": 491.05,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2455.25,
+        "btw_bedrag": 147.32,
+        "subtotal_incl_btw": 2602.57
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 411.97,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 823.94,
+        "btw_bedrag": 49.44,
+        "subtotal_incl_btw": 873.38
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 323.68,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 323.68,
+        "btw_bedrag": 67.97,
+        "subtotal_incl_btw": 391.65
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 91.72,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 458.6,
+        "btw_bedrag": 41.27,
+        "subtotal_incl_btw": 499.87
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 269.92,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1349.6,
+        "btw_bedrag": 121.46,
+        "subtotal_incl_btw": 1471.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5411.07,
+      "totaal_btw": 427.46,
+      "totaal_incl_btw": 5838.53
+    }
+  }
+}

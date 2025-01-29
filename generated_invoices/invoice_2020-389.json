@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-389",
+    "factuurdatum": "16-09-2020",
+    "vervaldatum": "15-11-2020",
+    "ordernummer": "2020-389",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 78",
+      "postcode": "6323 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "55651142"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 154.06,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 616.24,
+        "btw_bedrag": 55.46,
+        "subtotal_incl_btw": 671.7
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Office 365",
+        "prijs_per_stuk_excl_btw": 120.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 120.82,
+        "btw_bedrag": 25.37,
+        "subtotal_incl_btw": 146.19
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 153.99,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 461.97,
+        "btw_bedrag": 41.58,
+        "subtotal_incl_btw": 503.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1199.03,
+      "totaal_btw": 122.41,
+      "totaal_incl_btw": 1321.44
+    }
+  }
+}

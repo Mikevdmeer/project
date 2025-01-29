@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-473",
+    "factuurdatum": "10-08-2020",
+    "vervaldatum": "09-09-2020",
+    "ordernummer": "2008-473",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 787",
+      "postcode": "7006 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "14931202"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 226.59,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 226.59,
+        "btw_bedrag": 13.6,
+        "subtotal_incl_btw": 240.19
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 82.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 247.86,
+        "btw_bedrag": 52.05,
+        "subtotal_incl_btw": 299.91
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 160.92,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 160.92,
+        "btw_bedrag": 9.66,
+        "subtotal_incl_btw": 170.58
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 635.37,
+      "totaal_btw": 75.31,
+      "totaal_incl_btw": 710.68
+    }
+  }
+}

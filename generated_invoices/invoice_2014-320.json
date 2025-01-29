@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-320",
+    "factuurdatum": "11-02-2024",
+    "vervaldatum": "11-05-2024",
+    "ordernummer": "2014-320",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 403",
+      "postcode": "5598 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94825032"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 467.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2336.4,
+        "btw_bedrag": 490.64,
+        "subtotal_incl_btw": 2827.04
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Visual Studio 2019",
+        "prijs_per_stuk_excl_btw": 106.72,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 533.6,
+        "btw_bedrag": 48.02,
+        "subtotal_incl_btw": 581.62
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 171.46,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 171.46,
+        "btw_bedrag": 36.01,
+        "subtotal_incl_btw": 207.47
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 363.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1453.68,
+        "btw_bedrag": 305.27,
+        "subtotal_incl_btw": 1758.95
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle VM",
+        "prijs_per_stuk_excl_btw": 428.03,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 2140.15,
+        "btw_bedrag": 128.41,
+        "subtotal_incl_btw": 2268.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 6635.29,
+      "totaal_btw": 1008.35,
+      "totaal_incl_btw": 7643.64
+    }
+  }
+}

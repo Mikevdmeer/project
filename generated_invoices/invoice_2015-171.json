@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-171",
+    "factuurdatum": "10-02-2022",
+    "vervaldatum": "11-05-2022",
+    "ordernummer": "2015-171",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 34",
+      "postcode": "8771 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "42341745"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 262.98,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 262.98,
+        "btw_bedrag": 15.78,
+        "subtotal_incl_btw": 278.76
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 421.1,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2105.5,
+        "btw_bedrag": 189.5,
+        "subtotal_incl_btw": 2295.0
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 29.71,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 29.71,
+        "btw_bedrag": 2.67,
+        "subtotal_incl_btw": 32.38
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 68.52,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 274.08,
+        "btw_bedrag": 16.44,
+        "subtotal_incl_btw": 290.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2672.27,
+      "totaal_btw": 224.39,
+      "totaal_incl_btw": 2896.66
+    }
+  }
+}

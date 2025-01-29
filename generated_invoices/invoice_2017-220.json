@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-220",
+    "factuurdatum": "09-12-2021",
+    "vervaldatum": "09-03-2022",
+    "ordernummer": "2017-220",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 861",
+      "postcode": "4837 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "45415655"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 384.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1154.58,
+        "btw_bedrag": 103.91,
+        "subtotal_incl_btw": 1258.49
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 484.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2423.65,
+        "btw_bedrag": 508.97,
+        "subtotal_incl_btw": 2932.62
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 317.9,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1271.6,
+        "btw_bedrag": 267.04,
+        "subtotal_incl_btw": 1538.64
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 354.99,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 709.98,
+        "btw_bedrag": 42.6,
+        "subtotal_incl_btw": 752.58
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5559.81,
+      "totaal_btw": 922.52,
+      "totaal_incl_btw": 6482.33
+    }
+  }
+}

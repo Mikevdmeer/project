@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-190",
+    "factuurdatum": "27-06-2023",
+    "vervaldatum": "27-07-2023",
+    "ordernummer": "2010-190",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 768",
+      "postcode": "6289 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "30977252"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 393.1,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 393.1,
+        "btw_bedrag": 35.38,
+        "subtotal_incl_btw": 428.48
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 115.86,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 579.3,
+        "btw_bedrag": 52.14,
+        "subtotal_incl_btw": 631.44
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Webservices",
+        "prijs_per_stuk_excl_btw": 345.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 345.73,
+        "btw_bedrag": 72.6,
+        "subtotal_incl_btw": 418.33
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1318.13,
+      "totaal_btw": 160.12,
+      "totaal_incl_btw": 1478.25
+    }
+  }
+}

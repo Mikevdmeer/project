@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-021",
+    "factuurdatum": "18-04-2024",
+    "vervaldatum": "18-05-2024",
+    "ordernummer": "2017-021",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 508",
+      "postcode": "1787 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "45008635"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Analytics",
+        "prijs_per_stuk_excl_btw": 366.31,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 366.31,
+        "btw_bedrag": 32.97,
+        "subtotal_incl_btw": 399.28
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 366.31,
+      "totaal_btw": 32.97,
+      "totaal_incl_btw": 399.28
+    }
+  }
+}

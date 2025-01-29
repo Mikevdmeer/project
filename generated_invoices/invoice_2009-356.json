@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-356",
+    "factuurdatum": "14-09-2020",
+    "vervaldatum": "13-11-2020",
+    "ordernummer": "2009-356",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 632",
+      "postcode": "7243 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "71727295"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 466.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2331.8,
+        "btw_bedrag": 489.68,
+        "subtotal_incl_btw": 2821.48
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Google Cloud Platform",
+        "prijs_per_stuk_excl_btw": 249.43,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 498.86,
+        "btw_bedrag": 29.93,
+        "subtotal_incl_btw": 528.79
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 270.01,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 810.03,
+        "btw_bedrag": 48.6,
+        "subtotal_incl_btw": 858.63
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3640.69,
+      "totaal_btw": 568.21,
+      "totaal_incl_btw": 4208.9
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-239",
+    "factuurdatum": "17-04-2022",
+    "vervaldatum": "16-06-2022",
+    "ordernummer": "2001-239",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 794",
+      "postcode": "7414 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "25469051"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 446.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1339.08,
+        "btw_bedrag": 281.21,
+        "subtotal_incl_btw": 1620.29
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 105.44,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 210.88,
+        "btw_bedrag": 12.65,
+        "subtotal_incl_btw": 223.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1549.96,
+      "totaal_btw": 293.86,
+      "totaal_incl_btw": 1843.82
+    }
+  }
+}

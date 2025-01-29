@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-219",
+    "factuurdatum": "08-03-2020",
+    "vervaldatum": "06-06-2020",
+    "ordernummer": "2007-219",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 411",
+      "postcode": "6794 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "78440342"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 338.95,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1016.85,
+        "btw_bedrag": 91.52,
+        "subtotal_incl_btw": 1108.37
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 196.9,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 984.5,
+        "btw_bedrag": 206.75,
+        "subtotal_incl_btw": 1191.25
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe InDesign",
+        "prijs_per_stuk_excl_btw": 498.45,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1993.8,
+        "btw_bedrag": 179.44,
+        "subtotal_incl_btw": 2173.24
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3995.15,
+      "totaal_btw": 477.71,
+      "totaal_incl_btw": 4472.86
+    }
+  }
+}

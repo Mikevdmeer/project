@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-334",
+    "factuurdatum": "25-02-2021",
+    "vervaldatum": "26-05-2021",
+    "ordernummer": "2016-334",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 892",
+      "postcode": "2203 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "35336850"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 286.2,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 572.4,
+        "btw_bedrag": 34.34,
+        "subtotal_incl_btw": 606.74
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft SQL Server 2019",
+        "prijs_per_stuk_excl_btw": 228.29,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 913.16,
+        "btw_bedrag": 54.79,
+        "subtotal_incl_btw": 967.95
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Oracle MySQL",
+        "prijs_per_stuk_excl_btw": 327.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 655.32,
+        "btw_bedrag": 137.62,
+        "subtotal_incl_btw": 792.94
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Cloud",
+        "prijs_per_stuk_excl_btw": 271.55,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1357.75,
+        "btw_bedrag": 122.2,
+        "subtotal_incl_btw": 1479.95
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3498.63,
+      "totaal_btw": 348.95,
+      "totaal_incl_btw": 3847.58
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-415",
+    "factuurdatum": "19-04-2024",
+    "vervaldatum": "19-05-2024",
+    "ordernummer": "2007-415",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 439",
+      "postcode": "9309 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "36702946"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Oracle WebLogic Server",
+        "prijs_per_stuk_excl_btw": 492.58,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 2462.9,
+        "btw_bedrag": 221.66,
+        "subtotal_incl_btw": 2684.56
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Microsoft Azure",
+        "prijs_per_stuk_excl_btw": 395.73,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 791.46,
+        "btw_bedrag": 71.23,
+        "subtotal_incl_btw": 862.69
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Oracle VirtualBox",
+        "prijs_per_stuk_excl_btw": 436.84,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 1747.36,
+        "btw_bedrag": 104.84,
+        "subtotal_incl_btw": 1852.2
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 146.29,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 146.29,
+        "btw_bedrag": 13.17,
+        "subtotal_incl_btw": 159.46
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5148.01,
+      "totaal_btw": 410.9,
+      "totaal_incl_btw": 5558.91
+    }
+  }
+}

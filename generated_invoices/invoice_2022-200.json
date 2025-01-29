@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-200",
+    "factuurdatum": "01-05-2023",
+    "vervaldatum": "31-05-2023",
+    "ordernummer": "2022-200",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 272",
+      "postcode": "5005 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "46288241"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 144.56,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 289.12,
+        "btw_bedrag": 17.35,
+        "subtotal_incl_btw": 306.47
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Windows Server 2019",
+        "prijs_per_stuk_excl_btw": 144.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 577.76,
+        "btw_bedrag": 121.33,
+        "subtotal_incl_btw": 699.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 866.88,
+      "totaal_btw": 138.68,
+      "totaal_incl_btw": 1005.56
+    }
+  }
+}

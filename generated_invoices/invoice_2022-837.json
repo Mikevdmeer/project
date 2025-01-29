@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-837",
+    "factuurdatum": "07-11-2020",
+    "vervaldatum": "05-02-2021",
+    "ordernummer": "2022-837",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 624",
+      "postcode": "3241 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "37882694"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Oracle Solaris",
+        "prijs_per_stuk_excl_btw": 93.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 281.25,
+        "btw_bedrag": 59.06,
+        "subtotal_incl_btw": 340.31
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Adobe Illustrator",
+        "prijs_per_stuk_excl_btw": 164.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 492.39,
+        "btw_bedrag": 103.4,
+        "subtotal_incl_btw": 595.79
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 444.58,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2222.9,
+        "btw_bedrag": 466.81,
+        "subtotal_incl_btw": 2689.71
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 479.4,
+        "btw_percentage": 6,
+        "subtotal_excl_btw": 479.4,
+        "btw_bedrag": 28.76,
+        "subtotal_incl_btw": 508.16
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3475.94,
+      "totaal_btw": 658.03,
+      "totaal_incl_btw": 4133.97
+    }
+  }
+}

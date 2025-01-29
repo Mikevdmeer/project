@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-154",
+    "factuurdatum": "26-02-2021",
+    "vervaldatum": "27-04-2021",
+    "ordernummer": "2011-154",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 722",
+      "postcode": "8578 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "22183705"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Google Workspace",
+        "prijs_per_stuk_excl_btw": 133.47,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 133.47,
+        "btw_bedrag": 12.01,
+        "subtotal_incl_btw": 145.48
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Adobe Photoshop",
+        "prijs_per_stuk_excl_btw": 498.39,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 996.78,
+        "btw_bedrag": 89.71,
+        "subtotal_incl_btw": 1086.49
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Microsoft Windows 10",
+        "prijs_per_stuk_excl_btw": 36.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 181.2,
+        "btw_bedrag": 38.05,
+        "subtotal_incl_btw": 219.25
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Oracle Database 19c",
+        "prijs_per_stuk_excl_btw": 160.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 160.37,
+        "btw_bedrag": 33.68,
+        "subtotal_incl_btw": 194.05
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Adobe Creative Cloud",
+        "prijs_per_stuk_excl_btw": 333.09,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1332.36,
+        "btw_bedrag": 279.8,
+        "subtotal_incl_btw": 1612.16
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2804.18,
+      "totaal_btw": 453.25,
+      "totaal_incl_btw": 3257.43
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-664",
+    "factuurdatum": "10-05-2022",
+    "vervaldatum": "09-06-2022",
+    "ordernummer": "2015-664",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 906",
+      "postcode": "8592 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "11301368"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Microsoft Dynamics 365",
+        "prijs_per_stuk_excl_btw": 319.41,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1277.64,
+        "btw_bedrag": 114.99,
+        "subtotal_incl_btw": 1392.63
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Oracle Java SE",
+        "prijs_per_stuk_excl_btw": 261.1,
+        "btw_percentage": 9,
+        "subtotal_excl_btw": 1305.5,
+        "btw_bedrag": 117.5,
+        "subtotal_incl_btw": 1423.0
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2583.14,
+      "totaal_btw": 232.49,
+      "totaal_incl_btw": 2815.63
+    }
+  }
+}
