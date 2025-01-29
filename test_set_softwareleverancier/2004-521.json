@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2004-521",
+    "orderdatum": "15-05-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 723",
+      "postcode": "2673 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "48986721"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 178.64,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 35.0,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 348.17,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

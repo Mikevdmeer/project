@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2009-904",
+    "orderdatum": "28-07-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 999",
+      "postcode": "1897 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "18418773"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 399.83,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 302.22,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

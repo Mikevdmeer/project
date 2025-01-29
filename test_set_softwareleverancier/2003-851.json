@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2003-851",
+    "orderdatum": "10-11-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 182",
+      "postcode": "5893 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "41960634"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 345.3,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 121.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 16.71,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 491.37,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 180.19,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

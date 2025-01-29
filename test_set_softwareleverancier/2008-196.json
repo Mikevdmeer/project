@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2008-196",
+    "orderdatum": "17-01-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 177",
+      "postcode": "1941 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "64790113"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 364.14,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 97.26,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 236.17,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

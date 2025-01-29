@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2024-653",
+    "orderdatum": "06-12-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 113",
+      "postcode": "6521 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "88365842"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 476.22,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

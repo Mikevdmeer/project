@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2000-691",
+    "orderdatum": "11-06-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 905",
+      "postcode": "5998 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "37908107"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 231.41,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 81.8,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 378.83,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 471.63,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

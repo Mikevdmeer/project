@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2009-335",
+    "orderdatum": "05-07-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 500",
+      "postcode": "8768 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "77318753"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 422.42,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 352.75,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 23.06,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 164.59,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 311.75,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

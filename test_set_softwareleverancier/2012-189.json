@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-189",
+    "orderdatum": "20-02-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 467",
+      "postcode": "3179 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "49918721"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 310.74,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 356.78,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 203.02,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 300.81,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

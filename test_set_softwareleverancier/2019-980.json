@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2019-980",
+    "orderdatum": "12-09-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 669",
+      "postcode": "3198 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "54103319"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 404.75,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 358.08,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 330.77,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

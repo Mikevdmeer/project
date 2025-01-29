@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2020-219",
+    "orderdatum": "16-12-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 148",
+      "postcode": "7021 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "88544638"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 290.16,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 161.04,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 394.84,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 212.87,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 35.04,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

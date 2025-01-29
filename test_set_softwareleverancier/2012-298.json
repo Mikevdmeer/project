@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2012-298",
+    "orderdatum": "06-06-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 57",
+      "postcode": "7986 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "68718387"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 259.24,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 332.61,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 277.26,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

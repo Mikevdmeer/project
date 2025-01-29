@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2017-403",
+    "orderdatum": "06-04-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 235",
+      "postcode": "6355 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "49762199"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 26.34,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 446.08,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

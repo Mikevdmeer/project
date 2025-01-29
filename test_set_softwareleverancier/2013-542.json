@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2013-542",
+    "orderdatum": "15-01-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 910",
+      "postcode": "5286 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "12711414"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 342.91,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 419.61,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

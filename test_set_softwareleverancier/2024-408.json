@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2024-408",
+    "orderdatum": "17-10-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 707",
+      "postcode": "6892 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "40644081"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 412.24,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 378.0,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 120.0,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 213.69,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 228.88,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

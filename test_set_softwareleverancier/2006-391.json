@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2006-391",
+    "orderdatum": "10-11-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 411",
+      "postcode": "9974 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "95736321"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 301.98,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 34.25,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 11.14,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 28.35,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

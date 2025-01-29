@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2008-128",
+    "orderdatum": "20-08-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 497",
+      "postcode": "4445 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "54482941"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 420.34,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 192.75,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 156.99,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 306.92,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

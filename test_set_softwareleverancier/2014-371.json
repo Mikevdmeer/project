@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2014-371",
+    "orderdatum": "10-06-2020",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 567",
+      "postcode": "3496 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "51101239"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 381.45,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 271.39,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 215.13,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 411.56,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 488.52,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

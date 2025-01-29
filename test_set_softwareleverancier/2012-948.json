@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-948",
+    "orderdatum": "25-02-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 541",
+      "postcode": "6383 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "83146842"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 404.71,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 288.09,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 46.64,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 120.12,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2019-138",
+    "orderdatum": "13-04-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 880",
+      "postcode": "6357 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "44061915"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 225.15,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 273.72,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 11.22,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 142.62,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 65.93,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

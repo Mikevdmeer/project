@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2017-306",
+    "orderdatum": "28-09-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 593",
+      "postcode": "8823 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "91606595"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 226.45,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

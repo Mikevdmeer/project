@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2008-248",
+    "orderdatum": "24-03-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 19",
+      "postcode": "4469 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "46368023"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 480.78,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

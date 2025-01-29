@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2015-664",
+    "orderdatum": "10-05-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 906",
+      "postcode": "8592 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "11301368"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 319.41,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 261.1,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

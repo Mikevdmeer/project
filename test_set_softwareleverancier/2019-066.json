@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2019-066",
+    "orderdatum": "20-12-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 377",
+      "postcode": "7808 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82737031"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 494.19,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

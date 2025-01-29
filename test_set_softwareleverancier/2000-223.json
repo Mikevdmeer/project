@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2000-223",
+    "orderdatum": "08-06-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 897",
+      "postcode": "4491 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "80276902"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 11.63,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 310.21,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 229.22,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 388.29,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

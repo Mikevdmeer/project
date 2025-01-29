@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2014-408",
+    "orderdatum": "02-02-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 990",
+      "postcode": "9543 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37825060"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 195.29,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 43.2,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 52.15,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 111.86,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 95.8,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

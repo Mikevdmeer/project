@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2014-510",
+    "orderdatum": "26-09-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 499",
+      "postcode": "6365 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "13819277"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 400.42,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

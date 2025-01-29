@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2022-619",
+    "orderdatum": "07-12-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 778",
+      "postcode": "7027 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "55592367"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 140.42,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2011-850",
+    "orderdatum": "16-08-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 46",
+      "postcode": "9458 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37812946"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 329.77,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 191.32,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 281.02,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 262.61,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2001-926",
+    "orderdatum": "22-02-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 720",
+      "postcode": "3404 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "10951352"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 233.13,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 402.79,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 294.33,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2013-168",
+    "orderdatum": "13-07-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 193",
+      "postcode": "2015 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "34765072"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 160.82,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 364.76,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2013-214",
+    "orderdatum": "14-03-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 55",
+      "postcode": "5368 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "39215352"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 204.34,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 291.15,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

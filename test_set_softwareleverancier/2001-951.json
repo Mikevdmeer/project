@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2001-951",
+    "orderdatum": "02-07-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 339",
+      "postcode": "9143 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "85064344"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 399.58,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

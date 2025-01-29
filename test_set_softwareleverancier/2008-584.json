@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2008-584",
+    "orderdatum": "22-01-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 689",
+      "postcode": "9190 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "52857262"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 355.07,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

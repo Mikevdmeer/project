@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2009-521",
+    "orderdatum": "22-10-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 129",
+      "postcode": "4636 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "32922022"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 108.46,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 187.23,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 471.91,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

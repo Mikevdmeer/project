@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2009-673",
+    "orderdatum": "07-10-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 468",
+      "postcode": "1137 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "61296120"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 75.01,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

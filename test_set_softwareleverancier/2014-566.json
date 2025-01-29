@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2014-566",
+    "orderdatum": "22-03-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 886",
+      "postcode": "6139 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "32410322"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 300.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 48.1,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

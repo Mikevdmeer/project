@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2002-940",
+    "orderdatum": "28-02-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 18",
+      "postcode": "4453 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94632285"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 274.14,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 285.55,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 115.82,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 225.77,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 78.48,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

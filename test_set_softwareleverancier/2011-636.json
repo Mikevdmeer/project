@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2011-636",
+    "orderdatum": "03-06-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 199",
+      "postcode": "2305 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "27217396"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 73.49,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2013-580",
+    "orderdatum": "15-10-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 377",
+      "postcode": "8986 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "63827149"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 451.27,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 340.18,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 117.41,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 383.43,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

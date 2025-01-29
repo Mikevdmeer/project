@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2010-968",
+    "orderdatum": "08-05-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 160",
+      "postcode": "8360 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95556388"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 133.98,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 34.22,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 167.48,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 394.35,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 242.6,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

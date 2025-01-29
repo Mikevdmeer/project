@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2003-481",
+    "orderdatum": "08-06-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 132",
+      "postcode": "1071 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "25344007"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 497.96,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 193.37,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 281.54,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 263.58,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

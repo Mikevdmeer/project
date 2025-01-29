@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2021-801",
+    "orderdatum": "14-09-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 198",
+      "postcode": "9035 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "32186258"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 243.98,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 472.82,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 432.39,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 241.6,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 345.26,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

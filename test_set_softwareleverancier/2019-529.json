@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2019-529",
+    "orderdatum": "28-04-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 511",
+      "postcode": "6900 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "62924420"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 440.73,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 305.72,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 82.56,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 185.34,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 56.08,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

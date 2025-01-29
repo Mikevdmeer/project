@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2021-378",
+    "orderdatum": "01-03-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 711",
+      "postcode": "7423 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "48195548"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 202.12,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 326.96,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

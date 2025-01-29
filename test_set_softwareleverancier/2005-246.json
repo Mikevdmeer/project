@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2005-246",
+    "orderdatum": "19-10-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 280",
+      "postcode": "2600 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "12135110"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 288.99,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 159.38,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

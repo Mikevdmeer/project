@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2023-135",
+    "orderdatum": "20-02-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 960",
+      "postcode": "9186 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "83455583"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 355.95,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

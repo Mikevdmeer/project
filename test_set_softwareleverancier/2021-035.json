@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2021-035",
+    "orderdatum": "17-05-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 437",
+      "postcode": "8550 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "37940336"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 33.44,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 18.43,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 101.13,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

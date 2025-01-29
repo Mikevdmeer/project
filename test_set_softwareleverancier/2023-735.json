@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2023-735",
+    "orderdatum": "10-01-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 125",
+      "postcode": "1416 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "16589861"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 100.16,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 473.03,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

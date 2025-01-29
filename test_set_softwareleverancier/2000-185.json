@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2000-185",
+    "orderdatum": "10-11-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 628",
+      "postcode": "8478 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "40786166"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 360.53,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 78.63,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 186.77,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 294.55,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2017-503",
+    "orderdatum": "21-02-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 814",
+      "postcode": "6958 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82863373"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 217.65,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 70.98,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 395.93,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 71.5,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

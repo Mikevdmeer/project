@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2008-084",
+    "orderdatum": "14-04-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 695",
+      "postcode": "9475 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "19293346"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 410.14,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

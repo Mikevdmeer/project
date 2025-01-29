@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2019-650",
+    "orderdatum": "08-09-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 560",
+      "postcode": "6407 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "18433412"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 160.23,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 289.86,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 196.11,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 272.79,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

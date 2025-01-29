@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2010-028",
+    "orderdatum": "27-12-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 668",
+      "postcode": "3183 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "45817551"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 225.46,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 240.46,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 338.9,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 24.74,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

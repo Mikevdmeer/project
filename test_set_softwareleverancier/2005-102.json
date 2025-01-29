@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2005-102",
+    "orderdatum": "14-08-2020",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 598",
+      "postcode": "1868 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "35854700"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 493.86,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 194.88,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 298.5,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

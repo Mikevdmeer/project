@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-363",
+    "orderdatum": "27-09-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 197",
+      "postcode": "7112 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "93039036"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 157.91,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 63.87,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 375.39,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 364.84,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

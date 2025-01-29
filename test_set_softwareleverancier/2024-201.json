@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2024-201",
+    "orderdatum": "18-07-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 130",
+      "postcode": "5177 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "92482368"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 64.49,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 165.2,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 146.94,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 372.63,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 457.75,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

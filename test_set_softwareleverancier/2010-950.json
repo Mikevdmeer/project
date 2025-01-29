@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2010-950",
+    "orderdatum": "04-08-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 474",
+      "postcode": "4629 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "50006206"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 261.67,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 59.65,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 325.55,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 327.11,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 189.86,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

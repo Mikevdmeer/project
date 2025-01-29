@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2018-386",
+    "orderdatum": "09-07-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 172",
+      "postcode": "6369 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "97512190"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 423.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 173.82,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

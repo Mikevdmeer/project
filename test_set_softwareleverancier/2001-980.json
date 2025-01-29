@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2001-980",
+    "orderdatum": "18-05-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 676",
+      "postcode": "2272 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82551216"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 233.73,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 378.86,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

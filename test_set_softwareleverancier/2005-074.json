@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2005-074",
+    "orderdatum": "25-05-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 850",
+      "postcode": "5325 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82534655"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 346.34,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

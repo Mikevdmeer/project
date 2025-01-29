@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2003-204",
+    "orderdatum": "09-09-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 586",
+      "postcode": "5398 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "91925903"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 239.29,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 214.94,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 201.55,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 18.49,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 222.02,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2020-318",
+    "orderdatum": "09-09-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 421",
+      "postcode": "2146 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "20028065"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 124.4,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 122.73,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 64.15,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 257.04,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

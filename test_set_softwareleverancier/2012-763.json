@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-763",
+    "orderdatum": "07-08-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 934",
+      "postcode": "2875 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "57568853"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 188.73,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 380.98,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 56.25,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 28.25,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

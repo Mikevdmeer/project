@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2000-018",
+    "orderdatum": "01-04-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 383",
+      "postcode": "7398 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "86358703"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 459.67,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

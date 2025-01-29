@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2019-307",
+    "orderdatum": "10-10-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 128",
+      "postcode": "1548 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "82163232"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 272.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 386.83,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

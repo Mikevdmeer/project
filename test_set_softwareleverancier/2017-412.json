@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2017-412",
+    "orderdatum": "07-08-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 777",
+      "postcode": "2126 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "67723789"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 132.73,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

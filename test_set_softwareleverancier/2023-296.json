@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2023-296",
+    "orderdatum": "11-03-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 974",
+      "postcode": "7224 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "44200588"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 357.28,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 393.11,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 369.81,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 85.44,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

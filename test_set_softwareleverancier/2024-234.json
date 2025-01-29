@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2024-234",
+    "orderdatum": "21-06-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 244",
+      "postcode": "5197 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "89843084"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 86.28,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 202.74,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 406.09,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 444.98,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 318.81,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

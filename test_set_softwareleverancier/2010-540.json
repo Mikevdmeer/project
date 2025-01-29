@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2010-540",
+    "orderdatum": "11-08-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 740",
+      "postcode": "5521 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63153026"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 387.1,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 125.85,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 312.97,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

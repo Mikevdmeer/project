@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2015-308",
+    "orderdatum": "03-05-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 199",
+      "postcode": "5718 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "79264809"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 212.96,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 427.62,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2022-587",
+    "orderdatum": "26-07-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 562",
+      "postcode": "7193 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "91623138"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 90.1,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

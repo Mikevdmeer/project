@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2007-821",
+    "orderdatum": "04-02-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 905",
+      "postcode": "8788 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "39861772"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 41.78,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 140.03,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

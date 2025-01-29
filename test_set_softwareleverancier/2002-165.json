@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2002-165",
+    "orderdatum": "16-11-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 107",
+      "postcode": "1032 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "68450877"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 411.86,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 206.34,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 408.47,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 465.98,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 120.83,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

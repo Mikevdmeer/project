@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2020-663",
+    "orderdatum": "27-12-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 645",
+      "postcode": "3156 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "79253801"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 31.65,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 367.75,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 402.79,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 253.29,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 81.54,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

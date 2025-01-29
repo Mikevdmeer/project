@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2013-453",
+    "orderdatum": "18-08-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 777",
+      "postcode": "9163 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "69385382"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 135.83,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 237.78,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 60.44,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 193.57,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 386.05,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

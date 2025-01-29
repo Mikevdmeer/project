@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2017-096",
+    "orderdatum": "14-10-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 130",
+      "postcode": "7215 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "69268869"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 487.37,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 287.95,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 25.94,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 405.45,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

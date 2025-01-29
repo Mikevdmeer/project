@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2002-294",
+    "orderdatum": "23-12-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 320",
+      "postcode": "4275 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "73154820"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 347.05,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 353.37,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 299.13,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 392.85,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 90.96,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

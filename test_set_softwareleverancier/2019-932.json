@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2019-932",
+    "orderdatum": "25-11-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 580",
+      "postcode": "7029 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "60429927"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 496.55,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 327.61,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

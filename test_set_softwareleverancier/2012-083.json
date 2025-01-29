@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-083",
+    "orderdatum": "02-03-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 816",
+      "postcode": "9056 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "66499421"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 115.68,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 119.43,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 158.72,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 18.98,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

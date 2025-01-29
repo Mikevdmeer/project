@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2006-534",
+    "orderdatum": "01-01-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 319",
+      "postcode": "3509 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "80332714"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 135.32,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 36.93,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 446.35,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 191.67,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

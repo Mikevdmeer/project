@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2016-904",
+    "orderdatum": "03-06-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 872",
+      "postcode": "9367 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "96698074"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 211.03,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 403.21,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 489.67,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 389.49,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

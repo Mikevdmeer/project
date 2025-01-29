@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2021-587",
+    "orderdatum": "04-01-2020",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 490",
+      "postcode": "8578 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "97708621"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 108.27,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 36.83,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 69.22,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

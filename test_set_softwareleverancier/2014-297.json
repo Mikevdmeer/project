@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2014-297",
+    "orderdatum": "13-07-2020",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 403",
+      "postcode": "7931 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82949745"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 441.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 311.22,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 233.96,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2002-864",
+    "orderdatum": "20-12-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 286",
+      "postcode": "6073 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "33587651"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 73.33,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 266.76,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 407.01,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 77.47,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 348.68,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

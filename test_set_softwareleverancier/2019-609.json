@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2019-609",
+    "orderdatum": "17-06-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 3",
+      "postcode": "2690 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "53881121"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 187.01,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 471.26,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

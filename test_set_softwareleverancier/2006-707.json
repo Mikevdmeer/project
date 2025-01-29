@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2006-707",
+    "orderdatum": "24-04-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 127",
+      "postcode": "7730 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "64731744"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 466.19,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2010-486",
+    "orderdatum": "01-11-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 871",
+      "postcode": "5736 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "18551235"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 195.57,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 368.19,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 445.91,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 301.37,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 51.8,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

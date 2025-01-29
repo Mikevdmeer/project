@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2019-148",
+    "orderdatum": "05-06-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 607",
+      "postcode": "6417 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "59806030"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 293.52,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 396.58,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 182.51,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

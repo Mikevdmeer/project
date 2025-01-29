@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2002-214",
+    "orderdatum": "28-08-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 804",
+      "postcode": "9439 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "96071084"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 194.57,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 153.41,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 135.17,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

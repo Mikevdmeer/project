@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2012-080",
+    "orderdatum": "09-10-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 287",
+      "postcode": "2309 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "42654601"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 163.37,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 447.01,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 260.94,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 204.67,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 29.3,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

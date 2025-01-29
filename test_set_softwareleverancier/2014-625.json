@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2014-625",
+    "orderdatum": "16-12-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 328",
+      "postcode": "3885 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "29156129"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 420.45,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 257.0,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

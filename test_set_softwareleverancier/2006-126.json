@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2006-126",
+    "orderdatum": "03-08-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 776",
+      "postcode": "2770 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "30043002"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 370.72,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

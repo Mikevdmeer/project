@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2006-147",
+    "orderdatum": "18-02-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 823",
+      "postcode": "7979 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "67579045"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 160.11,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 239.5,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

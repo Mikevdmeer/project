@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2008-184",
+    "orderdatum": "09-03-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 523",
+      "postcode": "5033 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "42822935"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 437.07,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

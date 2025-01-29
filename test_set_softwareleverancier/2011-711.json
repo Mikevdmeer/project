@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2011-711",
+    "orderdatum": "17-08-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 52",
+      "postcode": "2545 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "12107435"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 89.31,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 465.26,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 352.41,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

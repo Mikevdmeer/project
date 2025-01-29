@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2011-692",
+    "orderdatum": "01-04-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 384",
+      "postcode": "3414 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "44083347"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 436.62,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 437.49,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 393.89,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 130.69,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 350.57,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2019-882",
+    "orderdatum": "20-10-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 545",
+      "postcode": "9452 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "44534878"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 21.64,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

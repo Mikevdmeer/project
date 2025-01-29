@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2000-886",
+    "orderdatum": "07-11-2020",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 516",
+      "postcode": "6573 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "47351969"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 156.85,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 384.03,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 310.16,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 221.24,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

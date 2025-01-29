@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2012-594",
+    "orderdatum": "11-05-2020",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 975",
+      "postcode": "8916 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "22108518"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 144.23,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 20.54,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 374.33,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

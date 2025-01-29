@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2023-090",
+    "orderdatum": "02-09-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 119",
+      "postcode": "9132 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "13053484"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 497.6,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 58.36,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 401.73,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 412.03,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 219.77,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

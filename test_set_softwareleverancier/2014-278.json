@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2014-278",
+    "orderdatum": "09-10-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 116",
+      "postcode": "5021 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "36087458"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 411.87,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 172.09,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 56.75,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 69.37,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 242.37,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

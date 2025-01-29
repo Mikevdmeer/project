@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2011-863",
+    "orderdatum": "24-02-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 751",
+      "postcode": "6400 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "65693359"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 225.96,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 298.26,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 290.42,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

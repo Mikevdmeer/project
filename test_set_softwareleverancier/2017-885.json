@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2017-885",
+    "orderdatum": "07-01-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 217",
+      "postcode": "5383 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "29974674"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 105.58,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 176.0,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 216.79,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

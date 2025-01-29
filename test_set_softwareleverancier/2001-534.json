@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2001-534",
+    "orderdatum": "24-12-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 858",
+      "postcode": "1009 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "70354921"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 399.4,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 143.62,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 27.39,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 293.69,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

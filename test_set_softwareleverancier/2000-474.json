@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2000-474",
+    "orderdatum": "09-11-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 624",
+      "postcode": "7886 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "28659628"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 454.18,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 477.43,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 488.63,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 154.03,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

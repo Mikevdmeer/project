@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2023-773",
+    "orderdatum": "07-07-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 131",
+      "postcode": "4889 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "36948175"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 212.27,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 458.93,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 160.33,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 483.97,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

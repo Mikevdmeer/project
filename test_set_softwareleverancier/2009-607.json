@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2009-607",
+    "orderdatum": "13-06-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 808",
+      "postcode": "7279 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "32011542"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 132.0,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

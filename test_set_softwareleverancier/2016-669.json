@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2016-669",
+    "orderdatum": "08-08-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 184",
+      "postcode": "5785 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "61377993"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 165.47,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 53.42,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

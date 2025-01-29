@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2024-446",
+    "orderdatum": "10-04-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 1",
+      "postcode": "2357 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "84655851"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 32.47,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 486.07,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 204.04,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

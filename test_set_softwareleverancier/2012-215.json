@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-215",
+    "orderdatum": "14-12-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 596",
+      "postcode": "1818 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "19860522"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 237.7,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 313.0,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 178.51,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 395.71,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2016-375",
+    "orderdatum": "23-02-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 734",
+      "postcode": "6751 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "53336911"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 212.27,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 155.15,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

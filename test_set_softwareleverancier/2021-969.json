@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2021-969",
+    "orderdatum": "23-02-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 248",
+      "postcode": "5927 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "63938423"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 21.52,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

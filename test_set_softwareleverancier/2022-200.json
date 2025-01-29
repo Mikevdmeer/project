@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2022-200",
+    "orderdatum": "01-05-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 272",
+      "postcode": "5005 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "46288241"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 144.56,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 144.44,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

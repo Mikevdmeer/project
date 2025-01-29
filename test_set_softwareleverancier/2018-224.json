@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2018-224",
+    "orderdatum": "19-03-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 794",
+      "postcode": "4818 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "61702682"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 99.43,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 265.76,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 250.86,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 266.0,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 43.42,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

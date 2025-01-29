@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2018-449",
+    "orderdatum": "04-10-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 390",
+      "postcode": "8196 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "50733588"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 192.65,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 320.13,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 333.95,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

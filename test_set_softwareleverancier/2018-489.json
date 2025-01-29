@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2018-489",
+    "orderdatum": "08-08-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 615",
+      "postcode": "1113 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "56472064"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 234.67,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

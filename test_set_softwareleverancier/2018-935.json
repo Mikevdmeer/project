@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2018-935",
+    "orderdatum": "03-09-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 998",
+      "postcode": "9861 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "57042568"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 488.64,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 336.61,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

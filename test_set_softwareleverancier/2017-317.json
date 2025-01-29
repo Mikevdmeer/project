@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2017-317",
+    "orderdatum": "13-01-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 333",
+      "postcode": "7635 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "71428326"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 181.91,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 272.88,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 282.62,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

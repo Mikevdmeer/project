@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2010-130",
+    "orderdatum": "01-03-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 780",
+      "postcode": "5418 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "20784091"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 147.32,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 41.37,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 179.45,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2001-239",
+    "orderdatum": "17-04-2022",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 794",
+      "postcode": "7414 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "25469051"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 446.36,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 105.44,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

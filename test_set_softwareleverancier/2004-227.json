@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2004-227",
+    "orderdatum": "04-08-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 817",
+      "postcode": "7125 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95637162"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 202.68,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 347.23,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 230.43,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

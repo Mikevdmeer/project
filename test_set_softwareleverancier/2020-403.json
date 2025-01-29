@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2020-403",
+    "orderdatum": "11-07-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 759",
+      "postcode": "3638 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "80706674"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 376.72,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 392.15,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 445.5,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 277.66,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

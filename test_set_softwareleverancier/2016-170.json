@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2016-170",
+    "orderdatum": "16-02-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 559",
+      "postcode": "9840 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "13835010"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 435.93,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 316.01,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 100.9,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 326.0,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 369.61,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

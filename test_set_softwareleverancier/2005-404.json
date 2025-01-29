@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2005-404",
+    "orderdatum": "28-01-2020",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 395",
+      "postcode": "5024 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "53978993"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 264.04,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 126.15,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 243.85,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

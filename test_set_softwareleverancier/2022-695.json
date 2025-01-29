@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2022-695",
+    "orderdatum": "13-12-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 561",
+      "postcode": "5721 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "92300019"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 170.06,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 202.01,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 63.8,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

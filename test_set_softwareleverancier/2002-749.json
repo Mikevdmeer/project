@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2002-749",
+    "orderdatum": "22-05-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 948",
+      "postcode": "6847 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "82348493"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 262.74,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

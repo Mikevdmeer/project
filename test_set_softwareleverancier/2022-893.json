@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2022-893",
+    "orderdatum": "13-05-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 465",
+      "postcode": "4332 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "22854688"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 249.41,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 169.24,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 315.45,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 249.68,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2007-964",
+    "orderdatum": "19-07-2020",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 327",
+      "postcode": "9734 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "87742531"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 325.5,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 53.79,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

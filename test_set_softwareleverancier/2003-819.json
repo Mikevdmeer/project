@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2003-819",
+    "orderdatum": "10-02-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 754",
+      "postcode": "7471 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "62655226"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 120.95,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 22.84,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 228.93,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 313.52,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 157.14,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

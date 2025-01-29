@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2007-056",
+    "orderdatum": "05-03-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 352",
+      "postcode": "6602 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "58150934"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 297.21,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 112.35,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 154.83,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

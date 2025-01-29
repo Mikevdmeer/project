@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2014-767",
+    "orderdatum": "05-06-2023",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 829",
+      "postcode": "3052 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "47323664"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 251.99,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 351.92,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2004-913",
+    "orderdatum": "14-06-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 322",
+      "postcode": "7204 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "76036911"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 313.42,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 308.57,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 170.89,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2023-319",
+    "orderdatum": "17-08-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 95",
+      "postcode": "6135 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "96394809"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 182.06,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2023-682",
+    "orderdatum": "20-04-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 360",
+      "postcode": "9859 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "99573682"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 34.01,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 148.33,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 146.73,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 54.37,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

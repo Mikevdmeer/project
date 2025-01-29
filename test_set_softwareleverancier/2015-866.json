@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2015-866",
+    "orderdatum": "19-04-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 556",
+      "postcode": "4815 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "27991206"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 421.89,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

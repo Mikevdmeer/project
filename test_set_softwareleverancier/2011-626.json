@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2011-626",
+    "orderdatum": "15-02-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 732",
+      "postcode": "9907 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "77986634"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 340.09,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

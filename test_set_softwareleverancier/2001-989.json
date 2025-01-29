@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2001-989",
+    "orderdatum": "18-03-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 655",
+      "postcode": "3053 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "99574113"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 79.17,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 101.15,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

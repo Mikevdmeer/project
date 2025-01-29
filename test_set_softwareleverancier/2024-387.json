@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2024-387",
+    "orderdatum": "28-04-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 100",
+      "postcode": "1210 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "16584560"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 88.31,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 16.16,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 497.34,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 290.98,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

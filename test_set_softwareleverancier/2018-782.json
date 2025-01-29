@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2018-782",
+    "orderdatum": "03-04-2020",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 186",
+      "postcode": "1042 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "75064912"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 470.68,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 46.33,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

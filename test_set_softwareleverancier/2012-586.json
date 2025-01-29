@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2012-586",
+    "orderdatum": "05-05-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 857",
+      "postcode": "5678 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "98408917"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 81.53,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 371.07,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 111.82,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 142.45,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

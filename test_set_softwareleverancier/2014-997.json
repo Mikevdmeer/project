@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2014-997",
+    "orderdatum": "04-05-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 365",
+      "postcode": "4494 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "52634604"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 73.19,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 270.56,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

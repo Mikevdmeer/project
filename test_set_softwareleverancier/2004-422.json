@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2004-422",
+    "orderdatum": "28-04-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 74",
+      "postcode": "4312 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "27999369"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 360.13,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 37.62,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 239.43,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 190.14,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

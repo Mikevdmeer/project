@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2019-755",
+    "orderdatum": "19-10-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 847",
+      "postcode": "8809 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "83055806"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 456.63,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 152.62,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 470.4,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 455.33,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

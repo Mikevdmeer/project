@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2016-165",
+    "orderdatum": "25-11-2020",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 352",
+      "postcode": "6114 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "45942251"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 366.36,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

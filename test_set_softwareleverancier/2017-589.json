@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2017-589",
+    "orderdatum": "13-10-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 355",
+      "postcode": "6122 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37787688"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 58.8,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 179.42,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 463.74,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

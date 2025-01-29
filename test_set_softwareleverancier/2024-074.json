@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2024-074",
+    "orderdatum": "28-11-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 239",
+      "postcode": "5748 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "70184936"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Ads",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 327.1,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 93.93,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

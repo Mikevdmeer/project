@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2018-139",
+    "orderdatum": "21-07-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 554",
+      "postcode": "2977 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "81231575"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 16.66,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 430.62,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 373.95,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

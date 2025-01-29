@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2007-355",
+    "orderdatum": "04-05-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 378",
+      "postcode": "3325 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "82430800"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 338.85,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 372.65,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

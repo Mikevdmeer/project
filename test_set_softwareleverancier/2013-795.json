@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2013-795",
+    "orderdatum": "06-03-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 936",
+      "postcode": "3937 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "96954477"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 410.75,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 78.35,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 339.29,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 394.43,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 65.3,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

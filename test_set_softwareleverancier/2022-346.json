@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2022-346",
+    "orderdatum": "24-02-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 811",
+      "postcode": "5615 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "95612740"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 192.75,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 121.66,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 499.07,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 58.42,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 309.16,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

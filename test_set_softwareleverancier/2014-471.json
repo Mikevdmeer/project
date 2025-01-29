@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2014-471",
+    "orderdatum": "26-03-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 727",
+      "postcode": "8817 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "92233733"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 345.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 426.72,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 156.23,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 309.41,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 34.69,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

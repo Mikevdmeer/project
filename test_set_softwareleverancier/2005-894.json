@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2005-894",
+    "orderdatum": "25-06-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 305",
+      "postcode": "2214 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "29063261"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 483.6,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 242.15,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 222.97,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 366.47,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 69.77,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

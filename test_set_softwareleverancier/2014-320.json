@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2014-320",
+    "orderdatum": "11-02-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 403",
+      "postcode": "5598 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94825032"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 467.28,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 106.72,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 171.46,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 363.42,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 428.03,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

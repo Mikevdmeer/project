@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2013-531",
+    "orderdatum": "15-12-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 642",
+      "postcode": "2690 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "97695931"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 460.22,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

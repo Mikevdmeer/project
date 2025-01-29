@@ -1,0 +1,46 @@
+{
+  "order": {
+    "ordernummer": "2018-820",
+    "orderdatum": "16-06-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 540",
+      "postcode": "9475 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "69644352"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 260.82,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 307.99,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 340.58,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 211.62,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 334.22,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

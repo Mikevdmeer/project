@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2001-688",
+    "orderdatum": "14-05-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 840",
+      "postcode": "2515 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "91007095"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 92.97,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 282.3,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

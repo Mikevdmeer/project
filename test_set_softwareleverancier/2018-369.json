@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2018-369",
+    "orderdatum": "09-09-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 66",
+      "postcode": "2372 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "90330040"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 87.13,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 49.46,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

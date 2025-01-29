@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2016-037",
+    "orderdatum": "15-12-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 572",
+      "postcode": "7299 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "15730370"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 11.17,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 89.13,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 269.11,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

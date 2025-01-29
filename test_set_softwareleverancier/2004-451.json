@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2004-451",
+    "orderdatum": "05-07-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 859",
+      "postcode": "5912 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "41860787"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 454.18,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 335.91,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

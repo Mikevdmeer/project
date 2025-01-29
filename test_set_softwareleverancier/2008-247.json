@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2008-247",
+    "orderdatum": "05-11-2020",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 21",
+      "postcode": "3383 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "22911461"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 438.58,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Azure",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 269.84,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 207.83,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2023-551",
+    "orderdatum": "18-11-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 227",
+      "postcode": "9094 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "77902999"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 255.23,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 78.66,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

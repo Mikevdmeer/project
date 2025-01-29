@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2015-811",
+    "orderdatum": "26-08-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 818",
+      "postcode": "2935 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "61651912"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 481.03,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 120.56,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 259.6,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Premiere Pro",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 349.82,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2008-348",
+    "orderdatum": "22-06-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 772",
+      "postcode": "9999 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "31563377"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 289.11,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 440.86,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 437.34,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

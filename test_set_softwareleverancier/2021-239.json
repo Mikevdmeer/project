@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2021-239",
+    "orderdatum": "02-02-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 236",
+      "postcode": "3538 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "25890154"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 71.25,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2024-940",
+    "orderdatum": "08-11-2022",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 336",
+      "postcode": "8228 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "27883632"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 159.89,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

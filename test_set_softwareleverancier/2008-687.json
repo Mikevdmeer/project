@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2008-687",
+    "orderdatum": "11-08-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 314",
+      "postcode": "3338 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "68152634"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 13.86,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 349.02,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 462.6,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

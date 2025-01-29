@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2004-075",
+    "orderdatum": "28-07-2023",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 491",
+      "postcode": "9936 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "75356859"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 453.0,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 480.95,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 411.22,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2007-894",
+    "orderdatum": "12-12-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 976",
+      "postcode": "4334 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "83533871"
+    },
+    "producten": [
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 59.02,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 167.12,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 238.16,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 333.71,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

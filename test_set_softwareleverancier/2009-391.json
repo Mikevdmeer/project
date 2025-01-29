@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2009-391",
+    "orderdatum": "20-03-2024",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 471",
+      "postcode": "4699 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "27109064"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 309.48,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 374.67,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 292.24,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

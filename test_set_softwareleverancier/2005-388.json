@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2005-388",
+    "orderdatum": "10-06-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 537",
+      "postcode": "1126 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "99146262"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 416.57,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 349.93,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 203.17,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 312.11,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

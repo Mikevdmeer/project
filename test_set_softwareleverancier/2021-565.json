@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2021-565",
+    "orderdatum": "18-01-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 883",
+      "postcode": "4099 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "25611095"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 62.63,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 359.02,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 111.23,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 366.39,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2010-190",
+    "orderdatum": "27-06-2023",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 768",
+      "postcode": "6289 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "30977252"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 393.1,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 115.86,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 345.73,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

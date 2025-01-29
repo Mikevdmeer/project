@@ -1,0 +1,40 @@
+{
+  "order": {
+    "ordernummer": "2006-905",
+    "orderdatum": "19-12-2024",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 651",
+      "postcode": "9046 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "96495254"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 249.32,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 299.87,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 439.72,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 42.66,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

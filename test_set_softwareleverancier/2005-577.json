@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2005-577",
+    "orderdatum": "16-05-2020",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 166",
+      "postcode": "4294 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "69507971"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 416.33,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 138.06,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

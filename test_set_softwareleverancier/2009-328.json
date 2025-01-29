@@ -1,0 +1,22 @@
+{
+  "order": {
+    "ordernummer": "2009-328",
+    "orderdatum": "04-09-2021",
+    "betaaltermijn": "30-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 29",
+      "postcode": "7169 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "31680652"
+    },
+    "producten": [
+      {
+        "productnaam": "GitHub",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 477.19,
+        "btw_percentage": 6
+      }
+    ]
+  }
+}

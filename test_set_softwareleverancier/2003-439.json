@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2003-439",
+    "orderdatum": "19-12-2022",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 955",
+      "postcode": "2806 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "70910033"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 447.78,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 278.34,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

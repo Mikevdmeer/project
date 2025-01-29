@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2002-637",
+    "orderdatum": "15-08-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 243",
+      "postcode": "9391 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "83595069"
+    },
+    "producten": [
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 369.92,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 453.2,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

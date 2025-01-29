@@ -1,0 +1,28 @@
+{
+  "order": {
+    "ordernummer": "2006-250",
+    "orderdatum": "01-09-2021",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 613",
+      "postcode": "8046 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "55966025"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 30.67,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 42.47,
+        "btw_percentage": 21
+      }
+    ]
+  }
+}

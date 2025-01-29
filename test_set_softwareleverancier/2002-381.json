@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2002-381",
+    "orderdatum": "18-07-2024",
+    "betaaltermijn": "90-dagen",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 381",
+      "postcode": "8281 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "26804255"
+    },
+    "producten": [
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 153.94,
+        "btw_percentage": 21
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 100.81,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 156.12,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}

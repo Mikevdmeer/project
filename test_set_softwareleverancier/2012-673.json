@@ -1,0 +1,34 @@
+{
+  "order": {
+    "ordernummer": "2012-673",
+    "orderdatum": "14-06-2021",
+    "betaaltermijn": "60-dagen",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 303",
+      "postcode": "7590 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "34128239"
+    },
+    "producten": [
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 328.23,
+        "btw_percentage": 6
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 13.27,
+        "btw_percentage": 9
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 250.18,
+        "btw_percentage": 9
+      }
+    ]
+  }
+}
