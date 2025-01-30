@@ -1,98 +1,125 @@
-from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
-from reportlab.lib import colors
-from reportlab.lib.styles import getSampleStyleSheet
 import json
+import decimal
+from decimal import Decimal
+from datetime import datetime, timedelta
 import os
 
-def generate_invoice_pdf(json_file, output_file):
-    # Load invoice data from JSON
-    with open(json_file, 'r') as f:
-        invoice_data = json.load(f)
-    
-    factuur = invoice_data['factuur']
-    klant = factuur['klant']
-    factuurregels = factuur['factuurregels']
-    totalen = factuur['totalen']
-    
-    # Create PDF document
-    doc = SimpleDocTemplate(output_file, pagesize=A4)
-    styles = getSampleStyleSheet()
-    elements = []
-    
-    # Title
-    elements.append(Paragraph("Factuur", styles['Title']))
-    elements.append(Spacer(1, 12))
-    
-    # Invoice details
-    details = [
-        ["Factuurnummer:", factuur['factuurnummer']],
-        ["Factuurdatum:", factuur['factuurdatum']],
-        ["Vervaldatum:", factuur['vervaldatum']],
-        ["Ordernummer:", factuur['ordernummer']]
-    ]
-    table = Table(details, colWidths=[100, 200])
-    table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
-        ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-        ('BOTTOMPADDING', (0, 0), (-1, 0), 5),
-        ('GRID', (0, 0), (-1, -1), 0.5, colors.black)
-    ]))
-    elements.append(table)
-    elements.append(Spacer(1, 12))
-    
-    # Customer details
-    klant_info = f"Klant: {klant['naam']}<br/>Adres: {klant['adres']}<br/>E-mail: {klant['email']}"
-    elements.append(Paragraph(klant_info, styles['Normal']))
-    elements.append(Spacer(1, 12))
-    
-    # Invoice items
-    table_data = [["Aantal", "Productnaam", "Prijs/stuk", "BTW%", "Subtotaal Excl. BTW", "BTW", "Subtotaal Incl. BTW"]]
-    for item in factuurregels:
-        table_data.append([
-            item['aantal'],
-            item['productnaam'],
-            f"€ {item['prijs_per_stuk_excl_btw']:.2f}",
-            f"{item['btw_percentage']}%",
-            f"€ {item['subtotal_excl_btw']:.2f}",
-            f"€ {item['btw_bedrag']:.2f}",
-            f"€ {item['subtotal_incl_btw']:.2f}"
-        ])
-    
-    invoice_table = Table(table_data, colWidths=[50, 150, 70, 50, 90, 70, 90])
-    invoice_table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.lightgrey),
-        ('TEXTCOLOR', (0, 0), (-1, 0), colors.black),
-        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
-        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-        ('BOTTOMPADDING', (0, 0), (-1, 0), 5),
-        ('GRID', (0, 0), (-1, -1), 0.5, colors.black)
-    ]))
-    elements.append(invoice_table)
-    elements.append(Spacer(1, 12))
-    
-    # Totals
-    totals_data = [
-        ["Totaal excl. BTW:", f"€ {totalen['totaal_excl_btw']:.2f}"],
-        ["Totaal BTW:", f"€ {totalen['totaal_btw']:.2f}"],
-        ["Totaal incl. BTW:", f"€ {totalen['totaal_incl_btw']:.2f}"]
-    ]
-    totals_table = Table(totals_data, colWidths=[150, 100])
-    totals_table.setStyle(TableStyle([
-        ('ALIGN', (0, 0), (-1, -1), 'RIGHT'),
-        ('FONTNAME', (0, 0), (-1, -1), 'Helvetica-Bold'),
-        ('GRID', (0, 0), (-1, -1), 0.5, colors.black)
-    ]))
-    elements.append(totals_table)
-    
-    # Build PDF
-    doc.build(elements)
-    print(f"Factuur opgeslagen als {output_file}")
+class BTWCalculator:
+    @staticmethod
+    def round_btw(amount):
+        """
+        Round BTW amount according to Belastingdienst rules:
+        - Round down for amounts ending in .5
+        - Normal rounding for all other amounts
+        """
+        # Convert to Decimal for precise calculation
+        dec = Decimal(str(amount))
+        # Get cents part
+        cents = dec * 100 % 100
+        
+        if cents == Decimal('50'):
+            return Decimal(str(int(dec)))
+        return dec.quantize(Decimal('0.01'), rounding=decimal.ROUND_HALF_UP)
 
-# Voorbeeldgebruik
+class InvoiceGenerator:
+    def __init__(self):
+        self.current_year = datetime.now().year
+
+    def generate_invoice_number(self, order_number):
+        """Generate invoice number based on order number"""
+        return f"F-{order_number}"
+
+    def calculate_due_date(self, order_date, payment_term):
+        """Calculate due date based on order date and payment term"""
+        date_obj = datetime.strptime(order_date, "%d-%m-%Y")
+        days = int(payment_term.split('-')[0])
+        return (date_obj + timedelta(days=days)).strftime("%d-%m-%Y")
+
+    def calculate_line_totals(self, product):
+        """Calculate totals for a single product line"""
+        aantal = Decimal(str(product['aantal']))
+        price = Decimal(str(product['prijs_per_stuk_excl_btw']))
+        btw_percentage = Decimal(str(product['btw_percentage']))
+
+        subtotal_excl = aantal * price
+        btw_amount = BTWCalculator.round_btw(subtotal_excl * btw_percentage / 100)
+        subtotal_incl = subtotal_excl + btw_amount
+
+        return {
+            'aantal': int(aantal),
+            'productnaam': product['productnaam'],
+            'prijs_per_stuk_excl_btw': float(price),
+            'btw_percentage': int(btw_percentage),
+            'subtotal_excl_btw': float(subtotal_excl),
+            'btw_bedrag': float(btw_amount),
+            'subtotal_incl_btw': float(subtotal_incl)
+        }
+
+    def process_order(self, order_data):
+        """Process order data into invoice data"""
+        order = order_data['order']
+        
+        # Calculate totals for each product
+        product_lines = [self.calculate_line_totals(product) for product in order['producten']]
+        
+        # Calculate invoice totals
+        total_excl_btw = sum(line['subtotal_excl_btw'] for line in product_lines)
+        total_btw = sum(line['btw_bedrag'] for line in product_lines)
+        total_incl_btw = sum(line['subtotal_incl_btw'] for line in product_lines)
+
+        # Calculate due date
+        vervaldatum = self.calculate_due_date(order['orderdatum'], order['betaaltermijn'])
+
+        # Create invoice data structure
+        invoice_data = {
+            'factuur': {
+                'factuurnummer': self.generate_invoice_number(order['ordernummer']),
+                'factuurdatum': order['orderdatum'],
+                'vervaldatum': vervaldatum,
+                'ordernummer': order['ordernummer'],
+                'klant': order['klant'],
+                'factuurregels': product_lines,
+                'totalen': {
+                    'totaal_excl_btw': round(total_excl_btw, 2),
+                    'totaal_btw': round(total_btw, 2),
+                    'totaal_incl_btw': round(total_incl_btw, 2)
+                }
+            }
+        }
+
+        return invoice_data
+
+def process_order_files(input_dir, output_dir):
+    """Process all order files in the input directory"""
+    generator = InvoiceGenerator()
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Process each JSON file in the input directory
+    for filename in os.listdir(input_dir):
+        if filename.endswith('.json'):
+            input_path = os.path.join(input_dir, filename)
+            output_path = os.path.join(output_dir, f"invoice_{filename}")
+
+            try:
+                # Read order data
+                with open(input_path, 'r', encoding='utf-8') as f:
+                    order_data = json.load(f)
+
+                # Generate invoice data
+                invoice_data = generator.process_order(order_data)
+
+                # Save invoice data
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump(invoice_data, f, indent=2, ensure_ascii=False)
+                
+                print(f"Processed {filename} successfully")
+
+            except Exception as e:
+                print(f"Error processing {filename}: {str(e)}")
+
 if __name__ == "__main__":
-    input_json = "generated_invoices/invoice_example.json"  # Vervang dit met je echte JSON-bestand
-    output_pdf = "factuur_output.pdf"
-    generate_invoice_pdf(input_json, output_pdf)
+    input_directory = "test_set_softwareleverancier"
+    output_directory = "generated_invoices"
+    process_order_files(input_directory, output_directory)
