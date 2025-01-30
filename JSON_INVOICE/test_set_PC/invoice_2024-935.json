@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-935",
+    "factuurdatum": "10-04-2022",
+    "vervaldatum": "10-05-2022",
+    "ordernummer": "2024-935",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 379",
+      "postcode": "1590 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "87435587"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 357.87,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1789.35,
+        "btw_bedrag": 375.76,
+        "subtotal_incl_btw": 2165.11
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 126.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 252.66,
+        "btw_bedrag": 53.06,
+        "subtotal_incl_btw": 305.72
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 171.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 171.1,
+        "btw_bedrag": 35.93,
+        "subtotal_incl_btw": 207.03
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 461.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1846.48,
+        "btw_bedrag": 387.76,
+        "subtotal_incl_btw": 2234.24
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4059.59,
+      "totaal_btw": 852.51,
+      "totaal_incl_btw": 4912.1
+    }
+  }
+}

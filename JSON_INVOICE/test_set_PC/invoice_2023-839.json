@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-839",
+    "factuurdatum": "16-01-2021",
+    "vervaldatum": "17-03-2021",
+    "ordernummer": "2023-839",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 726",
+      "postcode": "4806 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "10582843"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 63.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 63.88,
+        "btw_bedrag": 13.41,
+        "subtotal_incl_btw": 77.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 63.88,
+      "totaal_btw": 13.41,
+      "totaal_incl_btw": 77.29
+    }
+  }
+}

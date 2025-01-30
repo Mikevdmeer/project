@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-183",
+    "factuurdatum": "16-10-2020",
+    "vervaldatum": "15-12-2020",
+    "ordernummer": "2023-183",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 256",
+      "postcode": "5641 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "59025769"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 406.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2033.05,
+        "btw_bedrag": 426.94,
+        "subtotal_incl_btw": 2459.99
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 234.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 703.14,
+        "btw_bedrag": 147.66,
+        "subtotal_incl_btw": 850.8
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 254.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1273.25,
+        "btw_bedrag": 267.38,
+        "subtotal_incl_btw": 1540.63
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4009.44,
+      "totaal_btw": 841.98,
+      "totaal_incl_btw": 4851.42
+    }
+  }
+}

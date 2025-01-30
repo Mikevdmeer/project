@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-619",
+    "factuurdatum": "02-05-2023",
+    "vervaldatum": "01-06-2023",
+    "ordernummer": "2024-619",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 913",
+      "postcode": "8605 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "90925759"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 364.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1092.87,
+        "btw_bedrag": 229.5,
+        "subtotal_incl_btw": 1322.37
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 367.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 367.8,
+        "btw_bedrag": 77.24,
+        "subtotal_incl_btw": 445.04
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 317.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1268.16,
+        "btw_bedrag": 266.31,
+        "subtotal_incl_btw": 1534.47
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 489.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2449.15,
+        "btw_bedrag": 514.32,
+        "subtotal_incl_btw": 2963.47
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 230.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1151.2,
+        "btw_bedrag": 241.75,
+        "subtotal_incl_btw": 1392.95
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 6329.18,
+      "totaal_btw": 1329.12,
+      "totaal_incl_btw": 7658.3
+    }
+  }
+}

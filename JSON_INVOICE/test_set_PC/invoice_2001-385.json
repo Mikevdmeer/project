@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-385",
+    "factuurdatum": "17-08-2022",
+    "vervaldatum": "16-10-2022",
+    "ordernummer": "2001-385",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 675",
+      "postcode": "8900 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "90664365"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 464.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2324.0,
+        "btw_bedrag": 488.04,
+        "subtotal_incl_btw": 2812.04
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 166.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 831.85,
+        "btw_bedrag": 174.69,
+        "subtotal_incl_btw": 1006.54
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 338.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1014.87,
+        "btw_bedrag": 213.12,
+        "subtotal_incl_btw": 1227.99
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4170.72,
+      "totaal_btw": 875.85,
+      "totaal_incl_btw": 5046.57
+    }
+  }
+}

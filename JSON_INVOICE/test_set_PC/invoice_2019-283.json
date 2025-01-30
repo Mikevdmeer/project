@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-283",
+    "factuurdatum": "19-05-2021",
+    "vervaldatum": "18-07-2021",
+    "ordernummer": "2019-283",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 872",
+      "postcode": "2258 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "99125646"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 243.81,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 243.81,
+        "btw_bedrag": 51.2,
+        "subtotal_incl_btw": 295.01
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 303.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1215.32,
+        "btw_bedrag": 255.22,
+        "subtotal_incl_btw": 1470.54
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 367.09,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1835.45,
+        "btw_bedrag": 385.44,
+        "subtotal_incl_btw": 2220.89
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3294.58,
+      "totaal_btw": 691.86,
+      "totaal_incl_btw": 3986.44
+    }
+  }
+}

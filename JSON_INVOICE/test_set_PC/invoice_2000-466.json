@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-466",
+    "factuurdatum": "05-12-2024",
+    "vervaldatum": "04-01-2025",
+    "ordernummer": "2000-466",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 428",
+      "postcode": "7722 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "37483890"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 118.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 236.42,
+        "btw_bedrag": 49.65,
+        "subtotal_incl_btw": 286.07
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 460.55,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2302.75,
+        "btw_bedrag": 483.58,
+        "subtotal_incl_btw": 2786.33
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 244.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 732.75,
+        "btw_bedrag": 153.88,
+        "subtotal_incl_btw": 886.63
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3271.92,
+      "totaal_btw": 687.11,
+      "totaal_incl_btw": 3959.03
+    }
+  }
+}

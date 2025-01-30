@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-453",
+    "factuurdatum": "10-11-2020",
+    "vervaldatum": "08-02-2021",
+    "ordernummer": "2001-453",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 770",
+      "postcode": "5581 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "45778930"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 36.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 181.85,
+        "btw_bedrag": 38.19,
+        "subtotal_incl_btw": 220.04
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 11.93,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 23.86,
+        "btw_bedrag": 5.01,
+        "subtotal_incl_btw": 28.87
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 323.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1615.5,
+        "btw_bedrag": 339.26,
+        "subtotal_incl_btw": 1954.76
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 142.97,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 571.88,
+        "btw_bedrag": 120.09,
+        "subtotal_incl_btw": 691.97
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 360.3,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1801.5,
+        "btw_bedrag": 378.32,
+        "subtotal_incl_btw": 2179.82
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4194.59,
+      "totaal_btw": 880.87,
+      "totaal_incl_btw": 5075.46
+    }
+  }
+}

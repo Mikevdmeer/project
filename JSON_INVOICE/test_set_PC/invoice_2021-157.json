@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-157",
+    "factuurdatum": "14-02-2023",
+    "vervaldatum": "15-04-2023",
+    "ordernummer": "2021-157",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 73",
+      "postcode": "5373 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "93201363"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 402.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2012.95,
+        "btw_bedrag": 422.72,
+        "subtotal_incl_btw": 2435.67
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2012.95,
+      "totaal_btw": 422.72,
+      "totaal_incl_btw": 2435.67
+    }
+  }
+}

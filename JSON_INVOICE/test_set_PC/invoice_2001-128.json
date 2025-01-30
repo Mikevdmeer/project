@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-128",
+    "factuurdatum": "27-01-2022",
+    "vervaldatum": "26-02-2022",
+    "ordernummer": "2001-128",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 313",
+      "postcode": "2332 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "84928690"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 429.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1289.34,
+        "btw_bedrag": 270.76,
+        "subtotal_incl_btw": 1560.1
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 352.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 705.96,
+        "btw_bedrag": 148.25,
+        "subtotal_incl_btw": 854.21
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1995.3,
+      "totaal_btw": 419.01,
+      "totaal_incl_btw": 2414.31
+    }
+  }
+}

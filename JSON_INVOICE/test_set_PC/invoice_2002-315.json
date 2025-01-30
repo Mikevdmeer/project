@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-315",
+    "factuurdatum": "05-08-2022",
+    "vervaldatum": "03-11-2022",
+    "ordernummer": "2002-315",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 420",
+      "postcode": "5782 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "27989857"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 412.46,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2062.3,
+        "btw_bedrag": 433.08,
+        "subtotal_incl_btw": 2495.38
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 320.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 641.5,
+        "btw_bedrag": 134.72,
+        "subtotal_incl_btw": 776.22
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 417.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1251.18,
+        "btw_bedrag": 262.75,
+        "subtotal_incl_btw": 1513.93
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 90.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 272.34,
+        "btw_bedrag": 57.19,
+        "subtotal_incl_btw": 329.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4227.32,
+      "totaal_btw": 887.74,
+      "totaal_incl_btw": 5115.06
+    }
+  }
+}

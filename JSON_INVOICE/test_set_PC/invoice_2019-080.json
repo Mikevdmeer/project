@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-080",
+    "factuurdatum": "21-12-2023",
+    "vervaldatum": "20-03-2024",
+    "ordernummer": "2019-080",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 507",
+      "postcode": "8528 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "30236514"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 317.89,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 953.67,
+        "btw_bedrag": 200.27,
+        "subtotal_incl_btw": 1153.94
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 347.09,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1388.36,
+        "btw_bedrag": 291.56,
+        "subtotal_incl_btw": 1679.92
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 346.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1040.37,
+        "btw_bedrag": 218.48,
+        "subtotal_incl_btw": 1258.85
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 346.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 692.96,
+        "btw_bedrag": 145.52,
+        "subtotal_incl_btw": 838.48
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 255.54,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1277.7,
+        "btw_bedrag": 268.32,
+        "subtotal_incl_btw": 1546.02
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5353.06,
+      "totaal_btw": 1124.15,
+      "totaal_incl_btw": 6477.21
+    }
+  }
+}

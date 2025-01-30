@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-074",
+    "factuurdatum": "23-07-2023",
+    "vervaldatum": "21-09-2023",
+    "ordernummer": "2001-074",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 352",
+      "postcode": "6875 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "40877107"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 296.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 889.83,
+        "btw_bedrag": 186.86,
+        "subtotal_incl_btw": 1076.69
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 188.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 941.25,
+        "btw_bedrag": 197.66,
+        "subtotal_incl_btw": 1138.91
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 479.07,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1437.21,
+        "btw_bedrag": 301.81,
+        "subtotal_incl_btw": 1739.02
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 279.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 558.26,
+        "btw_bedrag": 117.23,
+        "subtotal_incl_btw": 675.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3826.55,
+      "totaal_btw": 803.56,
+      "totaal_incl_btw": 4630.11
+    }
+  }
+}

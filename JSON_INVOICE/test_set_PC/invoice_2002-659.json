@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-659",
+    "factuurdatum": "24-07-2021",
+    "vervaldatum": "22-10-2021",
+    "ordernummer": "2002-659",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 407",
+      "postcode": "9492 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "62012811"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 36.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 181.4,
+        "btw_bedrag": 38.09,
+        "subtotal_incl_btw": 219.49
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 238.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 714.06,
+        "btw_bedrag": 149.95,
+        "subtotal_incl_btw": 864.01
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 77.4,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 77.4,
+        "btw_bedrag": 16.25,
+        "subtotal_incl_btw": 93.65
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 371.52,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 371.52,
+        "btw_bedrag": 78.02,
+        "subtotal_incl_btw": 449.54
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1344.38,
+      "totaal_btw": 282.31,
+      "totaal_incl_btw": 1626.69
+    }
+  }
+}

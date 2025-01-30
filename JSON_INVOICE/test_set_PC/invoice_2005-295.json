@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-295",
+    "factuurdatum": "22-12-2023",
+    "vervaldatum": "21-03-2024",
+    "ordernummer": "2005-295",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 288",
+      "postcode": "5393 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "14711494"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 21.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 65.37,
+        "btw_bedrag": 13.73,
+        "subtotal_incl_btw": 79.1
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 65.37,
+      "totaal_btw": 13.73,
+      "totaal_incl_btw": 79.1
+    }
+  }
+}

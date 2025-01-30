@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-092",
+    "factuurdatum": "14-05-2022",
+    "vervaldatum": "13-06-2022",
+    "ordernummer": "2004-092",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 659",
+      "postcode": "2034 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "86743727"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 427.07,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 427.07,
+        "btw_bedrag": 89.68,
+        "subtotal_incl_btw": 516.75
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 117.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 235.96,
+        "btw_bedrag": 49.55,
+        "subtotal_incl_btw": 285.51
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 298.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1195.4,
+        "btw_bedrag": 251.03,
+        "subtotal_incl_btw": 1446.43
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 144.51,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 289.02,
+        "btw_bedrag": 60.69,
+        "subtotal_incl_btw": 349.71
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 454.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 909.32,
+        "btw_bedrag": 190.96,
+        "subtotal_incl_btw": 1100.28
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3056.77,
+      "totaal_btw": 641.91,
+      "totaal_incl_btw": 3698.68
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-295",
+    "factuurdatum": "04-06-2022",
+    "vervaldatum": "03-08-2022",
+    "ordernummer": "2024-295",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 102",
+      "postcode": "2685 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "68647180"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 423.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2118.65,
+        "btw_bedrag": 444.92,
+        "subtotal_incl_btw": 2563.57
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 266.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 266.78,
+        "btw_bedrag": 56.02,
+        "subtotal_incl_btw": 322.8
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 162.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 162.74,
+        "btw_bedrag": 34.18,
+        "subtotal_incl_btw": 196.92
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 307.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1231.84,
+        "btw_bedrag": 258.69,
+        "subtotal_incl_btw": 1490.53
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3780.01,
+      "totaal_btw": 793.81,
+      "totaal_incl_btw": 4573.82
+    }
+  }
+}

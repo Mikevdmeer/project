@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-310",
+    "factuurdatum": "12-05-2023",
+    "vervaldatum": "10-08-2023",
+    "ordernummer": "2015-310",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 560",
+      "postcode": "5112 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "44912198"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 101.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 505.2,
+        "btw_bedrag": 106.09,
+        "subtotal_incl_btw": 611.29
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 480.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2401.25,
+        "btw_bedrag": 504.26,
+        "subtotal_incl_btw": 2905.51
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 22.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 22.96,
+        "btw_bedrag": 4.82,
+        "subtotal_incl_btw": 27.78
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2929.41,
+      "totaal_btw": 615.17,
+      "totaal_incl_btw": 3544.58
+    }
+  }
+}

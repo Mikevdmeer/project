@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-599",
+    "factuurdatum": "13-04-2023",
+    "vervaldatum": "12-07-2023",
+    "ordernummer": "2006-599",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 570",
+      "postcode": "8300 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "71229608"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 482.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1447.86,
+        "btw_bedrag": 304.05,
+        "subtotal_incl_btw": 1751.91
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 488.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2444.8,
+        "btw_bedrag": 513.41,
+        "subtotal_incl_btw": 2958.21
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3892.66,
+      "totaal_btw": 817.46,
+      "totaal_incl_btw": 4710.12
+    }
+  }
+}

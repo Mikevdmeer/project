@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-448",
+    "factuurdatum": "05-05-2024",
+    "vervaldatum": "04-07-2024",
+    "ordernummer": "2002-448",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 208",
+      "postcode": "1186 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "37882854"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 214.09,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 428.18,
+        "btw_bedrag": 89.92,
+        "subtotal_incl_btw": 518.1
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 208.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 625.11,
+        "btw_bedrag": 131.27,
+        "subtotal_incl_btw": 756.38
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 278.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 278.37,
+        "btw_bedrag": 58.46,
+        "subtotal_incl_btw": 336.83
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 387.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1939.95,
+        "btw_bedrag": 407.39,
+        "subtotal_incl_btw": 2347.34
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3271.61,
+      "totaal_btw": 687.04,
+      "totaal_incl_btw": 3958.65
+    }
+  }
+}

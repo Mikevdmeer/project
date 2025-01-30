@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-564",
+    "factuurdatum": "14-05-2020",
+    "vervaldatum": "13-07-2020",
+    "ordernummer": "2021-564",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 938",
+      "postcode": "8490 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "62505959"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 295.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1478.35,
+        "btw_bedrag": 310.45,
+        "subtotal_incl_btw": 1788.8
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 431.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2159.1,
+        "btw_bedrag": 453.41,
+        "subtotal_incl_btw": 2612.51
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 15.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 30.4,
+        "btw_bedrag": 6.38,
+        "subtotal_incl_btw": 36.78
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 486.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 973.3,
+        "btw_bedrag": 204.39,
+        "subtotal_incl_btw": 1177.69
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 226.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 226.47,
+        "btw_bedrag": 47.56,
+        "subtotal_incl_btw": 274.03
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4867.62,
+      "totaal_btw": 1022.19,
+      "totaal_incl_btw": 5889.81
+    }
+  }
+}

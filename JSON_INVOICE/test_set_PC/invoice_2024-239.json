@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-239",
+    "factuurdatum": "16-07-2021",
+    "vervaldatum": "14-10-2021",
+    "ordernummer": "2024-239",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 579",
+      "postcode": "4170 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "83410489"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 349.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 699.22,
+        "btw_bedrag": 146.84,
+        "subtotal_incl_btw": 846.06
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 314.09,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 942.27,
+        "btw_bedrag": 197.88,
+        "subtotal_incl_btw": 1140.15
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 171.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 171.23,
+        "btw_bedrag": 35.96,
+        "subtotal_incl_btw": 207.19
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1812.72,
+      "totaal_btw": 380.68,
+      "totaal_incl_btw": 2193.4
+    }
+  }
+}

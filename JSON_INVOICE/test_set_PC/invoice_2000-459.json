@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-459",
+    "factuurdatum": "14-04-2023",
+    "vervaldatum": "14-05-2023",
+    "ordernummer": "2000-459",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 118",
+      "postcode": "8182 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "40113317"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 351.52,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 703.04,
+        "btw_bedrag": 147.64,
+        "subtotal_incl_btw": 850.68
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 703.04,
+      "totaal_btw": 147.64,
+      "totaal_incl_btw": 850.68
+    }
+  }
+}

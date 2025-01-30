@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-140",
+    "factuurdatum": "05-03-2022",
+    "vervaldatum": "04-05-2022",
+    "ordernummer": "2006-140",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 771",
+      "postcode": "5972 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "57264752"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 431.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1293.33,
+        "btw_bedrag": 271.6,
+        "subtotal_incl_btw": 1564.93
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 485.01,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1455.03,
+        "btw_bedrag": 305.56,
+        "subtotal_incl_btw": 1760.59
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 235.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 470.74,
+        "btw_bedrag": 98.86,
+        "subtotal_incl_btw": 569.6
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 65.57,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 65.57,
+        "btw_bedrag": 13.77,
+        "subtotal_incl_btw": 79.34
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3284.67,
+      "totaal_btw": 689.79,
+      "totaal_incl_btw": 3974.46
+    }
+  }
+}

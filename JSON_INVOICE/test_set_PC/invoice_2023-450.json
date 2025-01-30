@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-450",
+    "factuurdatum": "17-01-2024",
+    "vervaldatum": "16-02-2024",
+    "ordernummer": "2023-450",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 208",
+      "postcode": "4676 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "50140023"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 45.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 135.12,
+        "btw_bedrag": 28.38,
+        "subtotal_incl_btw": 163.5
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 208.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 208.63,
+        "btw_bedrag": 43.81,
+        "subtotal_incl_btw": 252.44
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 162.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 812.45,
+        "btw_bedrag": 170.61,
+        "subtotal_incl_btw": 983.06
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 103.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 206.42,
+        "btw_bedrag": 43.35,
+        "subtotal_incl_btw": 249.77
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 204.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 408.12,
+        "btw_bedrag": 85.71,
+        "subtotal_incl_btw": 493.83
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1770.74,
+      "totaal_btw": 371.86,
+      "totaal_incl_btw": 2142.6
+    }
+  }
+}

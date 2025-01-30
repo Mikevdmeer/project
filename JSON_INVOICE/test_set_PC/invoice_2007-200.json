@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-200",
+    "factuurdatum": "25-01-2020",
+    "vervaldatum": "25-03-2020",
+    "ordernummer": "2007-200",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 919",
+      "postcode": "9772 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "15674806"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 336.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1008.51,
+        "btw_bedrag": 211.79,
+        "subtotal_incl_btw": 1220.3
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 256.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1024.92,
+        "btw_bedrag": 215.23,
+        "subtotal_incl_btw": 1240.15
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2033.43,
+      "totaal_btw": 427.02,
+      "totaal_incl_btw": 2460.45
+    }
+  }
+}

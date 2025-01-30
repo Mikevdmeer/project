@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-034",
+    "factuurdatum": "03-07-2024",
+    "vervaldatum": "02-08-2024",
+    "ordernummer": "2017-034",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 274",
+      "postcode": "7334 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "51257132"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 110.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 331.5,
+        "btw_bedrag": 69.62,
+        "subtotal_incl_btw": 401.12
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 309.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1546.0,
+        "btw_bedrag": 324.66,
+        "subtotal_incl_btw": 1870.66
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 198.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 198.96,
+        "btw_bedrag": 41.78,
+        "subtotal_incl_btw": 240.74
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 404.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 404.34,
+        "btw_bedrag": 84.91,
+        "subtotal_incl_btw": 489.25
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 103.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 103.85,
+        "btw_bedrag": 21.81,
+        "subtotal_incl_btw": 125.66
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2584.65,
+      "totaal_btw": 542.78,
+      "totaal_incl_btw": 3127.43
+    }
+  }
+}

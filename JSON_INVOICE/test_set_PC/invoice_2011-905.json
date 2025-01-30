@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-905",
+    "factuurdatum": "23-03-2020",
+    "vervaldatum": "22-05-2020",
+    "ordernummer": "2011-905",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 371",
+      "postcode": "4931 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "43266394"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 116.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 465.76,
+        "btw_bedrag": 97.81,
+        "subtotal_incl_btw": 563.57
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 37.53,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 150.12,
+        "btw_bedrag": 31.53,
+        "subtotal_incl_btw": 181.65
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 248.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 993.72,
+        "btw_bedrag": 208.68,
+        "subtotal_incl_btw": 1202.4
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 484.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 969.0,
+        "btw_bedrag": 203.49,
+        "subtotal_incl_btw": 1172.49
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 253.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1267.05,
+        "btw_bedrag": 266.08,
+        "subtotal_incl_btw": 1533.13
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3845.65,
+      "totaal_btw": 807.59,
+      "totaal_incl_btw": 4653.24
+    }
+  }
+}

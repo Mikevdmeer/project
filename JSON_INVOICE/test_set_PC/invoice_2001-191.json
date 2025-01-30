@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-191",
+    "factuurdatum": "22-10-2022",
+    "vervaldatum": "21-12-2022",
+    "ordernummer": "2001-191",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 769",
+      "postcode": "8237 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "37560187"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 429.4,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1717.6,
+        "btw_bedrag": 360.7,
+        "subtotal_incl_btw": 2078.3
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 275.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1101.92,
+        "btw_bedrag": 231.4,
+        "subtotal_incl_btw": 1333.32
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 216.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 650.07,
+        "btw_bedrag": 136.51,
+        "subtotal_incl_btw": 786.58
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 277.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 833.37,
+        "btw_bedrag": 175.01,
+        "subtotal_incl_btw": 1008.38
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 249.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1249.75,
+        "btw_bedrag": 262.45,
+        "subtotal_incl_btw": 1512.2
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5552.71,
+      "totaal_btw": 1166.07,
+      "totaal_incl_btw": 6718.78
+    }
+  }
+}

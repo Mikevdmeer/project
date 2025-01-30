@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-050",
+    "factuurdatum": "05-12-2021",
+    "vervaldatum": "04-01-2022",
+    "ordernummer": "2006-050",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 332",
+      "postcode": "5780 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "33099824"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 116.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 116.19,
+        "btw_bedrag": 24.4,
+        "subtotal_incl_btw": 140.59
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 116.19,
+      "totaal_btw": 24.4,
+      "totaal_incl_btw": 140.59
+    }
+  }
+}

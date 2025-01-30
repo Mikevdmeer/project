@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-189",
+    "factuurdatum": "15-04-2024",
+    "vervaldatum": "14-07-2024",
+    "ordernummer": "2019-189",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 134",
+      "postcode": "6008 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "29587735"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 293.18,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 586.36,
+        "btw_bedrag": 123.14,
+        "subtotal_incl_btw": 709.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 586.36,
+      "totaal_btw": 123.14,
+      "totaal_incl_btw": 709.5
+    }
+  }
+}

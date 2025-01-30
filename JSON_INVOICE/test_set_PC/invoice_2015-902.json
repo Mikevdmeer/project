@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-902",
+    "factuurdatum": "01-07-2021",
+    "vervaldatum": "31-07-2021",
+    "ordernummer": "2015-902",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 107",
+      "postcode": "3543 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "18202754"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 140.07,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 140.07,
+        "btw_bedrag": 29.41,
+        "subtotal_incl_btw": 169.48
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 490.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1960.44,
+        "btw_bedrag": 411.69,
+        "subtotal_incl_btw": 2372.13
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2100.51,
+      "totaal_btw": 441.1,
+      "totaal_incl_btw": 2541.61
+    }
+  }
+}

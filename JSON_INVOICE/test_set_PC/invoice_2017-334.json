@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-334",
+    "factuurdatum": "23-02-2023",
+    "vervaldatum": "24-04-2023",
+    "ordernummer": "2017-334",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 713",
+      "postcode": "5912 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "18151248"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 160.6,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 481.8,
+        "btw_bedrag": 101.18,
+        "subtotal_incl_btw": 582.98
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 22.19,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 22.19,
+        "btw_bedrag": 4.66,
+        "subtotal_incl_btw": 26.85
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 161.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 161.36,
+        "btw_bedrag": 33.89,
+        "subtotal_incl_btw": 195.25
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 146.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 292.76,
+        "btw_bedrag": 61.48,
+        "subtotal_incl_btw": 354.24
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 328.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1312.12,
+        "btw_bedrag": 275.55,
+        "subtotal_incl_btw": 1587.67
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2270.23,
+      "totaal_btw": 476.76,
+      "totaal_incl_btw": 2746.99
+    }
+  }
+}

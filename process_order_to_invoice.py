@@ -8,6 +8,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
+import shutil
 
 class BTWCalculator:
     @staticmethod
@@ -62,10 +63,28 @@ class InvoiceGenerator:
 
     def process_order(self, order_data):
         """Process order data into invoice data"""
-        order = order_data['order']
+        # Check if order is directly in data or nested under 'order'
+        order = order_data.get('order', order_data.get('factuur'))
+        
+        if not order:
+            raise KeyError("Could not find 'order' or 'factuur' in order data")
         
         # Calculate totals for each product
-        product_lines = [self.calculate_line_totals(product) for product in order['producten']]
+        product_lines = []
+        for product in order.get('producten', []):
+            # Calculate BTW percentage from BTW amount and price
+            price = Decimal(str(product['prijs_per_stuk_excl_btw']))
+            btw = Decimal(str(product.get('btw_per_stuk', 0)))
+            btw_percentage = round((btw / price) * 100) if price else Decimal('21')
+            
+            # Create product with BTW percentage
+            product_with_btw = {
+                'productnaam': product['productnaam'],
+                'aantal': product['aantal'],
+                'prijs_per_stuk_excl_btw': price,
+                'btw_percentage': btw_percentage
+            }
+            product_lines.append(self.calculate_line_totals(product_with_btw))
         
         # Calculate invoice totals
         total_excl_btw = sum(line['subtotal_excl_btw'] for line in product_lines)
@@ -73,15 +92,15 @@ class InvoiceGenerator:
         total_incl_btw = sum(line['subtotal_incl_btw'] for line in product_lines)
 
         # Calculate due date
-        vervaldatum = self.calculate_due_date(order['orderdatum'], order['betaaltermijn'])
+        vervaldatum = self.calculate_due_date(order['factuurdatum'], order.get('betaaltermijn', '30-dagen'))
 
         # Create invoice data structure
         invoice_data = {
             'factuur': {
-                'factuurnummer': self.generate_invoice_number(order['ordernummer']),
-                'factuurdatum': order['orderdatum'],
+                'factuurnummer': self.generate_invoice_number(order['factuurnummer']),
+                'factuurdatum': order['factuurdatum'],
                 'vervaldatum': vervaldatum,
-                'ordernummer': order['ordernummer'],
+                'ordernummer': order['factuurnummer'],
                 'klant': order['klant'],
                 'factuurregels': product_lines,
                 'totalen': {
@@ -94,35 +113,121 @@ class InvoiceGenerator:
 
         return invoice_data
 
-def process_order_files(input_dir, output_dir):
-    """Process all order files in the input directory"""
+def process_orders(input_dir, output_dir, processed_dir, error_dir):
+    """
+    Process order files from input directory:
+    - Generate invoice JSON files in output directory
+    - Move processed order files to processed directory
+    - Move error files to error directory
+    """
+    # Create directories if they don't exist
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(processed_dir, exist_ok=True)
+    os.makedirs(error_dir, exist_ok=True)
+    
+    # Initialize invoice generator
     generator = InvoiceGenerator()
     
-    # Create output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Process each JSON file in the input directory
-    for filename in os.listdir(input_dir):
-        if filename.endswith('.json'):
-            input_path = os.path.join(input_dir, filename)
-            output_path = os.path.join(output_dir, f"invoice_{filename}")
-
-            try:
-                # Read order data
-                with open(input_path, 'r', encoding='utf-8') as f:
-                    order_data = json.load(f)
-
-                # Generate invoice data
-                invoice_data = generator.process_order(order_data)
-
-                # Save invoice data
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(invoice_data, f, indent=2, ensure_ascii=False)
+    # Process each JSON file in the input directory and its subdirectories
+    for root, dirs, files in os.walk(input_dir):
+        for filename in files:
+            if filename.endswith('.json'):
+                # Construct full paths
+                input_path = os.path.join(root, filename)
+                rel_path = os.path.relpath(root, input_dir)
                 
-                print(f"Processed {filename} successfully")
+                try:
+                    # Read order data
+                    with open(input_path, 'r', encoding='utf-8') as f:
+                        order_data = json.load(f)
+                    
+                    # Validate order data
+                    if not validate_order(order_data):
+                        raise ValueError("Invalid order data structure")
+                    
+                    # Create output subdirectories
+                    output_subdir = os.path.join(output_dir, rel_path)
+                    processed_subdir = os.path.join(processed_dir, rel_path)
+                    os.makedirs(output_subdir, exist_ok=True)
+                    os.makedirs(processed_subdir, exist_ok=True)
+                    
+                    # Generate output paths
+                    output_path = os.path.join(output_subdir, f"invoice_{filename}")
+                    processed_path = os.path.join(processed_subdir, filename)
+                    
+                    # Generate invoice data
+                    invoice_data = generator.process_order(order_data)
+                    
+                    # Save invoice data
+                    with open(output_path, 'w', encoding='utf-8') as f:
+                        json.dump(invoice_data, f, indent=2, ensure_ascii=False)
+                    
+                    # Move processed order file
+                    shutil.move(input_path, processed_path)
+                    
+                    print(f"Successfully processed: {filename}")
+                    
+                except Exception as e:
+                    print(f"Error processing {filename}: {str(e)}")
+                    # Move error file to error directory
+                    error_subdir = os.path.join(error_dir, rel_path)
+                    os.makedirs(error_subdir, exist_ok=True)
+                    error_path = os.path.join(error_subdir, filename)
+                    shutil.move(input_path, error_path)
 
-            except Exception as e:
-                print(f"Error processing {filename}: {str(e)}")
+def validate_order(order_data):
+    """Validate order data structure"""
+    try:
+        order = order_data['factuur']
+        required_fields = [
+            'factuurnummer',
+            'factuurdatum',
+            'betaaltermijn',
+            'klant',
+            'producten',
+            'totaal_excl_btw',
+            'totaal_btw',
+            'totaal_incl_btw'
+        ]
+        
+        for field in required_fields:
+            if field not in order:
+                return False
+                
+        if not isinstance(order['producten'], list):
+            return False
+            
+        return True
+        
+    except (KeyError, TypeError):
+        return False
+
+def generate_invoice(order_data):
+    """Generate invoice data from order data"""
+    # Reuse existing invoice generation code
+    order = order_data['factuur']
+    
+    # Calculate due date
+    factuurdatum = datetime.strptime(order['factuurdatum'], '%d-%m-%Y')
+    betaaltermijn = int(order['betaaltermijn'].split('-')[0])
+    vervaldatum = (factuurdatum + timedelta(days=betaaltermijn)).strftime('%d-%m-%Y')
+    
+    # Create invoice structure
+    invoice_data = {
+        'factuur': {
+            'factuurnummer': order['factuurnummer'],
+            'factuurdatum': order['factuurdatum'],
+            'vervaldatum': vervaldatum,
+            'betaaltermijn': order['betaaltermijn'],
+            'klant': order['klant'],
+            'producten': order['producten'],
+            'totaal_excl_btw': order['totaal_excl_btw'],
+            'totaal_btw': order['totaal_btw'],
+            'totaal_incl_btw': order['totaal_incl_btw']
+        }
+    }
+    
+    return invoice_data
 
 class PDFGenerator:
     def __init__(self):
@@ -269,7 +374,47 @@ def convert_invoices_to_pdf(input_dir, output_dir):
                 print(f"Error processing {filename}: {str(e)}")
 
 if __name__ == "__main__":
-    input_directory = "test_set_softwareleverancier"
-    output_directory = "generated_invoices"
-    process_order_files(input_directory, output_directory)
-    convert_invoices_to_pdf(output_directory, "generated_pdfs")
+    # Directory paths
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    input_directory = os.path.join(base_dir, "JSON_ORDER")
+    output_directory = os.path.join(base_dir, "JSON_INVOICE")
+    processed_directory = os.path.join(base_dir, "JSON_PROCESSED")
+    error_directory = os.path.join(base_dir, "JSON_ORDER_ERROR")
+    
+    # Debug prints
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Base directory: {base_dir}")
+    print(f"Checking if directories exist:")
+    print(f"- Input directory ({input_directory}): {os.path.exists(input_directory)}")
+    print(f"- Output directory ({output_directory}): {os.path.exists(output_directory)}")
+    print(f"- Processed directory ({processed_directory}): {os.path.exists(processed_directory)}")
+    print(f"- Error directory ({error_directory}): {os.path.exists(error_directory)}")
+    
+    # Create directories if they don't exist
+    os.makedirs(input_directory, exist_ok=True)
+    os.makedirs(output_directory, exist_ok=True)
+    os.makedirs(processed_directory, exist_ok=True)
+    os.makedirs(error_directory, exist_ok=True)
+    
+    print("\nAfter creating directories:")
+    print(f"- Input directory ({input_directory}): {os.path.exists(input_directory)}")
+    print(f"- Output directory ({output_directory}): {os.path.exists(output_directory)}")
+    print(f"- Processed directory ({processed_directory}): {os.path.exists(processed_directory)}")
+    print(f"- Error directory ({error_directory}): {os.path.exists(error_directory)}")
+    
+    # List files in input directory
+    print(f"\nFiles in {input_directory}:")
+    if os.path.exists(input_directory):
+        for root, dirs, files in os.walk(input_directory):
+            rel_path = os.path.relpath(root, input_directory)
+            if rel_path != '.':
+                print(f"\nIn subdirectory {rel_path}:")
+            for file in files:
+                if file.endswith('.json'):
+                    print(f"- {file}")
+    
+    # Process the orders
+    process_orders(input_directory, output_directory, processed_directory, error_directory)
+    
+    # Convert invoices to PDF
+    convert_invoices_to_pdf(output_directory, os.path.join(base_dir, "generated_invoices"))

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-067",
+    "factuurdatum": "03-02-2023",
+    "vervaldatum": "05-03-2023",
+    "ordernummer": "2000-067",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 277",
+      "postcode": "1772 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "16863090"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 441.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1323.09,
+        "btw_bedrag": 277.85,
+        "subtotal_incl_btw": 1600.94
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 448.72,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1794.88,
+        "btw_bedrag": 376.92,
+        "subtotal_incl_btw": 2171.8
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 303.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 909.0,
+        "btw_bedrag": 190.89,
+        "subtotal_incl_btw": 1099.89
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 370.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1483.36,
+        "btw_bedrag": 311.51,
+        "subtotal_incl_btw": 1794.87
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 133.25,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 399.75,
+        "btw_bedrag": 83.95,
+        "subtotal_incl_btw": 483.7
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5910.08,
+      "totaal_btw": 1241.12,
+      "totaal_incl_btw": 7151.2
+    }
+  }
+}

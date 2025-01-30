@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-149",
+    "factuurdatum": "05-10-2022",
+    "vervaldatum": "04-11-2022",
+    "ordernummer": "2018-149",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 54",
+      "postcode": "9032 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "71866946"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 138.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 277.64,
+        "btw_bedrag": 58.3,
+        "subtotal_incl_btw": 335.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 277.64,
+      "totaal_btw": 58.3,
+      "totaal_incl_btw": 335.94
+    }
+  }
+}

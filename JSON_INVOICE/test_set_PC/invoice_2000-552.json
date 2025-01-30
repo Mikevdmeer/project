@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-552",
+    "factuurdatum": "12-07-2023",
+    "vervaldatum": "10-09-2023",
+    "ordernummer": "2000-552",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 110",
+      "postcode": "3362 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "63191515"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 145.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 435.87,
+        "btw_bedrag": 91.53,
+        "subtotal_incl_btw": 527.4
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 50.08,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 100.16,
+        "btw_bedrag": 21.03,
+        "subtotal_incl_btw": 121.19
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 112.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 225.96,
+        "btw_bedrag": 47.45,
+        "subtotal_incl_btw": 273.41
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 13.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 13.2,
+        "btw_bedrag": 2.77,
+        "subtotal_incl_btw": 15.97
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 194.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 779.16,
+        "btw_bedrag": 163.62,
+        "subtotal_incl_btw": 942.78
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1554.35,
+      "totaal_btw": 326.4,
+      "totaal_incl_btw": 1880.75
+    }
+  }
+}

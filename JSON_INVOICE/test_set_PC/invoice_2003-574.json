@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-574",
+    "factuurdatum": "04-12-2020",
+    "vervaldatum": "04-03-2021",
+    "ordernummer": "2003-574",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 740",
+      "postcode": "5889 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "93912299"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 33.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 67.98,
+        "btw_bedrag": 14.28,
+        "subtotal_incl_btw": 82.26
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 261.16,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1305.8,
+        "btw_bedrag": 274.22,
+        "subtotal_incl_btw": 1580.02
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 203.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 407.0,
+        "btw_bedrag": 85.47,
+        "subtotal_incl_btw": 492.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1780.78,
+      "totaal_btw": 373.97,
+      "totaal_incl_btw": 2154.75
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-659",
+    "factuurdatum": "11-09-2023",
+    "vervaldatum": "10-12-2023",
+    "ordernummer": "2016-659",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 563",
+      "postcode": "7400 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "38009778"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 240.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 480.48,
+        "btw_bedrag": 100.9,
+        "subtotal_incl_btw": 581.38
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 331.54,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 994.62,
+        "btw_bedrag": 208.87,
+        "subtotal_incl_btw": 1203.49
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 435.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1743.32,
+        "btw_bedrag": 366.1,
+        "subtotal_incl_btw": 2109.42
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 193.6,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 774.4,
+        "btw_bedrag": 162.62,
+        "subtotal_incl_btw": 937.02
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3992.82,
+      "totaal_btw": 838.49,
+      "totaal_incl_btw": 4831.31
+    }
+  }
+}

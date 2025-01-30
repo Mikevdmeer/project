@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-307",
+    "factuurdatum": "13-11-2023",
+    "vervaldatum": "13-12-2023",
+    "ordernummer": "2020-307",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 699",
+      "postcode": "7294 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "74644432"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 236.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1184.7,
+        "btw_bedrag": 248.79,
+        "subtotal_incl_btw": 1433.49
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 15.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 15.41,
+        "btw_bedrag": 3.24,
+        "subtotal_incl_btw": 18.65
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 333.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1665.15,
+        "btw_bedrag": 349.68,
+        "subtotal_incl_btw": 2014.83
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 368.31,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 736.62,
+        "btw_bedrag": 154.69,
+        "subtotal_incl_btw": 891.31
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 164.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 494.37,
+        "btw_bedrag": 103.82,
+        "subtotal_incl_btw": 598.19
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4096.25,
+      "totaal_btw": 860.22,
+      "totaal_incl_btw": 4956.47
+    }
+  }
+}

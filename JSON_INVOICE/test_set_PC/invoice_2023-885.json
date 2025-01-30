@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-885",
+    "factuurdatum": "17-02-2022",
+    "vervaldatum": "18-05-2022",
+    "ordernummer": "2023-885",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 560",
+      "postcode": "3178 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "26276905"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 353.86,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 707.72,
+        "btw_bedrag": 148.62,
+        "subtotal_incl_btw": 856.34
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 103.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 206.0,
+        "btw_bedrag": 43.26,
+        "subtotal_incl_btw": 249.26
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 469.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 938.54,
+        "btw_bedrag": 197.09,
+        "subtotal_incl_btw": 1135.63
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 181.58,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 907.9,
+        "btw_bedrag": 190.66,
+        "subtotal_incl_btw": 1098.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2760.16,
+      "totaal_btw": 579.63,
+      "totaal_incl_btw": 3339.79
+    }
+  }
+}

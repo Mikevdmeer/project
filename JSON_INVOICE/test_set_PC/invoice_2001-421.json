@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-421",
+    "factuurdatum": "14-12-2023",
+    "vervaldatum": "12-02-2024",
+    "ordernummer": "2001-421",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 968",
+      "postcode": "6635 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "32358876"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 91.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 91.03,
+        "btw_bedrag": 19.12,
+        "subtotal_incl_btw": 110.15
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 125.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 503.92,
+        "btw_bedrag": 105.82,
+        "subtotal_incl_btw": 609.74
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 171.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 856.0,
+        "btw_bedrag": 179.76,
+        "subtotal_incl_btw": 1035.76
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 149.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 597.92,
+        "btw_bedrag": 125.56,
+        "subtotal_incl_btw": 723.48
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2048.87,
+      "totaal_btw": 430.26,
+      "totaal_incl_btw": 2479.13
+    }
+  }
+}

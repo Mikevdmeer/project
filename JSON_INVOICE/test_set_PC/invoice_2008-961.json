@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-961",
+    "factuurdatum": "24-09-2023",
+    "vervaldatum": "23-11-2023",
+    "ordernummer": "2008-961",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 839",
+      "postcode": "9114 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "34415662"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 147.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 295.4,
+        "btw_bedrag": 62.03,
+        "subtotal_incl_btw": 357.43
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 247.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 495.64,
+        "btw_bedrag": 104.08,
+        "subtotal_incl_btw": 599.72
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 134.08,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 268.16,
+        "btw_bedrag": 56.31,
+        "subtotal_incl_btw": 324.47
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 243.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 243.17,
+        "btw_bedrag": 51.07,
+        "subtotal_incl_btw": 294.24
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1302.37,
+      "totaal_btw": 273.49,
+      "totaal_incl_btw": 1575.86
+    }
+  }
+}

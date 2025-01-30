@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-044",
+    "factuurdatum": "06-08-2022",
+    "vervaldatum": "05-09-2022",
+    "ordernummer": "2017-044",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 577",
+      "postcode": "1969 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "41927970"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 360.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 721.38,
+        "btw_bedrag": 151.49,
+        "subtotal_incl_btw": 872.87
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 252.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 252.74,
+        "btw_bedrag": 53.08,
+        "subtotal_incl_btw": 305.82
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 325.56,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1627.8,
+        "btw_bedrag": 341.84,
+        "subtotal_incl_btw": 1969.64
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 74.71,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 74.71,
+        "btw_bedrag": 15.69,
+        "subtotal_incl_btw": 90.4
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 378.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1135.02,
+        "btw_bedrag": 238.35,
+        "subtotal_incl_btw": 1373.37
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3811.65,
+      "totaal_btw": 800.45,
+      "totaal_incl_btw": 4612.1
+    }
+  }
+}

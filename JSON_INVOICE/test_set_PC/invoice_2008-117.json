@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-117",
+    "factuurdatum": "27-03-2021",
+    "vervaldatum": "26-05-2021",
+    "ordernummer": "2008-117",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 164",
+      "postcode": "9099 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "93290277"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 330.08,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 330.08,
+        "btw_bedrag": 69.32,
+        "subtotal_incl_btw": 399.4
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 33.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 169.7,
+        "btw_bedrag": 35.64,
+        "subtotal_incl_btw": 205.34
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 83.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 418.15,
+        "btw_bedrag": 87.81,
+        "subtotal_incl_btw": 505.96
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 405.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 811.88,
+        "btw_bedrag": 170.49,
+        "subtotal_incl_btw": 982.37
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 419.18,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1676.72,
+        "btw_bedrag": 352.11,
+        "subtotal_incl_btw": 2028.83
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3406.53,
+      "totaal_btw": 715.37,
+      "totaal_incl_btw": 4121.9
+    }
+  }
+}

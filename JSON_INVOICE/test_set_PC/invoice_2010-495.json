@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-495",
+    "factuurdatum": "09-01-2020",
+    "vervaldatum": "08-02-2020",
+    "ordernummer": "2010-495",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 817",
+      "postcode": "3279 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "33124876"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 306.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 918.81,
+        "btw_bedrag": 192.95,
+        "subtotal_incl_btw": 1111.76
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 918.81,
+      "totaal_btw": 192.95,
+      "totaal_incl_btw": 1111.76
+    }
+  }
+}

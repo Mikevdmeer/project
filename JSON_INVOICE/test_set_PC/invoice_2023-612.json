@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-612",
+    "factuurdatum": "27-02-2020",
+    "vervaldatum": "27-05-2020",
+    "ordernummer": "2023-612",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 416",
+      "postcode": "6700 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "72414772"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 453.71,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2268.55,
+        "btw_bedrag": 476.4,
+        "subtotal_incl_btw": 2744.95
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 449.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 899.34,
+        "btw_bedrag": 188.86,
+        "subtotal_incl_btw": 1088.2
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 462.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 462.13,
+        "btw_bedrag": 97.05,
+        "subtotal_incl_btw": 559.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3630.02,
+      "totaal_btw": 762.31,
+      "totaal_incl_btw": 4392.33
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-300",
+    "factuurdatum": "08-09-2023",
+    "vervaldatum": "07-11-2023",
+    "ordernummer": "2023-300",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 845",
+      "postcode": "5520 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "22206022"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 36.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 183.25,
+        "btw_bedrag": 38.48,
+        "subtotal_incl_btw": 221.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 183.25,
+      "totaal_btw": 38.48,
+      "totaal_incl_btw": 221.73
+    }
+  }
+}

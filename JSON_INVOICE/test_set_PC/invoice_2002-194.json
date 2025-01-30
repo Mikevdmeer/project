@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-194",
+    "factuurdatum": "16-03-2022",
+    "vervaldatum": "15-05-2022",
+    "ordernummer": "2002-194",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 282",
+      "postcode": "9263 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "17236419"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 178.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 536.22,
+        "btw_bedrag": 112.61,
+        "subtotal_incl_btw": 648.83
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 352.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1410.52,
+        "btw_bedrag": 296.21,
+        "subtotal_incl_btw": 1706.73
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 359.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1436.12,
+        "btw_bedrag": 301.59,
+        "subtotal_incl_btw": 1737.71
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 174.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 174.17,
+        "btw_bedrag": 36.58,
+        "subtotal_incl_btw": 210.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3557.03,
+      "totaal_btw": 746.99,
+      "totaal_incl_btw": 4304.02
+    }
+  }
+}

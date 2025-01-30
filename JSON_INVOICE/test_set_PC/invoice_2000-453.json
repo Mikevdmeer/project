@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-453",
+    "factuurdatum": "15-05-2023",
+    "vervaldatum": "14-06-2023",
+    "ordernummer": "2000-453",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 824",
+      "postcode": "3138 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "38631064"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 149.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 748.9,
+        "btw_bedrag": 157.27,
+        "subtotal_incl_btw": 906.17
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 748.9,
+      "totaal_btw": 157.27,
+      "totaal_incl_btw": 906.17
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-548",
+    "factuurdatum": "12-04-2024",
+    "vervaldatum": "11-06-2024",
+    "ordernummer": "2005-548",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 725",
+      "postcode": "4011 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "23852740"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 98.08,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 490.4,
+        "btw_bedrag": 102.98,
+        "subtotal_incl_btw": 593.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 490.4,
+      "totaal_btw": 102.98,
+      "totaal_incl_btw": 593.38
+    }
+  }
+}

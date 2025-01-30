@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-373",
+    "factuurdatum": "21-07-2023",
+    "vervaldatum": "20-08-2023",
+    "ordernummer": "2021-373",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 441",
+      "postcode": "9814 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "62656490"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 466.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1400.94,
+        "btw_bedrag": 294.2,
+        "subtotal_incl_btw": 1695.14
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 436.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1744.08,
+        "btw_bedrag": 366.26,
+        "subtotal_incl_btw": 2110.34
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 452.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 904.66,
+        "btw_bedrag": 189.98,
+        "subtotal_incl_btw": 1094.64
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4049.68,
+      "totaal_btw": 850.44,
+      "totaal_incl_btw": 4900.12
+    }
+  }
+}

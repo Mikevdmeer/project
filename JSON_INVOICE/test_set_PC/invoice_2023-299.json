@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-299",
+    "factuurdatum": "26-06-2020",
+    "vervaldatum": "25-08-2020",
+    "ordernummer": "2023-299",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 907",
+      "postcode": "4536 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "47354889"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 102.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 204.04,
+        "btw_bedrag": 42.85,
+        "subtotal_incl_btw": 246.89
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 155.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 779.95,
+        "btw_bedrag": 163.79,
+        "subtotal_incl_btw": 943.74
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 149.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 447.3,
+        "btw_bedrag": 93.93,
+        "subtotal_incl_btw": 541.23
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1431.29,
+      "totaal_btw": 300.57,
+      "totaal_incl_btw": 1731.86
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-428",
+    "factuurdatum": "27-11-2023",
+    "vervaldatum": "25-02-2024",
+    "ordernummer": "2014-428",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 237",
+      "postcode": "3048 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "93006494"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 325.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1626.05,
+        "btw_bedrag": 341.47,
+        "subtotal_incl_btw": 1967.52
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 312.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1564.2,
+        "btw_bedrag": 328.48,
+        "subtotal_incl_btw": 1892.68
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 265.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 797.34,
+        "btw_bedrag": 167.44,
+        "subtotal_incl_btw": 964.78
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 378.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1515.96,
+        "btw_bedrag": 318.35,
+        "subtotal_incl_btw": 1834.31
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 95.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 477.45,
+        "btw_bedrag": 100.26,
+        "subtotal_incl_btw": 577.71
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5981.0,
+      "totaal_btw": 1256.0,
+      "totaal_incl_btw": 7237.0
+    }
+  }
+}

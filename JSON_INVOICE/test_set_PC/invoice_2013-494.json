@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-494",
+    "factuurdatum": "25-12-2020",
+    "vervaldatum": "25-03-2021",
+    "ordernummer": "2013-494",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 843",
+      "postcode": "8972 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "49213251"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 372.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1489.88,
+        "btw_bedrag": 312.87,
+        "subtotal_incl_btw": 1802.75
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1489.88,
+      "totaal_btw": 312.87,
+      "totaal_incl_btw": 1802.75
+    }
+  }
+}

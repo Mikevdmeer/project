@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-121",
+    "factuurdatum": "04-01-2023",
+    "vervaldatum": "04-04-2023",
+    "ordernummer": "2014-121",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 76",
+      "postcode": "5785 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "70719033"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 233.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 701.1,
+        "btw_bedrag": 147.23,
+        "subtotal_incl_btw": 848.33
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 182.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 548.34,
+        "btw_bedrag": 115.15,
+        "subtotal_incl_btw": 663.49
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 368.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1473.44,
+        "btw_bedrag": 309.42,
+        "subtotal_incl_btw": 1782.86
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 387.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1162.44,
+        "btw_bedrag": 244.11,
+        "subtotal_incl_btw": 1406.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3885.32,
+      "totaal_btw": 815.91,
+      "totaal_incl_btw": 4701.23
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-270",
+    "factuurdatum": "23-11-2021",
+    "vervaldatum": "21-02-2022",
+    "ordernummer": "2000-270",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 545",
+      "postcode": "3058 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "20830473"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 45.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 45.17,
+        "btw_bedrag": 9.49,
+        "subtotal_incl_btw": 54.66
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 276.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 553.3,
+        "btw_bedrag": 116.19,
+        "subtotal_incl_btw": 669.49
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 427.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1283.25,
+        "btw_bedrag": 269.48,
+        "subtotal_incl_btw": 1552.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1881.72,
+      "totaal_btw": 395.16,
+      "totaal_incl_btw": 2276.88
+    }
+  }
+}

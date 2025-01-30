@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-051",
+    "factuurdatum": "10-05-2022",
+    "vervaldatum": "09-07-2022",
+    "ordernummer": "2021-051",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 272",
+      "postcode": "5888 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "75825290"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 101.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 405.72,
+        "btw_bedrag": 85.2,
+        "subtotal_incl_btw": 490.92
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 405.72,
+      "totaal_btw": 85.2,
+      "totaal_incl_btw": 490.92
+    }
+  }
+}

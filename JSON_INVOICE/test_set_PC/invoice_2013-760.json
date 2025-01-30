@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2013-760",
+    "factuurdatum": "15-11-2021",
+    "vervaldatum": "13-02-2022",
+    "ordernummer": "2013-760",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 473",
+      "postcode": "7309 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "51349447"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 253.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1268.85,
+        "btw_bedrag": 266.46,
+        "subtotal_incl_btw": 1535.31
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 202.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1013.85,
+        "btw_bedrag": 212.91,
+        "subtotal_incl_btw": 1226.76
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 403.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 806.9,
+        "btw_bedrag": 169.45,
+        "subtotal_incl_btw": 976.35
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3089.6,
+      "totaal_btw": 648.82,
+      "totaal_incl_btw": 3738.42
+    }
+  }
+}

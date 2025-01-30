@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-521",
+    "factuurdatum": "25-05-2021",
+    "vervaldatum": "24-06-2021",
+    "ordernummer": "2005-521",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 263",
+      "postcode": "3623 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "68522436"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 135.93,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 271.86,
+        "btw_bedrag": 57.09,
+        "subtotal_incl_btw": 328.95
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 103.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 519.75,
+        "btw_bedrag": 109.15,
+        "subtotal_incl_btw": 628.9
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 487.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1463.88,
+        "btw_bedrag": 307.41,
+        "subtotal_incl_btw": 1771.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2255.49,
+      "totaal_btw": 473.65,
+      "totaal_incl_btw": 2729.14
+    }
+  }
+}

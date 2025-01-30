@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-763",
+    "factuurdatum": "25-02-2022",
+    "vervaldatum": "27-03-2022",
+    "ordernummer": "2012-763",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 21",
+      "postcode": "1156 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "39701570"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 74.39,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 223.17,
+        "btw_bedrag": 46.87,
+        "subtotal_incl_btw": 270.04
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 412.01,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1648.04,
+        "btw_bedrag": 346.09,
+        "subtotal_incl_btw": 1994.13
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 331.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 331.88,
+        "btw_bedrag": 69.69,
+        "subtotal_incl_btw": 401.57
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 145.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 290.4,
+        "btw_bedrag": 60.98,
+        "subtotal_incl_btw": 351.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2493.49,
+      "totaal_btw": 523.63,
+      "totaal_incl_btw": 3017.12
+    }
+  }
+}

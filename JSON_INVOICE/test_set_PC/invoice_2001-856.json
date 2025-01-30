@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-856",
+    "factuurdatum": "23-01-2024",
+    "vervaldatum": "22-04-2024",
+    "ordernummer": "2001-856",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 564",
+      "postcode": "6307 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "52777246"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 482.31,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2411.55,
+        "btw_bedrag": 506.43,
+        "subtotal_incl_btw": 2917.98
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 309.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1546.6,
+        "btw_bedrag": 324.79,
+        "subtotal_incl_btw": 1871.39
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 286.01,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 286.01,
+        "btw_bedrag": 60.06,
+        "subtotal_incl_btw": 346.07
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 448.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1795.32,
+        "btw_bedrag": 377.02,
+        "subtotal_incl_btw": 2172.34
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 99.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 398.0,
+        "btw_bedrag": 83.58,
+        "subtotal_incl_btw": 481.58
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 6437.48,
+      "totaal_btw": 1351.88,
+      "totaal_incl_btw": 7789.36
+    }
+  }
+}

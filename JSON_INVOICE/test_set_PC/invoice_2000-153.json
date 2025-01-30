@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-153",
+    "factuurdatum": "10-07-2021",
+    "vervaldatum": "08-10-2021",
+    "ordernummer": "2000-153",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 956",
+      "postcode": "1723 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "41150424"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 406.3,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1625.2,
+        "btw_bedrag": 341.29,
+        "subtotal_incl_btw": 1966.49
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 177.31,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 354.62,
+        "btw_bedrag": 74.47,
+        "subtotal_incl_btw": 429.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1979.82,
+      "totaal_btw": 415.76,
+      "totaal_incl_btw": 2395.58
+    }
+  }
+}
