@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-927",
+    "factuurdatum": "02-11-2021",
+    "vervaldatum": "02-12-2021",
+    "ordernummer": "2022-927",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 22",
+      "postcode": "9586 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "12224803"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 272.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 544.7,
+        "btw_bedrag": 114.39,
+        "subtotal_incl_btw": 659.09
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 67.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 67.02,
+        "btw_bedrag": 14.07,
+        "subtotal_incl_btw": 81.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 611.72,
+      "totaal_btw": 128.46,
+      "totaal_incl_btw": 740.18
+    }
+  }
+}

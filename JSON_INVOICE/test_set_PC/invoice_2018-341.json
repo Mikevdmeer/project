@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-341",
+    "factuurdatum": "18-05-2021",
+    "vervaldatum": "17-06-2021",
+    "ordernummer": "2018-341",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 364",
+      "postcode": "6638 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "64990119"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 253.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1269.75,
+        "btw_bedrag": 266.65,
+        "subtotal_incl_btw": 1536.4
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 343.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 687.38,
+        "btw_bedrag": 144.35,
+        "subtotal_incl_btw": 831.73
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 156.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 782.05,
+        "btw_bedrag": 164.23,
+        "subtotal_incl_btw": 946.28
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2739.18,
+      "totaal_btw": 575.23,
+      "totaal_incl_btw": 3314.41
+    }
+  }
+}

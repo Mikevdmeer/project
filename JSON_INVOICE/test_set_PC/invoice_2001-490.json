@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-490",
+    "factuurdatum": "05-12-2022",
+    "vervaldatum": "04-01-2023",
+    "ordernummer": "2001-490",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 246",
+      "postcode": "2313 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "95602017"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 295.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1180.16,
+        "btw_bedrag": 247.83,
+        "subtotal_incl_btw": 1427.99
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 457.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 457.85,
+        "btw_bedrag": 96.15,
+        "subtotal_incl_btw": 554.0
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 394.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1973.65,
+        "btw_bedrag": 414.47,
+        "subtotal_incl_btw": 2388.12
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 19.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 59.55,
+        "btw_bedrag": 12.51,
+        "subtotal_incl_btw": 72.06
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 124.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 499.32,
+        "btw_bedrag": 104.86,
+        "subtotal_incl_btw": 604.18
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4170.53,
+      "totaal_btw": 875.82,
+      "totaal_incl_btw": 5046.35
+    }
+  }
+}

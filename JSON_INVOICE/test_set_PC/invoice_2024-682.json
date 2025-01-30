@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-682",
+    "factuurdatum": "11-06-2024",
+    "vervaldatum": "10-08-2024",
+    "ordernummer": "2024-682",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 89",
+      "postcode": "9132 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "20826532"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 374.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1124.64,
+        "btw_bedrag": 236.17,
+        "subtotal_incl_btw": 1360.81
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 465.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2325.3,
+        "btw_bedrag": 488.31,
+        "subtotal_incl_btw": 2813.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 332.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 332.23,
+        "btw_bedrag": 69.77,
+        "subtotal_incl_btw": 402.0
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 437.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1749.92,
+        "btw_bedrag": 367.48,
+        "subtotal_incl_btw": 2117.4
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 418.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 418.32,
+        "btw_bedrag": 87.85,
+        "subtotal_incl_btw": 506.17
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5950.41,
+      "totaal_btw": 1249.58,
+      "totaal_incl_btw": 7199.99
+    }
+  }
+}

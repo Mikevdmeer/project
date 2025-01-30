@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-534",
+    "factuurdatum": "20-08-2022",
+    "vervaldatum": "19-09-2022",
+    "ordernummer": "2020-534",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 333",
+      "postcode": "3355 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "60587963"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 70.9,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 354.5,
+        "btw_bedrag": 74.45,
+        "subtotal_incl_btw": 428.95
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 494.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 494.94,
+        "btw_bedrag": 103.94,
+        "subtotal_incl_btw": 598.88
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 11.55,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 57.75,
+        "btw_bedrag": 12.13,
+        "subtotal_incl_btw": 69.88
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 907.19,
+      "totaal_btw": 190.52,
+      "totaal_incl_btw": 1097.71
+    }
+  }
+}

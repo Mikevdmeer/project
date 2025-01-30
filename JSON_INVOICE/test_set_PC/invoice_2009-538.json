@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-538",
+    "factuurdatum": "06-12-2022",
+    "vervaldatum": "04-02-2023",
+    "ordernummer": "2009-538",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 755",
+      "postcode": "1781 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "21899026"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 301.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 603.34,
+        "btw_bedrag": 126.7,
+        "subtotal_incl_btw": 730.04
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 21.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 42.34,
+        "btw_bedrag": 8.89,
+        "subtotal_incl_btw": 51.23
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 180.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 721.76,
+        "btw_bedrag": 151.57,
+        "subtotal_incl_btw": 873.33
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 358.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1076.94,
+        "btw_bedrag": 226.16,
+        "subtotal_incl_btw": 1303.1
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 166.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 830.65,
+        "btw_bedrag": 174.44,
+        "subtotal_incl_btw": 1005.09
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3275.03,
+      "totaal_btw": 687.76,
+      "totaal_incl_btw": 3962.79
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2005-805",
+    "factuurdatum": "10-12-2020",
+    "vervaldatum": "09-01-2021",
+    "ordernummer": "2005-805",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 534",
+      "postcode": "4275 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "79217289"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 141.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 425.55,
+        "btw_bedrag": 89.37,
+        "subtotal_incl_btw": 514.92
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 100.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 302.34,
+        "btw_bedrag": 63.49,
+        "subtotal_incl_btw": 365.83
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 727.89,
+      "totaal_btw": 152.86,
+      "totaal_incl_btw": 880.75
+    }
+  }
+}

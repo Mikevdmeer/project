@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-220",
+    "factuurdatum": "04-05-2024",
+    "vervaldatum": "03-06-2024",
+    "ordernummer": "2009-220",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 435",
+      "postcode": "3129 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "17440202"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 487.79,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1463.37,
+        "btw_bedrag": 307.31,
+        "subtotal_incl_btw": 1770.68
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1463.37,
+      "totaal_btw": 307.31,
+      "totaal_incl_btw": 1770.68
+    }
+  }
+}

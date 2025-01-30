@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-068",
+    "factuurdatum": "24-09-2023",
+    "vervaldatum": "23-12-2023",
+    "ordernummer": "2024-068",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 157",
+      "postcode": "8888 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "78139713"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 166.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 166.49,
+        "btw_bedrag": 34.96,
+        "subtotal_incl_btw": 201.45
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 413.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1241.01,
+        "btw_bedrag": 260.61,
+        "subtotal_incl_btw": 1501.62
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1407.5,
+      "totaal_btw": 295.57,
+      "totaal_incl_btw": 1703.07
+    }
+  }
+}

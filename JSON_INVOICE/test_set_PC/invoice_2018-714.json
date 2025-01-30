@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-714",
+    "factuurdatum": "20-04-2021",
+    "vervaldatum": "19-07-2021",
+    "ordernummer": "2018-714",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 142",
+      "postcode": "5360 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "33199458"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 52.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 157.95,
+        "btw_bedrag": 33.17,
+        "subtotal_incl_btw": 191.12
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 74.87,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 224.61,
+        "btw_bedrag": 47.17,
+        "subtotal_incl_btw": 271.78
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 466.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2334.8,
+        "btw_bedrag": 490.31,
+        "subtotal_incl_btw": 2825.11
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2717.36,
+      "totaal_btw": 570.65,
+      "totaal_incl_btw": 3288.01
+    }
+  }
+}

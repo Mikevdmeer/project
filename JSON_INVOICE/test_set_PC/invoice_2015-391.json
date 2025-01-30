@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-391",
+    "factuurdatum": "21-08-2020",
+    "vervaldatum": "20-10-2020",
+    "ordernummer": "2015-391",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 63",
+      "postcode": "7533 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "21442678"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 223.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 223.65,
+        "btw_bedrag": 46.97,
+        "subtotal_incl_btw": 270.62
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 152.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 305.4,
+        "btw_bedrag": 64.13,
+        "subtotal_incl_btw": 369.53
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 78.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 390.65,
+        "btw_bedrag": 82.04,
+        "subtotal_incl_btw": 472.69
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 919.7,
+      "totaal_btw": 193.14,
+      "totaal_incl_btw": 1112.84
+    }
+  }
+}

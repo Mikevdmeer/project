@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-183",
+    "factuurdatum": "10-10-2022",
+    "vervaldatum": "09-11-2022",
+    "ordernummer": "2021-183",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 956",
+      "postcode": "4011 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "83697186"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 257.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1030.64,
+        "btw_bedrag": 216.43,
+        "subtotal_incl_btw": 1247.07
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 488.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2443.05,
+        "btw_bedrag": 513.04,
+        "subtotal_incl_btw": 2956.09
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 319.18,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 957.54,
+        "btw_bedrag": 201.08,
+        "subtotal_incl_btw": 1158.62
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 239.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 239.66,
+        "btw_bedrag": 50.33,
+        "subtotal_incl_btw": 289.99
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4670.89,
+      "totaal_btw": 980.88,
+      "totaal_incl_btw": 5651.77
+    }
+  }
+}

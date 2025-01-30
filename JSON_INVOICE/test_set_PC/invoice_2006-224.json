@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-224",
+    "factuurdatum": "16-04-2022",
+    "vervaldatum": "15-06-2022",
+    "ordernummer": "2006-224",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 351",
+      "postcode": "9416 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "53111836"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 75.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 150.66,
+        "btw_bedrag": 31.64,
+        "subtotal_incl_btw": 182.3
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 150.91,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 452.73,
+        "btw_bedrag": 95.07,
+        "subtotal_incl_btw": 547.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 603.39,
+      "totaal_btw": 126.71,
+      "totaal_incl_btw": 730.1
+    }
+  }
+}

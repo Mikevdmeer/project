@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-889",
+    "factuurdatum": "26-07-2020",
+    "vervaldatum": "25-08-2020",
+    "ordernummer": "2020-889",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 828",
+      "postcode": "4251 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "89642153"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 490.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 490.2,
+        "btw_bedrag": 102.94,
+        "subtotal_incl_btw": 593.14
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 210.86,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 843.44,
+        "btw_bedrag": 177.12,
+        "subtotal_incl_btw": 1020.56
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 69.01,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 69.01,
+        "btw_bedrag": 14.49,
+        "subtotal_incl_btw": 83.5
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 81.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 325.64,
+        "btw_bedrag": 68.38,
+        "subtotal_incl_btw": 394.02
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 352.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 705.88,
+        "btw_bedrag": 148.23,
+        "subtotal_incl_btw": 854.11
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2434.17,
+      "totaal_btw": 511.16,
+      "totaal_incl_btw": 2945.33
+    }
+  }
+}

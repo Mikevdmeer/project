@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2012-790",
+    "factuurdatum": "19-10-2023",
+    "vervaldatum": "18-12-2023",
+    "ordernummer": "2012-790",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 926",
+      "postcode": "5443 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "31325221"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 206.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 412.68,
+        "btw_bedrag": 86.66,
+        "subtotal_incl_btw": 499.34
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 412.68,
+      "totaal_btw": 86.66,
+      "totaal_incl_btw": 499.34
+    }
+  }
+}

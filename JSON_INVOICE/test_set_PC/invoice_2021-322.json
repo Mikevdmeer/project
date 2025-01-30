@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-322",
+    "factuurdatum": "26-10-2022",
+    "vervaldatum": "25-12-2022",
+    "ordernummer": "2021-322",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 55",
+      "postcode": "1986 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "81072466"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 340.39,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1701.95,
+        "btw_bedrag": 357.41,
+        "subtotal_incl_btw": 2059.36
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 460.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1380.84,
+        "btw_bedrag": 289.98,
+        "subtotal_incl_btw": 1670.82
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 447.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1791.2,
+        "btw_bedrag": 376.15,
+        "subtotal_incl_btw": 2167.35
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 323.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1293.8,
+        "btw_bedrag": 271.7,
+        "subtotal_incl_btw": 1565.5
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 428.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1712.48,
+        "btw_bedrag": 359.62,
+        "subtotal_incl_btw": 2072.1
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 7880.27,
+      "totaal_btw": 1654.86,
+      "totaal_incl_btw": 9535.13
+    }
+  }
+}

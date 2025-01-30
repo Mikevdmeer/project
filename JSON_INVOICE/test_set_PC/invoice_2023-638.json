@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-638",
+    "factuurdatum": "06-08-2021",
+    "vervaldatum": "05-10-2021",
+    "ordernummer": "2023-638",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 509",
+      "postcode": "3637 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "73165418"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 486.54,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2432.7,
+        "btw_bedrag": 510.87,
+        "subtotal_incl_btw": 2943.57
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 439.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 439.8,
+        "btw_bedrag": 92.36,
+        "subtotal_incl_btw": 532.16
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 131.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 656.4,
+        "btw_bedrag": 137.84,
+        "subtotal_incl_btw": 794.24
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3528.9,
+      "totaal_btw": 741.07,
+      "totaal_incl_btw": 4269.97
+    }
+  }
+}

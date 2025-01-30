@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-122",
+    "factuurdatum": "21-01-2023",
+    "vervaldatum": "20-02-2023",
+    "ordernummer": "2004-122",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 616",
+      "postcode": "9056 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "68175295"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 430.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1290.39,
+        "btw_bedrag": 270.98,
+        "subtotal_incl_btw": 1561.37
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 318.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 318.7,
+        "btw_bedrag": 66.93,
+        "subtotal_incl_btw": 385.63
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 377.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1131.84,
+        "btw_bedrag": 237.69,
+        "subtotal_incl_btw": 1369.53
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 235.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 941.36,
+        "btw_bedrag": 197.69,
+        "subtotal_incl_btw": 1139.05
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3682.29,
+      "totaal_btw": 773.29,
+      "totaal_incl_btw": 4455.58
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-402",
+    "factuurdatum": "23-01-2022",
+    "vervaldatum": "23-04-2022",
+    "ordernummer": "2007-402",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 464",
+      "postcode": "5420 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "25110093"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 481.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 963.46,
+        "btw_bedrag": 202.33,
+        "subtotal_incl_btw": 1165.79
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 319.58,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1278.32,
+        "btw_bedrag": 268.45,
+        "subtotal_incl_btw": 1546.77
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 46.24,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 138.72,
+        "btw_bedrag": 29.13,
+        "subtotal_incl_btw": 167.85
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2380.5,
+      "totaal_btw": 499.91,
+      "totaal_incl_btw": 2880.41
+    }
+  }
+}

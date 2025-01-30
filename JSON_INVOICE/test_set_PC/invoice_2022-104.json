@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-104",
+    "factuurdatum": "24-03-2022",
+    "vervaldatum": "23-05-2022",
+    "ordernummer": "2022-104",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 715",
+      "postcode": "3953 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95576207"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 268.9,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 268.9,
+        "btw_bedrag": 56.47,
+        "subtotal_incl_btw": 325.37
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 126.4,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 632.0,
+        "btw_bedrag": 132.72,
+        "subtotal_incl_btw": 764.72
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 188.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 755.84,
+        "btw_bedrag": 158.73,
+        "subtotal_incl_btw": 914.57
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 135.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 270.96,
+        "btw_bedrag": 56.9,
+        "subtotal_incl_btw": 327.86
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1927.7,
+      "totaal_btw": 404.82,
+      "totaal_incl_btw": 2332.52
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-053",
+    "factuurdatum": "15-04-2020",
+    "vervaldatum": "14-07-2020",
+    "ordernummer": "2011-053",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 17",
+      "postcode": "7937 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "15006716"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 145.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 290.4,
+        "btw_bedrag": 60.98,
+        "subtotal_incl_btw": 351.38
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 441.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2207.2,
+        "btw_bedrag": 463.51,
+        "subtotal_incl_btw": 2670.71
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2497.6,
+      "totaal_btw": 524.49,
+      "totaal_incl_btw": 3022.09
+    }
+  }
+}

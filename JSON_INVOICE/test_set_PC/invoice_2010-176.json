@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-176",
+    "factuurdatum": "03-09-2021",
+    "vervaldatum": "03-10-2021",
+    "ordernummer": "2010-176",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 878",
+      "postcode": "6947 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "83679763"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 360.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 721.88,
+        "btw_bedrag": 151.59,
+        "subtotal_incl_btw": 873.47
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 313.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 313.03,
+        "btw_bedrag": 65.74,
+        "subtotal_incl_btw": 378.77
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 213.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 426.94,
+        "btw_bedrag": 89.66,
+        "subtotal_incl_btw": 516.6
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 277.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 555.26,
+        "btw_bedrag": 116.6,
+        "subtotal_incl_btw": 671.86
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 476.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 476.28,
+        "btw_bedrag": 100.02,
+        "subtotal_incl_btw": 576.3
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2493.39,
+      "totaal_btw": 523.61,
+      "totaal_incl_btw": 3017.0
+    }
+  }
+}

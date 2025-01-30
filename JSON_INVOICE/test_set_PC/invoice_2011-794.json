@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-794",
+    "factuurdatum": "07-05-2020",
+    "vervaldatum": "05-08-2020",
+    "ordernummer": "2011-794",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 511",
+      "postcode": "4607 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "65750670"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 35.3,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 70.6,
+        "btw_bedrag": 14.83,
+        "subtotal_incl_btw": 85.43
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 183.91,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 735.64,
+        "btw_bedrag": 154.48,
+        "subtotal_incl_btw": 890.12
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 73.54,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 73.54,
+        "btw_bedrag": 15.44,
+        "subtotal_incl_btw": 88.98
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 70.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 280.48,
+        "btw_bedrag": 58.9,
+        "subtotal_incl_btw": 339.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1160.26,
+      "totaal_btw": 243.65,
+      "totaal_incl_btw": 1403.91
+    }
+  }
+}

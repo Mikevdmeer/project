@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-172",
+    "factuurdatum": "24-03-2020",
+    "vervaldatum": "23-04-2020",
+    "ordernummer": "2001-172",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 124",
+      "postcode": "7146 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "46137691"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 95.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 380.0,
+        "btw_bedrag": 79.8,
+        "subtotal_incl_btw": 459.8
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 493.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1481.97,
+        "btw_bedrag": 311.21,
+        "subtotal_incl_btw": 1793.18
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 211.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 847.4,
+        "btw_bedrag": 177.95,
+        "subtotal_incl_btw": 1025.35
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 484.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2423.15,
+        "btw_bedrag": 508.86,
+        "subtotal_incl_btw": 2932.01
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 70.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 351.7,
+        "btw_bedrag": 73.86,
+        "subtotal_incl_btw": 425.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5484.22,
+      "totaal_btw": 1151.68,
+      "totaal_incl_btw": 6635.9
+    }
+  }
+}

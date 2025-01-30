@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-906",
+    "factuurdatum": "17-07-2022",
+    "vervaldatum": "15-10-2022",
+    "ordernummer": "2006-906",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 466",
+      "postcode": "5652 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "69484443"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 244.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 979.8,
+        "btw_bedrag": 205.76,
+        "subtotal_incl_btw": 1185.56
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 315.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1579.8,
+        "btw_bedrag": 331.76,
+        "subtotal_incl_btw": 1911.56
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 474.91,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1899.64,
+        "btw_bedrag": 398.92,
+        "subtotal_incl_btw": 2298.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4459.24,
+      "totaal_btw": 936.44,
+      "totaal_incl_btw": 5395.68
+    }
+  }
+}

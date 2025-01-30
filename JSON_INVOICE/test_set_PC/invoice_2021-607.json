@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-607",
+    "factuurdatum": "24-04-2023",
+    "vervaldatum": "23-06-2023",
+    "ordernummer": "2021-607",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 496",
+      "postcode": "9025 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "34885181"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 325.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1301.32,
+        "btw_bedrag": 273.28,
+        "subtotal_incl_btw": 1574.6
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 46.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 184.44,
+        "btw_bedrag": 38.73,
+        "subtotal_incl_btw": 223.17
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 340.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 340.84,
+        "btw_bedrag": 71.58,
+        "subtotal_incl_btw": 412.42
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 83.89,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 167.78,
+        "btw_bedrag": 35.23,
+        "subtotal_incl_btw": 203.01
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 40.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 81.88,
+        "btw_bedrag": 17.19,
+        "subtotal_incl_btw": 99.07
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2076.26,
+      "totaal_btw": 436.01,
+      "totaal_incl_btw": 2512.27
+    }
+  }
+}

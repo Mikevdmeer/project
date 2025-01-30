@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-422",
+    "factuurdatum": "01-07-2022",
+    "vervaldatum": "30-08-2022",
+    "ordernummer": "2019-422",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 579",
+      "postcode": "9894 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "11636995"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 209.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 839.0,
+        "btw_bedrag": 176.19,
+        "subtotal_incl_btw": 1015.19
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 839.0,
+      "totaal_btw": 176.19,
+      "totaal_incl_btw": 1015.19
+    }
+  }
+}

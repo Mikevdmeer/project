@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-923",
+    "factuurdatum": "20-06-2023",
+    "vervaldatum": "18-09-2023",
+    "ordernummer": "2000-923",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 520",
+      "postcode": "7489 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "40927713"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 423.63,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 423.63,
+        "btw_bedrag": 88.96,
+        "subtotal_incl_btw": 512.59
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 481.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2408.35,
+        "btw_bedrag": 505.75,
+        "subtotal_incl_btw": 2914.1
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 104.87,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 104.87,
+        "btw_bedrag": 22.02,
+        "subtotal_incl_btw": 126.89
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 313.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 313.27,
+        "btw_bedrag": 65.79,
+        "subtotal_incl_btw": 379.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3250.12,
+      "totaal_btw": 682.52,
+      "totaal_incl_btw": 3932.64
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-790",
+    "factuurdatum": "11-03-2024",
+    "vervaldatum": "09-06-2024",
+    "ordernummer": "2024-790",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 680",
+      "postcode": "7582 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "17952427"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 366.18,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1830.9,
+        "btw_bedrag": 384.49,
+        "subtotal_incl_btw": 2215.39
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 448.03,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1344.09,
+        "btw_bedrag": 282.26,
+        "subtotal_incl_btw": 1626.35
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 335.87,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1679.35,
+        "btw_bedrag": 352.66,
+        "subtotal_incl_btw": 2032.01
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4854.34,
+      "totaal_btw": 1019.41,
+      "totaal_incl_btw": 5873.75
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-759",
+    "factuurdatum": "20-06-2023",
+    "vervaldatum": "19-08-2023",
+    "ordernummer": "2009-759",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 667",
+      "postcode": "1614 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "66180694"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 21.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 85.36,
+        "btw_bedrag": 17.93,
+        "subtotal_incl_btw": 103.29
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 270.34,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 270.34,
+        "btw_bedrag": 56.77,
+        "subtotal_incl_btw": 327.11
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 294.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 883.35,
+        "btw_bedrag": 185.5,
+        "subtotal_incl_btw": 1068.85
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1239.05,
+      "totaal_btw": 260.2,
+      "totaal_incl_btw": 1499.25
+    }
+  }
+}

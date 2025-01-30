@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2007-112",
+    "factuurdatum": "05-10-2020",
+    "vervaldatum": "04-12-2020",
+    "ordernummer": "2007-112",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 133",
+      "postcode": "3597 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "97350354"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 451.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1805.48,
+        "btw_bedrag": 379.15,
+        "subtotal_incl_btw": 2184.63
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 469.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1876.8,
+        "btw_bedrag": 394.13,
+        "subtotal_incl_btw": 2270.93
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 102.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 409.92,
+        "btw_bedrag": 86.08,
+        "subtotal_incl_btw": 496.0
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 176.69,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 530.07,
+        "btw_bedrag": 111.31,
+        "subtotal_incl_btw": 641.38
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4622.27,
+      "totaal_btw": 970.67,
+      "totaal_incl_btw": 5592.94
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-391",
+    "factuurdatum": "08-05-2023",
+    "vervaldatum": "07-07-2023",
+    "ordernummer": "2009-391",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 253",
+      "postcode": "7776 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "80204129"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 264.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1324.4,
+        "btw_bedrag": 278.12,
+        "subtotal_incl_btw": 1602.52
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 413.75,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1241.25,
+        "btw_bedrag": 260.66,
+        "subtotal_incl_btw": 1501.91
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 136.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 273.92,
+        "btw_bedrag": 57.52,
+        "subtotal_incl_btw": 331.44
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 276.81,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 830.43,
+        "btw_bedrag": 174.39,
+        "subtotal_incl_btw": 1004.82
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 301.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 301.36,
+        "btw_bedrag": 63.29,
+        "subtotal_incl_btw": 364.65
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3971.36,
+      "totaal_btw": 833.98,
+      "totaal_incl_btw": 4805.34
+    }
+  }
+}

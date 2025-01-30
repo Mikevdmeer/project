@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-066",
+    "factuurdatum": "24-11-2022",
+    "vervaldatum": "24-12-2022",
+    "ordernummer": "2021-066",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 330",
+      "postcode": "7509 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "88203838"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 464.12,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 928.24,
+        "btw_bedrag": 194.93,
+        "subtotal_incl_btw": 1123.17
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 477.72,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1910.88,
+        "btw_bedrag": 401.28,
+        "subtotal_incl_btw": 2312.16
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2839.12,
+      "totaal_btw": 596.21,
+      "totaal_incl_btw": 3435.33
+    }
+  }
+}

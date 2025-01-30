@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-919",
+    "factuurdatum": "02-03-2024",
+    "vervaldatum": "01-04-2024",
+    "ordernummer": "2016-919",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 609",
+      "postcode": "3326 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "43064614"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 345.9,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 691.8,
+        "btw_bedrag": 145.28,
+        "subtotal_incl_btw": 837.08
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 21.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 87.12,
+        "btw_bedrag": 18.3,
+        "subtotal_incl_btw": 105.42
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 376.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1130.31,
+        "btw_bedrag": 237.37,
+        "subtotal_incl_btw": 1367.68
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 386.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 773.18,
+        "btw_bedrag": 162.37,
+        "subtotal_incl_btw": 935.55
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2682.41,
+      "totaal_btw": 563.32,
+      "totaal_incl_btw": 3245.73
+    }
+  }
+}

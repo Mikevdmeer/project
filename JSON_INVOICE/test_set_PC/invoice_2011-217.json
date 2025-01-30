@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-217",
+    "factuurdatum": "04-07-2022",
+    "vervaldatum": "03-08-2022",
+    "ordernummer": "2011-217",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 180",
+      "postcode": "4532 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "44077316"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 298.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 895.47,
+        "btw_bedrag": 188.05,
+        "subtotal_incl_btw": 1083.52
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 425.54,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 851.08,
+        "btw_bedrag": 178.73,
+        "subtotal_incl_btw": 1029.81
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1746.55,
+      "totaal_btw": 366.78,
+      "totaal_incl_btw": 2113.33
+    }
+  }
+}

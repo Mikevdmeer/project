@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-277",
+    "factuurdatum": "08-04-2020",
+    "vervaldatum": "08-05-2020",
+    "ordernummer": "2014-277",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 961",
+      "postcode": "4836 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "65301603"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 349.92,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1749.6,
+        "btw_bedrag": 367.42,
+        "subtotal_incl_btw": 2117.02
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 453.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2269.0,
+        "btw_bedrag": 476.49,
+        "subtotal_incl_btw": 2745.49
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 22.05,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 66.15,
+        "btw_bedrag": 13.89,
+        "subtotal_incl_btw": 80.04
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 209.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1047.4,
+        "btw_bedrag": 219.95,
+        "subtotal_incl_btw": 1267.35
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 110.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 110.8,
+        "btw_bedrag": 23.27,
+        "subtotal_incl_btw": 134.07
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5242.95,
+      "totaal_btw": 1101.02,
+      "totaal_incl_btw": 6343.97
+    }
+  }
+}

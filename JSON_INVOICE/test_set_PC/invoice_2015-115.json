@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-115",
+    "factuurdatum": "02-01-2020",
+    "vervaldatum": "01-02-2020",
+    "ordernummer": "2015-115",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 917",
+      "postcode": "3992 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "91495392"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 36.22,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 36.22,
+        "btw_bedrag": 7.61,
+        "subtotal_incl_btw": 43.83
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 80.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 240.06,
+        "btw_bedrag": 50.41,
+        "subtotal_incl_btw": 290.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 276.28,
+      "totaal_btw": 58.02,
+      "totaal_incl_btw": 334.3
+    }
+  }
+}

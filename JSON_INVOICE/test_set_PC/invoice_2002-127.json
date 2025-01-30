@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2002-127",
+    "factuurdatum": "07-12-2023",
+    "vervaldatum": "06-01-2024",
+    "ordernummer": "2002-127",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 366",
+      "postcode": "6311 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "30477296"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 369.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1108.05,
+        "btw_bedrag": 232.69,
+        "subtotal_incl_btw": 1340.74
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 77.42,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 309.68,
+        "btw_bedrag": 65.03,
+        "subtotal_incl_btw": 374.71
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 143.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 574.48,
+        "btw_bedrag": 120.64,
+        "subtotal_incl_btw": 695.12
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 492.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2462.45,
+        "btw_bedrag": 517.11,
+        "subtotal_incl_btw": 2979.56
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4454.66,
+      "totaal_btw": 935.47,
+      "totaal_incl_btw": 5390.13
+    }
+  }
+}

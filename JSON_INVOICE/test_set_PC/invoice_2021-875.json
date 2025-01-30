@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-875",
+    "factuurdatum": "20-02-2023",
+    "vervaldatum": "22-03-2023",
+    "ordernummer": "2021-875",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 779",
+      "postcode": "8353 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "26817501"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 478.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1435.08,
+        "btw_bedrag": 301.37,
+        "subtotal_incl_btw": 1736.45
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 149.52,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 299.04,
+        "btw_bedrag": 62.8,
+        "subtotal_incl_btw": 361.84
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 214.41,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 857.64,
+        "btw_bedrag": 180.1,
+        "subtotal_incl_btw": 1037.74
+      },
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 162.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 649.04,
+        "btw_bedrag": 136.3,
+        "subtotal_incl_btw": 785.34
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3240.8,
+      "totaal_btw": 680.57,
+      "totaal_incl_btw": 3921.37
+    }
+  }
+}

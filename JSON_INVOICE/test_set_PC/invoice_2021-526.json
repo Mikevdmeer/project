@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2021-526",
+    "factuurdatum": "05-10-2022",
+    "vervaldatum": "03-01-2023",
+    "ordernummer": "2021-526",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 66",
+      "postcode": "6626 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "41399056"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 343.76,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1031.28,
+        "btw_bedrag": 216.57,
+        "subtotal_incl_btw": 1247.85
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1031.28,
+      "totaal_btw": 216.57,
+      "totaal_incl_btw": 1247.85
+    }
+  }
+}

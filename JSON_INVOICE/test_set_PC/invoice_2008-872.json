@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2008-872",
+    "factuurdatum": "19-12-2022",
+    "vervaldatum": "19-03-2023",
+    "ordernummer": "2008-872",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 155",
+      "postcode": "2806 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "99167751"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 156.93,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 784.65,
+        "btw_bedrag": 164.78,
+        "subtotal_incl_btw": 949.43
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 60.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 181.41,
+        "btw_bedrag": 38.1,
+        "subtotal_incl_btw": 219.51
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 966.06,
+      "totaal_btw": 202.88,
+      "totaal_incl_btw": 1168.94
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-070",
+    "factuurdatum": "26-09-2021",
+    "vervaldatum": "26-10-2021",
+    "ordernummer": "2015-070",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 636",
+      "postcode": "5966 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "62286591"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 338.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 338.44,
+        "btw_bedrag": 71.07,
+        "subtotal_incl_btw": 409.51
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 338.44,
+      "totaal_btw": 71.07,
+      "totaal_incl_btw": 409.51
+    }
+  }
+}

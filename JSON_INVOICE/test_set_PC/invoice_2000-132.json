@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-132",
+    "factuurdatum": "27-11-2024",
+    "vervaldatum": "25-02-2025",
+    "ordernummer": "2000-132",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 539",
+      "postcode": "7622 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "34119803"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 72.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 72.98,
+        "btw_bedrag": 15.33,
+        "subtotal_incl_btw": 88.31
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 322.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 644.42,
+        "btw_bedrag": 135.33,
+        "subtotal_incl_btw": 779.75
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 212.67,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 425.34,
+        "btw_bedrag": 89.32,
+        "subtotal_incl_btw": 514.66
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 352.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 705.54,
+        "btw_bedrag": 148.16,
+        "subtotal_incl_btw": 853.7
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 313.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1569.2,
+        "btw_bedrag": 329.53,
+        "subtotal_incl_btw": 1898.73
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3417.48,
+      "totaal_btw": 717.67,
+      "totaal_incl_btw": 4135.15
+    }
+  }
+}

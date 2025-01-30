@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-286",
+    "factuurdatum": "07-08-2020",
+    "vervaldatum": "06-10-2020",
+    "ordernummer": "2011-286",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 992",
+      "postcode": "1159 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "74942066"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 275.39,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 550.78,
+        "btw_bedrag": 115.66,
+        "subtotal_incl_btw": 666.44
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 43.77,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 87.54,
+        "btw_bedrag": 18.38,
+        "subtotal_incl_btw": 105.92
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 472.51,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2362.55,
+        "btw_bedrag": 496.14,
+        "subtotal_incl_btw": 2858.69
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3000.87,
+      "totaal_btw": 630.18,
+      "totaal_incl_btw": 3631.05
+    }
+  }
+}

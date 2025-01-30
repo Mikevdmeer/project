@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-440",
+    "factuurdatum": "15-04-2020",
+    "vervaldatum": "14-06-2020",
+    "ordernummer": "2015-440",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 791",
+      "postcode": "3801 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "94043801"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 331.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 662.56,
+        "btw_bedrag": 139.14,
+        "subtotal_incl_btw": 801.7
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 195.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 781.8,
+        "btw_bedrag": 164.18,
+        "subtotal_incl_btw": 945.98
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1444.36,
+      "totaal_btw": 303.32,
+      "totaal_incl_btw": 1747.68
+    }
+  }
+}

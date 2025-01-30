@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-772",
+    "factuurdatum": "25-11-2020",
+    "vervaldatum": "23-02-2021",
+    "ordernummer": "2015-772",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Schoolstraat 302",
+      "postcode": "2099 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "93094116"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 114.28,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 571.4,
+        "btw_bedrag": 119.99,
+        "subtotal_incl_btw": 691.39
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 388.53,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1942.65,
+        "btw_bedrag": 407.96,
+        "subtotal_incl_btw": 2350.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 281.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 281.83,
+        "btw_bedrag": 59.18,
+        "subtotal_incl_btw": 341.01
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2795.88,
+      "totaal_btw": 587.13,
+      "totaal_incl_btw": 3383.01
+    }
+  }
+}

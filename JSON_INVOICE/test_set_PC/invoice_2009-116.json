@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-116",
+    "factuurdatum": "08-04-2021",
+    "vervaldatum": "07-07-2021",
+    "ordernummer": "2009-116",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 719",
+      "postcode": "2823 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "87500665"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 205.01,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 410.02,
+        "btw_bedrag": 86.1,
+        "subtotal_incl_btw": 496.12
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 410.02,
+      "totaal_btw": 86.1,
+      "totaal_incl_btw": 496.12
+    }
+  }
+}

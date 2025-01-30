@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2010-098",
+    "factuurdatum": "24-03-2022",
+    "vervaldatum": "23-04-2022",
+    "ordernummer": "2010-098",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 316",
+      "postcode": "4111 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "11320289"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 385.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1541.48,
+        "btw_bedrag": 323.71,
+        "subtotal_incl_btw": 1865.19
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 26.16,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 78.48,
+        "btw_bedrag": 16.48,
+        "subtotal_incl_btw": 94.96
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1619.96,
+      "totaal_btw": 340.19,
+      "totaal_incl_btw": 1960.15
+    }
+  }
+}

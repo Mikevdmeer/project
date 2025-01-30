@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-537",
+    "factuurdatum": "16-09-2023",
+    "vervaldatum": "15-11-2023",
+    "ordernummer": "2000-537",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 686",
+      "postcode": "5285 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "98366540"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 438.54,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1315.62,
+        "btw_bedrag": 276.28,
+        "subtotal_incl_btw": 1591.9
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1315.62,
+      "totaal_btw": 276.28,
+      "totaal_incl_btw": 1591.9
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2018-418",
+    "factuurdatum": "05-06-2021",
+    "vervaldatum": "04-08-2021",
+    "ordernummer": "2018-418",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 62",
+      "postcode": "6226 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "34749698"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 96.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 385.16,
+        "btw_bedrag": 80.88,
+        "subtotal_incl_btw": 466.04
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 17.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 51.18,
+        "btw_bedrag": 10.75,
+        "subtotal_incl_btw": 61.93
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 240.04,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 960.16,
+        "btw_bedrag": 201.63,
+        "subtotal_incl_btw": 1161.79
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 369.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1109.22,
+        "btw_bedrag": 232.94,
+        "subtotal_incl_btw": 1342.16
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 12.32,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 24.64,
+        "btw_bedrag": 5.17,
+        "subtotal_incl_btw": 29.81
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2530.36,
+      "totaal_btw": 531.37,
+      "totaal_incl_btw": 3061.73
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-298",
+    "factuurdatum": "21-03-2024",
+    "vervaldatum": "20-05-2024",
+    "ordernummer": "2004-298",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 813",
+      "postcode": "7880 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "54031465"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 371.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 742.76,
+        "btw_bedrag": 155.98,
+        "subtotal_incl_btw": 898.74
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 391.1,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1955.5,
+        "btw_bedrag": 410.66,
+        "subtotal_incl_btw": 2366.16
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 416.86,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 833.72,
+        "btw_bedrag": 175.08,
+        "subtotal_incl_btw": 1008.8
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3531.98,
+      "totaal_btw": 741.72,
+      "totaal_incl_btw": 4273.7
+    }
+  }
+}

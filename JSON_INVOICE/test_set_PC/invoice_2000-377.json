@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2000-377",
+    "factuurdatum": "21-06-2024",
+    "vervaldatum": "20-08-2024",
+    "ordernummer": "2000-377",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 183",
+      "postcode": "2590 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "58064025"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 84.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 337.96,
+        "btw_bedrag": 70.97,
+        "subtotal_incl_btw": 408.93
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 282.85,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 282.85,
+        "btw_bedrag": 59.4,
+        "subtotal_incl_btw": 342.25
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 620.81,
+      "totaal_btw": 130.37,
+      "totaal_incl_btw": 751.18
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-909",
+    "factuurdatum": "18-02-2021",
+    "vervaldatum": "20-03-2021",
+    "ordernummer": "2019-909",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 218",
+      "postcode": "2764 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "32105573"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 251.37,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 502.74,
+        "btw_bedrag": 105.58,
+        "subtotal_incl_btw": 608.32
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 474.22,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 948.44,
+        "btw_bedrag": 199.17,
+        "subtotal_incl_btw": 1147.61
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 290.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 290.29,
+        "btw_bedrag": 60.96,
+        "subtotal_incl_btw": 351.25
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 323.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 323.11,
+        "btw_bedrag": 67.85,
+        "subtotal_incl_btw": 390.96
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 499.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 499.59,
+        "btw_bedrag": 104.91,
+        "subtotal_incl_btw": 604.5
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2564.17,
+      "totaal_btw": 538.47,
+      "totaal_incl_btw": 3102.64
+    }
+  }
+}

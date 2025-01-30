@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-920",
+    "factuurdatum": "20-04-2022",
+    "vervaldatum": "20-05-2022",
+    "ordernummer": "2003-920",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 442",
+      "postcode": "1531 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "42413860"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 472.97,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1891.88,
+        "btw_bedrag": 397.29,
+        "subtotal_incl_btw": 2289.17
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 239.36,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 478.72,
+        "btw_bedrag": 100.53,
+        "subtotal_incl_btw": 579.25
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2370.6,
+      "totaal_btw": 497.82,
+      "totaal_incl_btw": 2868.42
+    }
+  }
+}

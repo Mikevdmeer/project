@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-431",
+    "factuurdatum": "19-11-2024",
+    "vervaldatum": "18-01-2025",
+    "ordernummer": "2001-431",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 291",
+      "postcode": "2631 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "68354844"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 436.44,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2182.2,
+        "btw_bedrag": 458.26,
+        "subtotal_incl_btw": 2640.46
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 213.97,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 213.97,
+        "btw_bedrag": 44.93,
+        "subtotal_incl_btw": 258.9
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 74.31,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 74.31,
+        "btw_bedrag": 15.61,
+        "subtotal_incl_btw": 89.92
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2470.48,
+      "totaal_btw": 518.8,
+      "totaal_incl_btw": 2989.28
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-849",
+    "factuurdatum": "09-01-2020",
+    "vervaldatum": "08-02-2020",
+    "ordernummer": "2001-849",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 557",
+      "postcode": "2545 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "53321229"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 244.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1224.7,
+        "btw_bedrag": 257.19,
+        "subtotal_incl_btw": 1481.89
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 267.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 534.66,
+        "btw_bedrag": 112.28,
+        "subtotal_incl_btw": 646.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1759.36,
+      "totaal_btw": 369.47,
+      "totaal_incl_btw": 2128.83
+    }
+  }
+}

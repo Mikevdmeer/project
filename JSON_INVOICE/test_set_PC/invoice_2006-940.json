@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-940",
+    "factuurdatum": "09-09-2021",
+    "vervaldatum": "08-12-2021",
+    "ordernummer": "2006-940",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 212",
+      "postcode": "2506 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "95329934"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 380.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 761.98,
+        "btw_bedrag": 160.02,
+        "subtotal_incl_btw": 922.0
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 294.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1470.3,
+        "btw_bedrag": 308.76,
+        "subtotal_incl_btw": 1779.06
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 229.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 687.99,
+        "btw_bedrag": 144.48,
+        "subtotal_incl_btw": 832.47
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2920.27,
+      "totaal_btw": 613.26,
+      "totaal_incl_btw": 3533.53
+    }
+  }
+}

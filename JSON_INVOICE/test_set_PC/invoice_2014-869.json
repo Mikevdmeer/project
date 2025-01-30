@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2014-869",
+    "factuurdatum": "25-05-2021",
+    "vervaldatum": "23-08-2021",
+    "ordernummer": "2014-869",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 567",
+      "postcode": "3611 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "89654236"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 494.15,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 494.15,
+        "btw_bedrag": 103.77,
+        "subtotal_incl_btw": 597.92
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 429.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 429.02,
+        "btw_bedrag": 90.09,
+        "subtotal_incl_btw": 519.11
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 159.14,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 477.42,
+        "btw_bedrag": 100.26,
+        "subtotal_incl_btw": 577.68
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 289.99,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1449.95,
+        "btw_bedrag": 304.49,
+        "subtotal_incl_btw": 1754.44
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2850.54,
+      "totaal_btw": 598.61,
+      "totaal_incl_btw": 3449.15
+    }
+  }
+}

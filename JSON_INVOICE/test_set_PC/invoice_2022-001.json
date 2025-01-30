@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2022-001",
+    "factuurdatum": "16-12-2023",
+    "vervaldatum": "14-02-2024",
+    "ordernummer": "2022-001",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 457",
+      "postcode": "8026 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "52713765"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 112.35,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 112.35,
+        "btw_bedrag": 23.59,
+        "subtotal_incl_btw": 135.94
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 426.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1279.44,
+        "btw_bedrag": 268.68,
+        "subtotal_incl_btw": 1548.12
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 29.8,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 89.4,
+        "btw_bedrag": 18.77,
+        "subtotal_incl_btw": 108.17
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 156.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 312.4,
+        "btw_bedrag": 65.6,
+        "subtotal_incl_btw": 378.0
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1793.59,
+      "totaal_btw": 376.64,
+      "totaal_incl_btw": 2170.23
+    }
+  }
+}

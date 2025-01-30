@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2011-600",
+    "factuurdatum": "10-05-2024",
+    "vervaldatum": "09-07-2024",
+    "ordernummer": "2011-600",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 903",
+      "postcode": "2257 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "14696691"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 271.06,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 813.18,
+        "btw_bedrag": 170.77,
+        "subtotal_incl_btw": 983.95
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 176.74,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 176.74,
+        "btw_bedrag": 37.12,
+        "subtotal_incl_btw": 213.86
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 415.93,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1663.72,
+        "btw_bedrag": 349.38,
+        "subtotal_incl_btw": 2013.1
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 298.88,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 896.64,
+        "btw_bedrag": 188.29,
+        "subtotal_incl_btw": 1084.93
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 376.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1883.05,
+        "btw_bedrag": 395.44,
+        "subtotal_incl_btw": 2278.49
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 5433.33,
+      "totaal_btw": 1141.0,
+      "totaal_incl_btw": 6574.33
+    }
+  }
+}

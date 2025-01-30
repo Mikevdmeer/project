@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2006-101",
+    "factuurdatum": "13-06-2022",
+    "vervaldatum": "13-07-2022",
+    "ordernummer": "2006-101",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 495",
+      "postcode": "6139 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "47330253"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 350.91,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1052.73,
+        "btw_bedrag": 221.07,
+        "subtotal_incl_btw": 1273.8
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 316.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1267.8,
+        "btw_bedrag": 266.24,
+        "subtotal_incl_btw": 1534.04
+      },
+      {
+        "aantal": 3,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 133.17,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 399.51,
+        "btw_bedrag": 83.9,
+        "subtotal_incl_btw": 483.41
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2720.04,
+      "totaal_btw": 571.21,
+      "totaal_incl_btw": 3291.25
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-163",
+    "factuurdatum": "01-03-2021",
+    "vervaldatum": "31-03-2021",
+    "ordernummer": "2003-163",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 821",
+      "postcode": "2696 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "16613029"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 462.62,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1850.48,
+        "btw_bedrag": 388.6,
+        "subtotal_incl_btw": 2239.08
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1850.48,
+      "totaal_btw": 388.6,
+      "totaal_incl_btw": 2239.08
+    }
+  }
+}

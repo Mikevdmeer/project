@@ -1,0 +1,31 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-591",
+    "factuurdatum": "09-04-2024",
+    "vervaldatum": "09-05-2024",
+    "ordernummer": "2004-591",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 793",
+      "postcode": "9414 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "32714204"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 184.02,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 736.08,
+        "btw_bedrag": 154.58,
+        "subtotal_incl_btw": 890.66
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 736.08,
+      "totaal_btw": 154.58,
+      "totaal_incl_btw": 890.66
+    }
+  }
+}

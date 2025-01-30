@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-133",
+    "factuurdatum": "02-06-2022",
+    "vervaldatum": "31-08-2022",
+    "ordernummer": "2001-133",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 227",
+      "postcode": "2399 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "97770926"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 129.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 646.3,
+        "btw_bedrag": 135.72,
+        "subtotal_incl_btw": 782.02
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 474.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1423.77,
+        "btw_bedrag": 298.99,
+        "subtotal_incl_btw": 1722.76
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "prijs_per_stuk_excl_btw": 413.97,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 827.94,
+        "btw_bedrag": 173.87,
+        "subtotal_incl_btw": 1001.81
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 69.84,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 209.52,
+        "btw_bedrag": 44.0,
+        "subtotal_incl_btw": 253.52
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3107.53,
+      "totaal_btw": 652.58,
+      "totaal_incl_btw": 3760.11
+    }
+  }
+}

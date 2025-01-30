@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2015-296",
+    "factuurdatum": "09-10-2021",
+    "vervaldatum": "08-11-2021",
+    "ordernummer": "2015-296",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 570",
+      "postcode": "6008 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "38265666"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 148.68,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 743.4,
+        "btw_bedrag": 156.11,
+        "subtotal_incl_btw": 899.51
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 96.49,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 96.49,
+        "btw_bedrag": 20.26,
+        "subtotal_incl_btw": 116.75
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 387.94,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 775.88,
+        "btw_bedrag": 162.93,
+        "subtotal_incl_btw": 938.81
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 148.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 594.8,
+        "btw_bedrag": 124.91,
+        "subtotal_incl_btw": 719.71
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 355.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 355.38,
+        "btw_bedrag": 74.63,
+        "subtotal_incl_btw": 430.01
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2565.95,
+      "totaal_btw": 538.84,
+      "totaal_incl_btw": 3104.79
+    }
+  }
+}

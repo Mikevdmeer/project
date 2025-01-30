@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2003-478",
+    "factuurdatum": "11-02-2021",
+    "vervaldatum": "13-03-2021",
+    "ordernummer": "2003-478",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 389",
+      "postcode": "6393 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "74305013"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 113.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 226.22,
+        "btw_bedrag": 47.51,
+        "subtotal_incl_btw": 273.73
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 467.96,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 935.92,
+        "btw_bedrag": 196.54,
+        "subtotal_incl_btw": 1132.46
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T15",
+        "prijs_per_stuk_excl_btw": 423.38,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2116.9,
+        "btw_bedrag": 444.55,
+        "subtotal_incl_btw": 2561.45
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3279.04,
+      "totaal_btw": 688.6,
+      "totaal_incl_btw": 3967.64
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2017-661",
+    "factuurdatum": "02-05-2021",
+    "vervaldatum": "01-07-2021",
+    "ordernummer": "2017-661",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 677",
+      "postcode": "3901 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "85722265"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 55.11,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 110.22,
+        "btw_bedrag": 23.15,
+        "subtotal_incl_btw": 133.37
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 219.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 439.18,
+        "btw_bedrag": 92.23,
+        "subtotal_incl_btw": 531.41
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 453.78,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2268.9,
+        "btw_bedrag": 476.47,
+        "subtotal_incl_btw": 2745.37
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2419H",
+        "prijs_per_stuk_excl_btw": 117.23,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 468.92,
+        "btw_bedrag": 98.47,
+        "subtotal_incl_btw": 567.39
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3287.22,
+      "totaal_btw": 690.32,
+      "totaal_incl_btw": 3977.54
+    }
+  }
+}

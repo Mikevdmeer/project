@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2020-548",
+    "factuurdatum": "16-07-2022",
+    "vervaldatum": "14-10-2022",
+    "ordernummer": "2020-548",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 412",
+      "postcode": "6047 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "22581529"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 404.66,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1618.64,
+        "btw_bedrag": 339.91,
+        "subtotal_incl_btw": 1958.55
+      },
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 165.95,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 165.95,
+        "btw_bedrag": 34.85,
+        "subtotal_incl_btw": 200.8
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 268.07,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 268.07,
+        "btw_bedrag": 56.29,
+        "subtotal_incl_btw": 324.36
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 297.61,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1488.05,
+        "btw_bedrag": 312.49,
+        "subtotal_incl_btw": 1800.54
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3540.71,
+      "totaal_btw": 743.54,
+      "totaal_incl_btw": 4284.25
+    }
+  }
+}

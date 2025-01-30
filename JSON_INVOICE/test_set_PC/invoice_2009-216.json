@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-216",
+    "factuurdatum": "25-12-2020",
+    "vervaldatum": "24-01-2021",
+    "ordernummer": "2009-216",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 902",
+      "postcode": "1603 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "88175630"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 382.59,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1912.95,
+        "btw_bedrag": 401.72,
+        "subtotal_incl_btw": 2314.67
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 421.13,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1263.39,
+        "btw_bedrag": 265.31,
+        "subtotal_incl_btw": 1528.7
+      },
+      {
+        "aantal": 5,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 32.76,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 163.8,
+        "btw_bedrag": 34.4,
+        "subtotal_incl_btw": 198.2
+      },
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 272.83,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1364.15,
+        "btw_bedrag": 286.47,
+        "subtotal_incl_btw": 1650.62
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 4704.29,
+      "totaal_btw": 987.9,
+      "totaal_incl_btw": 5692.19
+    }
+  }
+}

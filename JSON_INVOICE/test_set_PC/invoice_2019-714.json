@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-714",
+    "factuurdatum": "14-07-2021",
+    "vervaldatum": "13-08-2021",
+    "ordernummer": "2019-714",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Kerkstraat 942",
+      "postcode": "8099 AB",
+      "stad": "Amsterdam",
+      "KVK-nummer": "52006139"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 227.0,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 681.0,
+        "btw_bedrag": 143.01,
+        "subtotal_incl_btw": 824.01
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 26.82,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 26.82,
+        "btw_bedrag": 5.63,
+        "subtotal_incl_btw": 32.45
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 16G OC",
+        "prijs_per_stuk_excl_btw": 449.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 2246.3,
+        "btw_bedrag": 471.72,
+        "subtotal_incl_btw": 2718.02
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 172.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 345.0,
+        "btw_bedrag": 72.45,
+        "subtotal_incl_btw": 417.45
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3299.12,
+      "totaal_btw": 692.81,
+      "totaal_incl_btw": 3991.93
+    }
+  }
+}

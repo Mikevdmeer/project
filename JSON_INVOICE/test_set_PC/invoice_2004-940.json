@@ -1,0 +1,67 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2004-940",
+    "factuurdatum": "17-02-2020",
+    "vervaldatum": "17-05-2020",
+    "ordernummer": "2004-940",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 602",
+      "postcode": "5712 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "63277287"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502 HERO",
+        "prijs_per_stuk_excl_btw": 348.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 697.96,
+        "btw_bedrag": 146.57,
+        "subtotal_incl_btw": 844.53
+      },
+      {
+        "aantal": 2,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 207.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 414.9,
+        "btw_bedrag": 87.13,
+        "subtotal_incl_btw": 502.03
+      },
+      {
+        "aantal": 1,
+        "productnaam": "HP EliteDisplay E223",
+        "prijs_per_stuk_excl_btw": 456.31,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 456.31,
+        "btw_bedrag": 95.83,
+        "subtotal_incl_btw": 552.14
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 187.26,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 561.78,
+        "btw_bedrag": 117.97,
+        "subtotal_incl_btw": 679.75
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 357.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1787.15,
+        "btw_bedrag": 375.3,
+        "subtotal_incl_btw": 2162.45
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3918.1,
+      "totaal_btw": 822.8,
+      "totaal_incl_btw": 4740.9
+    }
+  }
+}

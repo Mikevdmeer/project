@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2001-245",
+    "factuurdatum": "08-08-2021",
+    "vervaldatum": "06-11-2021",
+    "ordernummer": "2001-245",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 392",
+      "postcode": "1805 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "72483097"
+    },
+    "factuurregels": [
+      {
+        "aantal": 5,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 81.5,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 407.5,
+        "btw_bedrag": 85.58,
+        "subtotal_incl_btw": 493.08
+      },
+      {
+        "aantal": 4,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 356.21,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1424.84,
+        "btw_bedrag": 299.22,
+        "subtotal_incl_btw": 1724.06
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1832.34,
+      "totaal_btw": 384.8,
+      "totaal_incl_btw": 2217.14
+    }
+  }
+}

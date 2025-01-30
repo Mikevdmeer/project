@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2024-268",
+    "factuurdatum": "22-01-2020",
+    "vervaldatum": "22-03-2020",
+    "ordernummer": "2024-268",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 223",
+      "postcode": "3826 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82735885"
+    },
+    "factuurregels": [
+      {
+        "aantal": 3,
+        "productnaam": "Razor gaming keyboard",
+        "prijs_per_stuk_excl_btw": 427.65,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1282.95,
+        "btw_bedrag": 269.42,
+        "subtotal_incl_btw": 1552.37
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "prijs_per_stuk_excl_btw": 458.98,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1376.94,
+        "btw_bedrag": 289.16,
+        "subtotal_incl_btw": 1666.1
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 2659.89,
+      "totaal_btw": 558.58,
+      "totaal_incl_btw": 3218.47
+    }
+  }
+}

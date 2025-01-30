@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2009-534",
+    "factuurdatum": "06-04-2023",
+    "vervaldatum": "06-05-2023",
+    "ordernummer": "2009-534",
+    "klant": {
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 184",
+      "postcode": "8551 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "24382529"
+    },
+    "factuurregels": [
+      {
+        "aantal": 1,
+        "productnaam": "MSI AERO 64G OC",
+        "prijs_per_stuk_excl_btw": 74.16,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 74.16,
+        "btw_bedrag": 15.57,
+        "subtotal_incl_btw": 89.73
+      },
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 21.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 86.8,
+        "btw_bedrag": 18.23,
+        "subtotal_incl_btw": 105.03
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 140.45,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 140.45,
+        "btw_bedrag": 29.49,
+        "subtotal_incl_btw": 169.94
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 301.41,
+      "totaal_btw": 63.29,
+      "totaal_incl_btw": 364.7
+    }
+  }
+}

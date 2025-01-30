@@ -1,0 +1,40 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-048",
+    "factuurdatum": "17-04-2023",
+    "vervaldatum": "17-05-2023",
+    "ordernummer": "2016-048",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 210",
+      "postcode": "2551 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "64486016"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719DC",
+        "prijs_per_stuk_excl_btw": 493.48,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1973.92,
+        "btw_bedrag": 414.52,
+        "subtotal_incl_btw": 2388.44
+      },
+      {
+        "aantal": 3,
+        "productnaam": "Lenovo Thinkpad T14s",
+        "prijs_per_stuk_excl_btw": 430.72,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1292.16,
+        "btw_bedrag": 271.35,
+        "subtotal_incl_btw": 1563.51
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3266.08,
+      "totaal_btw": 685.87,
+      "totaal_incl_btw": 3951.95
+    }
+  }
+}

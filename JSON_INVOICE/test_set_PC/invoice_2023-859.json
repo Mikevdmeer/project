@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2023-859",
+    "factuurdatum": "08-09-2024",
+    "vervaldatum": "08-10-2024",
+    "ordernummer": "2023-859",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Kerkstraat 333",
+      "postcode": "5582 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "36799706"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "HP EliteDisplay E233",
+        "prijs_per_stuk_excl_btw": 111.73,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 446.92,
+        "btw_bedrag": 93.85,
+        "subtotal_incl_btw": 540.77
+      },
+      {
+        "aantal": 1,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 51.47,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 51.47,
+        "btw_bedrag": 10.81,
+        "subtotal_incl_btw": 62.28
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Razor gaming keyboard PRO",
+        "prijs_per_stuk_excl_btw": 342.68,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 685.36,
+        "btw_bedrag": 143.93,
+        "subtotal_incl_btw": 829.29
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1183.75,
+      "totaal_btw": 248.59,
+      "totaal_incl_btw": 1432.34
+    }
+  }
+}

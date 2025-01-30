@@ -1,0 +1,58 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2016-197",
+    "factuurdatum": "21-08-2024",
+    "vervaldatum": "20-10-2024",
+    "ordernummer": "2016-197",
+    "klant": {
+      "naam": "PC Jupiter B.V.",
+      "adres": "Schoolstraat 592",
+      "postcode": "2570 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "78542594"
+    },
+    "factuurregels": [
+      {
+        "aantal": 4,
+        "productnaam": "Dell UltraSharp U2719D",
+        "prijs_per_stuk_excl_btw": 485.2,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1940.8,
+        "btw_bedrag": 407.57,
+        "subtotal_incl_btw": 2348.37
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Logitech gaming mouse G502",
+        "prijs_per_stuk_excl_btw": 401.27,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 802.54,
+        "btw_bedrag": 168.53,
+        "subtotal_incl_btw": 971.07
+      },
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 32G OC",
+        "prijs_per_stuk_excl_btw": 328.16,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 656.32,
+        "btw_bedrag": 137.83,
+        "subtotal_incl_btw": 794.15
+      },
+      {
+        "aantal": 2,
+        "productnaam": "Lenovo Thinkpad T14",
+        "prijs_per_stuk_excl_btw": 143.33,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 286.66,
+        "btw_bedrag": 60.2,
+        "subtotal_incl_btw": 346.86
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 3686.32,
+      "totaal_btw": 774.13,
+      "totaal_incl_btw": 4460.45
+    }
+  }
+}

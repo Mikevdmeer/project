@@ -1,0 +1,49 @@
+{
+  "factuur": {
+    "factuurnummer": "F-2019-193",
+    "factuurdatum": "03-02-2022",
+    "vervaldatum": "04-05-2022",
+    "ordernummer": "2019-193",
+    "klant": {
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 202",
+      "postcode": "5015 AA",
+      "stad": "Utrecht",
+      "KVK-nummer": "86170515"
+    },
+    "factuurregels": [
+      {
+        "aantal": 2,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 97.29,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 194.58,
+        "btw_bedrag": 40.86,
+        "subtotal_incl_btw": 235.44
+      },
+      {
+        "aantal": 3,
+        "productnaam": "HP EliteDisplay E243",
+        "prijs_per_stuk_excl_btw": 17.7,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 53.1,
+        "btw_bedrag": 11.15,
+        "subtotal_incl_btw": 64.25
+      },
+      {
+        "aantal": 5,
+        "productnaam": "MSI AERO 8G OC",
+        "prijs_per_stuk_excl_btw": 255.43,
+        "btw_percentage": 21,
+        "subtotal_excl_btw": 1277.15,
+        "btw_bedrag": 268.2,
+        "subtotal_incl_btw": 1545.35
+      }
+    ],
+    "totalen": {
+      "totaal_excl_btw": 1524.83,
+      "totaal_btw": 320.21,
+      "totaal_incl_btw": 1845.04
+    }
+  }
+}
