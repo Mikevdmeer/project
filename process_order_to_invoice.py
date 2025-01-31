@@ -62,6 +62,7 @@ class InvoiceGenerator:
         }
 
     def process_order(self, order_data):
+        print(f"Processing order {order_data['factuurnummer']}...")
         """Process order data into invoice data"""
         # Check if order is directly in data or nested under 'order'
         order = order_data.get('order', order_data.get('factuur'))
@@ -231,6 +232,7 @@ def generate_invoice(order_data):
 
 class PDFGenerator:
     def __init__(self):
+        print("Initializing PDFGenerator...")
         self.company_info = {
             "name": "Appenheimers",
             "address": "Romboutslaan 34",
@@ -244,100 +246,143 @@ class PDFGenerator:
         self.custom_style = ParagraphStyle(
             'CustomStyle',
             parent=self.styles['Normal'],
-            fontSize=10,
-            spaceAfter=12
+            fontSize=6,
+            spaceAfter=1
+        )
+        self.header_style = ParagraphStyle(
+            'HeaderStyle',
+            parent=self.styles['Heading1'],
+            fontSize=8,
+            spaceAfter=1
+        )
+        self.subheader_style = ParagraphStyle(
+            'SubHeaderStyle',
+            parent=self.styles['Heading2'],
+            fontSize=7,
+            spaceAfter=1
         )
 
     def create_header(self):
-        elements = []
-        # Company info
-        elements.append(Paragraph(self.company_info["name"], self.styles["Heading1"]))
-        elements.append(Paragraph(f"Adres: {self.company_info['address']}", self.custom_style))
-        elements.append(Paragraph(f"Postcode en plaats: {self.company_info['postal_city']}", self.custom_style))
-        elements.append(Paragraph(f"Telefoon: {self.company_info['phone']}", self.custom_style))
-        elements.append(Paragraph(f"KVK: {self.company_info['kvk']}", self.custom_style))
-        elements.append(Paragraph(f"BTW-Nummer: {self.company_info['btw']}", self.custom_style))
-        elements.append(Paragraph(f"E-mail: {self.company_info['email']}", self.custom_style))
-        elements.append(Spacer(1, 20))
-        return elements
+        print("Creating header...")
+        company_info = [
+            [Paragraph(self.company_info["name"], self.header_style)],
+            [Paragraph(f"Adres: {self.company_info['address']}", self.custom_style)],
+            [Paragraph(f"Postcode en plaats: {self.company_info['postal_city']}", self.custom_style)],
+            [Paragraph(f"Telefoon: {self.company_info['phone']}", self.custom_style)]
+        ]
+        
+        additional_info = [
+            [Paragraph("", self.custom_style)],
+            [Paragraph(f"KVK: {self.company_info['kvk']}", self.custom_style)],
+            [Paragraph(f"BTW-Nummer: {self.company_info['btw']}", self.custom_style)],
+            [Paragraph(f"E-mail: {self.company_info['email']}", self.custom_style)]
+        ]
+        
+        header_table = Table([
+            [Table(company_info, colWidths=[9*cm]), Table(additional_info, colWidths=[9*cm])]
+        ])
+        header_table.setStyle(TableStyle([
+            ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ]))
+        
+        return [header_table, Spacer(1, 3)]
 
     def create_invoice_info(self, invoice_data):
-        elements = []
+        print(f"Creating invoice info for invoice {invoice_data['factuur']['factuurnummer']}...")
         invoice = invoice_data["factuur"]
         
-        # Invoice details
-        elements.append(Paragraph("FACTUUR", self.styles["Heading2"]))
-        elements.append(Paragraph(f"Factuurnummer: {invoice['factuurnummer']}", self.custom_style))
-        elements.append(Paragraph(f"Factuurdatum: {invoice['factuurdatum']}", self.custom_style))
-        elements.append(Paragraph(f"Vervaldatum: {invoice['vervaldatum']}", self.custom_style))
-        elements.append(Paragraph(f"Ordernummer: {invoice['ordernummer']}", self.custom_style))
-        elements.append(Spacer(1, 20))
-
-        # Customer info
-        elements.append(Paragraph("KLANTGEGEVENS", self.styles["Heading3"]))
-        elements.append(Paragraph(f"Naam: {invoice['klant']['naam']}", self.custom_style))
-        elements.append(Paragraph(f"Adres: {invoice['klant']['adres']}", self.custom_style))
-        elements.append(Paragraph(f"Postcode: {invoice['klant']['postcode']}", self.custom_style))
-        elements.append(Paragraph(f"Stad: {invoice['klant']['stad']}", self.custom_style))
-        elements.append(Paragraph(f"KVK-nummer: {invoice['klant']['KVK-nummer']}", self.custom_style))
-        elements.append(Spacer(1, 20))
+        invoice_details = [
+            [Paragraph("FACTUUR", self.subheader_style)],
+            [Paragraph(f"Factuurnummer: {invoice['factuurnummer']}", self.custom_style)],
+            [Paragraph(f"Factuurdatum: {invoice['factuurdatum']}", self.custom_style)],
+            [Paragraph(f"Vervaldatum: {invoice['vervaldatum']}", self.custom_style)],
+            [Paragraph(f"Ordernummer: {invoice['ordernummer']}", self.custom_style)]
+        ]
         
-        return elements
+        customer_details = [
+            [Paragraph("KLANTGEGEVENS", self.subheader_style)],
+            [Paragraph(f"Naam: {invoice['klant']['naam']}", self.custom_style)],
+            [Paragraph(f"Adres: {invoice['klant']['adres']}", self.custom_style)],
+            [Paragraph(f"{invoice['klant']['postcode']} {invoice['klant']['stad']}", self.custom_style)],
+            [Paragraph(f"KVK-nummer: {invoice['klant']['KVK-nummer']}", self.custom_style)]
+        ]
+        
+        info_table = Table([
+            [Table(invoice_details, colWidths=[9*cm]), Table(customer_details, colWidths=[9*cm])]
+        ])
+        info_table.setStyle(TableStyle([
+            ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ]))
+        
+        return [info_table, Spacer(1, 3)]
 
     def create_product_table(self, invoice_data):
-        # Table header
-        data = [['Product', 'Aantal', 'Prijs (excl. BTW)', 'BTW %', 'BTW bedrag', 'Totaal (incl. BTW)']]
+        print(f"Creating product table with {len(invoice_data['factuur']['factuurregels'])} products...")
+        data = [['Product', 'Aantal', 'Prijs (excl.)', 'BTW %', 'BTW', 'Totaal']]
         
-        # Add products
         for product in invoice_data["factuur"]["factuurregels"]:
             data.append([
                 product['productnaam'],
                 str(product['aantal']),
-                f"€ {product['prijs_per_stuk_excl_btw']:.2f}",
+                f"€{product['prijs_per_stuk_excl_btw']:.2f}",
                 f"{product['btw_percentage']}%",
-                f"€ {product['btw_bedrag']:.2f}",
-                f"€ {product['subtotal_incl_btw']:.2f}"
+                f"€{product['btw_bedrag']:.2f}",
+                f"€{product['subtotal_incl_btw']:.2f}"
             ])
         
-        # Create table
-        table = Table(data, colWidths=[7*cm, 2*cm, 3*cm, 2*cm, 2.5*cm, 3*cm])
+        table = Table(data, colWidths=[6*cm, 1.5*cm, 2*cm, 1.5*cm, 2*cm, 2.5*cm])
         table.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
             ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
             ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
             ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-            ('FONTSIZE', (0, 0), (-1, 0), 10),
-            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+            ('FONTSIZE', (0, 0), (-1, 0), 6),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 2),
             ('BACKGROUND', (0, 1), (-1, -1), colors.white),
             ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
             ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
-            ('FONTSIZE', (0, 1), (-1, -1), 9),
-            ('GRID', (0, 0), (-1, -1), 1, colors.black),
+            ('FONTSIZE', (0, 1), (-1, -1), 6),
+            ('GRID', (0, 0), (-1, -1), 0.25, colors.black),
             ('ALIGN', (1, 1), (-1, -1), 'RIGHT'),
             ('ALIGN', (0, 1), (0, -1), 'LEFT'),
+            ('TOPPADDING', (0, 0), (-1, -1), 1),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
         ]))
         
         return table
 
     def create_totals(self, invoice_data):
-        elements = []
+        print(f"Creating totals section. Total amount: €{invoice_data['factuur']['totalen']['totaal_incl_btw']:.2f}")
         totals = invoice_data["factuur"]["totalen"]
         
-        elements.append(Spacer(1, 20))
-        elements.append(Paragraph(f"Totaal exclusief BTW: € {totals['totaal_excl_btw']:.2f}", self.styles["Normal"]))
-        elements.append(Paragraph(f"BTW: € {totals['totaal_btw']:.2f}", self.styles["Normal"]))
-        elements.append(Paragraph(f"Totaal inclusief BTW: € {totals['totaal_incl_btw']:.2f}", self.styles["Heading3"]))
+        totals_data = [
+            [Paragraph(f"Totaal exclusief BTW:", self.custom_style), 
+             Paragraph(f"€ {totals['totaal_excl_btw']:.2f}", self.custom_style)],
+            [Paragraph(f"BTW:", self.custom_style), 
+             Paragraph(f"€ {totals['totaal_btw']:.2f}", self.custom_style)],
+            [Paragraph(f"Totaal inclusief BTW:", self.subheader_style), 
+             Paragraph(f"€ {totals['totaal_incl_btw']:.2f}", self.subheader_style)]
+        ]
         
-        return elements
+        totals_table = Table(totals_data, colWidths=[10*cm, 8.5*cm])
+        totals_table.setStyle(TableStyle([
+            ('ALIGN', (0, 0), (-1, -1), 'RIGHT'),
+            ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+        ]))
+        
+        return [Spacer(1, 5), totals_table]
 
     def generate_pdf(self, json_data, output_path):
+        print(f"\nGenerating PDF: {output_path}")
         doc = SimpleDocTemplate(
             output_path,
             pagesize=A4,
-            rightMargin=72,
-            leftMargin=72,
-            topMargin=72,
-            bottomMargin=72
+            rightMargin=20,
+            leftMargin=20,
+            topMargin=20,
+            bottomMargin=20
         )
         
         elements = []
@@ -347,74 +392,60 @@ class PDFGenerator:
         elements.extend(self.create_totals(json_data))
         
         doc.build(elements)
+        print(f"PDF generation completed: {output_path}\n")
 
 def convert_invoices_to_pdf(input_dir, output_dir):
     """Convert all JSON invoices to PDF format"""
+    print("\nStarting PDF conversion process...")
+    print(f"Input directory: {input_dir}")
+    print(f"Output directory: {output_dir}")
+    
     pdf_generator = PDFGenerator()
+    print("PDF Generator initialized successfully")
     
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
+    print(f"Ensured output directory exists: {output_dir}")
+    
+    # List all files in input directory
+    files = os.listdir(input_dir)
+    json_files = [f for f in files if f.endswith('.json')]
+    print(f"Found {len(json_files)} JSON files to process")
     
     # Process each JSON file
-    for filename in os.listdir(input_dir):
-        if filename.endswith('.json'):
-            input_path = os.path.join(input_dir, filename)
-            output_path = os.path.join(output_dir, filename.replace('.json', '.pdf'))
+    for filename in json_files:
+        print(f"\nProcessing file: {filename}")
+        input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, filename.replace('.json', '.pdf'))
+        
+        try:
+            print(f"Reading JSON data from: {input_path}")
+            # Read JSON data
+            with open(input_path, 'r', encoding='utf-8') as f:
+                invoice_data = json.load(f)
+            print("JSON data loaded successfully")
             
-            try:
-                # Read JSON data
-                with open(input_path, 'r', encoding='utf-8') as f:
-                    invoice_data = json.load(f)
-                
-                # Generate PDF
-                pdf_generator.generate_pdf(invoice_data, output_path)
-                print(f"Generated PDF for {filename}")
-                
-            except Exception as e:
-                print(f"Error processing {filename}: {str(e)}")
+            # Generate PDF
+            print(f"Generating PDF: {output_path}")
+            pdf_generator.generate_pdf(invoice_data, output_path)
+            print(f"Successfully generated PDF for {filename}")
+            
+        except Exception as e:
+            print(f"Error processing {filename}: {str(e)}")
+            print(f"Error type: {type(e)}")
+            import traceback
+            print(f"Full traceback:\n{traceback.format_exc()}")
 
 if __name__ == "__main__":
     # Directory paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    input_directory = os.path.join(base_dir, "JSON_ORDER")
-    output_directory = os.path.join(base_dir, "JSON_INVOICE")
-    processed_directory = os.path.join(base_dir, "JSON_PROCESSED")
-    error_directory = os.path.join(base_dir, "JSON_ORDER_ERROR")
+    input_directory = os.path.join(base_dir, "generated_invoices")
+    output_directory = os.path.join(base_dir, "generated_pdfs")
     
-    # Debug prints
-    print(f"Current working directory: {os.getcwd()}")
+    print(f"\nScript starting...")
     print(f"Base directory: {base_dir}")
-    print(f"Checking if directories exist:")
-    print(f"- Input directory ({input_directory}): {os.path.exists(input_directory)}")
-    print(f"- Output directory ({output_directory}): {os.path.exists(output_directory)}")
-    print(f"- Processed directory ({processed_directory}): {os.path.exists(processed_directory)}")
-    print(f"- Error directory ({error_directory}): {os.path.exists(error_directory)}")
-    
-    # Create directories if they don't exist
-    os.makedirs(input_directory, exist_ok=True)
-    os.makedirs(output_directory, exist_ok=True)
-    os.makedirs(processed_directory, exist_ok=True)
-    os.makedirs(error_directory, exist_ok=True)
-    
-    print("\nAfter creating directories:")
-    print(f"- Input directory ({input_directory}): {os.path.exists(input_directory)}")
-    print(f"- Output directory ({output_directory}): {os.path.exists(output_directory)}")
-    print(f"- Processed directory ({processed_directory}): {os.path.exists(processed_directory)}")
-    print(f"- Error directory ({error_directory}): {os.path.exists(error_directory)}")
-    
-    # List files in input directory
-    print(f"\nFiles in {input_directory}:")
-    if os.path.exists(input_directory):
-        for root, dirs, files in os.walk(input_directory):
-            rel_path = os.path.relpath(root, input_directory)
-            if rel_path != '.':
-                print(f"\nIn subdirectory {rel_path}:")
-            for file in files:
-                if file.endswith('.json'):
-                    print(f"- {file}")
-    
-    # Process the orders
-    process_orders(input_directory, output_directory, processed_directory, error_directory)
+    print(f"Input directory: {input_directory}")
+    print(f"Output directory: {output_directory}")
     
     # Convert invoices to PDF
-    convert_invoices_to_pdf(output_directory, os.path.join(base_dir, "generated_invoices"))
+    convert_invoices_to_pdf(input_directory, output_directory)
