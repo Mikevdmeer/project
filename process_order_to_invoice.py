@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import os
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import cm
 import shutil
@@ -246,25 +246,29 @@ class PDFGenerator:
         self.custom_style = ParagraphStyle(
             'CustomStyle',
             parent=self.styles['Normal'],
-            fontSize=6,
-            spaceAfter=1
+            fontSize=9,
+            spaceAfter=3
         )
         self.header_style = ParagraphStyle(
             'HeaderStyle',
             parent=self.styles['Heading1'],
-            fontSize=8,
-            spaceAfter=1
+            fontSize=12,
+            spaceAfter=3
         )
         self.subheader_style = ParagraphStyle(
             'SubHeaderStyle',
             parent=self.styles['Heading2'],
-            fontSize=7,
-            spaceAfter=1
+            fontSize=10,
+            spaceAfter=3
         )
 
     def create_header(self):
         print("Creating header...")
+        logo_path = "afbeelding1.png"
+        logo = Image(logo_path, width=100, height=100)
+        
         company_info = [
+            [logo],
             [Paragraph(self.company_info["name"], self.header_style)],
             [Paragraph(f"Adres: {self.company_info['address']}", self.custom_style)],
             [Paragraph(f"Postcode en plaats: {self.company_info['postal_city']}", self.custom_style)],
@@ -286,7 +290,7 @@ class PDFGenerator:
             ('VALIGN', (0, 0), (-1, -1), 'TOP'),
         ]))
         
-        return [header_table, Spacer(1, 3)]
+        return [header_table, Spacer(1, 10)]
 
     def create_invoice_info(self, invoice_data):
         print(f"Creating invoice info for invoice {invoice_data['factuur']['factuurnummer']}...")
@@ -320,35 +324,40 @@ class PDFGenerator:
 
     def create_product_table(self, invoice_data):
         print(f"Creating product table with {len(invoice_data['factuur']['factuurregels'])} products...")
-        data = [['Product', 'Aantal', 'Prijs (excl.)', 'BTW %', 'BTW', 'Totaal']]
+        # Aangepaste kolomnamen
+        data = [['Beschrijving', 'Aantal', 'Eenheid', 'Tarief', 'BTW%', 'BTW', 'Totaal']]
         
         for product in invoice_data["factuur"]["factuurregels"]:
             data.append([
                 product['productnaam'],
                 str(product['aantal']),
+                'Stuk',  # Toegevoegd eenheid kolom
                 f"€{product['prijs_per_stuk_excl_btw']:.2f}",
                 f"{product['btw_percentage']}%",
                 f"€{product['btw_bedrag']:.2f}",
                 f"€{product['subtotal_incl_btw']:.2f}"
             ])
         
-        table = Table(data, colWidths=[6*cm, 1.5*cm, 2*cm, 1.5*cm, 2*cm, 2.5*cm])
+        # Aangepaste kolombreedtes
+        table = Table(data, colWidths=[6*cm, 2*cm, 2*cm, 2.5*cm, 1.5*cm, 2*cm, 2.5*cm])
         table.setStyle(TableStyle([
-            ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            # Lichtblauwe header (zoals in het voorbeeld)
+            ('BACKGROUND', (0, 0), (-1, 0), colors.lightblue),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.black),
             ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
             ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-            ('FONTSIZE', (0, 0), (-1, 0), 6),
-            ('BOTTOMPADDING', (0, 0), (-1, 0), 2),
+            ('FONTSIZE', (0, 0), (-1, 0), 10),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 4),
             ('BACKGROUND', (0, 1), (-1, -1), colors.white),
             ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
             ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
-            ('FONTSIZE', (0, 1), (-1, -1), 6),
-            ('GRID', (0, 0), (-1, -1), 0.25, colors.black),
-            ('ALIGN', (1, 1), (-1, -1), 'RIGHT'),
-            ('ALIGN', (0, 1), (0, -1), 'LEFT'),
-            ('TOPPADDING', (0, 0), (-1, -1), 1),
-            ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
+            ('FONTSIZE', (0, 1), (-1, -1), 9),
+            # Lichtgrijze lijnen
+            ('GRID', (0, 0), (-1, -1), 0.25, colors.lightgrey),
+            ('ALIGN', (1, 1), (-1, -1), 'RIGHT'),  # Rechtse uitlijning voor getallen
+            ('ALIGN', (0, 1), (0, -1), 'LEFT'),    # Linkse uitlijning voor beschrijving
+            ('TOPPADDING', (0, 0), (-1, -1), 3),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
         ]))
         
         return table
@@ -357,32 +366,35 @@ class PDFGenerator:
         print(f"Creating totals section. Total amount: €{invoice_data['factuur']['totalen']['totaal_incl_btw']:.2f}")
         totals = invoice_data["factuur"]["totalen"]
         
+        # Aangepaste totalen layout
         totals_data = [
-            [Paragraph(f"Totaal exclusief BTW:", self.custom_style), 
-             Paragraph(f"€ {totals['totaal_excl_btw']:.2f}", self.custom_style)],
-            [Paragraph(f"BTW:", self.custom_style), 
-             Paragraph(f"€ {totals['totaal_btw']:.2f}", self.custom_style)],
-            [Paragraph(f"Totaal inclusief BTW:", self.subheader_style), 
-             Paragraph(f"€ {totals['totaal_incl_btw']:.2f}", self.subheader_style)]
+            ['Bedrag excl. BTW', f"€ {totals['totaal_excl_btw']:.2f}"],
+            ['BTW', f"€ {totals['totaal_btw']:.2f}"],
+            ['Totaalbedrag', f"€ {totals['totaal_incl_btw']:.2f}"]
         ]
         
-        totals_table = Table(totals_data, colWidths=[10*cm, 8.5*cm])
+        # Rechts uitgelijnde totalen tabel
+        totals_table = Table(totals_data, colWidths=[12*cm, 6.5*cm])
         totals_table.setStyle(TableStyle([
             ('ALIGN', (0, 0), (-1, -1), 'RIGHT'),
-            ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+            ('FONTNAME', (0, 2), (1, 2), 'Helvetica-Bold'),  # Laatste rij in bold
+            ('TEXTCOLOR', (0, 2), (1, 2), colors.lightblue),  # Laatste rij in blauw
+            ('FONTSIZE', (0, 0), (-1, -1), 10),
+            ('TOPPADDING', (0, 0), (-1, -1), 3),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
         ]))
         
-        return [Spacer(1, 5), totals_table]
+        return [Spacer(1, 15), totals_table]
 
     def generate_pdf(self, json_data, output_path):
         print(f"\nGenerating PDF: {output_path}")
         doc = SimpleDocTemplate(
             output_path,
             pagesize=A4,
-            rightMargin=20,
-            leftMargin=20,
-            topMargin=20,
-            bottomMargin=20
+            rightMargin=30,
+            leftMargin=30,
+            topMargin=30,
+            bottomMargin=30
         )
         
         elements = []
