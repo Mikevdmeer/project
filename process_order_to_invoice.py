@@ -374,11 +374,6 @@ def convert_invoices_to_pdf(input_dir, output_dir):
                 print(f"Error processing {filename}: {str(e)}")
 
 if __name__ == "__main__":
-<<<<<<< HEAD
-    input_directory = "test_set_softwareleverancier"
-    output_directory = "generated_invoices"
-    process_order_files(input_directory, output_directory)
-=======
     # Directory paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
     input_directory = os.path.join(base_dir, "JSON_ORDER")
@@ -423,4 +418,3 @@ if __name__ == "__main__":
     
     # Convert invoices to PDF
     convert_invoices_to_pdf(output_directory, os.path.join(base_dir, "generated_invoices"))
->>>>>>> d91815a64bdae6f813a8a5586c619539bc23127a
