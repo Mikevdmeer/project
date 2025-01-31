@@ -308,8 +308,7 @@ class PDFGenerator:
             [Paragraph("KLANTGEGEVENS", self.subheader_style)],
             [Paragraph(f"Naam: {invoice['klant']['naam']}", self.custom_style)],
             [Paragraph(f"Adres: {invoice['klant']['adres']}", self.custom_style)],
-            [Paragraph(f"{invoice['klant']['postcode']} {invoice['klant']['stad']}", self.custom_style)],
-            [Paragraph(f"KVK-nummer: {invoice['klant']['KVK-nummer']}", self.custom_style)]
+            [Paragraph(f"{invoice['klant']['postcode']} {invoice['klant']['stad']}", self.custom_style)],   
         ]
         
         info_table = Table([
